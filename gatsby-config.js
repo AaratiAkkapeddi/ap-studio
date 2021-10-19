@@ -15,6 +15,7 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+        ignore: [**/.*],
       },
     },
     {
@@ -22,6 +23,7 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        ignore: [**/.*],
       },
     },
     {
