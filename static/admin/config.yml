@@ -12,23 +12,23 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "Info Page"
-        name: "info"
-        file: "site/content/info.yml"
+      - label: "Info/About"
+        name: "about"
+        file: "content/pages/info.md"
         fields:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'About', name: 'about', widget: 'markdown'}
           - {label: 'Profiles', name: 'profiles', widget: 'markdown'}
           - {label: 'Locations', name: 'locations', widget: 'markdown'}
           - {label: 'Contact', name: 'contact', widget: 'markdown'}
-      - label: "Home Page"
-        name: "homepage"
-        file: "site/content/homepage.yml"
+      - label: "Homepage"
+        name: "home"
+        file: "content/pages/homepage.md"
         fields:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'Intro', name: 'intro', widget: 'markdown'}
           - { label: 'Featured Projects', name: 'projects', widget: 'list', 
-              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}]
               }
           - { label: 'Selected Clients', name: 'clients', widget: 'list', 
               fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
@@ -36,9 +36,9 @@ collections:
           - { label: 'Selected Artists', name: 'artists', widget: 'list', 
               fields: [ { label: "Artist", name: "artist", widget: "relation", collection: "artists", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
               }
-      - label: "Cookie Page"
-        name: "about"
-        file: "site/content/cookie.yml"
+      - label: "Cookie Policy"
+        name: "cookie"
+        file: "content/pages/cookie.md"
         fields:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'Cookie Policy', name: 'cookie', widget: 'markdown'}
