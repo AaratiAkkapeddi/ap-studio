@@ -9,13 +9,13 @@ const Thumb = ({imageurl, videourl}) => {
 			      <source src={videourl} type="video/mp4"/>
 			    </video>
 			  )
-	}else if(imageurl){
+	} else if(imageurl){
 		return (
 			    <div>
 			      <img src={imageurl}/>
 			    </div>
 			  )
-	}else{
+	} else{
 		return(
 			<div></div>
 		)

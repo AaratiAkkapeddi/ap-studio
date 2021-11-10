@@ -53,7 +53,6 @@ const BlogIndex = ({ data, location }) => {
             <a href={project.fields.slug}>
               {title}
               <Thumb imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
-              <img src={project.frontmatter.thumb?.image} />
             </a>
             </li>
           )
