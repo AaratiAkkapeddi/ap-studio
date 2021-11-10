@@ -1,17 +1,19 @@
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-
+local_backend: true
 media_folder: static/img
 public_folder: /img
-
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 34dbd396fc0bbf023e54
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
     create: true
     slug: 'index'
-    media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
     editor:
@@ -21,3 +23,92 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'projects'
+    label: 'Project'
+    folder: 'content/projects'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title (internal)', name: 'title', widget: 'string' }
+      - { label: 'Description (internal)', name: 'description', widget: 'string' }
+      - { label: 'Campaign Title', name: 'campaign_title', widget: 'markdown' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Thumbnail', name: 'thumb', widget: 'object', fields: [{ label: 'Image (or fallback image for video)', name: 'image', widget: 'image', required: false, preview: true}, { label: 'Video', name: 'video', widget: 'file', required: false, preview: true}] }
+      - { label: 'Release Date', name: 'release_date', widget: 'datetime' }
+      - { label: 'Notes', name: 'notes', widget: 'markdown' }
+      - { label: 'Media', name: 'media', widget: 'list', 
+          fields: [{ label: "Image (or backup image for video)", name: "media", widget: 'image',required: false, preview: true},{ label: "Video", name: "mediaVideo",required: false, widget: 'file',preview: true}]
+        }
+      - { label: 'Clients', name: 'clients', widget: 'list', 
+        fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+        }
+      - { label: 'Artists', name: 'artists', widget: 'list', 
+        fields: [ { label: "Artist", name: "artist", widget: "relation", collection: "artists", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+        }
+      - { label: 'Categories', name: 'categories', widget: 'list', 
+        fields: [ { label: "Category", name: "category", widget: "relation", collection: "categories", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+        }
+      - { label: 'Locations', name: 'locations', widget: 'list', 
+        fields: [ { label: "Location", name: "location", widget: "relation", collection: "locations", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+        }
+  - name: 'clients'
+    label: 'Client'
+    folder: 'content/clients'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title (internal)', name: 'title', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'markdown' }
+  - name: 'artists'
+    label: 'Artist'
+    folder: 'content/artists'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title (internal)', name: 'title', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'markdown' }
+  - name: 'locations'
+    label: 'Location'
+    folder: 'content/locations'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title (internal)', name: 'title', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'markdown' }
+      - { label: 'Address', name: 'address', widget: 'markdown' }
+      - { label: 'Latitude', name: 'latitude', widget: 'number' }
+      - { label: 'Longitude', name: 'longitude', widget: 'number' }
+  - name: 'categories'
+    label: 'Category'
+    folder: 'content/categories'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title (internal)', name: 'title', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'markdown' }
+      - { label: 'Description (internal)', name: 'description', widget: 'markdown' }
