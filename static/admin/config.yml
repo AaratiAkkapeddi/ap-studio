@@ -68,14 +68,15 @@ collections:
       preview: false
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
-      - { label: 'Description (internal)', name: 'description', widget: 'string' }
+      - { label: 'Description (internal)', name: 'description', widget: 'string',required: false }
       - { label: 'Campaign Title', name: 'campaign_title', widget: 'markdown' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Thumbnail', name: 'thumb', widget: 'object', fields: [{ label: 'Image (or fallback image for video)', name: 'image', widget: 'image', required: false, preview: true}, { label: 'Video', name: 'video', widget: 'file', required: false, preview: true}] }
-      - { label: 'Release Date', name: 'release_date', widget: 'datetime' }
-      - { label: 'Notes', name: 'notes', widget: 'markdown' }
+      - { label: 'Release Date Internal', name: 'release_date', widget: 'datetime' }
+      - { label: 'Release Date External', name: 'release_date_public', widget: 'markdown' }
+      - { label: 'Notes', name: 'notes', widget: 'markdown',required: false }
       - { label: 'Media', name: 'media', widget: 'list', 
-          fields: [{ label: "Image (or backup image for video)", name: "media", widget: 'image',required: false, preview: true},{ label: "Video", name: "mediaVideo",required: false, widget: 'file',preview: true}]
+          fields: [{ label: 'Media Name', name: 'media_name', widget: 'string' },{ label: "Image (or backup image for video)", name: "media", widget: 'image',required: false, preview: true},{ label: "Video", name: "mediaVideo",required: false, widget: 'file',preview: true}]
         }
       - { label: 'Clients', name: 'clients', widget: 'list', 
         fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
@@ -129,8 +130,8 @@ collections:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
       - { label: 'Address', name: 'address', widget: 'markdown' }
-      - { label: 'Latitude', name: 'latitude', widget: 'number' }
-      - { label: 'Longitude', name: 'longitude', widget: 'number' }
+      - { label: 'Latitude (use negative for North)', name: 'latitude', widget: 'string' }
+      - { label: 'Longitude (use negative for West)', name: 'longitude', widget: 'string' }
   - name: 'categories'
     label: 'Category'
     folder: 'content/categories'
