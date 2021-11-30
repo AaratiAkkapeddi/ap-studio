@@ -87,6 +87,8 @@ body {
 .site-header{
   display: flex;
   margin:0 auto;
+  position: relative;
+  z-index: 9;
   max-width:var(--maxWidth-wrapper);
   justify-content: space-between;
 }
@@ -118,10 +120,51 @@ footer{
 footer > *{
   flex-basis:25%;
 }
+.overlay-title{
+  position: relative;
+  z-index: 2;
+  height:100vh;
+  mix-blend-mode: difference;
+  margin:var(--spacing-4) auto;
+  max-width:var(--maxWidth-wrapper);
+}
+.flickity-page-dots, .flickity-button{
+  display: none;
+}
+.film-strip{
+  display: flex;
+  flex-wrap: wrap;
+}
+.film-item{
+  width:10vw;
+  height:10vw;
+  overflow: hidden;
+}
+.film-item img, .film-item video{
+  width:100%;
+}
+.carousel{
+  background: black;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  overflow-y:hidden;
+}
 footer > *:last-child{
   text-align: right;
 }
-
+/* homepage carousel */
+.carousel-slide{
+   width:50%;
+}
+.carousel-slide img{
+  width:100%;
+}
+.carousel-slide video{
+  width:100%;
+}
 /* Media queries */
 
 @media (max-width: 42rem) {

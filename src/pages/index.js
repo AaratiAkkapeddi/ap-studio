@@ -47,10 +47,21 @@ const HomeIndex = ({ data, location }) => {
 
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <Seo title="AP Studio | Home" />
-      <h1>HELLO WORLD.</h1>
-          <Flickity
+    <>
+    <div className="site-header">
+        <a style={{"opacity":"0"}} href="/">AP Studio, Inc</a>
+        <nav>
+           <ul>
+              <li><a href="">Projects</a></li>
+              <li><a href="">Clients</a></li>
+              <li><a href="">Artists</a></li>
+              <li><a href="">News</a></li>
+              <li><a href="">Info</a></li>
+           </ul>
+        </nav>
+      </div>
+    <h1 className="overlay-title">AP Studio Inc.</h1>
+    <Flickity
       className={'carousel'} // default ''
       elementType={'div'} // default 'div'
       options={flickityOptions} // takes flickity options {}
@@ -58,41 +69,42 @@ const HomeIndex = ({ data, location }) => {
       reloadOnUpdate // default false
       static // default false
     >
-          {featuredProjects.map((project, index) => {
+          {projects.map((project, index) => {
             if(index < 5){
-              const title = project.frontmatter.campaign_title
+              const title = project.node.frontmatter.campaign_title
 
               return (
               
-                <a key={index} href={project.fields.slug}>
-                  <Thumb id={project.frontmatter.thumb?.id} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+                <a className="carousel-slide" key={index} href={project.node.fields.slug}>
+                  <Thumb id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
                 </a>
      
               )
 
             }
         })}
-      </Flickity>
+    </Flickity>
+    <Layout location={location} title={siteTitle}>
+      <Seo title="AP Studio | Home" />
       <div className="mini-overview">
         <ReactMarkdown>{homepage.intro || ""}</ReactMarkdown>
       </div>
-      <ol style={{ listStyle: `none` }}>
-          {featuredProjects.map((project, index) => {
+      <div className="film-strip">
+          {projects.map((project, index) => {
             if(index < 25){
-              const title = project.frontmatter.campaign_title
+              const title = project.node.frontmatter.campaign_title
 
               return (
-                <li key={index}>
-                <a href={project.fields.slug}>
-                  {title}
-                  <Thumb id={project.frontmatter.thumb?.id} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+              
+                <a className="film-item" key={index} href={project.node.fields.slug}>
+                  <Thumb id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
                 </a>
-                </li>
+     
               )
 
             }
         })}
-      </ol>
+      </div>
       <ol style={{ listStyle: `none` }}>
           {featuredClients.map((client,index) => {
           const title = client.frontmatter.name
@@ -120,6 +132,7 @@ const HomeIndex = ({ data, location }) => {
         })}
       </ol>
     </Layout>
+    </>
   )
 }
 
