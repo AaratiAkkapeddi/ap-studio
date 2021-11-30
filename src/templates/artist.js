@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const BlogPostTemplate = ({ data, location }) => {
+const ArtistTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
@@ -22,6 +22,7 @@ const BlogPostTemplate = ({ data, location }) => {
         itemType="http://schema.org/Article"
       >
         <header>
+        <h1>ARTIST1 {post.fields.slug}</h1>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
         </header>
@@ -64,10 +65,10 @@ const BlogPostTemplate = ({ data, location }) => {
   )
 }
 
-export default BlogPostTemplate
+export default ArtistTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug(
+  query ArtistBySlug(
     $id: String!
     $previousPostId: String
     $nextPostId: String
@@ -81,6 +82,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       html
+      fields{
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

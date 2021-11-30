@@ -76,7 +76,7 @@ collections:
       - { label: 'Release Date External', name: 'release_date_public', widget: 'markdown' }
       - { label: 'Notes', name: 'notes', widget: 'markdown',required: false }
       - { label: 'Media', name: 'media', widget: 'list', 
-          fields: [{ label: 'Media Name', name: 'media_name', widget: 'string' },{ label: "Image (or backup image for video)", name: "media", widget: 'image',required: false, preview: true},{ label: "Video", name: "mediaVideo",required: false, widget: 'file',preview: true}]
+          fields: [{ label: 'Media Name', name: 'media_name', widget: 'string' },{ label: 'Aspect Ratio', name: 'size', widget: 'select', options: ["portrait", "landscape", "square"], required: true },{ label: "Image (or backup image for video)", name: "media", widget: 'image',required: false, preview: true},{ label: "Video", name: "mediaVideo",required: false, widget: 'file',preview: true}]
         }
       - { label: 'Clients', name: 'clients', widget: 'list', 
         fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]

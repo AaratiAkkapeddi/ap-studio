@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import Thumb from "../components/thumb"
 import Seo from "../components/seo"
 
-const HomeIndex = ({ data, location }) => {
+const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const homepage = data.homepage.edges[0].node.frontmatter
   const projects = data.projects.edges
@@ -43,27 +43,27 @@ const HomeIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
-      <h1>HELLO WORLD.</h1>
+      <h1>BLOG</h1>
       <ol style={{ listStyle: `none` }}>
-          {featuredProjects.map((project, index) => {
+          {featuredProjects.map(project => {
           const title = project.frontmatter.campaign_title
 
           return (
-            <li key={index}>
+            <li key={project.fields.slug}>
             <a href={project.fields.slug}>
               {title}
-              <Thumb id={project.frontmatter.thumb?.id} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+              <Thumb imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
             </a>
             </li>
           )
         })}
       </ol>
       <ol style={{ listStyle: `none` }}>
-          {featuredClients.map((client,index) => {
+          {featuredClients.map(client => {
           const title = client.frontmatter.name
 
           return (
-            <li key={index}>
+            <li key={client.fields.slug}>
               <a href={client.fields.slug}>
                 {title}
               </a>
@@ -72,11 +72,11 @@ const HomeIndex = ({ data, location }) => {
         })}
       </ol>
       <ol style={{ listStyle: `none` }}>
-          {featuredArtists.map((artist, index) => {
+          {featuredArtists.map(artist => {
           const title = artist.frontmatter.name
 
           return (
-            <li key={index}>
+            <li key={artist.fields.slug}>
               <a href={artist.fields.slug}>
                 {title}
               </a>
@@ -88,7 +88,7 @@ const HomeIndex = ({ data, location }) => {
   )
 }
 
-export default HomeIndex
+export default BlogIndex
 
 export const pageQuery = graphql`
   query {

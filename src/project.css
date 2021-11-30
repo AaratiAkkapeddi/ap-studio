@@ -1,0 +1,13 @@
+.project-media-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.project-media-container.two-column .media-item{
+   width:50%;
+}
+.media-item img{
+	width:100%;
+}
+.media-item video{
+	width:100%;
+}
