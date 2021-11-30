@@ -8,8 +8,9 @@ thumb:
 release_date: 2021-11-29T22:03:04.631Z
 release_date_public: November 2021
 notes: |-
-  Meow\
-  meow
+  **With**:  [David Sims](https://test) and [Paul Sinclair](https://test)\
+  **Office**: Los Angeles\
+  **Release**: November 2021
 media:
   - media_name: image 1
     media: https://ucarecdn.com/e08dd687-6c09-4fd3-a0b1-64801a58b2ae/
