@@ -2,9 +2,9 @@
 title: chloe
 description: chloe
 campaign_title: FW21 Campaign
-date: 2021-11-29T21:47:21.396Z
 thumb:
   image: https://ucarecdn.com/eb0bc09c-1897-4490-b30f-8914037db525/
+  size: portrait
 release_date: 2021-11-29T21:47:21.406Z
 release_date_public: test
 notes: test
@@ -35,4 +35,5 @@ media:
     media_name: image
     size: portrait
 clients: []
+date: 2021-11-29T21:47:21.396Z
 ---
