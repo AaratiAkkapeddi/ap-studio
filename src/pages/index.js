@@ -3,6 +3,12 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Thumb from "../components/thumb"
 import Seo from "../components/seo"
+import ReactMarkdown from 'react-markdown'
+import Flickity from 'react-flickity-component'
+
+const flickityOptions = {
+    groupCells: true
+}
 
 const HomeIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -39,23 +45,52 @@ const HomeIndex = ({ data, location }) => {
     }
   }
 
-  console.log(data)
+
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
       <h1>HELLO WORLD.</h1>
+          <Flickity
+      className={'carousel'} // default ''
+      elementType={'div'} // default 'div'
+      options={flickityOptions} // takes flickity options {}
+      disableImagesLoaded={false} // default false
+      reloadOnUpdate // default false
+      static // default false
+    >
+          {featuredProjects.map((project, index) => {
+            if(index < 5){
+              const title = project.frontmatter.campaign_title
+
+              return (
+              
+                <a key={index} href={project.fields.slug}>
+                  <Thumb id={project.frontmatter.thumb?.id} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+                </a>
+     
+              )
+
+            }
+        })}
+      </Flickity>
+      <div className="mini-overview">
+        <ReactMarkdown>{homepage.intro || ""}</ReactMarkdown>
+      </div>
       <ol style={{ listStyle: `none` }}>
           {featuredProjects.map((project, index) => {
-          const title = project.frontmatter.campaign_title
+            if(index < 25){
+              const title = project.frontmatter.campaign_title
 
-          return (
-            <li key={index}>
-            <a href={project.fields.slug}>
-              {title}
-              <Thumb id={project.frontmatter.thumb?.id} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
-            </a>
-            </li>
-          )
+              return (
+                <li key={index}>
+                <a href={project.fields.slug}>
+                  {title}
+                  <Thumb id={project.frontmatter.thumb?.id} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+                </a>
+                </li>
+              )
+
+            }
         })}
       </ol>
       <ol style={{ listStyle: `none` }}>
@@ -104,6 +139,7 @@ export const pageQuery = graphql`
       node {
           id
           frontmatter {
+            intro
             clients {
               client
             }
@@ -117,7 +153,8 @@ export const pageQuery = graphql`
         }
       }
     }
-    projects: allMarkdownRemark(filter: {fields: {slug: {regex: "/projects/"}}}) {
+    projects: allMarkdownRemark(filter: 
+    {fields: {slug: {regex: "/projects/"}}}, sort: { fields: [frontmatter___date], order: ASC }) {
     edges {
         node {
           id
@@ -165,35 +202,3 @@ export const pageQuery = graphql`
     }
   }
 `
-      // <ol style={{ listStyle: `none` }}>
-      //   {posts.map(post => {
-      //     const title = post.frontmatter.title || post.fields.slug
-
-      //     return (
-      //       <li key={post.fields.slug}>
-      //         <article
-      //           className="post-list-item"
-      //           itemScope
-      //           itemType="http://schema.org/Article"
-      //         >
-      //           <header>
-      //             <h2>
-      //               <Link to={post.fields.slug} itemProp="url">
-      //                 <span itemProp="headline">{title}</span>
-      //               </Link>
-      //             </h2>
-      //             <small>{post.frontmatter.date}</small>
-      //           </header>
-      //           <section>
-      //             <p
-      //               dangerouslySetInnerHTML={{
-      //                 __html: post.frontmatter.description || post.excerpt,
-      //               }}
-      //               itemProp="description"
-      //             />
-      //           </section>
-      //         </article>
-      //       </li>
-      //     )
-      //   })}
-      // </ol>
