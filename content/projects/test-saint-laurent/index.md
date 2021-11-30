@@ -26,6 +26,10 @@ media:
   - media_name: image 5
     media: https://ucarecdn.com/b366df5f-efe1-46ea-aacd-3a65a3783b90/
     size: portrait
+  - media_name: video test
+    media: https://ucarecdn.com/e94bca90-ed99-4664-846b-f1dc13870750/
+    mediaVideo: https://ucarecdn.com/19d5addf-7580-4206-92c4-36b058a03301/
+    size: landscape
   - media_name: image 6
     media: https://ucarecdn.com/84f50463-5772-4cbe-89f2-493c4f76fa4c/
     size: portrait
@@ -38,10 +42,6 @@ media:
   - media_name: image 9
     media: https://ucarecdn.com/1067c347-cb89-4b47-92cb-6975f4f92b47/
     size: portrait
-  - media_name: video test
-    media: https://ucarecdn.com/e94bca90-ed99-4664-846b-f1dc13870750/
-    mediaVideo: https://ucarecdn.com/19d5addf-7580-4206-92c4-36b058a03301/
-    size: landscape
 clients:
   - client: Saint Laurent
 artists:
