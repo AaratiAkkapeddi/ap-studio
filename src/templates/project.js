@@ -4,35 +4,77 @@ import Media from "../components/media"
 import ReactMarkdown from 'react-markdown'
 
 import Layout from "../components/layout"
+import Top from "../components/top"
 import Seo from "../components/seo"
 
 const ProjectTemplate = ({ data, location }) => {
   const project = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+  let projectDefaultColumns = "two-column"
+  if(project.frontmatter.media.length > 10){
+    projectDefaultColumns = "three-column"
+  }else if(project.frontmatter.media.length <= 4){
+    projectDefaultColumns = "one-column"
+  }
 
+  
+  function oneColumn(){
+    document.querySelector(".project-media-container").classList.remove("two-column")
+    document.querySelector(".project-media-container").classList.remove("three-column")
+    document.querySelector(".project-media-container").classList.add("one-column")
+    document.querySelector("#three").classList.remove("on")
+    document.querySelector("#two").classList.remove("on")
+    document.querySelector("#one").classList.add("on")
+  }
+  function twoColumn(){
+    document.querySelector(".project-media-container").classList.remove("one-column")
+    document.querySelector(".project-media-container").classList.remove("three-column")
+    document.querySelector(".project-media-container").classList.add("two-column")
+    document.querySelector("#one").classList.remove("on")
+    document.querySelector("#three").classList.remove("on")
+    document.querySelector("#two").classList.add("on")
+  }
+  function threeColumn(){
+    document.querySelector(".project-media-container").classList.remove("two-column")
+    document.querySelector(".project-media-container").classList.remove("one-column")
+    document.querySelector(".project-media-container").classList.add("three-column")
+    document.querySelector("#one").classList.remove("on")
+    document.querySelector("#two").classList.remove("on")
+    document.querySelector("#three").classList.add("on")
+  }
   return (
     <Layout location={location} title={siteTitle}>
       <Seo
         title={siteTitle}
         description={project.frontmatter.description || project.excerpt}
       />
-      <article
-        className="blog-post"
-        itemScope
-        itemType="http://schema.org/Article"
-      >
-        <header>
-        <h1>PROJECT {project.fields.slug}</h1>
-          <h1 itemProp="headline">{project.frontmatter.title}</h1>
-          <p>{project.frontmatter.campaign_title}</p>
+
+        <header className="project-header">
+          <ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown>
           <ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown>
+          <p id="layout-toggle">
+            <svg onClick={threeColumn} className={`${projectDefaultColumns == "three-column" ? 'on' : ''}`} id='three' width="47" height="48" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="34" width="13" height="48" />
+            <rect x="17" width="13" height="48" />
+            <rect width="13" height="48" />
+            </svg>
+
+            <svg onClick={twoColumn} className={`${projectDefaultColumns == "two-column" ? 'on' : ''}`} id='two' width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="22" height="48" />
+            <rect x="26" width="22" height="48" />
+            </svg>
+
+            <svg onClick={oneColumn} className={`${projectDefaultColumns == "one-column" ? 'on' : ''}`} id='one' width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="48" height="48" />
+            </svg>
+          </p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: project.html }}
           itemProp="articleBody"
         />
-        <div className="project-media-container two-column">
+        <div className={`${projectDefaultColumns} project-media-container`}>
           {project.frontmatter.media.map((item, index) => {
 
           return (
@@ -40,10 +82,12 @@ const ProjectTemplate = ({ data, location }) => {
           )
         })}
           </div>
-        <footer>
+          <div className="project-footer">
+            <a href="/projects">Return to Projects</a>
+            <Top></Top>
+          </div>
 
-        </footer>
-      </article>
+
 
     </Layout>
   )
@@ -73,6 +117,9 @@ export const pageQuery = graphql`
         thumb{
           image
           video
+        }
+        clients{
+          client
         }
         media{
           mediaVideo
