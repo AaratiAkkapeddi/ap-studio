@@ -12,9 +12,9 @@ const ProjectTemplate = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
   let projectDefaultColumns = "two-column"
-  if(project.frontmatter.media.length > 10){
+  if(project.frontmatter.media?.length > 10){
     projectDefaultColumns = "three-column"
-  }else if(project.frontmatter.media.length <= 4){
+  }else if(project.frontmatter.media?.length <= 4){
     projectDefaultColumns = "one-column"
   }
 
@@ -75,7 +75,7 @@ const ProjectTemplate = ({ data, location }) => {
           itemProp="articleBody"
         />
         <div className={`${projectDefaultColumns} project-media-container`}>
-          {project.frontmatter.media.map((item, index) => {
+          {project.frontmatter.media?.map((item, index) => {
 
           return (
             <Media size={item.size} key={index} imageurl={item.media} videourl={item.mediaVideo} />
