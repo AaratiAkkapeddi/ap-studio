@@ -6,7 +6,7 @@ const Media = ({imageurl, videourl, size}) => {
 
 	if(videourl){
 		return (
-			   <div className="media-item">
+			   <div className={`${size == "portrait" ? "portrait" : "landscape"} media-item`}>
 			    <video muted loop autoPlay>
 			      <source src={videourl} type="video/mp4"/>
 			    </video>
@@ -14,7 +14,7 @@ const Media = ({imageurl, videourl, size}) => {
 			  )
 	} else if(imageurl){
 		return (
-			    <div className="media-item">
+			    <div className={`${size == "portrait" ? "portrait" : "landscape"} media-item`}>
 			      <img src={imageurl}/>
 			    </div>
 			  )

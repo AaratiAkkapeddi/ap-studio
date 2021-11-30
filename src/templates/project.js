@@ -34,9 +34,9 @@ const ProjectTemplate = ({ data, location }) => {
         />
         <div className="project-media-container two-column">
           {project.frontmatter.media.map((item, index) => {
-           console.log(item)
+
           return (
-            <Media key={index} imageurl={item.media} videourl={item.mediaVideo} />
+            <Media size={item.size} key={index} imageurl={item.media} videourl={item.mediaVideo} />
           )
         })}
           </div>
@@ -77,6 +77,7 @@ export const pageQuery = graphql`
         media{
           mediaVideo
           media
+          size
           media_name
         }
       }
