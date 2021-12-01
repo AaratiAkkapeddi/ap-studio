@@ -34,6 +34,7 @@ media:
   - media: https://ucarecdn.com/86e21009-b291-4004-aadf-8887356c403a/
     media_name: image
     size: portrait
-clients: []
+clients:
+  - client: Saint Laurent
 date: 2021-11-29T21:47:21.396Z
 ---
