@@ -4,4 +4,5 @@ about: TEst
 profiles: test
 locations: test
 contact: test
+location: test
 ---
