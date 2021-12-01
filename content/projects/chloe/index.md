@@ -36,5 +36,7 @@ media:
     size: portrait
 clients:
   - client: Saint Laurent
+artists:
+  - artist: David Sims
 date: 2021-11-29T21:47:21.396Z
 ---
