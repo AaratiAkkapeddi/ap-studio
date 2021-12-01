@@ -21,7 +21,7 @@ const Info = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />   
       <ReactMarkdown>{data.info?.edges[0].node.frontmatter.about}</ReactMarkdown>
-      <ReactMarkdown>{data.info?.edges[0].node.frontmatter.locations}</ReactMarkdown>
+      <ReactMarkdown>{data.info?.edges[0].node.frontmatter.location}</ReactMarkdown>
       <ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles}</ReactMarkdown>
       <ReactMarkdown>{data.info?.edges[0].node.frontmatter.contact}</ReactMarkdown>
     </Layout>
@@ -47,6 +47,7 @@ export const pageQuery = graphql`
            about
            profiles
            contact
+           location
           }
         }
       }
