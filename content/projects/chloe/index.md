@@ -36,6 +36,7 @@ media:
     size: portrait
 clients:
   - client: Saint Laurent
+  - client: test
 artists:
   - artist: David Sims
   - artist: Paul Sinclair
