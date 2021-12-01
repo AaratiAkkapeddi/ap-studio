@@ -38,5 +38,6 @@ clients:
   - client: Saint Laurent
 artists:
   - artist: David Sims
+  - artist: Paul Sinclair
 date: 2021-11-29T21:47:21.396Z
 ---
