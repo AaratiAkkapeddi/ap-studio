@@ -7,7 +7,9 @@ import ReactMarkdown from 'react-markdown'
 import Flickity from 'react-flickity-component'
 
 const flickityOptions = {
-    groupCells: true
+    groupCells: true,
+    autoPlay: true,
+    wrapAround: true
 }
 
 const HomeIndex = ({ data, location }) => {
@@ -50,7 +52,7 @@ const HomeIndex = ({ data, location }) => {
     <>
     <div className="site-header">
         <a style={{"opacity":"0"}} href="/">AP Studio, Inc</a>
-        <nav>
+        <nav style={{"marginTop":"2rem"}}>
            <ul>
               <li><a href="">Projects</a></li>
               <li><a href="">Clients</a></li>
@@ -75,8 +77,9 @@ const HomeIndex = ({ data, location }) => {
 
               return (
               
-                <a className="carousel-slide" key={index} href={project.node.fields.slug}>
+                <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
                   <Thumb id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                  <div className="slide-title"><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></div>
                 </a>
      
               )
@@ -86,17 +89,19 @@ const HomeIndex = ({ data, location }) => {
     </Flickity>
     <Layout location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
+      
+      <div className="film-strip">
       <div className="mini-overview">
         <ReactMarkdown>{homepage.intro || ""}</ReactMarkdown>
+        <a class="more-info" href="/info">More Info</a>
       </div>
-      <div className="film-strip">
           {projects.map((project, index) => {
             if(index < 25){
               const title = project.node.frontmatter.campaign_title
 
               return (
               
-                <a className="film-item" key={index} href={project.node.fields.slug}>
+                <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
                   <Thumb id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
                 </a>
      
@@ -104,33 +109,46 @@ const HomeIndex = ({ data, location }) => {
 
             }
         })}
+        <div className="mini-overview">
+          <a class="more-info" href="/projects">View All Projects</a>
+        </div>
       </div>
-      <ol style={{ listStyle: `none` }}>
-          {featuredClients.map((client,index) => {
-          const title = client.frontmatter.name
+      <div className="artists-clients">
+        <div className="selected-clients">
+          <h1>Selected Clients <a className="more-info" href="/artists&clients">View All Clients</a></h1>
+          <ol style={{ listStyle: `none` }}>
+              {featuredClients.map((client,index) => {
+              const title = client.frontmatter.name
 
-          return (
-            <li key={index}>
-              <a href={client.fields.slug}>
-                {title}
-              </a>
-            </li>
-          )
-        })}
-      </ol>
-      <ol style={{ listStyle: `none` }}>
-          {featuredArtists.map((artist, index) => {
-          const title = artist.frontmatter.name
+              return (
+                <li key={index}>
+                  <a href={client.fields.slug}>
+                    {title}
+                  </a>
+                </li>
+              )
+            })}
+          </ol>
+        </div>
+        <div className="selected-artists">
+          <h1>Selected Artists <a className="more-info" href="/artists&clients">View All Artists</a></h1>
+          <ol style={{ listStyle: `none` }}>
+              {featuredArtists.map((artist, index) => {
+              const title = artist.frontmatter.name
 
-          return (
-            <li key={index}>
-              <a href={artist.fields.slug}>
-                {title}
-              </a>
-            </li>
-          )
-        })}
-      </ol>
+              return (
+                <li key={index}>
+                  <a href={artist.fields.slug}>
+                    {title}
+                  </a>
+                </li>
+              )
+            })}
+          </ol>
+        </div>
+      </div>
+      
+     
     </Layout>
     </>
   )
@@ -177,6 +195,7 @@ export const pageQuery = graphql`
             thumb {
               image
               video
+              size
             }
           }
           fields {

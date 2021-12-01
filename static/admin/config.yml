@@ -19,8 +19,8 @@ collections:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'About', name: 'about', widget: 'markdown'}
           - {label: 'Profiles', name: 'profiles', widget: 'markdown'}
-          - {label: 'Locations', name: 'locations', widget: 'markdown'}
           - {label: 'Contact', name: 'contact', widget: 'markdown'}
+          - {label: 'Locations', name: 'location', widget: 'markdown'}
       - label: "Homepage"
         name: "home"
         file: "content/pages/homepage.md"

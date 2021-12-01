@@ -1,0 +1,32 @@
+.hover-img, .hover-txt{
+	pointer-events: none;
+	position: relative;
+	opacity: 0;
+	z-index: -1;
+}
+
+.selected-artists li:hover .hover-img, .selected-clients li:hover .hover-img, .selected-artists li:hover .hover-txt, .selected-clients li:hover .hover-txt {
+	opacity: 1;
+}
+.hover{
+	pointer-events: none;
+	position: fixed;
+	width:100vw;
+	left:0;
+	margin:0 auto;
+	display: flex;
+}
+.hover-txt{
+	flex-basis:33%;
+	text-align: center;
+	align-self: center;
+}
+.hover-img{
+	flex-basis:66%;
+	text-align: right;
+	align-self: center;
+}
+.hover-img > div{
+	width: 50%;
+	float: right;
+}
