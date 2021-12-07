@@ -14,14 +14,44 @@ const flickityOptions = {
 }
 
 const ArtistIndex = ({ data, location }) => {
+
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const artists = data.artists?.edges
   const clients = data.clients?.edges
   const projects = data.projects?.edges
+
+  function imageColumn(){
+    document.querySelector(".artists-clients").classList.remove("text-column")
+    document.querySelector(".artists-clients").classList.add("image-column")
+    document.querySelector("#text-toggle").classList.remove("on")
+    document.querySelector("#image-toggle").classList.add("on")
+  }
+  function textColumn(){
+    document.querySelector(".artists-clients").classList.remove("image-column")
+    document.querySelector(".artists-clients").classList.add("text-column")
+    document.querySelector("#image-toggle").classList.remove("on")
+    document.querySelector("#text-toggle").classList.add("on")
+  }
+
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
-      <div className="artists-clients">
+      <header>
+      <p id="layout-toggle">
+        <svg id="image-toggle" onClick={imageColumn} width="45" height="50" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="12.5" height="23.0705" fill="#111F4F"/>
+        <rect y="26.9294" width="12.5" height="23.0705" />
+        <rect x="16.5" width="11.6667" height="23.0705" />
+        <rect x="16.5" y="26.9294" width="11.6667" height="23.0705" />
+        <rect x="32.166" width="12.5" height="23.0705" />
+        <rect x="32.166" y="26.9294" width="12.5" height="23.0705" />
+        </svg>
+        <svg id="text-toggle" onClick={textColumn} className="on" width="40" height="50" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.6042 50V6.71429H40V0H0V6.71429H16.3958V50H23.6042Z"/>
+        </svg>
+      </p>
+      </header>
+      <div className="artists-clients text-column">
         <div className="selected-clients">
           <h1>Selected Clients</h1>
           <ol style={{ listStyle: `none` }}>
@@ -40,15 +70,16 @@ const ArtistIndex = ({ data, location }) => {
               return (
                 <li key={index}>
                   <a href={client.node.fields.slug}>
-                    {title}
-                      {
+                  {
 
-                    	featuredProjects[0]?.frontmatter?.thumb?.image &&
-                    	<div className="hover">
-                    	<div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
-                    	<div className="hover-txt"><ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
-                    	</div>
+                      featuredProjects[0]?.frontmatter?.thumb?.image &&
+                      <div className="hover">
+                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
+                      <div className="hover-txt"><ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
+                      </div>
                     }
+                    {title}
+                      
                   </a>
 
                 </li>
@@ -74,14 +105,15 @@ const ArtistIndex = ({ data, location }) => {
               return (
                 <li key={index}>
                   <a href={artist.node.fields.slug}>
-                    {title}
-                    {
-                    	featuredProjects[0]?.frontmatter?.thumb?.image &&
-                    	<div className="hover">
-                    	<div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
-                    	<div className="hover-txt"><ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
-                    	</div>
+                   {
+                      featuredProjects[0]?.frontmatter?.thumb?.image &&
+                      <div className="hover">
+                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
+                      <div className="hover-txt"><ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
+                      </div>
                     }
+                    {title}
+                   
                   </a>
                 </li>
               )

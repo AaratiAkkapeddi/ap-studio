@@ -12,12 +12,13 @@
 	cursor: pointer;
 	margin:0 var(--spacing-2);
 }
-#layout-toggle svg rect{
+#layout-toggle svg rect, #layout-toggle svg path{
 	fill: #111F4F;
 }
-#layout-toggle svg.on rect{
+#layout-toggle svg.on rect, #layout-toggle svg.on path{
 	fill: #EB4726;
 }
+
 .project-header > *{
 	vertical-align: top;
 	align-self: start;

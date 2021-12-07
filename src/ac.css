@@ -4,7 +4,27 @@
 	opacity: 0;
 	z-index: -1;
 }
-
+.image-column .hover-img, .image-column .hover-txt{
+	pointer-events: auto;
+	position: relative;
+	opacity: 1;
+	z-index: 0; 
+}
+.image-column .hover-txt{
+	display: none;
+}
+.image-column .hover{
+	pointer-events: auto;
+	position: relative;
+	width:200px;
+	left:0;
+	margin:0;
+	display: block;
+}
+.image-column .hover-img > div{
+	width:100%;
+	float:none;
+}
 .selected-artists li:hover .hover-img, .selected-clients li:hover .hover-img, .selected-artists li:hover .hover-txt, .selected-clients li:hover .hover-txt {
 	opacity: 1;
 }
@@ -15,6 +35,55 @@
 	left:0;
 	margin:0 auto;
 	display: flex;
+	z-index: -1;
+}
+.client-three-image-column a.portrait{
+   width:33.333%;
+}
+.client-three-image-column a > *{
+	width: 100%;
+}
+.client-three-image-column a.landscape{
+   width:100%;
+}
+.text-column .media-item{
+	display: none;
+}
+.three-column .txt-item{
+	display: none;
+}
+.text-column .txt-item{
+	display: block;
+}
+.text-column a{
+	width: 100%;
+	position: relative;
+}
+.client-three-image-column a{
+	position: relative;
+}
+.client-three-image-column a:hover .client-project-list{
+	opacity: 1;
+}
+.client-three-image-column a .client-project-list{
+	opacity: 0;
+	background: rgba(0,0,255,0.8);
+	position: absolute;
+	left: 3px;
+    top: 3px;
+    width: calc(100% - 6px);
+	height: calc(100% - 6px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+.client-project-list{
+	text-align:left;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
 }
 .hover-txt{
 	flex-basis:33%;
@@ -25,6 +94,7 @@
 	flex-basis:66%;
 	text-align: right;
 	align-self: center;
+
 }
 .hover-img > div{
 	width: 50%;
