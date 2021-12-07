@@ -5,6 +5,12 @@
 	max-width:var(--maxWidth-wrapper);
 	margin:0 auto;
 }
+.time-toggle.on{
+	text-decoration: underline;
+}
+.time-toggle{
+	cursor:pointer;
+}
 #layout-toggle{
 	text-align: right;
 }
