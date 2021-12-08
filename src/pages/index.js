@@ -93,7 +93,7 @@ const HomeIndex = ({ data, location }) => {
       <div className="film-strip">
       <div className="mini-overview">
         <ReactMarkdown>{homepage.intro || ""}</ReactMarkdown>
-        <a class="more-info" href="/info">More Info</a>
+        <a className="more-info" href="/info">More Info</a>
       </div>
           {projects.map((project, index) => {
             if(index < 25){
@@ -110,7 +110,7 @@ const HomeIndex = ({ data, location }) => {
             }
         })}
         <div className="mini-overview">
-          <a class="more-info" href="/projects">View All Projects</a>
+          <a className="more-info" href="/projects">View All Projects</a>
         </div>
       </div>
       <div className="artists-clients">

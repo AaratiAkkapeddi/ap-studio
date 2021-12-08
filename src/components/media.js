@@ -13,9 +13,11 @@ const Media = ({imageurl, videourl, size}) => {
 			    </div>
 			  )
 	} else if(imageurl){
+		let imgsizes = imageurl + "/-/resize/x480/ 480w, " + imageurl + "/-/resize/x800/ 800w"
 		return (
 			    <div className={`${size == "portrait" ? "portrait" : "landscape"} media-item`}>
-			      <img src={imageurl}/>
+			      <img src={imageurl + "/-/resize/x2000/"} srcSet={imgsizes} sizes="(max-width: 600px) 480px,
+            800px"/>
 			    </div>
 			  )
 	} else{

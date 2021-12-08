@@ -2,7 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Thumb = ({imageurl, videourl}) => {
+const Thumb = ({imageurl, videourl, name}) => {
 
 	if(videourl){
 		return (
@@ -13,9 +13,11 @@ const Thumb = ({imageurl, videourl}) => {
 			    </div>
 			  )
 	} else if(imageurl){
+		let imgsizes = imageurl + "/-/resize/x480/ 480w, " + imageurl + "/-/resize/x800/ 800w"
 		return (
 			    <div className="thumb-item">
-			      <img src={imageurl}/>
+			      <img src={imageurl} srcSet={imgsizes} sizes="(max-width: 600px) 480px,
+            800px" alt={name}/>
 			    </div>
 			  )
 	} else{

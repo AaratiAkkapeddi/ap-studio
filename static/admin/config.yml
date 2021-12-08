@@ -70,7 +70,7 @@ collections:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Description (internal)', name: 'description', widget: 'string',required: false }
       - { label: 'Campaign Title', name: 'campaign_title', widget: 'markdown' }
-      - { label: 'Thumbnail', name: 'thumb', widget: 'object', fields: [{ label: 'Aspect Ratio', name: 'size', widget: 'select', options: ["portrait", "landscape", "square"], required: true }, { label: 'Image (or fallback image for video)', name: 'image', widget: 'image', required: false, preview: true}, { label: 'Video', name: 'video', widget: 'file', required: false, preview: true}] }
+      - { label: 'Thumbnail', name: 'thumb', widget: 'object', fields: [{ label: 'Media Name', name: 'media_name', widget: 'string',required: false },{ label: 'Aspect Ratio', name: 'size', widget: 'select', options: ["portrait", "landscape", "square"], required: true }, { label: 'Image (or fallback image for video)', name: 'image', widget: 'image', required: false, preview: true}, { label: 'Video', name: 'video', widget: 'file', required: false, preview: true}] }
       - { label: 'Release Date Internal', name: 'release_date', widget: 'datetime' }
       - { label: 'Release Date External', name: 'release_date_public', widget: 'markdown' }
       - { label: 'Notes', name: 'notes', widget: 'markdown',required: false }
