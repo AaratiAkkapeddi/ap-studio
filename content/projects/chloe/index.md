@@ -13,7 +13,7 @@ media:
     media_name: image
     size: portrait
   - media: https://ucarecdn.com/672e8ced-64b3-4b4c-8959-d01783f2903c/
-    mediaVideo: https://ucarecdn.com/136d4a56-9e58-41a2-87ad-620888ec4c34/
+    mediaVideo: ""
     media_name: image
     size: portrait
   - media: https://ucarecdn.com/e80c06c3-95ac-4219-b7f6-8bf71ef99906/
