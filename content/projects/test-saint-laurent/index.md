@@ -5,6 +5,7 @@ campaign_title: FW2021
 thumb:
   image: https://ucarecdn.com/65af0b5d-dd52-4e8f-9c21-a0353b80e302/-/crop/456x388/136,0/-/preview/
   size: square
+  media_name: test
 release_date: 2021-11-29T22:03:04.631Z
 release_date_public: November 2021
 notes: |-
