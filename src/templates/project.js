@@ -78,7 +78,7 @@ const ProjectTemplate = ({ data, location }) => {
           {project.frontmatter.media?.map((item, index) => {
 
           return (
-            <Media size={item.size} key={index} imageurl={item.media} videourl={item.mediaVideo} />
+            <Media name={item.media_name} size={item.size} key={index} imageurl={item.media} videourl={item.mediaVideo} />
           )
         })}
           </div>

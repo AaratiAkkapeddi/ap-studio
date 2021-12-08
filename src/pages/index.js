@@ -78,7 +78,7 @@ const HomeIndex = ({ data, location }) => {
               return (
               
                 <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
-                  <Thumb id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                  <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
                   <div className="slide-title"><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></div>
                 </a>
      
@@ -102,7 +102,7 @@ const HomeIndex = ({ data, location }) => {
               return (
               
                 <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
-                  <Thumb id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                  <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
                 </a>
      
               )
@@ -195,6 +195,7 @@ export const pageQuery = graphql`
             thumb {
               image
               video
+              media_name
               size
             }
           }

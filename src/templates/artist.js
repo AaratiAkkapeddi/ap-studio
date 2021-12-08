@@ -27,7 +27,7 @@ const ArtistTemplate = ({ data, location }) => {
         if(project.frontmatter.thumb){
           return (
             <a className={`${project.frontmatter.thumb?.size == "portrait" ? "portrait ": "landscape "}`} href={project.fields?.slug}>
-            <Media size={project.frontmatter.thumb?.size} key={index} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+            <Media name={project.frontmatter.thumb?.media_name} size={project.frontmatter.thumb?.size} key={index} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
             <p className="client-project-list">{project.frontmatter.campaign_title} {project.frontmatter.release_date_public ? ", "+project.frontmatter.release_date_public : ""}</p>
             </a>
           )
@@ -121,6 +121,7 @@ export const pageQuery = graphql`
               image
               video
               size
+              media_name
             }
           }
           fields {

@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Media = ({imageurl, videourl, size}) => {
 
-	if(videourl){
+	if(videourl && videourl.length > 0){
 		return (
 			   <div className={`${size == "portrait" ? "portrait" : "landscape"} media-item`}>
 			    <video muted loop autoPlay>

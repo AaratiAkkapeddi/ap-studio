@@ -54,7 +54,7 @@ const ProjectIndex = ({ data, location }) => {
               return (
               
                 <a className={`${project.node.frontmatter.thumb?.size} film-item`} style={{"order":index + 2}} key={index} href={project.node.fields.slug}>
-                  <Thumb id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                  <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
                 </a>
      
               )
@@ -90,6 +90,7 @@ export const pageQuery = graphql`
             campaign_title
             thumb {
               image
+              media_name
               video
               size
             }

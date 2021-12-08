@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const Thumb = ({imageurl, videourl, name}) => {
 
-	if(videourl){
+	if(videourl && videourl.length > 0){
 		return (
 			    <div className="thumb-item">
 				    <video muted loop autoPlay>
