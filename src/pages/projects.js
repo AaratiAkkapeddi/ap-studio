@@ -50,6 +50,7 @@ const ProjectIndex = ({ data, location }) => {
           {projects.map((project, index) => {
             
               const title = project.node.frontmatter.campaign_title
+              if(!project.node.frontmatter.draft){
 
               return (
               
@@ -58,6 +59,7 @@ const ProjectIndex = ({ data, location }) => {
                 </a>
      
               )
+            }
 
             
         })}
@@ -87,6 +89,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
+            draft
             campaign_title
             thumb {
               image

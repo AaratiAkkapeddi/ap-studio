@@ -26,7 +26,9 @@ const HomeIndex = ({ data, location }) => {
   for (var x = projects.length - 1; x >= 0; x--) {
     for (var i = homepage.projects.length - 1; i >= 0; i--) {
       if(projects[x].node.frontmatter.title == homepage.projects[i].project){
-        featuredProjects.push(projects[x].node)
+        if(!projects[x].node.frontmatter.draft){
+          featuredProjects.push(projects[x].node)
+        }
       }
     }
   }
@@ -72,7 +74,7 @@ const HomeIndex = ({ data, location }) => {
       static // default false
     >
           {projects.map((project, index) => {
-            if(index < 5){
+            if(index < 5 && !project.node.frontmatter.draft){
               const title = project.node.frontmatter.campaign_title
 
               return (
@@ -96,7 +98,7 @@ const HomeIndex = ({ data, location }) => {
         <a className="more-info" href="/info">More Info</a>
       </div>
           {projects.map((project, index) => {
-            if(index < 25){
+            if(index < 25 && !project.node.frontmatter.draft){
               const title = project.node.frontmatter.campaign_title
 
               return (
@@ -191,6 +193,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
+            draft
             campaign_title
             thumb {
               image

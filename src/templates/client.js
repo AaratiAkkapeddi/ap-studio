@@ -17,7 +17,9 @@ const ClientPageTemplate = ({ data, location }) => {
     for(let i = project.node.frontmatter.clients?.length - 1; i >= 0; i--){
 
       if(project.node.frontmatter.clients[i]?.client == client.frontmatter.name){
-        clientProjects.push(project.node)
+        if(!project.node.frontmatter.draft){
+           clientProjects.push(project.node)
+        }
       }
     }   
   })
@@ -110,6 +112,7 @@ export const pageQuery = graphql`
           id
           frontmatter {
             title
+            draft
             artists{
               artist
             }
