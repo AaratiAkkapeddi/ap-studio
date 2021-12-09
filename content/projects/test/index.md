@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Test
 campaign_title: test
 thumb:

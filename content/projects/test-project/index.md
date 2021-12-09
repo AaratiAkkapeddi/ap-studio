@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Test Project
 description: Lorem ipsum
 campaign_title: Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
