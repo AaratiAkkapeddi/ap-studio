@@ -24,7 +24,9 @@
 #layout-toggle svg.on rect, #layout-toggle svg.on path{
 	fill: #EB4726;
 }
-
+.project-footer a{
+	  cursor:pointer;
+}
 .project-header > *{
 	vertical-align: top;
 	align-self: start;
@@ -34,6 +36,7 @@
 .project-header > *:first-child{
 	flex-grow:2;
 	flex-basis: 50%;
+	padding-right:18%;
 }
 
 .project-footer > *{

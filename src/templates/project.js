@@ -51,7 +51,7 @@ const ProjectTemplate = ({ data, location }) => {
       />
 
         <header className="project-header">
-          <ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown>
+          <h1><ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown></h1>
           <ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown>
           <p id="layout-toggle">
             <svg onClick={threeColumn} className={`${projectDefaultColumns == "three-column" ? 'on' : ''}`} id='three' width="47" height="48" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@ const ProjectTemplate = ({ data, location }) => {
         })}
           </div>
           <div className="project-footer">
-            <a href="/projects">Return to Projects</a>
+            <h1><a href="/projects">Back</a></h1>
             <Top></Top>
           </div>
 

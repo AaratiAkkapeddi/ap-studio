@@ -52,7 +52,7 @@ const HomeIndex = ({ data, location }) => {
     <>
     <div className="site-header">
         <a style={{"opacity":"0"}} href="/">AP Studio, Inc</a>
-        <nav style={{"marginTop":"2rem"}}>
+        <nav style={{"marginTop":"2rem"},{"color": "white"}}>
            <ul>
               <li><a href="">Projects</a></li>
               <li><a href="">Clients</a></li>
@@ -62,7 +62,7 @@ const HomeIndex = ({ data, location }) => {
            </ul>
         </nav>
       </div>
-    <h1 className="overlay-title">AP Studio Inc.</h1>
+    <h1 className="overlay-title">AP Studio Inc.<br/>AP Studio Inc., Paris<br/>AP Studio Inc., New York</h1>
     <Flickity
       className={'carousel'} // default ''
       elementType={'div'} // default 'div'

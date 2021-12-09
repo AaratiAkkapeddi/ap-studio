@@ -11,6 +11,8 @@ media_library:
 collections:
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Info/About"
         name: "about"

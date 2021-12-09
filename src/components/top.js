@@ -7,7 +7,7 @@ const Top = () => {
 	    window?.scrollTo({left:0, top:0,behavior:"smooth"});
 	  }
 	return (
-	   <a onClick={backToTop}>Top</a>
+	   <h1><a onClick={backToTop}>Top</a></h1>
 	  )
 }
 

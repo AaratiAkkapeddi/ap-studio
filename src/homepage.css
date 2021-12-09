@@ -2,6 +2,9 @@
   position: relative;
   z-index: 2;
   height:100vh;
+  pointer-events: none;
+  font-size:10em;
+  top: -0.5em;
   mix-blend-mode: difference;
   margin:var(--spacing-4) auto;
   max-width:var(--maxWidth-wrapper);
