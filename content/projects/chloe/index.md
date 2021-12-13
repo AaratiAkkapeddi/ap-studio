@@ -1,46 +1,47 @@
 ---
 draft: true
-title: chloe
-description: chloe
+title: Chloe FW21
+description: Chloe FW21
 campaign_title: FW21 Campaign
 thumb:
-  image: https://ucarecdn.com/eb0bc09c-1897-4490-b30f-8914037db525/
+  image: https://ucarecdn.com/e6611beb-6f7a-45c0-973c-94e1b7686805/
   size: portrait
 release_date: 2021-11-29T21:47:21.406Z
-release_date_public: test
-notes: test
+release_date_public: March 23rd, 2020
+notes: ""
 media:
-  - media: https://ucarecdn.com/7a805450-bdbc-4cb4-b57d-b8d3b8a1d138/
+  - media: https://ucarecdn.com/70201512-e93c-4bc9-93ee-81550fe1aff0/
     media_name: image
     size: portrait
-  - media: https://ucarecdn.com/672e8ced-64b3-4b4c-8959-d01783f2903c/
+  - media: https://ucarecdn.com/b7616f83-6d68-4ab8-b863-4cc0bdb23b65/
     mediaVideo: ""
     media_name: image
     size: portrait
-  - media: https://ucarecdn.com/e80c06c3-95ac-4219-b7f6-8bf71ef99906/
+  - media: https://ucarecdn.com/caf25e00-7b01-40db-b494-498af20199a1/
     media_name: image
     size: portrait
-  - media: https://ucarecdn.com/9d58132c-6b84-4009-a100-7cc42873e554/
+  - media: https://ucarecdn.com/36ffe604-ad65-4fad-90e7-daa15f1f5221/
     media_name: image
     size: portrait
-  - media: https://ucarecdn.com/9589e614-5b1b-4f00-bede-0ea39f4e462d/
+  - media: https://ucarecdn.com/f182a6d8-183e-47ef-9d92-9b73deccd861/
     media_name: image
     size: portrait
-  - media: https://ucarecdn.com/ab718420-c6e8-4271-89be-ff737bef9f49/
+  - media: https://ucarecdn.com/27065c45-8759-4f7c-9d03-1e1188080297/
     media_name: image
     size: portrait
-  - media: https://ucarecdn.com/4c3e4a61-1321-4f53-a85d-eaf03c2fd8ff/
+  - media: ""
     media_name: image
     size: portrait
-  - media: https://ucarecdn.com/86e21009-b291-4004-aadf-8887356c403a/
+    mediaVideo: https://ucarecdn.com/be21c425-c36e-490a-8d47-c1d312333423/
+  - media: https://ucarecdn.com/d79e494f-9576-49ec-b44a-fa5cfef5c383/
     media_name: image
     size: portrait
 clients:
-  - client: Saint Laurent
-  - client: test
+  - client: Chloe
 artists:
-  - artist: David Sims
-  - artist: Paul Sinclair
-  - artist: test
+  - artist: Zoë Ghertner
+  - artist: Camilla Nickerson
+categories: []
+locations: []
 date: 2021-11-29T21:47:21.396Z
 ---
