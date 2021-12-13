@@ -1,8 +1,8 @@
 ---
 draft: true
-title: sl
-description: test
-campaign_title: FW2021
+title: Saint Laurent
+description: Saint Laurent
+campaign_title: FW 2021 Campaign
 thumb:
   image: https://ucarecdn.com/65af0b5d-dd52-4e8f-9c21-a0353b80e302/-/crop/456x388/136,0/-/preview/
   size: square
@@ -51,6 +51,6 @@ artists:
   - artist: David Sims
   - artist: Paul Sinclair
 locations:
-  - location: Los Angeles
+  - location: Paris
 date: 2021-11-29T22:03:04.621Z
 ---
