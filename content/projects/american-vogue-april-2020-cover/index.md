@@ -68,6 +68,7 @@ media:
 clients:
   - client: American Vogue
 artists:
+  - artist: Tyler Mitchell
   - artist: Camilla Nickerson
 locations:
   - location: New York
