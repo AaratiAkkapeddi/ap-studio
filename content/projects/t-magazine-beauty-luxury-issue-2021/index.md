@@ -16,6 +16,7 @@ media:
 clients:
   - client: T Magazine
 artists:
+  - artist: Philip-Daniel Ducasse
   - artist: Carlos Nazario
 date: 2021-12-18T21:43:22.142Z
 ---
