@@ -1,8 +1,8 @@
 ---
 draft: true
-title: DIOR, Sacai Collection SS21
-description: DIOR, Sacai Collection SS21
-campaign_title: SACAI COLLECTION SS21
+title: Dior, Sacai Collection SS21
+description: Dior, Sacai Collection SS21
+campaign_title: Sacai Collection SS21
 thumb:
   size: portrait
   image: https://ucarecdn.com/f495d2f1-5026-44d5-841e-165b95a6a1df/
