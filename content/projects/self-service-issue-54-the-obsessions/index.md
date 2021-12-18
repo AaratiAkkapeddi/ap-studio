@@ -35,7 +35,9 @@ media:
     media: https://ucarecdn.com/dd9ddce7-c303-4186-a5b9-b50635d8caae/
 clients:
   - client: Self Service
-artists: []
+artists:
+  - artist: Krisztian Eder
+  - artist: Malina Gilchrist
 locations:
   - location: New York
 date: 2021-12-18T21:59:47.451Z
