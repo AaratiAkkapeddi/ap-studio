@@ -33,6 +33,7 @@ clients:
   - client: More Or Less
 artists:
   - artist: Zoë Ghertner
+  - artist: Paloma Elsesser
 locations:
   - location: New York
 date: 2021-12-18T17:10:49.134Z
