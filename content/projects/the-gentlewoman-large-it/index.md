@@ -33,5 +33,6 @@ clients:
   - client: The Gentlewoman
 artists:
   - artist: Drew Vickers
+  - artist: Suzanne Koller
 date: 2021-12-18T15:50:20.389Z
 ---
