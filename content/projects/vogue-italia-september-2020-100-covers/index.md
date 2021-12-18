@@ -96,9 +96,9 @@ media:
   - size: portrait
     media: https://ucarecdn.com/3039d87a-7557-48cb-b881-be8526fe35e0/
   - size: portrait
-    media: https://ucarecdn.com/62df0606-676b-4dbb-b48b-dc525dceb60b/
-  - size: portrait
     media: https://ucarecdn.com/1eb83a36-f8bc-4e25-9860-6436921c9b08/
+  - size: portrait
+    media: https://ucarecdn.com/62df0606-676b-4dbb-b48b-dc525dceb60b/
   - size: portrait
     media: https://ucarecdn.com/02f26bb4-41fc-4183-9086-f24c26a70fac/
   - size: portrait
@@ -107,6 +107,8 @@ media:
     media: https://ucarecdn.com/8cd1f691-0d7e-4f5b-8c69-c5fd19415692/
   - size: portrait
     media: https://ucarecdn.com/3cd96484-cc97-4a31-9456-d856b92c7187/
+  - size: portrait
+    media: https://ucarecdn.com/c3d962ea-7428-4325-9c21-1ad76f735c6d/
   - size: portrait
     media: https://ucarecdn.com/c307ee3f-f4d1-48dc-8b1f-a49bfd60b2d0/
   - size: portrait
@@ -122,9 +124,9 @@ media:
   - size: portrait
     media: https://ucarecdn.com/d725661c-b9e2-43ab-b9c5-dbf430ef4d74/
   - size: portrait
-    media: https://ucarecdn.com/3b0f0306-c640-4692-a77a-ef8f3e3407db/
-  - size: portrait
     media: https://ucarecdn.com/a4a64de4-5586-4623-b378-61a932bb5737/
+  - size: portrait
+    media: https://ucarecdn.com/3b0f0306-c640-4692-a77a-ef8f3e3407db/
   - size: portrait
     media: https://ucarecdn.com/4491e72b-5718-424a-80fe-48b78ba86086/
   - size: portrait
@@ -160,9 +162,9 @@ media:
   - size: portrait
     media: https://ucarecdn.com/172177d1-15c7-4e05-83ea-0fa46e07d605/
   - size: portrait
-    media: https://ucarecdn.com/3e51fa8c-e9ef-4fc4-83fc-aca4fcf31e96/
-  - size: portrait
     media: https://ucarecdn.com/bd692352-ecbb-41f7-83f5-5cbd9e515ca3/
+  - size: portrait
+    media: https://ucarecdn.com/3e51fa8c-e9ef-4fc4-83fc-aca4fcf31e96/
   - size: portrait
     media: https://ucarecdn.com/9242ca4a-2828-480c-b388-d0ff9350676b/
   - size: portrait
@@ -172,9 +174,9 @@ media:
   - size: portrait
     media: https://ucarecdn.com/13432a2e-7d1b-40a7-8f88-ec0c941849b6/
   - size: portrait
-    media: https://ucarecdn.com/9761e418-3f0c-4e0d-8642-cf43034b0359/
-  - size: portrait
     media: https://ucarecdn.com/9c2fbc0a-172d-4477-8b52-589ace552715/
+  - size: portrait
+    media: https://ucarecdn.com/9761e418-3f0c-4e0d-8642-cf43034b0359/
   - size: portrait
     media: https://ucarecdn.com/ffdb9836-fddc-4cc3-8702-ad7b22dfea07/
   - size: portrait
@@ -200,11 +202,13 @@ media:
   - size: portrait
     media: https://ucarecdn.com/17ecddf1-edf6-4296-981a-e43a6ed9475a/
   - size: portrait
-    media: https://ucarecdn.com/2e312980-246e-44b9-b925-34c5e78ac934/
-  - size: portrait
     media: https://ucarecdn.com/12f11685-d382-4de6-ade7-9bca98e2c2c6/
   - size: portrait
+    media: https://ucarecdn.com/2e312980-246e-44b9-b925-34c5e78ac934/
+  - size: portrait
     media: https://ucarecdn.com/e0517a2e-83e6-440b-8aa5-ecf993b609d6/
+  - size: portrait
+    media: https://ucarecdn.com/99791149-5f74-406e-a021-f175e5d337ed/
 clients:
   - client: Vogue Italia
 artists:
