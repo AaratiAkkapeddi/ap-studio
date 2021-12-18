@@ -31,6 +31,7 @@ clients:
   - client: T Magazine
 artists:
   - artist: " Collier Schorr"
+  - artist: Matt Holmes
 locations:
   - location: New York
 date: 2021-12-18T17:20:44.927Z
