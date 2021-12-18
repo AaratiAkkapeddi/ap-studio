@@ -208,6 +208,7 @@ media:
 clients:
   - client: Vogue Italia
 artists:
+  - artist: Mark Borthwick
   - artist: Carlos Nazario
 locations:
   - location: New York
