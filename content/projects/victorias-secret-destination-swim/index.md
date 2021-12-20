@@ -30,6 +30,7 @@ media:
 clients:
   - client: Victoria's Secret
 artists:
+  - artist: Tyler Kohlhoff
   - artist: Alex White
 locations: []
 date: 2021-12-20T15:03:03.394Z
