@@ -23,6 +23,7 @@ clients:
   - client: American Vogue
 artists:
   - artist: Ethan James Green
+  - artist: Tonne Goodman
 locations:
   - location: New York
 date: 2021-12-20T15:50:43.072Z
