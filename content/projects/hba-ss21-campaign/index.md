@@ -31,7 +31,8 @@ media:
     size: portrait
   - size: portrait
     media: https://ucarecdn.com/c284397a-e7b2-418b-956b-5f25fc2db639/
-clients: []
+clients:
+  - client: Hood By Air
 artists:
   - artist: Luis Alberto Rodriguez
   - artist: Carlos Nazario
