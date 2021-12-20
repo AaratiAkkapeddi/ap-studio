@@ -36,6 +36,7 @@ media:
 clients:
   - client: Dust
 artists:
+  - artist: Stef Mitchell
   - artist: Alba Melendo
 locations:
   - location: New York
