@@ -39,6 +39,10 @@ media:
     media: https://ucarecdn.com/44cf2924-396e-4df1-a844-58cd7f902265/
 clients:
   - client: AnOther
-artists: []
+artists:
+  - artist: Luis Alberto Rodriguez
+  - artist: Raphael Hirsch
+locations:
+  - location: Paris
 date: 2021-12-20T14:26:39.543Z
 ---
