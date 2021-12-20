@@ -15,6 +15,7 @@ clients:
   - client: L'Uomo Vogue
 artists:
   - artist: Anne Gedes
+  - artist: Patti Wilson
 locations:
   - location: New York
 date: 2021-12-20T15:45:11.798Z
