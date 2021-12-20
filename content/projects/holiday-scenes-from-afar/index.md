@@ -67,5 +67,8 @@ clients:
   - client: Holiday
 artists:
   - artist: Krisztian Eder
+  - artist: Tony Irvine
+locations:
+  - location: New York
 date: 2021-12-20T17:10:21.622Z
 ---
