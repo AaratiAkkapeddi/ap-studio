@@ -26,6 +26,7 @@ media:
 clients:
   - client: I-D
 artists:
+  - artist: Grace Ahlbom
   - artist: Matt Holmes
 locations:
   - location: New York
