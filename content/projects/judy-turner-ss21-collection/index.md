@@ -35,7 +35,8 @@ media:
     media: https://ucarecdn.com/2a35a104-e23d-459c-8d6c-d6f341100e57/
   - size: portrait
     media: https://ucarecdn.com/998dc126-4f04-4c29-9068-5051849ef093/
-clients: []
+clients:
+  - client: Judy Turner
 artists:
   - artist: Grace Ahlbom
   - artist: Matt Holmes
