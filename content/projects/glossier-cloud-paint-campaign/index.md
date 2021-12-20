@@ -23,7 +23,9 @@ media:
     media: https://ucarecdn.com/cfbd911d-9770-4097-8b88-1c687aa08053/
 clients:
   - client: Glossier
-artists: []
+artists:
+  - artist: Ronan McKenzie
+  - artist: Marie Suter
 locations: []
 date: 2021-12-20T16:32:32.750Z
 ---
