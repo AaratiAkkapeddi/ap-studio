@@ -44,6 +44,7 @@ media:
 clients:
   - client: Self Service
 artists:
+  - artist: Bryan Liston
   - artist: Malina Gilchrist
 locations:
   - location: New York
