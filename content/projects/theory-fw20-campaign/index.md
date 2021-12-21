@@ -35,6 +35,8 @@ clients:
   - client: Theory
 artists:
   - artist: Ethan James Green
+  - artist: Ludivine Poiblanc
+categories: []
 locations:
   - location: New York
 date: 2021-12-21T14:38:17.184Z
