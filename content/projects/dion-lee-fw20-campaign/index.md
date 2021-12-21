@@ -37,7 +37,9 @@ media:
     media: https://ucarecdn.com/7805ec23-d550-4728-839b-0d7485797297/
 clients:
   - client: Dion Lee
-artists: []
+artists:
+  - artist: Zhi Weii
+  - artist: Seven NYC
 locations:
   - location: New York
 date: 2021-12-21T15:12:42.216Z
