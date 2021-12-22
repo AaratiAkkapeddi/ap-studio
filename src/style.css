@@ -60,8 +60,8 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
-  --color-text: #2e353f;
-  --color-text-light: #4f5969;
+  --color-text: #111F4F;
+  --color-text-light: rgba(17, 31, 79, 0.34);
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
@@ -90,6 +90,12 @@ h1,h2,h3,h4, nav, .site-header > a{
 }
 a{
   color:inherit;
+}
+a:hover{
+  color:var(--color-text-light);
+}
+li{
+  line-height: var(--lineHeight-none);
 }
 
 h1 a{

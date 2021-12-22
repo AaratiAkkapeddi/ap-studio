@@ -188,6 +188,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             draft
+            notes
             campaign_title
             thumb {
               image

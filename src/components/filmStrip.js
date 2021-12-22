@@ -70,7 +70,7 @@ const FilmStrip = ({hpText, projects}) => {
 	        {projects.map((project, index) => {
 	              if(!project.node.frontmatter.draft){
 	                const title = project.node.frontmatter.campaign_title
-
+	                console.log(project.node)
 	                return (
 	                
 	                  <a  className={`text-item`} key={index} href={project.node.fields.slug}>
@@ -79,7 +79,7 @@ const FilmStrip = ({hpText, projects}) => {
 	                     <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
 	                    </div>
 	                    <div className="hover-text">
-	                     <p> {project.node.frontmatter.campaign_title}</p>
+	                     <p> <ReactMarkdown>{project.node.frontmatter.notes}</ReactMarkdown></p>
 	                    </div>
 	                  </a>
 	       
@@ -96,6 +96,7 @@ const FilmStrip = ({hpText, projects}) => {
 	                
 	                  <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
 	                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+	                  	<div className="opacity-title">{project.node.frontmatter.campaign_title}</div>
 	                  </a>
 	       
 	                )

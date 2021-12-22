@@ -31,6 +31,9 @@
 .selected-artists li:hover .hover-img, .selected-clients li:hover .hover-img, .selected-artists li:hover .hover-txt, .selected-clients li:hover .hover-txt {
 	opacity: 1;
 }
+.selected-artists a, .selected-clients a{
+	text-decoration: none;
+}
 .hover{
 	pointer-events: none;
 	position: fixed;
