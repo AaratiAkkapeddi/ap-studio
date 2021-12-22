@@ -19,7 +19,8 @@ const ArtistIndex = ({ data, location }) => {
   const artists = data.artists?.edges
   const clients = data.clients?.edges
   const projects = data.projects?.edges
-
+  let letterC = "1"
+  let letterA = "1"
   function imageColumn(){
     document.querySelector(".artists-clients").classList.remove("text-column")
     document.querySelector(".artists-clients").classList.add("image-column")
@@ -59,6 +60,12 @@ const ArtistIndex = ({ data, location }) => {
               	
               	let featuredProjects = []
               	let title = client.node.frontmatter.name
+                let firstLetter = title[0] 
+                let drawLetterLabel = false
+                if(firstLetter !== letterC){
+                  letterC = firstLetter
+                  drawLetterLabel = true
+                }
 				 for (var x = projects.length - 1; x >= 0; x--) {
 				    for (var i = projects[x].node.frontmatter.clients?.length - 1; i >= 0; i--) {
 				      if(projects[x].node.frontmatter.clients[i].client == client.node.frontmatter.title){
@@ -69,6 +76,9 @@ const ArtistIndex = ({ data, location }) => {
 				  console.log(featuredProjects[0])
               return (
                 <li key={index}>
+                  {drawLetterLabel &&
+                    <div className="letter-label">{firstLetter}</div>
+                  }
                   <a href={client.node.fields.slug}>
                   {
 
@@ -93,6 +103,12 @@ const ArtistIndex = ({ data, location }) => {
               {artists.map((artist,index) => {
               	let featuredProjects = []
               	let title = artist.node.frontmatter.name
+                let firstLetter = title[0] 
+                let drawLetterLabel = false
+                if(firstLetter !== letterA){
+                  letterA = firstLetter
+                  drawLetterLabel = true
+                }
 				 for (var x = projects.length - 1; x >= 0; x--) {
 				    for (var i = projects[x].node.frontmatter.artists?.length - 1; i >= 0; i--) {
 				      if(projects[x].node.frontmatter.artists[i].artist == artist.node.frontmatter.title){
@@ -104,6 +120,9 @@ const ArtistIndex = ({ data, location }) => {
 
               return (
                 <li key={index}>
+                 {drawLetterLabel &&
+                    <div className="letter-label">{firstLetter}</div>
+                  }
                   <a href={artist.node.fields.slug}>
                    {
                       featuredProjects[0]?.frontmatter?.thumb?.image &&
@@ -136,7 +155,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    artists: allMarkdownRemark(filter: {fields: {slug: {regex: "/artists/"}}}) {
+    artists: allMarkdownRemark(filter: {fields: {slug: {regex: "/artists/"}}}, sort: { fields: [frontmatter___name], order: ASC }) {
       edges {
         node {
           id
@@ -150,7 +169,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    clients: allMarkdownRemark(filter: {fields: {slug: {regex: "/clients/"}}}) {
+    clients: allMarkdownRemark(filter: {fields: {slug: {regex: "/clients/"}}}, sort: { fields: [frontmatter___name], order: ASC }) {
       edges {
         node {
           id

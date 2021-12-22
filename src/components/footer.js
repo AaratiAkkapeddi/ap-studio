@@ -42,12 +42,12 @@ setTimeout(marquee,800)
 	      	<a href="/">MODELS.COM</a>
 	      </div>
 	      <div>
-	      	<a href="/">GENERAL INQUIRIES</a><br/>
+	      	<a href="mailto:emaill@address.com">GENERAL INQUIRIES</a><br/>
 	      	<a href="/">Email@Address.com</a>
 	      </div>
 	      <div>
-	      	<a href="/">COOKIES & DATA</a><br/>
-	      	<a href="/"><span>POLICY</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+	      	<a href="/cookies">COOKIES & DATA<br/>
+	      	POLICY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	      </div>
 	    </footer>
 	    </>
