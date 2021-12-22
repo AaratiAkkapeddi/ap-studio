@@ -35,6 +35,8 @@ media:
     media: https://ucarecdn.com/a5a25597-cd5b-4af4-b2c6-bf6bbed38ae6/
 clients:
   - client: Garage
-artists: []
+artists:
+  - artist: Nadine Ijewere
+  - artist: Gabriella Karefa-Johnson
 date: 2021-12-22T16:47:00.401Z
 ---
