@@ -42,6 +42,9 @@ media:
 clients:
   - client: AnOther
 artists:
+  - artist: Oliver Hadlee Pearch
   - artist: Marie Chaix
+locations:
+  - location: New York
 date: 2021-12-22T17:19:21.330Z
 ---
