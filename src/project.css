@@ -13,6 +13,7 @@
 }
 #layout-toggle{
 	text-align: right;
+	max-width: var(--maxWidth-wrapper);
 }
 #layout-toggle svg {
 	cursor: pointer;

@@ -4,6 +4,10 @@
   height:100vh;
   pointer-events: none;
   font-size:10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
   top: -0.5em;
   mix-blend-mode: difference;
   margin:var(--spacing-4) auto;
@@ -12,16 +16,25 @@
 .flickity-page-dots, .flickity-button{
   display: none;
 }
+#homepage-wrapper .global-wrapper{
+  margin-top:-60px;
+}
 .film-strip{
   display: flex;
   flex-wrap: wrap;
   max-width:var(--maxWidth-wrapper);
   margin:var(--spacing-4) auto;
+  margin-bottom: var(--spacing-16);
+
 }
 .mini-overview{
-  width:10vw;
+  width:calc(20% - var(--spacing-2));
   position:relative;
   height:10vw;
+  margin: var(--spacing-1);
+}
+.mini-overview:last-child{
+  width: calc(10% - var(--spacing-2));
 }
 .more-info{
   position: absolute;
@@ -36,12 +49,13 @@
   margin:0;
 }
 .film-item{
-  width:10vw;
+  width:calc(10% - var(--spacing-2));
   height:10vw;
+  margin: var(--spacing-1);
   overflow: hidden;
 }
 .film-item.square, .film-item.landscape{
-  width:20vw;
+  width:calc(20% - var(--spacing-2));
 }
 
 .film-item img, .film-item video{
@@ -64,6 +78,7 @@
   display:flex;
   max-width:var(--maxWidth-wrapper);
   margin:var(--spacing-4) auto;
+   margin-bottom: var(--spacing-16);
 }
 .artists-clients > *{
   flex-basis:50%;

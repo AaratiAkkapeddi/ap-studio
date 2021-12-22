@@ -8,11 +8,11 @@ const Header = () => {
 	      <a href="/">AP Studio, Inc</a>
 	      <nav>
 	         <ul>
-	            <li><a href="">Projects</a></li>
-	            <li><a href="">Clients</a></li>
-	            <li><a href="">Artists</a></li>
-	            <li><a href="">News</a></li>
-	            <li><a href="">Info</a></li>
+	            <li><a href="/projects">Projects</a></li>
+	            <li><a href="/artists&clients">Clients</a></li>
+	            <li><a href="/artists&clients">Artists</a></li>
+	            <li><a href="/blog">News</a></li>
+	            <li><a href="/info">Info</a></li>
 	         </ul>
 	      </nav>
 	    </div>

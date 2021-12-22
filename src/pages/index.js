@@ -48,23 +48,40 @@ const HomeIndex = ({ data, location }) => {
       }
     }
   }
+  if (featuredClients.length < 1){
+    for (var i = clients.length - 1; i >= 0; i--) {
+      if(i < 10){
+        featuredClients.push(clients[i].node)
+      }
+      
+    }
+  }
+  if (featuredArtists.length < 1){
+    for (var i = artists.length - 1; i >= 0; i--) {
+      if(i < 10){
+        featuredArtists.push(artists[i].node)
+      }
+      
+    }
+  }
 
 
   return (
-    <>
+    <div id='homepage-wrapper'>
     <div className="site-header">
         <a style={{"opacity":"0"}} href="/">AP Studio, Inc</a>
         <nav style={{"marginTop":"2rem"},{"color": "white"}}>
            <ul>
-              <li><a href="">Projects</a></li>
-              <li><a href="">Clients</a></li>
-              <li><a href="">Artists</a></li>
-              <li><a href="">News</a></li>
-              <li><a href="">Info</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/artists&clients">Clients</a></li>
+              <li><a href="/artists&clients">Artists</a></li>
+              <li><a href="/blog">News</a></li>
+              <li><a href="/info">Info</a></li>
            </ul>
         </nav>
       </div>
-    <h1 className="overlay-title">AP Studio Inc.<br/>AP Studio Inc., Paris<br/>AP Studio Inc., New York</h1>
+    <h1 className="overlay-title">
+       <span>AP Studio Inc.</span><span>AP Studio Inc., Paris</span><span>AP Studio Inc., New York</span></h1>
     <Flickity
       className={'carousel'} // default ''
       elementType={'div'} // default 'div'
@@ -81,7 +98,7 @@ const HomeIndex = ({ data, location }) => {
               
                 <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
                   <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-                  <div className="slide-title"><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></div>
+                  <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
                 </a>
      
               )
@@ -152,7 +169,7 @@ const HomeIndex = ({ data, location }) => {
       
      
     </Layout>
-    </>
+    </div>
   )
 }
 
