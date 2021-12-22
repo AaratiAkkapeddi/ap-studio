@@ -27,8 +27,12 @@ media:
     media: https://ucarecdn.com/4a3244e7-fdaa-4812-8f6f-b071f05e55b9/
   - size: portrait
     media: https://ucarecdn.com/8f87334b-bfff-42a1-925a-4560018c590b/
-clients: []
+clients:
+  - client: Mango
 artists:
   - artist: Amy Troost
+  - artist: Alejandra Catalan
+locations:
+  - location: New York
 date: 2021-12-22T18:11:33.550Z
 ---
