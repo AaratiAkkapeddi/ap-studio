@@ -27,6 +27,10 @@ media:
     media: https://ucarecdn.com/ed042cfd-07a6-4a6b-9147-d6f787013161/
 clients:
   - client: Nike
-artists: []
+artists:
+  - artist: Tracey Nicholson
+  - artist: Jake Jones
+locations:
+  - location: New York
 date: 2021-12-22T17:25:46.568Z
 ---
