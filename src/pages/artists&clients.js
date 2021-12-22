@@ -53,7 +53,7 @@ const ArtistIndex = ({ data, location }) => {
       </header>
       <div className="artists-clients text-column">
         <div className="selected-clients">
-          <h1>Selected Clients</h1>
+          <h1 id="small-client-header">Clients</h1>
           <ol style={{ listStyle: `none` }}>
               {clients.map((client,index) => {
               	
@@ -88,7 +88,7 @@ const ArtistIndex = ({ data, location }) => {
           </ol>
         </div>
         <div className="selected-artists">
-          <h1>Selected Artists</h1>
+          <h1 id='small-artist-header'>Artists</h1>
           <ol style={{ listStyle: `none` }}>
               {artists.map((artist,index) => {
               	let featuredProjects = []

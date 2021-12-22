@@ -10,6 +10,9 @@
 	opacity: 1;
 	z-index: 0; 
 }
+#small-artist-header, #small-client-header{
+	flex-basis: 15%;
+}
 .image-column .hover-txt{
 	display: none;
 }

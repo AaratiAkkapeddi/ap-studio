@@ -86,10 +86,12 @@ h1,h2,h3,h4, nav, .site-header > a{
   font-size: var(--fontSize-6);
   letter-spacing: -0.05em;
   margin:0;
+  line-height: var(--lineHeight-none);
 }
 a{
   color:inherit;
 }
+
 h1 a{
   text-decoration: none;
 }
