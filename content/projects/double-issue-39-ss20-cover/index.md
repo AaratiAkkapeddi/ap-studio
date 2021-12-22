@@ -67,6 +67,7 @@ clients:
   - client: Double
 artists:
   - artist: Zoë Ghertner
+  - artist: Marie Chaix
 locations:
   - location: New York
 date: 2021-12-22T17:00:13.690Z
