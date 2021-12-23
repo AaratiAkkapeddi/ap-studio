@@ -19,7 +19,12 @@ media:
     media: https://ucarecdn.com/960a7d12-0e91-4394-824d-9ef62ff54464/
   - size: portrait
     media: https://ucarecdn.com/60595470-1dba-4e93-ba82-9e527b2f4034/
-clients: []
-artists: []
+clients:
+  - client: Ksubi
+artists:
+  - artist: Dexter Navy
+  - artist: Elin Svahn
+locations:
+  - location: New York
 date: 2021-12-23T20:38:57.887Z
 ---
