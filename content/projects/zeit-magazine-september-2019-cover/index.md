@@ -21,9 +21,11 @@ media:
     media: https://ucarecdn.com/938784ef-27c4-4c18-8b91-19b628576b9d/
   - size: portrait
     media: https://ucarecdn.com/1df5079a-9ac4-440b-a567-759f47694d46/
-clients: []
+clients:
+  - client: Zeit Magazine
 artists:
   - artist: Petra Collins
+  - artist: Klaus Stockhausen
 locations:
   - location: New York
 date: 2021-12-23T21:05:28.245Z
