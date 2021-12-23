@@ -28,6 +28,7 @@ media:
 clients:
   - client: Vogue HK
 artists:
+  - artist: Hannah Moon
   - artist: Anya Ziourova
 locations:
   - location: New York
