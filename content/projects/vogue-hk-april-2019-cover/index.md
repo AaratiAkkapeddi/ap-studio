@@ -28,6 +28,7 @@ media:
 clients:
   - client: Vogue HK
 artists:
+  - artist: Petra Collins
   - artist: Anya Ziourova
 locations:
   - location: New York
