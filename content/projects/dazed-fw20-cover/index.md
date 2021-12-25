@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Dazed, FW20 Cover
 description: Dazed, FW20 Cover
 campaign_title: FW20 Cover
