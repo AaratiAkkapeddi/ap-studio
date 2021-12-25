@@ -5,7 +5,7 @@ import Thumb from "../components/thumb"
 import Seo from "../components/seo"
 import ReactMarkdown from 'react-markdown'
 import Flickity from 'react-flickity-component'
-
+import FilmStrip from '../components/filmStrip'
 const flickityOptions = {
     groupCells: true,
     autoPlay: true,
@@ -48,23 +48,40 @@ const HomeIndex = ({ data, location }) => {
       }
     }
   }
+  if (featuredClients.length < 1){
+    for (var i = clients.length - 1; i >= 0; i--) {
+      if(i < 10){
+        featuredClients.push(clients[i].node)
+      }
+      
+    }
+  }
+  if (featuredArtists.length < 1){
+    for (var i = artists.length - 1; i >= 0; i--) {
+      if(i < 10){
+        featuredArtists.push(artists[i].node)
+      }
+      
+    }
+  }
 
 
   return (
-    <>
+    <div id='homepage-wrapper'>
     <div className="site-header">
         <a style={{"opacity":"0"}} href="/">AP Studio, Inc</a>
         <nav style={{"marginTop":"2rem"},{"color": "white"}}>
            <ul>
-              <li><a href="">Projects</a></li>
-              <li><a href="">Clients</a></li>
-              <li><a href="">Artists</a></li>
-              <li><a href="">News</a></li>
-              <li><a href="">Info</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/artists&clients">Clients</a></li>
+              <li><a href="/artists&clients">Artists</a></li>
+              <li><a href="/blog">News</a></li>
+              <li><a href="/info">Info</a></li>
            </ul>
         </nav>
       </div>
-    <h1 className="overlay-title">AP Studio Inc.<br/>AP Studio Inc., Paris<br/>AP Studio Inc., New York</h1>
+    <h1 className="overlay-title">
+       <span>AP Studio Inc.</span><span>AP Studio Inc., Paris</span><span>AP Studio Inc., New York</span></h1>
     <Flickity
       className={'carousel'} // default ''
       elementType={'div'} // default 'div'
@@ -81,7 +98,7 @@ const HomeIndex = ({ data, location }) => {
               
                 <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
                   <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-                  <div className="slide-title"><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></div>
+                  <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
                 </a>
      
               )
@@ -91,30 +108,7 @@ const HomeIndex = ({ data, location }) => {
     </Flickity>
     <Layout location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
-      
-      <div className="film-strip">
-      <div className="mini-overview">
-        <ReactMarkdown>{homepage.intro || ""}</ReactMarkdown>
-        <a className="more-info" href="/info">More Info</a>
-      </div>
-          {projects.map((project, index) => {
-            if(index < 25 && !project.node.frontmatter.draft){
-              const title = project.node.frontmatter.campaign_title
-
-              return (
-              
-                <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
-                  <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-                </a>
-     
-              )
-
-            }
-        })}
-        <div className="mini-overview">
-          <a className="more-info" href="/projects">View All Projects</a>
-        </div>
-      </div>
+       <FilmStrip hpText={homepage.intro || ""} projects={projects}/>
       <div className="artists-clients">
         <div className="selected-clients">
           <h1>Selected Clients <a className="more-info" href="/artists&clients">View All Clients</a></h1>
@@ -152,7 +146,7 @@ const HomeIndex = ({ data, location }) => {
       
      
     </Layout>
-    </>
+    </div>
   )
 }
 
@@ -194,6 +188,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             draft
+            notes
             campaign_title
             thumb {
               image

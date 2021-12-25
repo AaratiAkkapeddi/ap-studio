@@ -76,7 +76,7 @@ const ClientPageTemplate = ({ data, location }) => {
         {clientProjectDivs}
         </div>
           <div className="project-footer">
-            <a href="/clients&artists">Return to Client Index</a>
+            <a href="/artists&clients">Return to Client Index</a>
             <Top></Top>
           </div>
 

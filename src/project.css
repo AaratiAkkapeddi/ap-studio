@@ -13,16 +13,17 @@
 }
 #layout-toggle{
 	text-align: right;
+	max-width: var(--maxWidth-wrapper);
 }
 #layout-toggle svg {
 	cursor: pointer;
 	margin:0 var(--spacing-2);
 }
 #layout-toggle svg rect, #layout-toggle svg path{
-	fill: #111F4F;
+	fill: var(--color-text-light);
 }
 #layout-toggle svg.on rect, #layout-toggle svg.on path{
-	fill: #EB4726;
+	fill: var(--color-text);
 }
 .project-footer a{
 	  cursor:pointer;
