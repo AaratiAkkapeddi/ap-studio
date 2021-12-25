@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: American Vogue, April 2020 Cover
 description: American Vogue, April 2020 Cover
 campaign_title: April 2020 Cover
