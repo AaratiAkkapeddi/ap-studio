@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: American Vogue, March 2021 Cover
 description: American Vogue, March 2021 Cover
 campaign_title: March 2021 Cover
