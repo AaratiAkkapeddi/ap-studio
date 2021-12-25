@@ -1,4 +1,4 @@
 ---
 title: Collier Schorr
-name: " Collier Schorr"
+name: Collier Schorr
 ---
