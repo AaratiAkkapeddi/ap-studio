@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: American Vogue, It Takes An Industry
 description: American Vogue, It Takes An Industry
 campaign_title: It Takes An Industry
