@@ -19,7 +19,47 @@
 #homepage-wrapper .global-wrapper{
   margin-top:-60px;
 }
+#homepage-wrapper .site-header nav li a{
+  color:white;
+}
 
+#homepage-wrapper .global-wrapper .site-header nav li a{
+  color: var(--color-text);
+}
+#homepage-wrapper .marquee{
+  margin-top: var(--spacing-10);
+}
+@keyframes float {
+  0%    { color: var(--color-text); }
+  100%  { color: white }
+}
+@-webkit-keyframes float {
+  0%    { color: var(--color-text); }
+  100%  { color: white; }
+}
+
+.global-wrapper.loading::before{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  content: "AP Studio";
+  color:white;
+  font-family: var(--font-heading);
+  font-size: var(--fontSize-6);
+  letter-spacing: -0.05em;
+  margin:0;
+  line-height: var(--lineHeight-none);
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  background: var(--color-text);
+  animation: float 0.2s forwards;
+  -webkit-animation: float 10s forwards;
+}
 
 .carousel{
   background: black;
