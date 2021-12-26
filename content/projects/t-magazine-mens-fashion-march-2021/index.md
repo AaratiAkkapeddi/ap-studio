@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: T Magazine, Men's Fashion March 2021
 description: T Magazine, Men's Fashion March 2021
 campaign_title: Men's Fashion March 2021
