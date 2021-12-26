@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: More or Less, Issue 04 Cover
 description: More or Less, Issue 04 Cover
 campaign_title: Issue 04 Cover
