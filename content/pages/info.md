@@ -13,7 +13,6 @@ profiles: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
   montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat
   porttitor ligula, eget lacinia odio sem nec elit. Nulla vitae elit libero, a
   pharetra augue.
-locations: test
 contact: Vestibulum id ligula porta felis euismod semper. Praesent commodo
   cursus magna, vel scelerisque nisl consectetur et. Morbi leo risus, porta ac
   consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis
@@ -24,4 +23,8 @@ location: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
   consectetur est at lobortis. Curabitur blandit tempus porttitor. Nullam id
   dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at
   lobortis
+email: email@email.com
+instagram: https://instagram.com/test
+models: https://models.com/test
+locations: test
 ---
