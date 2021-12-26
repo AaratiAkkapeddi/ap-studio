@@ -29,7 +29,7 @@ const clone = parentSelector.innerHTML;
 	  }
       
 	}
-	if(document){
+	if(typeof(document) != "undefined"){
 		setTimeout(marquee,800)
 	}
 	return (
