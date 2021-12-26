@@ -29,7 +29,9 @@ const clone = parentSelector.innerHTML;
 	  }
       
 	}
-setTimeout(marquee,800)
+	if(document){
+		setTimeout(marquee,800)
+	}
 	return (
 		<>
 		<div className="marquee"><h1>&nbsp; AP Studio, Inc AP Studio, Paris AP Studio, Los Angeles</h1></div>
