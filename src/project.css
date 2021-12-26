@@ -3,7 +3,11 @@
 	width: 100%;
 	justify-content: space-between;
 	max-width:var(--maxWidth-wrapper);
-	margin:0 auto;
+	margin:var(--spacing-8) auto;
+}
+.project-footer{
+	margin: var(--spacing-10) auto;
+	margin-top:var(--spacing-20);
 }
 .time-toggle.on{
 	text-decoration: underline;
@@ -53,7 +57,7 @@
 .project-media-container{
 	display: flex;
 	flex-wrap: wrap;
-	margin:0 auto;
+	margin:var(--spacing-8) auto;
 	justify-content: center;
 	max-width:var(--maxWidth-wrapper);
 }

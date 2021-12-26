@@ -29,13 +29,13 @@
 	width:100%;
 	float:none;
 }
-.selected-artists li:hover .hover-img, .selected-clients li:hover .hover-img, .selected-artists li:hover .hover-txt, .selected-clients li:hover .hover-txt {
+.text-column .client-project:hover .hover-img, .selected-artists li:hover .hover-img, .selected-clients li:hover .hover-img, .selected-artists li:hover .hover-txt, .selected-clients li:hover .hover-txt {
 	opacity: 1;
 }
 .selected-artists a, .selected-clients a{
 	text-decoration: none;
 }
-.artists-clients.text-column li:hover .hover-img, .artists-clients.text-column li:hover .hover-img .media-item{
+.text-column .client-project:hover .media-item, .text-column .client-project:hover .hover-img, .artists-clients.text-column li:hover .hover-img, .artists-clients.text-column li:hover .hover-img .media-item{
 	opacity:1;
 	display: block;
 }
@@ -79,9 +79,20 @@
 .client-three-image-column a:hover .client-project-list{
 	opacity: 1;
 }
+.text-column .client-project:hover .hover-img > div{
+	width: 50vw;
+}
+.text-column .client-project:hover .media-item{
+	width: 30%;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%);
+    top: 100px;
+    position: fixed;
+}
 .client-three-image-column a .client-project-list{
 	opacity: 0;
-	background: rgba(0,0,255,0.8);
+	background: var(--color-text-light);
 	position: absolute;
 	left: 3px;
     top: 3px;
@@ -122,9 +133,30 @@
 	right: var(--spacing-8);
 	transform: translate(0%, -50%);
 }
+.text-column .client-project:hover .hover-txt{
+	right: 0;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+    width: 25%;
+}
 .hover-img > div{
-	width: 50%;
+	width: 65%;
 	float: right;
+}
+.text-column.project-media-container.client-media-container{
+	top: -84px;
+    position: relative;
+    width: 50%;
+    left: 20%;
+    margin-top: 0;
+    display: inline-block;
+    align-items: start;
+    justify-content: flex-start;
+}
+.text-column.project-media-container.client-media-container + .project-footer h1{
+	display: none;
 }
 .letter-label{
 	position:relative;
