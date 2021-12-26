@@ -18,7 +18,7 @@ const Info = ({ data, location }) => {
 
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />   
       <div className="info-wrapper">
         <div className="info-row">

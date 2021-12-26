@@ -59,7 +59,7 @@ const ClientPageTemplate = ({ data, location }) => {
     document.querySelector("#text-toggle").classList.add("on")
   }
   return (
-      <Layout location={location} title={siteTitle}>
+      <Layout data={data} location={location} title={siteTitle}>
       <Seo
         title={siteTitle}
       />
@@ -138,6 +138,20 @@ export const pageQuery = graphql`
           }
           fields {
             slug
+          }
+        }
+      }
+    }
+    info: allMarkdownRemark(
+    filter: {fields: {slug: {regex: "/pages/"}}, fileAbsolutePath: {regex: "/info/"}}
+  ) {
+    edges {
+      node {
+          id
+          frontmatter {
+           email
+           models
+           instagram
           }
         }
       }

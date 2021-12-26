@@ -16,7 +16,9 @@
 .image-column .hover-txt{
 	display: none;
 }
-
+.hover-img img{
+	max-width: 100%;
+}
 .image-column .hover{
 	pointer-events: auto;
 	position: relative;
@@ -121,7 +123,7 @@
 	align-self: center;
 
 }
-.artists-clients .hover-img{
+.text-column.artists-clients .hover-img{
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -133,6 +135,12 @@
 	right: var(--spacing-8);
 	transform: translate(0%, -50%);
 }
+.ac-header{
+	    height: 0;
+    z-index: 9;
+    position: relative;
+
+}
 .text-column .client-project:hover .hover-txt{
 	right: 0;
     position: fixed;
@@ -142,7 +150,7 @@
     width: 25%;
 }
 .hover-img > div{
-	width: 65%;
+	width: 85%;
 	float: right;
 }
 .text-column.project-media-container.client-media-container{

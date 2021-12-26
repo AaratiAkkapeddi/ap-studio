@@ -18,7 +18,7 @@ const CookiePolicy = ({ data, location }) => {
 
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />   
       <div className="info-wrapper">
         <div className="cookie-row">
@@ -49,6 +49,20 @@ export const pageQuery = graphql`
           id
           frontmatter {
            cookie
+          }
+        }
+      }
+    }
+    info: allMarkdownRemark(
+    filter: {fields: {slug: {regex: "/pages/"}}, fileAbsolutePath: {regex: "/info/"}}
+  ) {
+    edges {
+      node {
+          id
+          frontmatter {
+           email
+           models
+           instagram
           }
         }
       }

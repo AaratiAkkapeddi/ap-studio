@@ -22,7 +22,7 @@ const ProjectIndex = ({ data, location }) => {
     <>
     
 
-    <Layout location={location} title={siteTitle}>
+    <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
       
       <FilmStrip hpText={false} projects={projects}/>
@@ -61,6 +61,20 @@ export const pageQuery = graphql`
           }
           fields {
             slug
+          }
+        }
+      }
+    }
+    info: allMarkdownRemark(
+    filter: {fields: {slug: {regex: "/pages/"}}, fileAbsolutePath: {regex: "/info/"}}
+  ) {
+    edges {
+      node {
+          id
+          frontmatter {
+           email
+           models
+           instagram
           }
         }
       }

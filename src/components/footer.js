@@ -2,13 +2,13 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Footer = () => {
-
+const Footer = ({ data }) => {
+   console.log(data)
 	function marquee(){
 	  let speed = 0.2
 	  const parentSelector = document.querySelector('.marquee');
 	  if(parentSelector){
-const clone = parentSelector.innerHTML;
+		const clone = parentSelector.innerHTML;
       const firstElement = parentSelector.children[0];
       let i = 0;
       let n = Math.floor(window.innerWidth/firstElement.clientWidth)
@@ -40,15 +40,15 @@ const clone = parentSelector.innerHTML;
 	      	<a href="/">NEWSLETTER</a>
 	      </div>
 	      <div>
-	      	<a href="/">INSTAGRAM</a><br/>
-	      	<a href="/">MODELS.COM</a>
+	      	<a href={`${data.info?.edges[0].node.frontmatter.instagram}`}>INSTAGRAM</a><br/>
+	      	<a href={`${data.info?.edges[0].node.frontmatter.models}`}>MODELS.COM</a>
 	      </div>
 	      <div>
-	      	<a href="mailto:emaill@address.com">GENERAL INQUIRIES</a><br/>
-	      	<a href="/">Email@Address.com</a>
+	      	<a href={`mailto:${data.info?.edges[0].node.frontmatter.email}`}>GENERAL INQUIRIES</a><br/>
+	      	<a href={`mailto:${data.info?.edges[0].node.frontmatter.email}`}>{data.info?.edges[0].node.frontmatter.email}</a>
 	      </div>
 	      <div>
-	      	<a href="/cookies">COOKIES & DATA<br/>
+	      	<a href="/cookiepolicy">COOKIES & DATA<br/>
 	      	POLICY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
 	      </div>
 	    </footer>

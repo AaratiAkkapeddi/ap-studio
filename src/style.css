@@ -131,6 +131,15 @@ body {
   margin:0;
   text-decoration: none;
 }
+.site-header nav li a{
+  color: var(--color-text-light);
+}
+.site-header nav li a.current{
+  color: var(--color-text);
+}
+.site-header nav li a:hover{
+  color: var(--color-text);
+}
 .site-header a{
   text-decoration: none;
   align-self: start;

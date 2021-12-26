@@ -4,14 +4,14 @@ import Header from "./header"
 import Footer from "./footer"
 
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, children, data }) => {
 
 
   return (
     <div className="global-wrapper" >
-      <Header></Header>
+      <Header location={location}></Header>
       <main>{children}</main>
-      <Footer></Footer>
+      <Footer data={data}></Footer>
     </div>
   )
 }

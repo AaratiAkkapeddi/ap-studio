@@ -44,7 +44,7 @@ const ProjectTemplate = ({ data, location }) => {
     document.querySelector("#three").classList.add("on")
   }
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout data={data} location={location} title={siteTitle}>
       <Seo
         title={siteTitle}
         description={project.frontmatter.description || project.excerpt}
@@ -126,6 +126,20 @@ export const pageQuery = graphql`
           media
           size
           media_name
+        }
+      }
+    }
+    info: allMarkdownRemark(
+    filter: {fields: {slug: {regex: "/pages/"}}, fileAbsolutePath: {regex: "/info/"}}
+  ) {
+    edges {
+      node {
+          id
+          frontmatter {
+           email
+           models
+           instagram
+          }
         }
       }
     }

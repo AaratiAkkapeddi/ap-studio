@@ -10,6 +10,7 @@ import "./src/homepage.css"
 import "./src/filmstrip.css"
 import "./src/ac.css"
 import "./src/info.css"
+import "./src/blog.css"
 
 // Highlighting for code blocks
 import "prismjs/themes/prism.css"

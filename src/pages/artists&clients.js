@@ -35,9 +35,9 @@ const ArtistIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
-      <header>
+      <header className="ac-header">
       <p id="layout-toggle">
         <svg id="image-toggle" onClick={imageColumn} width="45" height="50" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="12.5" height="23.0705" fill="#111F4F"/>
@@ -205,6 +205,20 @@ export const pageQuery = graphql`
           }
           fields {
             slug
+          }
+        }
+      }
+    }
+    info: allMarkdownRemark(
+    filter: {fields: {slug: {regex: "/pages/"}}, fileAbsolutePath: {regex: "/info/"}}
+  ) {
+    edges {
+      node {
+          id
+          frontmatter {
+           email
+           models
+           instagram
           }
         }
       }
