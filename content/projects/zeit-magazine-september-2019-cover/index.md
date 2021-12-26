@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Zeit Magazine, September 2019 Cover
 description: Zeit Magazine, September 2019 Cover
 campaign_title: September 2019 Cover
