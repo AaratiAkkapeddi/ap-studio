@@ -23,6 +23,9 @@ collections:
           - {label: 'Profiles', name: 'profiles', widget: 'markdown'}
           - {label: 'Contact', name: 'contact', widget: 'markdown'}
           - {label: 'Locations', name: 'location', widget: 'markdown'}
+          - {label: 'general inquiries email', name: 'email', widget: 'string'}
+          - {label: 'instagram link', name: 'instagram', widget: 'string'}
+          - {label: 'models.com link', name: 'models', widget: 'string'}
       - label: "Homepage"
         name: "home"
         file: "content/pages/homepage.md"
