@@ -13,6 +13,10 @@ media:
     mediaVideo: https://ucarecdn.com/0a7ae7ae-d6a4-4add-b702-0a137a3676b0/
 clients:
   - client: Fendi
-artists: []
+artists:
+  - artist: Alister Mackie
+  - artist: Marcel Wepper
+locations:
+  - location: Paris
 date: 2021-12-29T01:57:17.617Z
 ---
