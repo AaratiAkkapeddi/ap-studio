@@ -15,5 +15,6 @@ clients:
   - client: Estée Lauder
 artists:
   - artist: Filfury
+  - artist: Karla Welch
 date: 2021-12-29T03:50:28.690Z
 ---
