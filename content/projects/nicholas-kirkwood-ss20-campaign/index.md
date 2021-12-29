@@ -10,7 +10,8 @@ release_date: 2021-12-29T04:36:55.434Z
 release_date_public: 12/28/2021
 media:
   - size: landscape
-clients: []
+clients:
+  - client: Nicholas Kirkwood
 artists:
   - artist: Ruth Hogben
   - artist: Max Ortega
