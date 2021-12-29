@@ -15,5 +15,6 @@ clients:
   - client: YSL Beauty
 artists:
   - artist: Amy Troost
+  - artist: Sydney Rose Thomas
 date: 2021-12-29T04:01:11.530Z
 ---
