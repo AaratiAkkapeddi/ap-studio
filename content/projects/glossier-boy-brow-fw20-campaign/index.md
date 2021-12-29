@@ -18,5 +18,6 @@ artists:
   - artist: Marie Suter
 locations:
   - location: New York
+  - location: London
 date: 2021-12-29T04:24:16.214Z
 ---
