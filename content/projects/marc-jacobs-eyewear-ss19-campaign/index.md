@@ -10,6 +10,7 @@ release_date: 2021-12-29T04:44:34.338Z
 release_date_public: 12/28/2021
 media:
   - size: landscape
+    mediaVideo: https://ucarecdn.com/896ba9a6-bc4a-4503-b8b1-f33bfb9f5032/
 clients:
   - client: Marc Jacobs Eyewear
 artists:
