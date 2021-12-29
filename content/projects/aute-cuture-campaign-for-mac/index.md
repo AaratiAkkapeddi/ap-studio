@@ -5,7 +5,7 @@ description: Aute Cuture Campaign for MAC
 campaign_title: Aute Cuture Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/2efb6bfd-0eb8-4fde-97f4-7c7abc43cffc/
+  video: https://ucarecdn.com/ebf57dce-a5e8-4d6e-b60f-b233173210bc/
 release_date: 2021-12-29T00:46:55.644Z
 release_date_public: 12/28/2021
 media:
