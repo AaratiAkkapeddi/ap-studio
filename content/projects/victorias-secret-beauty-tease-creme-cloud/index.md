@@ -22,8 +22,9 @@ media:
   - size: landscape
     media: https://ucarecdn.com/65499326-926e-423a-81e5-170a1dfeede2/
 clients:
-  - client: Victoria's Secret
+  - client: Victoria's Secret Beauty
 artists:
+  - artist: Mario Sorrenti
   - artist: Alex White
 locations:
   - location: Los Angeles
