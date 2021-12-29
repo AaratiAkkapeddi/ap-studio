@@ -16,6 +16,7 @@ media:
 clients:
   - client: MAC
 artists:
+  - artist: Jora Frantzis
   - artist: Gabriella Karefa-Johnson
 date: 2021-12-29T00:46:55.656Z
 ---
