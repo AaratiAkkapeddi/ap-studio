@@ -40,12 +40,12 @@ const Footer = ({ data }) => {
 	      	<a href="/">NEWSLETTER</a>
 	      </div>
 	      <div>
-	      	<a href={`${data.info?.edges[0].node.frontmatter.instagram}`}>INSTAGRAM</a><br/>
-	      	<a href={`${data.info?.edges[0].node.frontmatter.models}`}>MODELS.COM</a>
+	      	<a href={`${data?.info?.edges[0].node.frontmatter.instagram}`}>INSTAGRAM</a><br/>
+	      	<a href={`${data?.info?.edges[0].node.frontmatter.models}`}>MODELS.COM</a>
 	      </div>
 	      <div>
-	      	<a href={`mailto:${data.info?.edges[0].node.frontmatter.email}`}>GENERAL INQUIRIES</a><br/>
-	      	<a href={`mailto:${data.info?.edges[0].node.frontmatter.email}`}>{data.info?.edges[0].node.frontmatter.email}</a>
+	      	<a href={`mailto:${data?.info?.edges[0].node.frontmatter.email}`}>GENERAL INQUIRIES</a><br/>
+	      	<a href={`mailto:${data?.info?.edges[0].node.frontmatter.email}`}>{data?.info?.edges[0].node.frontmatter.email}</a>
 	      </div>
 	      <div>
 	      	<a href="/cookiepolicy">COOKIES & DATA<br/>
