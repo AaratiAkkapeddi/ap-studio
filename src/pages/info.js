@@ -9,7 +9,7 @@ import Map from "../components/map"
 
 const Info = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-
+  let locations = data.locations.edges
   return (
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />   
@@ -22,7 +22,17 @@ const Info = ({ data, location }) => {
           <h1>Location</h1>
           <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.location}</ReactMarkdown></h1>
         </div>
-        <Map latitude={42} longitude={79}/>
+        {locations.map((location, index) => {
+              return (
+                <div className="blog-row" key={index}>
+                  <div><ReactMarkdown>{location.node.frontmatter.name}</ReactMarkdown></div>
+
+                  <Map latitude={parseFloat(location.node.frontmatter.latitude)} longitude={parseFloat(location.node.frontmatter.longitude)}/>
+                  <div><ReactMarkdown>{location.node.frontmatter.address}</ReactMarkdown></div>
+                </div>
+              )
+            })}
+        
         <div className="info-row">
           <h1>Profiles</h1>
           <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles}</ReactMarkdown></h1>
@@ -61,13 +71,16 @@ export const pageQuery = graphql`
       }
     }
     locations: allMarkdownRemark(
-    filter: {fields: {slug: {regex: "/locations/"}}, fileAbsolutePath: {regex: "/locations/"}}
+    filter: {fields: {slug: {regex: "/location/"}}}
   ) {
     edges {
       node {
           id
           frontmatter {
            name
+           address
+           longitude
+           latitude
           }
         }
       }
