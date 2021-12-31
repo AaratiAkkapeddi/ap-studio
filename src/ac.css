@@ -37,6 +37,12 @@
 .selected-artists a, .selected-clients a{
 	text-decoration: none;
 }
+.selected-artists .more-info, .selected-clients .more-info{
+	text-decoration: underline;
+	font-family: var(--font-body);
+  	font-size: var(--fontSize-1);
+  	font-weight: normal;
+}
 .text-column .client-project:hover .media-item, .text-column .client-project:hover .hover-img, .artists-clients.text-column li:hover .hover-img, .artists-clients.text-column li:hover .hover-img .media-item{
 	opacity:1;
 	display: block;

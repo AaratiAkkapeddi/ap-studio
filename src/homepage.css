@@ -12,6 +12,7 @@
   mix-blend-mode: difference;
   margin:var(--spacing-4) auto;
   max-width:var(--maxWidth-wrapper);
+  color:white;
 }
 .flickity-page-dots, .flickity-button{
   display: none;

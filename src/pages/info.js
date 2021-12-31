@@ -4,18 +4,11 @@ import Layout from "../components/layout"
 import Thumb from "../components/thumb"
 import Seo from "../components/seo"
 import ReactMarkdown from 'react-markdown'
-import Flickity from 'react-flickity-component'
 import Media from "../components/media"
-
-const flickityOptions = {
-    groupCells: true,
-    autoPlay: true,
-    wrapAround: true
-}
+import Map from "../components/map"
 
 const Info = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-
 
   return (
     <Layout data={data} location={location} title={siteTitle}>
@@ -29,6 +22,7 @@ const Info = ({ data, location }) => {
           <h1>Location</h1>
           <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.location}</ReactMarkdown></h1>
         </div>
+        <Map latitude={42} longitude={79}/>
         <div className="info-row">
           <h1>Profiles</h1>
           <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles}</ReactMarkdown></h1>
@@ -62,6 +56,18 @@ export const pageQuery = graphql`
            profiles
            contact
            location
+          }
+        }
+      }
+    }
+    locations: allMarkdownRemark(
+    filter: {fields: {slug: {regex: "/locations/"}}, fileAbsolutePath: {regex: "/locations/"}}
+  ) {
+    edges {
+      node {
+          id
+          frontmatter {
+           name
           }
         }
       }
