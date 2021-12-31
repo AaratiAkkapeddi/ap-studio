@@ -22,17 +22,26 @@ const Info = ({ data, location }) => {
           <h1>Location</h1>
           <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.location}</ReactMarkdown></h1>
         </div>
+        <div className="maps-wrapper">
         {locations.map((location, index) => {
               return (
-                <div className="blog-row" key={index}>
-                  <div><ReactMarkdown>{location.node.frontmatter.name}</ReactMarkdown></div>
+                <>
+                {(index % 2 == 0 && index == locations.length - 1) &&
+                  <div className="map-wrapper" key={index}>
+                  </div>
+                }
+                <div className="map-wrapper" key={index}>
+                  <h1><ReactMarkdown>{location.node.frontmatter.name}</ReactMarkdown></h1>
 
                   <Map latitude={parseFloat(location.node.frontmatter.latitude)} longitude={parseFloat(location.node.frontmatter.longitude)}/>
-                  <div><ReactMarkdown>{location.node.frontmatter.address}</ReactMarkdown></div>
+                  <h1><ReactMarkdown>{location.node.frontmatter.address}</ReactMarkdown></h1>
                 </div>
+  
+                
+                </>
               )
             })}
-        
+        </div>
         <div className="info-row">
           <h1>Profiles</h1>
           <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles}</ReactMarkdown></h1>
