@@ -42,6 +42,12 @@ const ArtistTemplate = ({ data, location }) => {
         }
 
  })
+ let mobile = false;
+ if(typeof window != `undefined`){
+    if(window.outerWidth <= 768){
+      mobile = true;
+    }
+  }
   function imageColumn(){
     document.querySelector(".project-media-container").classList.remove("text-column")
     document.querySelector(".project-media-container").classList.add("client-three-image-column")
@@ -77,7 +83,7 @@ const ArtistTemplate = ({ data, location }) => {
             </svg>
           </p>
         </header>
-        <div className={`text-column project-media-container client-media-container`}>
+        <div className={`${mobile ? 'client-three-image-column ' : 'text-column '} project-media-container client-media-container`}>
         {artistProjectDivs}
         </div>
           <div className="project-footer">

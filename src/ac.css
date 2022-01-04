@@ -177,3 +177,59 @@
 	left: -2rem;
 	height:0;
 }
+@media (max-width: 42rem) {
+	.artists-clients{
+		flex-direction: column;
+	}
+	.selected-clients, .selected-artists{
+		margin-bottom:var(--spacing-8);
+	}
+	.selected-clients ol, .selected-artists ol{
+		padding:0;
+	}
+	.ac-page .selected-clients ol,.ac-page .selected-artists ol{
+		padding-left:15%;
+	}
+	.ac-page .selected-clients h1,.ac-page .selected-artists h1{
+		margin-bottom:var(--spacing-4);
+	}
+	.letter-label{
+	    font-size:var(--fontSize-6);
+		font-family: var(--font-heading);
+		left: -2.5rem;
+	}
+	.ac-page .selected-clients, .ac-page .selected-artists{
+		flex-direction: column;
+	}
+	.selected-clients li a, .selected-artists li a{
+		font-size:var(--fontSize-6);
+		font-family: var(--font-heading);
+	}
+	.artists-clients .more-info{
+		left:0;
+		right:auto;
+	}
+	.text-column.project-media-container.client-media-container{
+		top:0;
+	}
+	.client-three-image-column a{
+		width: 50%;
+		text-decoration: none;
+	}
+	.client-three-image-column a.portrait{
+		width: 50%;
+	}
+	.client-three-image-column a.landscape,.client-three-image-column a.square{
+		width: 100%;
+	}
+	.client-three-image-column a .client-project-list{
+		opacity: 1;
+		display: block;
+		position: relative;
+		color:var(--color-text);
+		height:auto;
+		width:auto;
+		background: transparent;
+		text-decoration: none;
+	}
+}

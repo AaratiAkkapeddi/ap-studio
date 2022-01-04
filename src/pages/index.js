@@ -65,11 +65,31 @@ const HomeIndex = ({ data, location }) => {
     }
   }
 
-
+function mobileClose(){
+    let headers = document.querySelectorAll('.site-header');
+    for (var i = headers.length - 1; i >= 0; i--) {
+      headers[i].classList.remove("open")
+    }
+  }
+  function mobileOpen(){
+    let headers = document.querySelectorAll('.site-header');
+    for (var i = headers.length - 1; i >= 0; i--) {
+      headers[i].classList.add("open")
+    }
+  }
   return (
     <div id='homepage-wrapper'>
+    <div className="mobile-menu">
+      <a></a>
+      <h1 onClick={mobileOpen} className="mobile-trigger">Menu</h1>
+    </div>
     <div className="site-header">
-        <a style={{"opacity":"0"}} href="/">AP Studio, Inc</a>
+        <a href="/">AP Studio, Inc</a>
+        <svg className="mobile-close" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="26.9393" y1="26.0607" x2="1.93934" y2="1.06066" stroke="white" stroke-width="3"/>
+        <line y1="-1.5" x2="35.3553" y2="-1.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 25)" stroke="white" stroke-width="3"/>
+        </svg>
+
         <nav style={{"marginTop":"2rem"},{"color": "white"}}>
            <ul>
               <li><a href="/projects">Projects</a></li>

@@ -29,3 +29,16 @@
 .post-title{
 	margin-bottom: var(--spacing-4);
 }
+@media(max-width: 42rem){
+	.blog-row{
+		flex-direction: column;
+	}
+	.blog-row > *:last-child{
+		flex-basis: 100%;
+		padding-left:0;
+		margin-top:var(--spacing-4);
+	}
+	.blog-row > *:last-child > *{
+		max-width: 100%;
+	}
+}

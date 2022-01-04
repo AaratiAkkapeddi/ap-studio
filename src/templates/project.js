@@ -17,15 +17,32 @@ const ProjectTemplate = ({ data, location }) => {
   }else if(project.frontmatter.media?.length <= 4){
     projectDefaultColumns = "one-column"
   }
-
-  
+  if(typeof window != `undefined`){
+    if(window.outerWidth <= 768){
+      projectDefaultColumns = "one-column"
+    }
+  }
+   function fullColumn(){
+    document.querySelector(".project-media-container").classList.remove("two-column")
+    document.querySelector(".project-media-container").classList.remove("three-column")
+    document.querySelector(".project-media-container").classList.remove("one-column")
+    document.querySelector(".project-media-container").classList.add("full-column")
+    document.querySelector("#three").classList.remove("on")
+    document.querySelector("#two").classList.remove("on")
+    document.querySelector("#one").classList.add("on")
+    document.querySelector("#one-mobile").classList.remove("on")
+    document.querySelector("#full-mobile").classList.add("on")
+  }
   function oneColumn(){
+    document.querySelector(".project-media-container").classList.remove("full-column")
     document.querySelector(".project-media-container").classList.remove("two-column")
     document.querySelector(".project-media-container").classList.remove("three-column")
     document.querySelector(".project-media-container").classList.add("one-column")
     document.querySelector("#three").classList.remove("on")
     document.querySelector("#two").classList.remove("on")
     document.querySelector("#one").classList.add("on")
+    document.querySelector("#one-mobile").classList.add("on")
+    document.querySelector("#full-mobile").classList.remove("on")
   }
   function twoColumn(){
     document.querySelector(".project-media-container").classList.remove("one-column")
@@ -53,6 +70,15 @@ const ProjectTemplate = ({ data, location }) => {
         <header className="project-header">
           <h1><ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown></h1>
           <ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown>
+          <p id="mobile-layout-toggle">
+            <svg onClick={oneColumn} className={`${projectDefaultColumns == "one-column" ? 'on' : ''}`} id='one-mobile' width="25" height="25" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">            <rect width="23" height="11"/>
+            <rect x="7" y="14" width="9" height="11"/>
+            </svg>
+            <svg onClick={fullColumn} className={`${projectDefaultColumns == "full-column" ? 'on' : ''}`} id='full-mobile' width="25" height="25" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="23" height="11" />
+            <rect y="14" width="23" height="11" />
+            </svg>
+          </p>
           <p id="layout-toggle">
             <svg onClick={threeColumn} className={`${projectDefaultColumns == "three-column" ? 'on' : ''}`} id='three' width="47" height="48" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="34" width="13" height="48" />
