@@ -73,7 +73,7 @@ const ArtistIndex = ({ data, location }) => {
 				      }
 				    }
 				  }
-				  console.log(featuredProjects[0])
+	
               return (
                 <li key={index}>
                   {drawLetterLabel &&
@@ -92,48 +92,6 @@ const ArtistIndex = ({ data, location }) => {
                       
                   </a>
 
-                </li>
-              )
-            })}
-          </ol>
-        </div>
-        <div className="selected-artists">
-          <h1 id='small-artist-header'>Artists</h1>
-          <ol style={{ listStyle: `none` }}>
-              {artists.map((artist,index) => {
-              	let featuredProjects = []
-              	let title = artist.node.frontmatter.name
-                let firstLetter = title[0] 
-                let drawLetterLabel = false
-                if(firstLetter !== letterA){
-                  letterA = firstLetter
-                  drawLetterLabel = true
-                }
-				 for (var x = projects.length - 1; x >= 0; x--) {
-				    for (var i = projects[x].node.frontmatter.artists?.length - 1; i >= 0; i--) {
-				      if(projects[x].node.frontmatter.artists[i].artist == artist.node.frontmatter.title){
-				        featuredProjects.push(projects[x].node)
-				      }
-				    }
-				  }
-        
-
-              return (
-                <li key={index}>
-                 {drawLetterLabel &&
-                    <div className="letter-label">{firstLetter}</div>
-                  }
-                  <a href={artist.node.fields.slug}>
-                   {
-                      featuredProjects[0]?.frontmatter?.thumb?.image &&
-                      <div className="hover">
-                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
-                      <div className="hover-txt"><ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
-                      </div>
-                    }
-                    {title}
-                   
-                  </a>
                 </li>
               )
             })}

@@ -127,3 +127,32 @@
 .film-item img, .film-item video{
   width:100%;
 }
+
+@media (max-width: 42rem) {
+    .film-item{
+      width:calc(50% - var(--spacing-2));
+      height:auto;
+      margin: var(--spacing-1);
+    }
+    .film-item.square, .film-item.landscape{
+      width:calc(100% - var(--spacing-2));
+    }
+    .mini-overview{
+      width:calc(100% - var(--spacing-2));
+      min-height:50vw;
+      margin: var(--spacing-1);
+    }
+    .mini-overview:last-child{
+      width: calc(100% - var(--spacing-2));
+      height: auto;
+      min-height:5vh;
+    }
+    .more-info{
+      left:auto;
+      right:0;
+    }
+    #image-toggle, #text-toggle{
+      display: none;
+    }
+
+}
