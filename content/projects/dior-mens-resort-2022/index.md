@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Dior, Men's Resort 2022
 description: Dior, Men's Resort 2022
 campaign_title: Men's Resort 2022
