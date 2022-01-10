@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Zara, FW20 Series
 description: Zara, FW20 Series
 campaign_title: FW20 Series
