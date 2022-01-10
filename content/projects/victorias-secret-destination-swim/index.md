@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Victoria's Secret, Destination: Swim"
 description: "Victoria's Secret, Destination: Swim"
 campaign_title: "Destination: Swim"
