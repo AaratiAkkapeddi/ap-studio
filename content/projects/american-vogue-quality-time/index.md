@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: American Vogue, Quality Time
 description: American Vogue, Quality Time
 campaign_title: Quality Time
