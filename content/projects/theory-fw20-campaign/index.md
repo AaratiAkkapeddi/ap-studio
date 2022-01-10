@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Theory, FW20 Campaign
 description: Theory, FW20 Campaign
 campaign_title: FW20 Campaign
