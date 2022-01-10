@@ -100,6 +100,18 @@ function mobileClose(){
            </ul>
         </nav>
       </div>
+      <h1 className="overlay-title mobile">
+        <span>AP Studio, Inc </span><br/>
+        <span>AP Studio, Paris </span><br/>
+        <span>AP Studio, New York </span><br/>
+        <span>AP Studio, Inc </span><br/>
+        <span>AP Studio, Paris </span><br/>
+        <span>AP Studio, New York </span><br/>
+        <span>AP Studio, Inc </span><br/>
+        <span>AP Studio, Paris </span><br/>
+        <span>AP Studio, New York </span><br/>
+        <span>AP Studio, Los Angeles</span><br/>
+      </h1>
     <h1 className="overlay-title">
        <span>AP Studio Inc.</span><span>AP Studio Inc., Paris</span><span>AP Studio Inc., New York</span></h1>
     <Flickity
