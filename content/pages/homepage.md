@@ -1,10 +1,8 @@
 ---
 title: test homepage
-intro: Donec id elit non mi porta gravida at eget metus. Integer posuere erat a
-  ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet,
-  consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat
-  porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur
-  purus sit amet fermentum.
+intro: AP Studio, Inc is an integrated creative production studio. offering
+  full-service production, including art buying and casting, for editorial and
+  commercial shoots of all sizes.
 projects:
   - project: American Vogue, December 2019 Cover
   - project: American Vogue, April 2020 Cover
