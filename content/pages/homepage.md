@@ -60,4 +60,15 @@ artists:
   - artist: Camilla Nickerson
   - artist: Carlos Nazario
   - artist: Dara
+  - artist: Elin Svahn
+  - artist: Ellie Grace Cumming
+  - artist: Ferdinando Verderi
+  - artist: Filfury
+  - artist: Gabriella Karefa-Johnson
+  - artist: Grace Ahlbom
+  - artist: Hannah Moon
+  - artist: Hannes Hetta
+  - artist: Jake Jones
+  - artist: Jay Massacret
+  - artist: Jora Frantzis
 ---
