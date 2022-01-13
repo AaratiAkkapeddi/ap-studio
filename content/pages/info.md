@@ -6,12 +6,17 @@ about: AP Studio, Inc is an integrated creative production studio offering
   clients and creatives in navigating the artistic and production landscape – we
   can handle everything from initial concept to post-production and final
   delivery.
-profiles: "[Instagram](instagram.com)[Models.com](models.com)"
+profiles: |-
+  [Instagram](instagram.com)
+
+  [Models.com](models.com)
 contact: |-
   Alexis Piqueras, Director 
+
   alexis@apstudio-inc.com 
 
   General Inquiries 
+
   studio@apstudio-inc.com
 location: We are an agile, flexible company with offices in PARIS, NEW YORK, and
   LOS ANGELES and a global network of partners. We are inspired by the artists
