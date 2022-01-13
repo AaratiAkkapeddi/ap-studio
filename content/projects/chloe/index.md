@@ -35,7 +35,7 @@ media:
     size: portrait
   - media: ""
     media_name: image
-    size: portrait
+    size: landscape
     mediaVideo: https://ucarecdn.com/be21c425-c36e-490a-8d47-c1d312333423/
 clients:
   - client: Chloe
