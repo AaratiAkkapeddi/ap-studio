@@ -13,11 +13,24 @@
 #small-artist-header, #small-client-header{
 	flex-basis: 20%;
 }
+.ac-spacer h1{
+	position: fixed;
+}
 .image-column .hover-txt{
 	display: none;
 }
 .hover-img img{
 	max-width: 100%;
+}
+.client-project-list{
+  font-family: var(--font-heading);
+  font-size: var(--fontSize-6);
+  letter-spacing: -0.05em;
+  margin:0;
+  line-height: var(--lineHeight-none);
+}
+.client-project-list a{
+	text-decoration: none;
 }
 .image-column .hover{
 	pointer-events: auto;
@@ -30,6 +43,9 @@
 .image-column .hover-img > div{
 	width:100%;
 	float:none;
+}
+.client-project{
+	text-decoration: none;
 }
 .text-column .client-project:hover .hover-img, .selected-artists li:hover .hover-img, .selected-clients li:hover .hover-img, .selected-artists li:hover .hover-txt, .selected-clients li:hover .hover-txt {
 	opacity: 1;
@@ -133,7 +149,7 @@
 	position: fixed;
 	top: 50%;
 	left: 50%;
-	transform: translate(-75%, -50%);
+	transform: translate(-55%, -50%);
 }
 .artists-clients .hover-txt{
 	position: fixed;
@@ -160,7 +176,7 @@
 	float: right;
 }
 .text-column.project-media-container.client-media-container{
-	top: -84px;
+	top: 5px;
     position: relative;
     width: 50%;
     left: 20%;
@@ -176,6 +192,9 @@
 	position:relative;
 	left: -2rem;
 	height:0;
+}
+.ac-page.artists-clients{
+	margin-top:0;
 }
 @media (max-width: 42rem) {
 	.artists-clients{

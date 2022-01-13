@@ -43,12 +43,12 @@ const Info = ({ data, location }) => {
             })}
         </div>
         <div className="info-row">
-          <h1>Profiles</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles}</ReactMarkdown></h1>
-        </div>
-        <div className="info-row">
           <h1>Contact</h1>
           <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.contact}</ReactMarkdown></h1>
+        </div>
+        <div className="info-row">
+          <h1>Platforms</h1>
+          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles}</ReactMarkdown></h1>
         </div>
       </div>
     </Layout>

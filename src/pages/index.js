@@ -1,4 +1,5 @@
 import * as React from "react"
+import {useState, useEffect} from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Thumb from "../components/thumb"
@@ -13,25 +14,64 @@ const flickityOptions = {
 }
 
 const HomeIndex = ({ data, location }) => {
+  useEffect(()=>{
+    if(typeof document != `undefined` && typeof window != `undefined`){
+    document.querySelector("#homepage-wrapper").addEventListener('scroll', function(e) { 
+        let currScroll = document.querySelector("#homepage-wrapper").scrollTop
+        let scrollDir = 1;
+        if(lastScrollTop > currScroll){
+          scrollDir = -1;
+        }
+        lastScrollTop = currScroll;
+        let vh = window.innerHeight
+        let el = document.querySelector(".site-header")
+
+        if(currScroll > vh){
+          
+          if(el.classList.contains("white")){
+            el.classList.remove("white")
+          }
+        }else{
+          if(!el.classList.contains("white")){
+            el.classList.add("white")
+          }
+        }
+       
+
+     }
+
+    );
+  }
+    
+  },[]);
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const homepage = data.homepage.edges[0].node.frontmatter
-  const projects = data.projects.edges
+  const unfilteredProjects = data.projects.edges
+  const projects = []
   const clients = data.clients.edges
   const artists = data.artists.edges
+  
+
 
   let featuredProjects = [];
   let featuredClients = [];
   let featuredArtists = [];
   /*create array of featured projects by matching the title from all projects to the ones specified under the homepage*/
-  for (var x = projects.length - 1; x >= 0; x--) {
+  for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
     for (var i = homepage.projects.length - 1; i >= 0; i--) {
-      if(projects[x].node.frontmatter.title == homepage.projects[i].project){
-        if(!projects[x].node.frontmatter.draft){
-          featuredProjects.push(projects[x].node)
+      if(unfilteredProjects[x].node.frontmatter.title == homepage.projects[i].project){
+        if(!unfilteredProjects[x].node.frontmatter.draft){
+          featuredProjects.push(unfilteredProjects[x])
         }
       }
     }
   }
+  for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
+      if(!unfilteredProjects[x].node.frontmatter.draft){
+        projects.unshift(unfilteredProjects[x])
+      }
+  }
+
   /*create array of featured clients by matching the title from all clients to the ones specified under the homepage*/
   for (var x = clients.length - 1; x >= 0; x--) {
     for (var i = homepage.clients.length - 1; i >= 0; i--) {
@@ -64,6 +104,9 @@ const HomeIndex = ({ data, location }) => {
       
     }
   }
+  let lastScrollTop = 0;
+
+
 
 function mobileClose(){
     let headers = document.querySelectorAll('.site-header');
@@ -79,51 +122,75 @@ function mobileClose(){
   }
   return (
     <div id='homepage-wrapper'>
+    <div className="child"> 
     <div className="mobile-menu">
       <a></a>
       <h1 onClick={mobileOpen} className="mobile-trigger">Menu</h1>
     </div>
-    <div className="site-header">
-        <a href="/">AP Studio, Inc</a>
-        <svg className="mobile-close" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="26.9393" y1="26.0607" x2="1.93934" y2="1.06066" stroke="white" stroke-width="3"/>
-        <line y1="-1.5" x2="35.3553" y2="-1.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 25)" stroke="white" stroke-width="3"/>
-        </svg>
-
-        <nav style={{"marginTop":"2rem"},{"color": "white"}}>
-           <ul>
-              <li><a href="/projects">Projects</a></li>
-              <li><a href="/artists&clients">Clients</a></li>
-              <li><a href="/artists&clients">Artists</a></li>
-              <li><a href="/blog">News</a></li>
-              <li><a href="/info">Info</a></li>
-           </ul>
-        </nav>
-      </div>
+ 
       <h1 className="overlay-title mobile">
-        <span>AP Studio, Inc </span><br/>
-        <span>AP Studio, Paris </span><br/>
-        <span>AP Studio, New York </span><br/>
-        <span>AP Studio, Inc </span><br/>
-        <span>AP Studio, Paris </span><br/>
-        <span>AP Studio, New York </span><br/>
-        <span>AP Studio, Inc </span><br/>
-        <span>AP Studio, Paris </span><br/>
-        <span>AP Studio, New York </span><br/>
-        <span>AP Studio, Los Angeles</span><br/>
+        <div className="overlay-inner">
+          <span>AP Studio, Inc  </span><br/>
+          <span>AP Studio, Paris  </span><br/>
+          <span>AP Studio, New York </span><br/>
+          <span>AP Studio, Los Angeles </span><br/>
+          <span>AP Studio, Inc  </span><br/>
+          <span>AP Studio, Paris  </span><br/>
+          <span>AP Studio, New York </span><br/>
+          <span>AP Studio, Los Angeles </span><br/>
+          <span>AP Studio, Inc  </span><br/>
+          <span>AP Studio, Paris  </span><br/>
+          <span>AP Studio, New York </span><br/>
+          <span>AP Studio, Los Angeles </span><br/>
+          <span>AP Studio, Inc  </span><br/>
+          <span>AP Studio, Paris  </span><br/>
+          <span>AP Studio, New York </span><br/>
+          <span>AP Studio, Los Angeles </span><br/>
+          <span>AP Studio, Inc  </span><br/>
+          <span>AP Studio, Paris  </span><br/>
+          <span>AP Studio, New York </span><br/>
+          <span>AP Studio, Los Angeles </span><br/>
+          <span>AP Studio, Inc  </span><br/>
+          <span>AP Studio, Paris  </span><br/>
+          <span>AP Studio, New York </span><br/>
+          <span>AP Studio, Los Angeles </span><br/>
+        </div>
       </h1>
     <h1 className="overlay-title">
-       <span>AP Studio Inc.</span><span>AP Studio Inc., Paris</span><span>AP Studio Inc., New York</span></h1>
-    <Flickity
-      className={'carousel'} // default ''
-      elementType={'div'} // default 'div'
-      options={flickityOptions} // takes flickity options {}
-      disableImagesLoaded={false} // default false
-      reloadOnUpdate // default false
-      static // default false
-    >
-          {projects.map((project, index) => {
-            if(index < 5 && !project.node.frontmatter.draft){
+    <div className="overlay-inner">
+      <span>AP Studio, Inc  </span><br/>
+      <span>AP Studio, Paris  </span><br/>
+      <span>AP Studio, New York </span><br/>
+      <span>AP Studio, Los Angeles </span><br/>
+      <span>AP Studio, Inc  </span><br/>
+      <span>AP Studio, Paris  </span><br/>
+      <span>AP Studio, New York </span><br/>
+      <span>AP Studio, Los Angeles </span><br/>
+      <span>AP Studio, Inc  </span><br/>
+      <span>AP Studio, Paris  </span><br/>
+      <span>AP Studio, New York </span><br/>
+      <span>AP Studio, Los Angeles </span><br/>
+      <span>AP Studio, Inc  </span><br/>
+      <span>AP Studio, Paris  </span><br/>
+      <span>AP Studio, New York </span><br/>
+      <span>AP Studio, Los Angeles </span><br/>
+      <span>AP Studio, Inc  </span><br/>
+      <span>AP Studio, Paris  </span><br/>
+      <span>AP Studio, New York </span><br/>
+      <span>AP Studio, Los Angeles </span><br/>
+      <span>AP Studio, Inc  </span><br/>
+      <span>AP Studio, Paris  </span><br/>
+      <span>AP Studio, New York </span><br/>
+      <span>AP Studio, Los Angeles </span><br/>
+    </div>
+    </h1>
+   {featuredProjects.length > 10 ?
+    <div
+      className='carousel'>
+      <div className='inner'>
+          {featuredProjects.map((project, index) => {
+
+            if(index < 15 && !project.node.frontmatter.draft){
               const title = project.node.frontmatter.campaign_title
 
               return (
@@ -137,7 +204,48 @@ function mobileClose(){
 
             }
         })}
-    </Flickity>
+          <a className={`${featuredProjects[0].node.frontmatter.thumb?.size} carousel-slide`} key={-1} href={featuredProjects[0].node.fields.slug}>
+            <Thumb name={featuredProjects[0].node.frontmatter.thumb?.media_name} id={featuredProjects[0].node.frontmatter.thumb?.id} imageurl={featuredProjects[0].node.frontmatter.thumb?.image} videourl={featuredProjects[0].node.frontmatter.thumb?.video} />
+            <div className="slide-title"><h1><ReactMarkdown>{featuredProjects[0].node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+          </a>
+          <a className={`${featuredProjects[1].node.frontmatter.thumb?.size} carousel-slide`} key={-2} href={featuredProjects[1].node.fields.slug}>
+            <Thumb name={featuredProjects[1].node.frontmatter.thumb?.media_name} id={featuredProjects[1].node.frontmatter.thumb?.id} imageurl={featuredProjects[1].node.frontmatter.thumb?.image} videourl={featuredProjects[1].node.frontmatter.thumb?.video} />
+            <div className="slide-title"><h1><ReactMarkdown>{featuredProjects[1].node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+          </a>
+      </div>
+    </div>
+    :
+    <div
+      className='carousel'>
+      <div className='inner'>
+          {projects.map((project, index) => {
+
+            if(index < 15 && !project.node.frontmatter.draft){
+              const title = project.node.frontmatter.campaign_title
+
+              return (
+              
+                <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
+                  <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                  <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+                </a>
+     
+              )
+
+            }
+        })}
+          <a className={`${projects[0].node.frontmatter.thumb?.size} carousel-slide`} key={-1} href={projects[0].node.fields.slug}>
+            <Thumb name={projects[0].node.frontmatter.thumb?.media_name} id={projects[0].node.frontmatter.thumb?.id} imageurl={projects[0].node.frontmatter.thumb?.image} videourl={projects[0].node.frontmatter.thumb?.video} />
+            <div className="slide-title"><h1><ReactMarkdown>{projects[0].node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+          </a>
+          <a className={`${projects[1].node.frontmatter.thumb?.size} carousel-slide`} key={-2} href={projects[1].node.fields.slug}>
+            <Thumb name={projects[1].node.frontmatter.thumb?.media_name} id={projects[1].node.frontmatter.thumb?.id} imageurl={projects[1].node.frontmatter.thumb?.image} videourl={projects[1].node.frontmatter.thumb?.video} />
+            <div className="slide-title"><h1><ReactMarkdown>{projects[1].node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+          </a>
+      </div>
+    </div>
+  }
+  </div>
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
        <FilmStrip hpText={homepage.intro || ""} projects={projects}/>

@@ -80,18 +80,18 @@ const ProjectTemplate = ({ data, location }) => {
             </svg>
           </p>
           <p id="layout-toggle">
-            <svg onClick={threeColumn} className={`${projectDefaultColumns == "three-column" ? 'on' : ''}`} id='three' width="47" height="48" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg onClick={threeColumn} className={`${projectDefaultColumns == "three-column" ? 'on' : ''}`} id='three' width="40" height="40" viewBox="0 0 47 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="34" width="13" height="48" />
             <rect x="17" width="13" height="48" />
             <rect width="13" height="48" />
             </svg>
 
-            <svg onClick={twoColumn} className={`${projectDefaultColumns == "two-column" ? 'on' : ''}`} id='two' width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg onClick={twoColumn} className={`${projectDefaultColumns == "two-column" ? 'on' : ''}`} id='two' width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="22" height="48" />
             <rect x="26" width="22" height="48" />
             </svg>
 
-            <svg onClick={oneColumn} className={`${projectDefaultColumns == "one-column" ? 'on' : ''}`} id='one' width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg onClick={oneColumn} className={`${projectDefaultColumns == "one-column" ? 'on' : ''}`} id='one' width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="48" height="48" />
             </svg>
           </p>

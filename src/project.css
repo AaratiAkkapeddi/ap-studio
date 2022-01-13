@@ -5,6 +5,11 @@
 	max-width:var(--maxWidth-wrapper);
 	margin:var(--spacing-8) auto;
 }
+.project-header{
+	position: fixed;
+	margin:0;
+	left:calc((100vw - var(--maxWidth-wrapper) )/2);
+}
 .project-footer{
 	margin: var(--spacing-10) auto;
 	margin-top:var(--spacing-20);
@@ -17,7 +22,8 @@
 }
 #layout-toggle{
 	text-align: right;
-	max-width: var(--maxWidth-wrapper);
+	position: fixed;
+	right: calc((100vw - var(--maxWidth-wrapper))/2);
 }
 #layout-toggle svg {
 	cursor: pointer;

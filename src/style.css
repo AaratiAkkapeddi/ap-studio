@@ -4,6 +4,8 @@
   src:  url('fonts/ABCSocialCondensed-Bold.woff2') format('woff2'),
         url('fonts/ABCSocialCondensed-Bold.woff') format('woff');
 }
+@import url("https://use.typekit.net/gay4pxo.css");
+
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -88,6 +90,14 @@ h1,h2,h3,h4, nav, .site-header > a{
   margin:0;
   line-height: var(--lineHeight-none);
 }
+/*FRANKLIN GOTHIC*/
+.site-header > a{
+/*  letter-spacing: 0;*/
+/*  font-family: franklin-gothic-ext-comp-urw, sans-serif;
+  font-weight: 700;*/
+  font-style: normal;
+
+}
 
 a{
   color:inherit;
@@ -109,12 +119,16 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  line-height: 1.1;
 }
 /* HEADER */
 .site-header{
   display: flex;
   margin:0 auto;
-  position: relative;
+  position: fixed;
+  top:0;
+  left:calc((100vw - (var(--maxWidth-wrapper)))/2 );
+  width:100vw;
   z-index: 9;
   max-width:var(--maxWidth-wrapper);
   justify-content: space-between;
@@ -146,6 +160,7 @@ body {
   align-self: start;
   margin:var(--spacing-1);
 }
+
 /*FOOTER*/
 footer{
   margin:var(--spacing-4) auto;
@@ -156,8 +171,12 @@ footer{
 footer > *{
   flex-basis:25%;
 }
-footer > *:last-child{
-  text-align: right;
+footer > *:last-child a{
+  margin-left:10%;
+  display: inline-block;
+}
+#homepage-wrapper .selected-clients ol{
+  padding:0;
 }
 footer a{
   text-decoration: none;
@@ -174,7 +193,14 @@ footer a{
   overflow: hidden;
   display: flex;
   max-width:100%;
-  font-family: var(--font-heading);
+
+}
+.marquee h1{
+/*  letter-spacing: 0;
+  font-family: franklin-gothic-ext-comp-urw, sans-serif;
+  font-weight: 700;
+  font-style: normal;*/
+
 }
 main{
   min-height:75vh;
@@ -182,9 +208,12 @@ main{
 .site-header nav li.mobile-only{
     display: none;
    }
-#homepage-wrapper .site-header > a{
-      opacity: 0;
-   }
+  #homepage-wrapper .overlay-title span{
+/*    letter-spacing: 0;
+    font-family: franklin-gothic-ext-comp-urw, sans-serif;
+    font-weight: 700;
+    font-style: normal;*/
+  }
 /* Media queries */
 .mobile-close{
   display: none;
@@ -197,6 +226,12 @@ main{
 }
 .mobile-menu a{
   text-decoration: none;
+}
+#homepage-wrapper .site-header{
+  transition: 0.2s;
+}
+main{
+  margin-top:calc(2.488rem + var(--spacing-4));
 }
 @media (max-width: 42rem) {
   :root {
@@ -264,11 +299,15 @@ main{
 
   #homepage-wrapper .overlay-title{
     font-size:var(--fontSize-7);
+    
+    
   }
+
    /* SITE HEADER */
    .site-header.open{
     display: block;
    }
+
 
    .site-header{
       display: none;
@@ -379,7 +418,7 @@ main{
    .site-header nav li.desktop-only{
     display: none;
    }
-   
+  
    .site-header nav li.mobile-only{
     display: block;
    }

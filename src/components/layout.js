@@ -19,7 +19,7 @@ const Layout = ({ location, title, children, data }) => {
 
   });
   return (
-    <div className="global-wrapper loading" >
+    <div className="global-wrapper child loading" >
       <Header location={location}></Header>
       <main>{children}</main>
       <Footer data={data}></Footer>

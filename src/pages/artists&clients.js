@@ -39,7 +39,7 @@ const ArtistIndex = ({ data, location }) => {
       <Seo title="AP Studio | Home" />
       <header className="ac-header">
       <p id="layout-toggle">
-        <svg id="image-toggle" onClick={imageColumn} width="45" height="50" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="image-toggle" onClick={imageColumn} width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="12.5" height="23.0705" fill="#111F4F"/>
         <rect y="26.9294" width="12.5" height="23.0705" />
         <rect x="16.5" width="11.6667" height="23.0705" />
@@ -47,14 +47,14 @@ const ArtistIndex = ({ data, location }) => {
         <rect x="32.166" width="12.5" height="23.0705" />
         <rect x="32.166" y="26.9294" width="12.5" height="23.0705" />
         </svg>
-        <svg id="text-toggle" onClick={textColumn} className="on" width="40" height="50" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="text-toggle" onClick={textColumn} className="on" width="40" height="40" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M23.6042 50V6.71429H40V0H0V6.71429H16.3958V50H23.6042Z"/>
         </svg>
       </p>
       </header>
       <div className="artists-clients ac-page text-column">
         <div className="selected-clients">
-          <h1 id="small-client-header">Clients</h1>
+          <div id="small-client-header" className="ac-spacer"><h1>Clients</h1></div>
           <ol style={{ listStyle: `none` }}>
               {clients.map((client,index) => {
               	
@@ -98,7 +98,7 @@ const ArtistIndex = ({ data, location }) => {
           </ol>
         </div>
         <div className="selected-artists">
-          <h1 id='small-artist-header'>Artists</h1>
+          <div id='small-artist-header' className="ac-spacer"><h1>Artists</h1></div>
           <ol style={{ listStyle: `none` }}>
               {artists.map((artist,index) => {
               	let featuredProjects = []

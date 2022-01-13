@@ -12,12 +12,13 @@
 	justify-content: space-between;
 	max-width: var(--maxWidth-wrapper);
 	margin: var(--spacing-2) auto;
-	margin-top: var(--spacing-8);
+	margin-top:0;
 }
 .maps-wrapper{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
+	width:95.5%;
 }
 
 .map-wrapper{

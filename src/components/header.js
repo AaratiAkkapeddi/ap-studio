@@ -22,11 +22,11 @@ const Header = ({location}) => {
 		 	<a href="/"><h1>AP Studio, Inc</h1></a>
 			<h1 onClick={mobileOpen} className="mobile-trigger">Menu</h1>
 		</div>
-	    <div className="site-header">
+	    <div className={`${location.pathname == "/" ? "white ": ""}site-header`}>
 	      <a href="/">AP Studio, Inc</a>
 	      <svg onClick={mobileClose} className="mobile-close" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-			<line x1="26.9393" y1="26.0607" x2="1.93934" y2="1.06066" stroke="white" stroke-width="3"/>
-			<line y1="-1.5" x2="35.3553" y2="-1.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 25)" stroke="white" stroke-width="3"/>
+			<line x1="26.9393" y1="26.0607" x2="1.93934" y2="1.06066" stroke="white" strokeWidth="3"/>
+			<line y1="-1.5" x2="35.3553" y2="-1.5" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 0 25)" stroke="white" strokeWidth="3"/>
 			</svg>
 
 	      <nav>
