@@ -62,12 +62,13 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
-  --color-text: #111F4F;
+  --color-text: #1E253C;
   --color-text-light: rgba(17, 31, 79, 0.34);
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
 }
+
 
 /* HTML elements */
 
@@ -91,12 +92,20 @@ h1,h2,h3,h4, nav, .site-header > a{
   line-height: var(--lineHeight-none);
 }
 /*FRANKLIN GOTHIC*/
-.site-header > a{
+.site-header > a svg, svg.logo-svg{
 /*  letter-spacing: 0;*/
 /*  font-family: franklin-gothic-ext-comp-urw, sans-serif;
   font-weight: 700;*/
-  font-style: normal;
+  height:var(--fontSize-6);
 
+}
+svg.logo-svg path{
+   fill:var(--color-text);
+}
+svg.logo-svg .invert path{
+   fill:transparent;
+   stroke-width:8px;
+   stroke:var(--color-text);
 }
 
 a{

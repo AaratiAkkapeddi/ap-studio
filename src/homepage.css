@@ -20,6 +20,12 @@
   height: calc(100vh);
   overflow: hidden;
 }
+.overlay-title svg path{
+  fill:white;
+}
+.overlay-title svg{
+  height:1em;
+}
 .overlay-inner{
   height:auto;
   position: absolute;
@@ -89,12 +95,20 @@ padding-top:25px;
 .overlay-title.mobile{
   display: none;
 }
-.global-wrapper.loading::before{
+svg.logo-svg.los-angeles .invert path{
+  stroke-width:2px;
+}
+.before{
+  display: none;
+}
+.global-wrapper.loading .before svg path{
+  fill:white;
+}
+.global-wrapper.loading .before{
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  content: "AP Studio";
   color:white;
   font-family: var(--font-heading);
   font-size: var(--fontSize-6);
