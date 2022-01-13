@@ -138,7 +138,7 @@ function mobileClose(){
       <span>AP Studio, Inc  </span>
     </div>
     </h1>
-   {featuredProjects.length > 10 ?
+   {featuredProjects.length > 4 ?
     <div
       className='carousel'>
       <div className='inner'>
@@ -146,15 +146,26 @@ function mobileClose(){
 
             if(index < 15 && !project.node.frontmatter.draft){
               const title = project.node.frontmatter.campaign_title
-
-              return (
+              if(project.node.frontmatter.carouselthumb){
+                return (
+                
+                  <a className={`${project.node.frontmatter.carouselthumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
+                    <Thumb name={project.node.frontmatter.carouselthumb?.media_name} id={project.node.frontmatter.carouselthumb?.id} imageurl={project.node.frontmatter.carouselthumb?.image} videourl={project.node.frontmatter.carouselthumb?.video} />
+                    <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+                  </a>
+       
+                )
+              }else{
+                return (
               
-                <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
-                  <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-                  <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
-                </a>
-     
-              )
+                  <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
+                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                    <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+                  </a>
+       
+                )
+              }
+              
 
             }
         })}
@@ -177,14 +188,25 @@ function mobileClose(){
             if(index < 15 && !project.node.frontmatter.draft){
               const title = project.node.frontmatter.campaign_title
 
-              return (
+              if(project.node.frontmatter.carouselthumb){
+                return (
+                
+                  <a className={`${project.node.frontmatter.carouselthumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
+                    <Thumb name={project.node.frontmatter.carouselthumb?.media_name} id={project.node.frontmatter.carouselthumb?.id} imageurl={project.node.frontmatter.carouselthumb?.image} videourl={project.node.frontmatter.carouselthumb?.video} />
+                    <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+                  </a>
+       
+                )
+              }else{
+                return (
               
-                <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
-                  <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-                  <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
-                </a>
-     
-              )
+                  <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
+                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                    <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+                  </a>
+       
+                )
+              }
 
             }
         })}
@@ -275,7 +297,7 @@ export const pageQuery = graphql`
       }
     }
     projects: allMarkdownRemark(filter: 
-    {fields: {slug: {regex: "/projects/"}}}, sort: { fields: [frontmatter___date], order: ASC }) {
+    {fields: {slug: {regex: "/projects/"}}}, sort: { fields: [frontmatter___title], order: ASC }) {
     edges {
         node {
           id
@@ -288,6 +310,12 @@ export const pageQuery = graphql`
             }
             campaign_title
             thumb {
+              image
+              video
+              media_name
+              size
+            }
+            carouselthumb {
               image
               video
               media_name

@@ -172,15 +172,17 @@ padding-top:25px;
   animation-name: carouselSlideHorizontal;
   animation-duration: 100s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .carousel-slide{
-   width:50vw;
+   width:auto;
    height:100vh;
    position: relative;
    overflow-y: hidden;
 }
 .carousel-slide.landscape, .carousel-slide.square{
-   flex-basis: 100vw;
+   height:100vh;
+   width: auto;
 }
 .carousel-slide .slide-title{
   width:100%;
@@ -193,7 +195,8 @@ padding-top:25px;
   opacity: 0;
 }
 .carousel-slide img{
-  width:100%;
+  width:auto;
+  height: 100vh;
 }
 .carousel-slide video{
   width:100%;
