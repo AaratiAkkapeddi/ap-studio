@@ -6,6 +6,10 @@ campaign_title: April 2020 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/774e0eb6-84fb-4cef-a1ad-dc5f2ba8a2d2/
+carouselthumb:
+  image: https://ucarecdn.com/de4ad9b3-aa9a-410b-84a7-363318eaf477/
+  size: landscape
+  media_name: four women standing
 release_date: 2021-12-18T18:58:50.534Z
 release_date_public: 12/18/2021
 media:
