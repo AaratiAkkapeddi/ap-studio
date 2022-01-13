@@ -134,7 +134,7 @@ collections:
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
-      - { label: 'Address', name: 'address', widget: 'markdown', required: true }
+      - { label: 'Address + Contact info', name: 'address', widget: 'markdown', required: true }
       - { label: 'Latitude (use negative for North)', name: 'latitude', widget: 'string', required: true }
       - { label: 'Longitude (use negative for West)', name: 'longitude', widget: 'string', required: true }
   - name: 'categories'

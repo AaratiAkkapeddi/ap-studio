@@ -26,15 +26,12 @@ const Info = ({ data, location }) => {
         {locations.map((location, index) => {
               return (
                 <>
-                {(index % 2 == 0 && index == locations.length - 1) &&
-                  <div className="map-wrapper" key={index}>
-                  </div>
-                }
-                <div className="map-wrapper" key={index}>
+               
+                <div id={`${location.node.frontmatter.name.split(" ").join("-") + "-map"}`}className="map-wrapper" key={index}>
                   <h1><ReactMarkdown>{location.node.frontmatter.name}</ReactMarkdown></h1>
 
                   <Map latitude={parseFloat(location.node.frontmatter.latitude)} longitude={parseFloat(location.node.frontmatter.longitude)}/>
-                  <h1><ReactMarkdown>{location.node.frontmatter.address}</ReactMarkdown></h1>
+                  <div><ReactMarkdown>{location.node.frontmatter.address}</ReactMarkdown></div>
                 </div>
   
                 
@@ -72,6 +69,9 @@ export const pageQuery = graphql`
           id
           frontmatter {
            about
+           email
+           instagram
+           models
            profiles
            contact
            location

@@ -26,9 +26,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  animation-name: overlaySlide;
-  animation-duration: 100s;
-  animation-iteration-count: infinite;
 }
 
 .flickity-page-dots, .flickity-button{
@@ -193,6 +190,7 @@ padding-top:25px;
   color:white;
   text-align: center;
   z-index: 1;
+  opacity: 0;
 }
 .carousel-slide img{
   width:100%;

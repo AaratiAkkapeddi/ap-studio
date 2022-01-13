@@ -25,7 +25,7 @@ const ClientPageTemplate = ({ data, location }) => {
   })
  let clientProjectDivs = clientProjects?.map((project, index) => {
         
-        console.log(project)
+
         if(project.frontmatter.thumb){
           return (
 
@@ -37,7 +37,7 @@ const ClientPageTemplate = ({ data, location }) => {
               
             <div className="hover">
             
-            <div className="hover-txt"><ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown></div>
+            <div className="hover-txt">{project.frontmatter.artists ? project.frontmatter.artists[0].artist + " " : ""}</div>
             </div>
                     
             </a>

@@ -16,13 +16,21 @@
 }
 .maps-wrapper{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: space-between;
-	width:95.5%;
+	width:100%;
 }
-
+#New-York-map{
+	order:1;
+}
+#Paris-map{
+	order:2;
+}
+#Los-Angeles-map{
+	order:3;
+}
 .map-wrapper{
-	width: calc(50% - var(--spacing-8));
+	width: calc(33% - var(--spacing-8));
 	margin-bottom:var(--spacing-20);
 	align-self: flex-start;
 }

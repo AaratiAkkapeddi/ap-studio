@@ -130,58 +130,12 @@ function mobileClose(){
  
       <h1 className="overlay-title mobile">
         <div className="overlay-inner">
-          <span>AP Studio, Inc  </span><br/>
-          <span>AP Studio, Paris  </span><br/>
-          <span>AP Studio, New York </span><br/>
-          <span>AP Studio, Los Angeles </span><br/>
-          <span>AP Studio, Inc  </span><br/>
-          <span>AP Studio, Paris  </span><br/>
-          <span>AP Studio, New York </span><br/>
-          <span>AP Studio, Los Angeles </span><br/>
-          <span>AP Studio, Inc  </span><br/>
-          <span>AP Studio, Paris  </span><br/>
-          <span>AP Studio, New York </span><br/>
-          <span>AP Studio, Los Angeles </span><br/>
-          <span>AP Studio, Inc  </span><br/>
-          <span>AP Studio, Paris  </span><br/>
-          <span>AP Studio, New York </span><br/>
-          <span>AP Studio, Los Angeles </span><br/>
-          <span>AP Studio, Inc  </span><br/>
-          <span>AP Studio, Paris  </span><br/>
-          <span>AP Studio, New York </span><br/>
-          <span>AP Studio, Los Angeles </span><br/>
-          <span>AP Studio, Inc  </span><br/>
-          <span>AP Studio, Paris  </span><br/>
-          <span>AP Studio, New York </span><br/>
-          <span>AP Studio, Los Angeles </span><br/>
+          <span>AP Studio, Inc  </span>
         </div>
       </h1>
     <h1 className="overlay-title">
     <div className="overlay-inner">
-      <span>AP Studio, Inc  </span><br/>
-      <span>AP Studio, Paris  </span><br/>
-      <span>AP Studio, New York </span><br/>
-      <span>AP Studio, Los Angeles </span><br/>
-      <span>AP Studio, Inc  </span><br/>
-      <span>AP Studio, Paris  </span><br/>
-      <span>AP Studio, New York </span><br/>
-      <span>AP Studio, Los Angeles </span><br/>
-      <span>AP Studio, Inc  </span><br/>
-      <span>AP Studio, Paris  </span><br/>
-      <span>AP Studio, New York </span><br/>
-      <span>AP Studio, Los Angeles </span><br/>
-      <span>AP Studio, Inc  </span><br/>
-      <span>AP Studio, Paris  </span><br/>
-      <span>AP Studio, New York </span><br/>
-      <span>AP Studio, Los Angeles </span><br/>
-      <span>AP Studio, Inc  </span><br/>
-      <span>AP Studio, Paris  </span><br/>
-      <span>AP Studio, New York </span><br/>
-      <span>AP Studio, Los Angeles </span><br/>
-      <span>AP Studio, Inc  </span><br/>
-      <span>AP Studio, Paris  </span><br/>
-      <span>AP Studio, New York </span><br/>
-      <span>AP Studio, Los Angeles </span><br/>
+      <span>AP Studio, Inc  </span>
     </div>
     </h1>
    {featuredProjects.length > 10 ?

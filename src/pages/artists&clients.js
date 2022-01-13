@@ -73,7 +73,7 @@ const ArtistIndex = ({ data, location }) => {
 				      }
 				    }
 				  }
-				  console.log(featuredProjects[0])
+
               return (
                 <li key={index}>
                   {drawLetterLabel &&
@@ -85,7 +85,7 @@ const ArtistIndex = ({ data, location }) => {
                       featuredProjects[0]?.frontmatter?.thumb?.image &&
                       <div className="hover">
                       <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
-                      <div className="hover-txt"><ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
+                      <div className="hover-txt">{featuredProjects[0]?.frontmatter.artists ? featuredProjects[0]?.frontmatter.artists[0].artist + ", " : ""}<ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
                       </div>
                     }
                     {title}
@@ -128,7 +128,7 @@ const ArtistIndex = ({ data, location }) => {
                       featuredProjects[0]?.frontmatter?.thumb?.image &&
                       <div className="hover">
                       <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
-                      <div className="hover-txt"><ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
+                      <div className="hover-txt">{featuredProjects[0]?.frontmatter.clients ? featuredProjects[0]?.frontmatter.clients[0].client + ", " : ""}<ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
                       </div>
                     }
                     {title}

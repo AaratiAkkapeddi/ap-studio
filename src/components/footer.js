@@ -34,7 +34,7 @@ const Footer = ({ data }) => {
 	}
 	return (
 		<>
-		<div className="marquee"><h1>&nbsp;&nbsp;&nbsp; AP Studio, Inc &nbsp;&nbsp;&nbsp;AP Studio, Paris &nbsp;&nbsp;&nbsp;AP Studio, Los Angeles</h1></div>
+		<div className="marquee"><h1>&nbsp;&nbsp;&nbsp; AP Studio, Inc &nbsp;&nbsp;&nbsp; AP Studio, New York &nbsp;&nbsp;&nbsp;AP Studio, Paris &nbsp;&nbsp;&nbsp;AP Studio, Los Angeles</h1></div>
 	    <footer>
 	      <div>
 	      	<a href="/">NEWSLETTER</a>

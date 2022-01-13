@@ -96,7 +96,7 @@ const FilmStrip = ({hpText, projects}) => {
 	                
 	                  <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
 	                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-	                  	<div className="opacity-title">{project.node.frontmatter.campaign_title}</div>
+	                  	<div className="opacity-title">{project.node.frontmatter.clients ? project.node.frontmatter.clients[0].client + ", " : ""}{project.node.frontmatter.campaign_title}</div>
 	                  </a>
 	       
 	                )
