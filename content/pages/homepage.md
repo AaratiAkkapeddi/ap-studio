@@ -29,6 +29,17 @@ clients:
   - client: Glossier
   - client: Holiday
   - client: Hood By Air
+  - client: I-D
+  - client: Isabel Marant
+  - client: Jimmy Choo
+  - client: Judy Turner
+  - client: L'Uomo Vogue
+  - client: M Magazine
+  - client: MAC
+  - client: M Magazine
+  - client: Mango
+  - client: Massimo Dutti
+  - client: McQ by Alexander McQueen
 artists:
   - artist: Alastair McKimm
   - artist: Alba Melendo
