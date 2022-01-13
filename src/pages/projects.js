@@ -51,6 +51,9 @@ export const pageQuery = graphql`
           frontmatter {
             title
             draft
+            clients{
+              client
+            }
             campaign_title
             thumb {
               image

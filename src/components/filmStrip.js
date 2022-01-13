@@ -74,7 +74,7 @@ const FilmStrip = ({hpText, projects}) => {
 	                return (
 	                
 	                  <a  className={`text-item`} key={index} href={project.node.fields.slug}>
-	                    <h1> {project.node.frontmatter.campaign_title}</h1>
+	                    <h1> {project.node.frontmatter.clients ? project.node.frontmatter.clients[0].client + ", " : ""} {project.node.frontmatter.campaign_title}</h1>
 	                    <div className="hover-img">
 	                     <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
 	                    </div>

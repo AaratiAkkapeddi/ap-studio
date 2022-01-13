@@ -329,6 +329,9 @@ export const pageQuery = graphql`
             title
             draft
             notes
+            clients{
+              client
+            }
             campaign_title
             thumb {
               image
