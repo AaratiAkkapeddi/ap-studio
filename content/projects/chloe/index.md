@@ -6,6 +6,10 @@ campaign_title: FW21 Campaign
 thumb:
   image: https://ucarecdn.com/e6611beb-6f7a-45c0-973c-94e1b7686805/
   size: portrait
+carouselthumb:
+  video: https://ucarecdn.com/7dae87dd-4a38-49bb-ac27-c9a1b03a7368/
+  image: https://ucarecdn.com/4cb50d26-dbea-4f78-8ca6-7c975e15f17b/
+  size: landscape
 release_date: 2021-11-29T21:47:21.406Z
 release_date_public: March 23rd, 2020
 notes: ""
