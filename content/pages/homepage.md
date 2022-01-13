@@ -11,24 +11,42 @@ projects:
   - project: Aute Cuture Campaign for MAC
 clients:
   - client: Amazon Luxury Stores
-  - client: Dazed
-  - client: COS
-  - client: Dion Lee
+  - client: Ambush
+  - client: American Vogue
+  - client: AnOther
   - client: Chloe
+  - client: COS
+  - client: Dazed
+  - client: Dion Lee
   - client: Dior
+  - client: Double
+  - client: Dust
+  - client: Estée Lauder
+  - client: Fendi
+  - client: Fursac
+  - client: Gabriela Hearst
+  - client: Garage
   - client: Glossier
   - client: Holiday
   - client: Hood By Air
-  - client: Glossier
 artists:
-  - artist: Alex White
   - artist: Alastair McKimm
+  - artist: Alba Melendo
+  - artist: Albert Moya
   - artist: Alejandra Catalan
-  - artist: Brett Lloyd
-  - artist: Bryan Liston
-  - artist: Camilla Nickerson
+  - artist: Aleksandra Woroniecka
+  - artist: Alex White
+  - artist: Alique
+  - artist: Alister Mackie
+  - artist: American Vogue Editors
+  - artist: Amy Troost
+  - artist: Anne Gedes
   - artist: Anya Ziourova
   - artist: Benjamin Bruno
   - artist: Bibi Cornejo-Borthwick
+  - artist: Brett Lloyd
   - artist: Bryan Liston
+  - artist: Camilla Nickerson
+  - artist: Carlos Nazario
+  - artist: Dara
 ---
