@@ -33,9 +33,6 @@ media:
     media_name: image
     size: portrait
     mediaVideo: https://ucarecdn.com/be21c425-c36e-490a-8d47-c1d312333423/
-  - media: https://ucarecdn.com/d79e494f-9576-49ec-b44a-fa5cfef5c383/
-    media_name: image
-    size: portrait
 clients:
   - client: Chloe
 artists:
