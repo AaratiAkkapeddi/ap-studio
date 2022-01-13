@@ -6,10 +6,11 @@ intro: Donec id elit non mi porta gravida at eget metus. Integer posuere erat a
   porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur
   purus sit amet fermentum.
 projects:
-  - project: Test Project
-  - project: Test Project 2
   - project: American Vogue, December 2019 Cover
   - project: American Vogue, April 2020 Cover
+  - project: Chloe FW21
+  - project: American Vogue, Show Of Hand
+  - project: Aute Cuture Campaign for MAC
 clients:
   - client: Amazon Luxury Stores
   - client: Dazed
