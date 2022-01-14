@@ -1,4 +1,4 @@
 ---
-title: Anne Gedes
-name: Anne Gedes
+title: Anne Geddes
+name: Anne Geddes
 ---
