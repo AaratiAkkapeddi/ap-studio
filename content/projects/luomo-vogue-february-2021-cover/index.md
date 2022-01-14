@@ -6,6 +6,8 @@ campaign_title: February 2021 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/f1bcf1d5-fd0a-4b41-b908-d1c555d8e969/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T15:45:11.787Z
 release_date_public: 12/20/2021
 media:
@@ -14,8 +16,8 @@ media:
 clients:
   - client: L'Uomo Vogue
 artists:
-  - artist: Anne Gedes
   - artist: Patti Wilson
+  - artist: Anne Geddes
 locations:
   - location: New York
 date: 2021-12-20T15:45:11.798Z
