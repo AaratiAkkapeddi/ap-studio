@@ -8,10 +8,10 @@ thumb:
   image: ""
 carouselthumb:
   size: landscape
-  video: https://ucarecdn.com/c0a08ae5-011a-4dd9-9d29-74418ffd5ff1/
+  video: ""
 release_date: 2022-01-16T23:32:35.497Z
 media:
-  - mediaVideo: https://vimeo.com/630473150
+  - mediaVideo: https://ucarecdn.com/b5aa8835-7394-446f-bdf9-45202ad6e192/
     size: landscape
 clients:
   - client: Estée Lauder
