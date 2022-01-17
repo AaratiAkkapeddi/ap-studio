@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: ANR Campaign
 campaign_title: ANR Campaign
 thumb:
