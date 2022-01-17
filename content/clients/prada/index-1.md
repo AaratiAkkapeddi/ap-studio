@@ -1,4 +1,0 @@
----
-title: Prada
-name: Prada
----
