@@ -6,8 +6,14 @@ campaign_title: SS21 Campaign
 thumb:
   size: landscape
   image: https://ucarecdn.com/af3f5954-8543-41f0-895d-9915655c0a58/
+carouselthumb:
+  size: landscape
 release_date: 2021-12-20T15:40:15.882Z
 release_date_public: 12/20/2021
+notes: |-
+  With: Filfury and Karla Welch
+
+  Office: New York
 media:
   - size: landscape
     media: https://ucarecdn.com/2a1ca75f-a658-457d-ac6c-c2c760ce0d75/
