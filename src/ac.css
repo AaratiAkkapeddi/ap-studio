@@ -93,6 +93,13 @@
 .text-column .txt-item{
 	display: block;
 }
+.with{
+	text-decoration: underline;
+}
+.with-text a{
+/*	text-decoration: none;
+	color: var(--color-text-light);*/
+}
 .text-column a{
 	width: 100%;
 	position: relative;
@@ -199,9 +206,21 @@
 .selected-artists .more-info.mobile,.selected-clients .more-info.mobile{
 	display: none;
 }
+.project-footer .desktop-only{
+	display: inline-block;
+}
+.project-footer .mobile-only{
+	display: none;
+}
 @media (max-width: 42rem) {
 	.artists-clients{
 		flex-direction: column;
+	}
+	.project-footer .desktop-only{
+		display: none;
+	}
+	.project-footer .mobile-only{
+		display: inline-block;
 	}
 	.selected-clients, .selected-artists{
 		margin-bottom:var(--spacing-8);

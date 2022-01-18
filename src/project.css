@@ -12,9 +12,10 @@
 .project-footer{
    	display: flex;
    }
-.notes{
-	width: 50%;
-	float:right;
+.notes {
+    width: 49%;
+    padding-right: 15%;
+    float: right;
 }
 .project-header h1:first-child{
 	position: fixed;
@@ -138,6 +139,7 @@
    	 width:100%;
    	 left:calc((100vw - var(--maxWidth-wrapper) )/4);
    	 margin-top:50px;
+   	 padding-right:0;
    }
    .project-header >h1:first-child, .project-header > #mobile-layout-toggle{
    	margin-top:0;

@@ -17,6 +17,29 @@ const ProjectTemplate = ({ data, location }) => {
   }else if(project.frontmatter.media?.length <= 4){
     projectDefaultColumns = "one-column"
   }
+  let withtext = ''
+  if(project.frontmatter.artists){
+    withtext = project.frontmatter.artists.map((artist, index) => {
+      let a = artist.artist
+      let link = "/artists/"+ a.toLowerCase().split(" ").join("-");
+      if(index == 0){
+        return(
+          <span><span className="with">With</span>: <a href={link}>{a}</a></span>
+          )
+      }else if(index == project.frontmatter.artists.length - 1){
+        return(
+          <span> and <a href={link}>{a}</a></span>
+          )
+      }else{
+        return(
+          <span>, <a href={link}>{a}</a></span>
+        )
+      } 
+    })
+   
+  }
+  console.log(withtext)
+
   if(typeof window != `undefined`){
     if(window.outerWidth <= 768){
       projectDefaultColumns = "one-column"
@@ -69,7 +92,10 @@ const ProjectTemplate = ({ data, location }) => {
 
         <header className="project-header">
           <h1><ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown></h1>
-          <div className="notes"><ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown></div>
+          <div className="notes">
+          <div className="with-text">{withtext}</div>
+          <ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown>
+          </div>
           <p id="mobile-layout-toggle">
             <svg onClick={oneColumn} className={`${projectDefaultColumns == "one-column" ? 'on' : ''}`} id='one-mobile' width="25" height="25" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">            <rect width="23" height="11"/>
             <rect x="7" y="14" width="9" height="11"/>
@@ -140,6 +166,12 @@ export const pageQuery = graphql`
       frontmatter {
         campaign_title
         notes
+        clients{
+          client
+        }
+        artists{
+          artist
+        }
         thumb{
           image
           video
