@@ -117,7 +117,9 @@ a:hover{
 li{
   line-height: var(--lineHeight-none);
 }
-
+.site-header > a svg path{
+  fill:var(--color-text);
+}
 h1 a{
   text-decoration: none;
 }

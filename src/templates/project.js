@@ -69,7 +69,7 @@ const ProjectTemplate = ({ data, location }) => {
 
         <header className="project-header">
           <h1><ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown></h1>
-          <ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown>
+          <div className="notes"><ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown></div>
           <p id="mobile-layout-toggle">
             <svg onClick={oneColumn} className={`${projectDefaultColumns == "one-column" ? 'on' : ''}`} id='one-mobile' width="25" height="25" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">            <rect width="23" height="11"/>
             <rect x="7" y="14" width="9" height="11"/>
