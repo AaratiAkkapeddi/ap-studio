@@ -6,8 +6,11 @@ campaign_title: Suit Yourself
 thumb:
   size: portrait
   image: https://ucarecdn.com/fa254040-8afa-4720-8cc6-5d0bd24e64c8/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-23T20:10:18.594Z
 release_date_public: 12/23/2021
+notes: "Artist: [Bibi Cornejo Borthwick](/bibi-cornejo-borthwick/)"
 media:
   - size: portrait
     media: https://ucarecdn.com/9042b318-221d-480e-beb7-e28d9a03ea8a/
