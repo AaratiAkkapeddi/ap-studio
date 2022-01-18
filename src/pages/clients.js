@@ -53,7 +53,7 @@ const ArtistIndex = ({ data, location }) => {
       </p>
       </header>
       <div className="artists-clients ac-page text-column">
-        <div className="selected-clients">
+        <div className="selected-clients ac-spacer">
           <h1 id="small-client-header">Clients</h1>
           <ol style={{ listStyle: `none` }}>
               {clients.map((client,index) => {

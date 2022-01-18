@@ -25,15 +25,18 @@ const HomeIndex = ({ data, location }) => {
         lastScrollTop = currScroll;
         let vh = window.innerHeight
         let el = document.querySelector(".site-header")
+        let el2 = document.querySelector(".mobile-menu")
 
         if(currScroll > vh){
           
           if(el.classList.contains("white")){
             el.classList.remove("white")
+             el2.classList.remove("white")
           }
         }else{
           if(!el.classList.contains("white")){
             el.classList.add("white")
+            el2.classList.add("white")
           }
         }
        
@@ -123,10 +126,7 @@ function mobileClose(){
   return (
     <div id='homepage-wrapper'>
     <div className="child"> 
-    <div className="mobile-menu">
-      <a></a>
-      <h1 onClick={mobileOpen} className="mobile-trigger">Menu</h1>
-    </div>
+   
  
       <h1 className="overlay-title mobile">
         <div className="overlay-inner">
@@ -227,7 +227,7 @@ function mobileClose(){
        <FilmStrip hpText={homepage.intro || ""} projects={projects}/>
       <div className="artists-clients">
         <div className="selected-clients">
-          <h1>Selected Clients <a className="more-info" href="/artists&clients">View All Clients</a></h1>
+          <h1>Selected Clients <a className="more-info" href="/artists&clients">View All Clients</a> <a className="more-info mobile" href="/clients">View All Clients</a></h1>
           <ol style={{ listStyle: `none` }}>
               {featuredClients.map((client,index) => {
               const title = client.frontmatter.name
@@ -243,7 +243,7 @@ function mobileClose(){
           </ol>
         </div>
         <div className="selected-artists">
-          <h1>Selected Artists <a className="more-info" href="/artists&clients">View All Artists</a></h1>
+          <h1>Selected Artists <a className="more-info" href="/artists&clients">View All Artists</a> <a className="more-info mobile" href="/artists">View All Artists</a></h1>
           <ol style={{ listStyle: `none` }}>
               {featuredArtists.map((artist, index) => {
               const title = artist.frontmatter.name

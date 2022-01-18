@@ -196,6 +196,9 @@
 .ac-page.artists-clients{
 	margin-top:0;
 }
+.selected-artists .more-info.mobile,.selected-clients .more-info.mobile{
+	display: none;
+}
 @media (max-width: 42rem) {
 	.artists-clients{
 		flex-direction: column;
@@ -207,7 +210,8 @@
 		padding:0;
 	}
 	.ac-page .selected-clients ol,.ac-page .selected-artists ol{
-		padding-left:15%;
+		padding-left:30%;
+		margin-top:40px;
 	}
 	.ac-page .selected-clients h1,.ac-page .selected-artists h1{
 		margin-bottom:var(--spacing-4);
@@ -215,7 +219,16 @@
 	.letter-label{
 	    font-size:var(--fontSize-6);
 		font-family: var(--font-heading);
-		left: -2.5rem;
+		left: -6.3rem;
+	}
+	.selected-artists .letter-label{
+		left: -6rem;
+	}
+	.selected-artists .more-info,.selected-clients .more-info{
+		display: none;
+	}
+	.selected-artists .more-info.mobile,.selected-clients .more-info.mobile{
+		display: inline-block;
 	}
 	.ac-page .selected-clients, .ac-page .selected-artists{
 		flex-direction: column;
@@ -240,6 +253,10 @@
 	}
 	.client-three-image-column a.landscape,.client-three-image-column a.square{
 		width: 100%;
+	}
+	#homepage-wrapper .artists-clients > * > h1 {
+	    flex-basis: calc(63% - 45px);
+	    padding-right: 45px;
 	}
 	.client-three-image-column a .client-project-list{
 		opacity: 1;

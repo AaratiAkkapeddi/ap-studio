@@ -62,7 +62,12 @@
     		margin-bottom: var(--spacing-10);
 	}
 	.map-wrapper .map-inner{
-		height: 45vh !important;
+		margin-left:0;
+		width: 70% !important;
+		height: 30vh !important;
+	}
+	.maps-wrapper{
+		flex-direction: column;
 	}
 	.info-row > *:last-child{
 		margin-top:var(--spacing-4);

@@ -154,7 +154,15 @@ svg.logo-svg.los-angeles .invert path{
   align-self: start;
   margin:0;
 }
+@keyframes carouselSlideVertical {
+  from {
+    transform:translateY(0);
+  }
 
+  to {
+    transform:translateY(calc(-100% + 90vw));
+  }
+}
 /* homepage carousel */
 @keyframes carouselSlideHorizontal {
   from {
@@ -240,6 +248,48 @@ svg.logo-svg.los-angeles .invert path{
   }
   .overlay-title{
     display: none;
+  }
+  #homepage-wrapper{
+    scroll-snap-type:none;
+  }
+  .carousel .inner{
+    display: block;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-gap:0;
+    width: auto;
+    position: absolute;
+    animation-name: carouselSlideVertical;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .carousel{
+    pointer-events: none;
+  }
+  .carousel-slide.landscape, .carousel-slide.square{
+    height:auto;
+    width:100vw;
+  }
+  .carousel{
+    top: calc(-1 * var(--spacing-4));
+  }
+  .carousel-slide .slide-title{
+    display: none;
+  }
+  .carousel-slide{
+    display: block;
+    margin:0;
+    line-height: 0;
+    width:100vw;
+    margin:0;
+    overflow-y: hidden;
+    padding:0;
+    height:auto;
+  }
+  .carousel-slide img, .carousel-slide video{
+    width:100vw;
+    height: auto;
   }
 /*  .carousel-slide{
      width:100vw;
