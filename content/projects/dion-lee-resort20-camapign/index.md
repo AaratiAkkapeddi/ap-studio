@@ -6,6 +6,8 @@ campaign_title: Resort20 Camapign
 thumb:
   size: portrait
   image: https://ucarecdn.com/debde48d-ffb3-437f-bf57-8bbd1c21de92/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-22T17:42:06.070Z
 release_date_public: 12/22/2021
 media:
@@ -40,6 +42,7 @@ clients:
 artists:
   - artist: Stef Mitchell
   - artist: Matt Holmes
+categories: []
 locations:
   - location: New York
 date: 2021-12-22T17:42:06.085Z
