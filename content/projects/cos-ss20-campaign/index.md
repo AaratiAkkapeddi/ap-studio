@@ -4,8 +4,9 @@ title: COS, SS20 Campaign
 description: COS, SS20 Campaign
 campaign_title: SS20 Campaign
 thumb:
-  size: landscape
+  size: portrait
   video: https://ucarecdn.com/b28be71b-042f-4f2c-8081-8e575b6a1e50/
+  image: https://ucarecdn.com/bd377e8d-de31-49bc-b1ed-fece1aae43bb/
 carouselthumb:
   size: portrait
 release_date: 2021-12-29T04:29:05.236Z
