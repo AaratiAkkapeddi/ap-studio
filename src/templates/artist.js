@@ -14,7 +14,7 @@ const ArtistTemplate = ({ data, location }) => {
 
   let artistProjects = []
   projects.map((project,index) => {
-    for(let i = project.node.frontmatter.clients?.length - 1; i >= 0; i--){
+    for(let i = project.node.frontmatter.artists?.length - 1; i >= 0; i--){
 
       if(project.node.frontmatter.artists[i]?.artist == artist.frontmatter.name){
         if(!project.node.frontmatter.draft){
