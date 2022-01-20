@@ -8,7 +8,7 @@ thumb:
   image: https://ucarecdn.com/af3f5954-8543-41f0-895d-9915655c0a58/
 carouselthumb:
   size: landscape
-release_date: 2021-12-20T15:40:15.882Z
+release_date: 2022-01-20T20:55:36.929Z
 release_date_public: 12/20/2021
 notes: |-
   With: Filfury and Karla Welch
