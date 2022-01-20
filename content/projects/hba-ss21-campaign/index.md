@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: HBA, SS21 Campaign
 description: HBA, SS21 Campaign
 campaign_title: SS21 Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/7fa336d1-fbec-413f-8370-7b241568e9fc/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T14:34:44.232Z
 release_date_public: 12/20/2021
 media:
