@@ -2,7 +2,7 @@
 draft: true
 title: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
 description: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
-campaign_title: " Spécial Mode Homme 'Le Temps De La Douceur"
+campaign_title: " Spécial Mode Homme 'Le Temps De La Douceur'"
 thumb:
   image: https://ucarecdn.com/7ed5689a-0aaf-43a1-bd08-59ba13e99c02/
   size: portrait
