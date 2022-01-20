@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Vogue Italia, 20 People
 description: Vogue Italia, 20 People
 campaign_title: 20 People
 thumb:
   size: portrait
   image: https://ucarecdn.com/a0d685ca-1d8a-46b4-a02c-b0a763a0908e/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-21T15:21:49.040Z
 release_date_public: 12/21/2021
 media:
