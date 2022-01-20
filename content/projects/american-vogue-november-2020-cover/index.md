@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: American Vogue, November 2020 Cover
 description: American Vogue, November 2020 Cover
 campaign_title: November 2020 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/c2e54b12-d4e8-4f7d-a5c5-4499aafb6e9c/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T16:51:01.741Z
 release_date_public: 12/20/2021
 media:
