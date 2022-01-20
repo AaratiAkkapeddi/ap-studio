@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Dion Lee, Resort20 Camapign
-description: Dion Lee, Resort20 Camapign
-campaign_title: Resort20 Camapign
+title: Dion Lee, Resort '20 Campaign
+description: Dion Lee, Resort '20 Campaign
+campaign_title: Resort '20 Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/debde48d-ffb3-437f-bf57-8bbd1c21de92/
