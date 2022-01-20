@@ -1,4 +1,0 @@
----
-title: Fursac
-name: Fursac
----

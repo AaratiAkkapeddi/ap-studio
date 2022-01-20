@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: American Vogue, Streat Easy
 description: American Vogue, Streat Easy
 campaign_title: Streat Easy
 thumb:
   size: portrait
   image: https://ucarecdn.com/031eec3a-b7f6-4b9d-beb1-e3056d7bdf8c/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-23T19:53:31.191Z
 release_date_public: 12/23/2021
 media:

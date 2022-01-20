@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Nike, Future Sport Exchange
 description: Nike, Future Sport Exchange
 campaign_title: Future Sport Exchange
 thumb:
   size: portrait
   image: https://ucarecdn.com/8029d2d8-5bec-4056-8f96-50eb608c4e4d/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-22T17:25:46.552Z
 release_date_public: 12/22/2021
 media:

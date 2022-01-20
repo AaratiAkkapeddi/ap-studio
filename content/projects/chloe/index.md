@@ -11,7 +11,7 @@ carouselthumb:
   image: https://ucarecdn.com/4cb50d26-dbea-4f78-8ca6-7c975e15f17b/
   size: landscape
 release_date: 2021-11-29T21:47:21.406Z
-release_date_public: March 23rd, 2020
+release_date_public: 03/23/2021
 notes: ""
 media:
   - media: https://ucarecdn.com/70201512-e93c-4bc9-93ee-81550fe1aff0/

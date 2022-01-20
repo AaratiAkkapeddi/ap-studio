@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Garage, Issue 18 SS20
 description: Garage, Issue 18 SS20
 campaign_title: Issue 18 SS20
 thumb:
   size: portrait
   image: https://ucarecdn.com/c05509e5-14b6-43a1-803f-3cdffd53c5ce/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-22T16:47:00.387Z
 release_date_public: 12/22/2021
 media:

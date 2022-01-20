@@ -1,10 +1,12 @@
 ---
-draft: true
+draft: false
 title: Vogue Italia, September 2020 100 Covers
 description: Vogue Italia, September 2020 100 Covers
 campaign_title: September 2020 100 Covers
 thumb:
   image: https://ucarecdn.com/41c877ba-3e20-4bcf-aa99-0f5f6af7d176/
+  size: portrait
+carouselthumb:
   size: portrait
 release_date: 2021-12-18T17:29:52.835Z
 release_date_public: 12/18/2021

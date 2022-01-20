@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Vogue Italia, Dies Irae
 description: Vogue Italia, Dies Irae
 campaign_title: Dies Irae
 thumb:
   size: portrait
   image: https://ucarecdn.com/b46e2fcf-85d0-4321-b94b-a72b80814de4/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-18T21:18:52.917Z
 release_date_public: 12/18/2021
 media:

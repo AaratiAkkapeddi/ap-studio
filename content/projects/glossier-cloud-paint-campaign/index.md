@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Glossier, Cloud Paint Campaign
 description: Glossier, Cloud Paint Campaign
 campaign_title: Cloud Paint Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/21a1372f-2ce4-47c8-9fa3-a17f734fa896/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T16:32:32.690Z
 release_date_public: 12/20/2021
 media:

@@ -1,11 +1,13 @@
 ---
-draft: true
-title: I-D, The Faith In Chaos Issue, No. 360
-description: I-D, The Faith In Chaos Issue, No. 360
+draft: false
+title: i-D, The Faith In Chaos Issue, No. 360
+description: i-D, The Faith In Chaos Issue, No. 360
 campaign_title: The Faith In Chaos Issue, No. 360
 thumb:
   size: portrait
   image: https://ucarecdn.com/08a01752-c740-473d-a284-3f81d0baa5f0/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-21T16:12:48.936Z
 release_date_public: 12/21/2021
 media:
@@ -26,7 +28,7 @@ media:
   - size: square
     media: https://ucarecdn.com/7b18ff44-b105-41ec-82ed-009849199ab8/
 clients:
-  - client: I-D
+  - client: i-D
 artists:
   - artist: Colin Dogson
   - artist: Alastair McKimm

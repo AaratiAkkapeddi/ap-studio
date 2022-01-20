@@ -1,4 +1,4 @@
 ---
-title: I-D
-name: I-D
+title: i-D
+name: i-D
 ---

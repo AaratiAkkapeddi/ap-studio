@@ -6,7 +6,9 @@ campaign_title: FW20 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/f68d935c-c103-4364-a6af-4bf5dddae54b/
-release_date: 2021-12-21T14:59:23.520Z
+carouselthumb:
+  size: landscape
+release_date: 2022-01-20T20:59:00.438Z
 release_date_public: 12/21/2021
 media:
   - size: portrait

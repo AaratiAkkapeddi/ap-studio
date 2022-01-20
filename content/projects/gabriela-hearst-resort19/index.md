@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Gabriela Hearst, Resort19
 description: Gabriela Hearst, Resort19
 campaign_title: Resort19
 thumb:
   size: portrait
   image: https://ucarecdn.com/a1659a3d-34aa-4827-b710-a983f7c2fdaa/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-23T19:19:35.037Z
 release_date_public: 12/23/2021
 media:

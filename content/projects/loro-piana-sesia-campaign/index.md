@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Loro Piana, Sesia Campaign
 description: Loro Piana, Sesia Campaign
 campaign_title: Sesia Campaign
 thumb:
   size: landscape
   video: https://ucarecdn.com/b13e1572-9563-461c-8e24-9e5136843bb5/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-29T01:43:39.131Z
 release_date_public: 12/28/2021
 media:

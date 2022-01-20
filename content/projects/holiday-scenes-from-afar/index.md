@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Holiday, Scenes From Afar
 description: Holiday, Scenes From Afar
 campaign_title: Scenes From Afar
 thumb:
   size: landscape
   image: https://ucarecdn.com/5b3b6e06-f593-4529-b635-ea3de2fe9bae/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T17:10:21.605Z
 release_date_public: 12/20/2021
 media:

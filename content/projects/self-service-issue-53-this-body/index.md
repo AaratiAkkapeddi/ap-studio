@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: "Self Service, Issue 53: This Body"
 description: "Self Service, Issue 53: This Body"
 campaign_title: "Issue 53: This Body"
 thumb:
   size: portrait
   image: https://ucarecdn.com/a9e16c67-c201-4df8-8e82-6145fb949f6d/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T16:01:30.646Z
 release_date_public: 12/20/2021
 media:

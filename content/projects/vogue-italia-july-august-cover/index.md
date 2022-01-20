@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Vogue Italia, July/August Cover
 description: Vogue Italia, July/August Cover
 campaign_title: July/August Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/56951bec-78d5-4bdd-8d0c-aa440ef21858/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-21T16:06:30.453Z
 release_date_public: 12/21/2021
 media:

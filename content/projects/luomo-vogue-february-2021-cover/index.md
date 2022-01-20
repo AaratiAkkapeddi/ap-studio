@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: L'Uomo Vogue, February 2021 Cover
 description: L'Uomo Vogue, February 2021 Cover
 campaign_title: February 2021 Cover

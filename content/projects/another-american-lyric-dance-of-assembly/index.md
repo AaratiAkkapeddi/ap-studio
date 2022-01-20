@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: AnOther, American Lyric Dance of Assembly
 description: AnOther, American Lyric Dance of Assembly
 campaign_title: American Lyric Dance of Assembly
 thumb:
   size: portrait
   image: https://ucarecdn.com/295fb18a-23ca-4cd1-b0da-a026a0c38a75/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T17:00:39.090Z
 release_date_public: 12/20/2021
 media:
