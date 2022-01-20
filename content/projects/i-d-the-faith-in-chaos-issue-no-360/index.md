@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: i-D, The Faith In Chaos Issue, No. 360
 description: i-D, The Faith In Chaos Issue, No. 360
 campaign_title: The Faith In Chaos Issue, No. 360
