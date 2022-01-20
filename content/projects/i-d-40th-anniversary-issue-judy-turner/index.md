@@ -1,7 +1,7 @@
 ---
 draft: false
-title: I-D, 40th Anniversary  Issue, Judy Turner
-description: I-D, 40th Anniversary  Issue, Judy Turner
+title: i-D, 40th Anniversary  Issue, Judy Turner
+description: i-D, 40th Anniversary  Issue, Judy Turner
 campaign_title: 40th Anniversary  Issue, Judy Turner
 thumb:
   size: landscape
