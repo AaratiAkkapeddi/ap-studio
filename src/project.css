@@ -101,7 +101,7 @@
 	margin:var(--spacing-32) auto;
 }
 .project-media-container.one-column .media-item.landscape img, .project-media-container.one-column .media-item.landscape video{
-	width: 70%;
+	width: calc(70% - var(--spacing-2));
 }
 .project-media-container.one-column .media-item.portrait img, .project-media-container.one-column .media-item.portrait video{
 	width: 50%;

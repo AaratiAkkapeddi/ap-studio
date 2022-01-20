@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: M Magazine, Spécial Mode September 2021
 description: M Magazine, Spécial Mode September 2021
-campaign_title: Spécial Mode September 2021
+campaign_title: Spécial Mode  September 2021
 thumb:
   size: portrait
   image: https://ucarecdn.com/b1772459-b11a-4171-bd9e-20898192d684/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-18T21:30:25.264Z
 release_date_public: 12/18/2021
 media:

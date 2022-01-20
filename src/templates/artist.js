@@ -88,7 +88,7 @@ const ArtistTemplate = ({ data, location }) => {
         </div>
           <div className="project-footer">
             <a className="desktop-only" href="/artists&clients">Return to Artist Index</a>
-            <a classNAme="mobile-only" href="/artists">Return to Artist Index</a>
+            <a className="mobile-only" href="/artists">Return to Artist Index</a>
             <Top></Top>
           </div>
 
