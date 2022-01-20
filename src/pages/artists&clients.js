@@ -68,12 +68,12 @@ const ArtistIndex = ({ data, location }) => {
                 }
 				 for (var x = projects.length - 1; x >= 0; x--) {
 				    for (var i = projects[x].node.frontmatter.clients?.length - 1; i >= 0; i--) {
-				      if(projects[x].node.frontmatter.clients[i].client == client.node.frontmatter.title){
+				      if(projects[x].node.frontmatter.clients[i].client == title){
 				        featuredProjects.push(projects[x].node)
 				      }
 				    }
 				  }
-
+              console.log(title, featuredProjects)
               return (
                 <li key={index}>
                   {drawLetterLabel &&
@@ -82,9 +82,9 @@ const ArtistIndex = ({ data, location }) => {
                   <a href={client.node.fields.slug}>
                   {
 
-                      featuredProjects[0]?.frontmatter?.thumb?.image &&
+                      (featuredProjects[0]?.frontmatter?.thumb?.image || featuredProjects[0]?.frontmatter?.thumb?.video) &&
                       <div className="hover">
-                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
+                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.video} /></div>
                       <div className="hover-txt">{featuredProjects[0]?.frontmatter.artists ? featuredProjects[0]?.frontmatter.artists[0].artist + ", " : ""}<ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
                       </div>
                     }
@@ -109,13 +109,13 @@ const ArtistIndex = ({ data, location }) => {
                   letterA = firstLetter
                   drawLetterLabel = true
                 }
-				 for (var x = projects.length - 1; x >= 0; x--) {
-				    for (var i = projects[x].node.frontmatter.artists?.length - 1; i >= 0; i--) {
-				      if(projects[x].node.frontmatter.artists[i].artist == artist.node.frontmatter.title){
-				        featuredProjects.push(projects[x].node)
-				      }
-				    }
-				  }
+      				 for (var x = projects.length - 1; x >= 0; x--) {
+      				    for (var i = projects[x].node.frontmatter.artists?.length - 1; i >= 0; i--) {
+      				      if(projects[x].node.frontmatter.artists[i].artist == artist.node.frontmatter.name){
+      				        featuredProjects.push(projects[x].node)
+      				      }
+      				    }
+      				  }
         
 
               return (
@@ -125,9 +125,9 @@ const ArtistIndex = ({ data, location }) => {
                   }
                   <a href={artist.node.fields.slug}>
                    {
-                      featuredProjects[0]?.frontmatter?.thumb?.image &&
+                      (featuredProjects[0]?.frontmatter?.thumb?.image || featuredProjects[0]?.frontmatter?.thumb?.video) &&
                       <div className="hover">
-                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.mediaVideo} /></div>
+                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.video} /></div>
                       <div className="hover-txt">{featuredProjects[0]?.frontmatter.clients ? featuredProjects[0]?.frontmatter.clients[0].client + ", " : ""}<ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
                       </div>
                     }
