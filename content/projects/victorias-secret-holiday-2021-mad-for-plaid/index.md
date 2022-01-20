@@ -42,5 +42,6 @@ clients:
   - client: Victoria's Secret
 artists:
   - artist: Alex White
+  - artist: Zoey Grossman
 date: 2022-01-20T22:46:26.270Z
 ---
