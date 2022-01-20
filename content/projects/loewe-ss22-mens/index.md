@@ -4,7 +4,7 @@ title: Loewe SS22 Mens
 description: Loewe SS22 Mens
 campaign_title: SS22 Mens
 thumb:
-  image: https://ucarecdn.com/f49699db-6eef-4976-9f76-9d9b8229182b/
+  image: https://ucarecdn.com/f120f76e-ff66-46e4-8c54-05a95ed2a93a/
   size: portrait
 release_date: 2021-12-18T16:36:29.346Z
 release_date_public: 12/18/2021
