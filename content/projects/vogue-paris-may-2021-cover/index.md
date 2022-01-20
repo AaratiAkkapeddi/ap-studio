@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Vogue Paris, May 2021 Cover
 description: Vogue Paris, May 2021 Cover
 campaign_title: May 2021 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/d451350c-40b6-457e-a743-8fa27972439f/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-18T22:45:32.926Z
 release_date_public: 12/18/2021
 media:
