@@ -1,11 +1,14 @@
 ---
-draft: true
+draft: false
 title: Victoria's Secret Beauty, Tease Creme Cloud
 description: Victoria's Secret Beauty, Tease Creme Cloud
 campaign_title: Tease Creme Cloud
 thumb:
   size: landscape
   video: https://ucarecdn.com/0f84a654-a5b4-4204-9715-3c8506fb9c47/
+carouselthumb:
+  video: https://ucarecdn.com/0f84…-4204-9715-3c8506fb9c47/
+  size: portrait
 release_date: 2021-12-29T03:25:16.068Z
 release_date_public: 12/28/2021
 media:
