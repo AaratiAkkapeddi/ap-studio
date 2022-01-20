@@ -1,13 +1,17 @@
 ---
-draft: true
+draft: false
 title: Saint Laurent FW21 Campaign
 description: Saint Laurent FW21 Campaign
 campaign_title: FW21 Campaign
 thumb:
+  size: portrait
+  video: ""
+  image: https://ucarecdn.com/81b745f0-6fa5-424f-b154-87df3f39ae07/
+carouselthumb:
   size: landscape
-  video: https://ucarecdn.com/39b458a0-44a9-445c-b545-6b0e76d85b69/
-release_date: 2021-12-29T01:21:21.288Z
-release_date_public: 12/28/2021
+  video: https://ucarecdn.com/46d55267-1f5a-43e1-96e4-813b8017377a/
+release_date: 2022-01-20T20:54:31.393Z
+release_date_public: ""
 media:
   - size: landscape
     mediaVideo: https://ucarecdn.com/33b4393d-7b63-430b-9d5f-2671e0466916/
