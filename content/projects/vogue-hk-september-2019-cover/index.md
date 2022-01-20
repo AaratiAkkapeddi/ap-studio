@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Vogue HK, September 2019 Cover
 description: Vogue HK, September 2019 Cover
 campaign_title: September 2019 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/c3c74c9c-4426-454a-99d1-8885a48862b9/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-23T20:47:29.454Z
 release_date_public: 12/23/2021
 media:
