@@ -20,7 +20,7 @@ media:
     size: portrait
   - media: https://ucarecdn.com/55771698-a711-4df4-b73e-80f51f1392e1/
     size: portrait
-  - media: https://ucarecdn.com/566a3c92-a0be-49cc-9a9c-1e2e2156bad7/
+  - media: ""
     size: portrait
   - media: https://ucarecdn.com/48b0e6d0-e291-4b00-89c0-2669e46cabdb/
     size: landscape
@@ -34,6 +34,10 @@ media:
     size: portrait
   - size: portrait
     media: https://ucarecdn.com/ef672340-9d8a-4cd5-ad14-c5241d56ab34/
+  - media: https://ucarecdn.com/d636cc10-b323-4aad-80fc-c1514007b082/
+    size: portrait
+  - media: https://ucarecdn.com/465aa3c3-5a65-42a7-8029-68d8a784b28f/
+    size: portrait
 clients:
   - client: Victoria's Secret
 artists:
