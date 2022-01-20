@@ -1,11 +1,12 @@
 ---
 draft: false
-title: Aute Cuture Campaign for MAC
-description: Aute Cuture Campaign for MAC
+title: MAC, Autre Cuture Campaign
+description: MAC, Autre Cuture Campaign
 campaign_title: Aute Cuture Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/ebf57dce-a5e8-4d6e-b60f-b233173210bc/
+  video: ""
+  image: https://ucarecdn.com/2ff1d1a5-ba67-4452-9b18-3dffee97bef5/
 carouselthumb:
   image: ""
   size: portrait
@@ -21,5 +22,7 @@ clients:
 artists:
   - artist: Jora Frantzis
   - artist: Gabriella Karefa-Johnson
+locations:
+  - location: Los Angeles
 date: 2021-12-29T00:46:55.656Z
 ---
