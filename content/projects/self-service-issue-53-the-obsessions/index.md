@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: "Self Service, Issue 53: The Obsessions"
 description: "Self Service, Issue 53: The Obsessions"
 campaign_title: "Issue 53: The Obsessions"
 thumb:
   size: portrait
   image: https://ucarecdn.com/0c7d0c20-278a-4c8c-9b68-6e4d6b3fd068/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T16:16:47.563Z
 release_date_public: 12/20/2021
 media:
