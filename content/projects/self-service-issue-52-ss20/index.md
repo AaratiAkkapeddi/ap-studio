@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Self Service, Issue 52 SS20
 description: Self Service, Issue 52 SS20
 campaign_title: Issue 52 SS20
 thumb:
   size: portrait
   image: https://ucarecdn.com/2926c4ad-ed6e-4e50-a033-6c063fc5368e/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-22T16:38:13.433Z
 release_date_public: 12/22/2021
 media:
