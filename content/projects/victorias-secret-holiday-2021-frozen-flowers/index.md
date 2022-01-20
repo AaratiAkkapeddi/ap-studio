@@ -17,5 +17,10 @@ media:
     media: https://ucarecdn.com/a55f5377-d55b-4dab-8cf4-37607796677b/
   - mediaVideo: https://ucarecdn.com/a61672a4-c40f-4557-bb1c-63c7b1d3472b/
     size: landscape
+clients:
+  - client: Victoria's Secret
+artists:
+  - artist: Zoey Grossman
+  - artist: Jorden Bickham
 date: 2022-01-20T23:34:28.090Z
 ---
