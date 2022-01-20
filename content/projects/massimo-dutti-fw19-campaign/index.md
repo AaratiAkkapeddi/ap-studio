@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Massimo Dutti, FW19 Campaign
 description: Massimo Dutti, FW19 Campaign
 campaign_title: FW19 Campaign
 thumb:
   size: landscape
   video: https://ucarecdn.com/ce4b1208-b648-47dd-9fbe-1060cda9eaea/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-29T04:54:46.577Z
 release_date_public: 12/28/2021
 media:
