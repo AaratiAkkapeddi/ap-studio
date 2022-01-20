@@ -5,7 +5,7 @@ description: Mango, Denim SS20 Campaign
 campaign_title: Denim SS20 Campaign
 thumb:
   size: portrait
-  image: https://ucarecdn.com/4f88cf40-3661-4077-8c2c-c6dd3a3603e5/
+  image: https://ucarecdn.com/43e72990-e7eb-4c0b-be9d-d4618317fd97/
 carouselthumb:
   size: portrait
 release_date: 2021-12-22T18:11:33.536Z
