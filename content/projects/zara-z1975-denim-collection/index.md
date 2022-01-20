@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Zara, Z1975 Denim Collection
 description: Zara, Z1975 Denim Collection
 campaign_title: Z1975 Denim Collection
 thumb:
   size: landscape
   image: https://ucarecdn.com/b38f01cc-c8db-4a04-906d-d9f59d2a2ee4/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-21T15:59:09.291Z
 release_date_public: 12/21/2021
 media:
