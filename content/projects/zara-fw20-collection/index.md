@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Zara, FW20 Collection
 description: Zara, FW20 Collection
 campaign_title: FW20 Collection
 thumb:
   size: portrait
   image: https://ucarecdn.com/afeb78ee-7fa2-4d8d-b171-96390f88d5d3/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T16:55:04.462Z
 release_date_public: 12/20/2021
 media:
