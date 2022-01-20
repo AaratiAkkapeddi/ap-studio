@@ -60,13 +60,15 @@ const HomeIndex = ({ data, location }) => {
   let featuredClients = [];
   let featuredArtists = [];
   /*create array of featured projects by matching the title from all projects to the ones specified under the homepage*/
-  for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
-    for (var i = homepage.projects.length - 1; i >= 0; i--) {
+  for (var i = homepage.projects.length - 1; i >= 0; i--) {
+    for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
+    
       if(unfilteredProjects[x].node.frontmatter.title == homepage.projects[i].project){
         if(!unfilteredProjects[x].node.frontmatter.draft){
-          featuredProjects.push(unfilteredProjects[x])
+          featuredProjects.unshift(unfilteredProjects[x])
         }
       }
+    
     }
   }
   for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
@@ -146,7 +148,7 @@ function mobileClose(){
 
             if(index < 15 && !project.node.frontmatter.draft){
               const title = project.node.frontmatter.campaign_title
-              if(project.node.frontmatter.carouselthumb){
+              if(project.node.frontmatter.carouselthumb && (project.node.frontmatter.carouselthumb?.image || project.node.frontmatter.carouselthumb?.video)){
                 return (
                 
                   <a className={`${project.node.frontmatter.carouselthumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
