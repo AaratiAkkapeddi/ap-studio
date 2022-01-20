@@ -2,13 +2,14 @@
 draft: false
 title: Nike Yoga
 description: "Nike Yoga "
-campaign_title: Nike Yoga FW '21
+campaign_title: Nike Yoga FW21
 thumb:
   image: https://ucarecdn.com/ab052c1d-8c1d-4d92-b324-c333d1c54295/
   size: portrait
 carouselthumb:
   size: portrait
 release_date: 2022-01-20T19:38:32.241Z
+release_date_public: 01/20/2022
 media:
   - media: https://ucarecdn.com/5ec0e846-f7a9-49ae-b23e-54fadb84fab3/
     size: portrait
