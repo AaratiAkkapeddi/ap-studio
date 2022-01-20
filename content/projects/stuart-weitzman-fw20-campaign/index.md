@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Stuart Weitzman, FW20 Campaign
 description: Stuart Weitzman, FW20 Campaign
 campaign_title: FW20 Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/7b68f099-30a5-409a-80ac-9d3f13dff90b/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-21T15:09:17.204Z
 release_date_public: 12/21/2021
 media:
