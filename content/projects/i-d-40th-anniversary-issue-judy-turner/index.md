@@ -26,7 +26,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/768d0765-1865-4b06-ae78-611a5d50c23e/
 clients:
-  - client: I-D
+  - client: i-D
 artists:
   - artist: Grace Ahlbom
   - artist: Matt Holmes
