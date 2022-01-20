@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: American Vogue, December 2019 Cover
 description: American Vogue, December 2019 Cover
 campaign_title: December 2019 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/443ee352-b163-4ef4-ac8c-07ff1a7dc9a0/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-22T18:21:08.497Z
 release_date_public: 12/22/2021
 media:
