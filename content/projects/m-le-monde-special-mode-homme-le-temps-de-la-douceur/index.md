@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
 description: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
 campaign_title: " Spécial Mode Homme 'Le Temps De La Douceur'"
