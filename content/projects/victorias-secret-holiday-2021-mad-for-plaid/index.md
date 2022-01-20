@@ -24,21 +24,17 @@ media:
     size: portrait
   - media: https://ucarecdn.com/48b0e6d0-e291-4b00-89c0-2669e46cabdb/
     size: landscape
+  - size: portrait
+    media: https://ucarecdn.com/ef672340-9d8a-4cd5-ad14-c5241d56ab34/
+  - media: https://ucarecdn.com/a4238b45-300f-49b7-92de-ae272d280203/
+    size: portrait
   - media: https://ucarecdn.com/0e0acddb-5d7d-4063-9ccc-db41f24d0f82/
     size: portrait
   - media: https://ucarecdn.com/beef15b6-204f-47a6-8e66-a93e7ccb2146/
     size: portrait
-  - media: https://ucarecdn.com/a4238b45-300f-49b7-92de-ae272d280203/
-    size: portrait
   - media: https://ucarecdn.com/7aa6d6d0-b991-4c69-b578-8b2dc0e192c9/
     size: portrait
-  - size: portrait
-    media: https://ucarecdn.com/ef672340-9d8a-4cd5-ad14-c5241d56ab34/
   - media: https://ucarecdn.com/ec5dbcec-6e8a-472a-9231-cf1a951053ae/
-    size: portrait
-  - media: https://ucarecdn.com/d636cc10-b323-4aad-80fc-c1514007b082/
-    size: portrait
-  - media: https://ucarecdn.com/465aa3c3-5a65-42a7-8029-68d8a784b28f/
     size: portrait
 clients:
   - client: Victoria's Secret
