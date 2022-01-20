@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Double, Issue 39 SS20 Cover
 description: Double, Issue 39 SS20 Cover
 campaign_title: Issue 39 SS20 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/868a26e8-ce2c-4c6e-9646-19aa1a597d4e/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-22T17:00:13.678Z
 release_date_public: 12/22/2021
 media:
