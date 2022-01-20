@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: I-D, 40th Anniversary  Issue, Judy Turner
 description: I-D, 40th Anniversary  Issue, Judy Turner
 campaign_title: 40th Anniversary  Issue, Judy Turner
 thumb:
   size: landscape
   image: https://ucarecdn.com/b524fab2-09bd-4f23-ae42-f559cd1cef41/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-20T16:41:05.031Z
 release_date_public: 12/20/2021
 media:
