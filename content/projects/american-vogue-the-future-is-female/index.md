@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: American Vogue, The Future is Female
 description: American Vogue, The Future is Female
 campaign_title: The Future is Female
 thumb:
   size: landscape
   image: https://ucarecdn.com/bdeff532-0657-4596-a88b-3056203ef17d/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-23T19:36:07.327Z
 release_date_public: 12/23/2021
 media:
