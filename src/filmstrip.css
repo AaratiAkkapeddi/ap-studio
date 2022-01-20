@@ -32,10 +32,14 @@
 }
 .text-item:hover .hover-img, .text-item:hover .hover-text{
   display: inline-block;
-  position: absolute;
+  position: fixed;
   top: 50%;
   opacity: 1;
 }
+.film-strip .text-item:hover .hover-img img,.film-strip .text-item:hover .hover-img video{
+  width:100%;
+}
+
 .film-item{
   position:relative;
 }
@@ -73,7 +77,7 @@
 }
 .film-strip .text-item:hover .hover-img{
   right: 35%;
-  top:5%;
+  top:10%;
   width: 40%;
 }
 .film-strip .hover-text{
