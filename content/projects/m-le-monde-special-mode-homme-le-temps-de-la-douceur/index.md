@@ -30,5 +30,12 @@ media:
     size: landscape
   - size: landscape
     media: https://ucarecdn.com/381d3cef-69e7-4777-878b-a5a3f5f24de5/
+clients:
+  - client: M Magazine
+artists:
+  - artist: Oliver Hadlee Pearch
+  - artist: Carlos Nazario
+locations:
+  - location: New York
 date: 2022-01-20T21:33:38.515Z
 ---
