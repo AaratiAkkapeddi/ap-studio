@@ -1,11 +1,13 @@
 ---
-draft: true
+draft: false
 title: Vogue HK, April 2019 Cover
 description: Vogue HK, April 2019 Cover
 campaign_title: April 2019 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/1f337463-6416-4aeb-a1b9-445238681a38/
+carouselthumb:
+  size: portrait
 release_date: 2021-12-23T20:54:00.466Z
 release_date_public: 12/23/2021
 media:
