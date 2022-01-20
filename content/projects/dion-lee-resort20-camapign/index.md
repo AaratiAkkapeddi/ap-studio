@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Dion Lee, Resort20 Camapign
 description: Dion Lee, Resort20 Camapign
 campaign_title: Resort20 Camapign
