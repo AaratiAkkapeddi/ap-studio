@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Nike Yoga
 description: "Nike Yoga "
 campaign_title: Nike Yoga
