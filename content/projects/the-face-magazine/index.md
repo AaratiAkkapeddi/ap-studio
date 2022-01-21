@@ -1,7 +1,7 @@
 ---
 draft: false
-title: The Face Magazine
-description: The Face Magazine
+title: The Face
+description: The Face
 campaign_title: '"Dream Deferred"'
 thumb:
   image: https://ucarecdn.com/62353e2a-5977-47d2-9df1-0563722e03eb/
@@ -35,6 +35,7 @@ media:
     size: portrait
   - media: https://ucarecdn.com/92c6ba55-f904-46cd-afd3-2f235e56b3bc/
     size: portrait
-clients: []
+clients:
+  - client: The Face
 date: 2022-01-20T23:59:53.552Z
 ---
