@@ -25,6 +25,12 @@ media:
     size: portrait
   - media: https://ucarecdn.com/03bc3382-9a9b-44a9-bf58-26d2c0c19013/
     size: portrait
+  - media: https://ucarecdn.com/4626a4cd-d8cc-4e50-941c-e3cb190bd27c/
+    size: portrait
+  - media: https://ucarecdn.com/36e206e0-f8f2-4a96-9903-b19fe5bb1eb5/
+    size: portrait
+  - media: https://ucarecdn.com/7f57d275-c812-4339-9e87-52c8bffab5ae/
+    size: portrait
 clients:
   - client: Nike
 locations:
