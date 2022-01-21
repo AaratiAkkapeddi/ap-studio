@@ -10,6 +10,8 @@ carouselthumb:
   size: portrait
 release_date: 2022-01-20T22:46:26.257Z
 media:
+  - media: https://ucarecdn.com/48b0e6d0-e291-4b00-89c0-2669e46cabdb/
+    size: landscape
   - media: https://ucarecdn.com/b8e60bf9-0832-4e05-a39a-5880d85df60f/
     size: portrait
   - media: https://ucarecdn.com/330caac8-7324-4918-9ec8-f04a42a04ad5/
@@ -20,10 +22,6 @@ media:
     size: portrait
   - media: https://ucarecdn.com/c22137e8-4b9a-4432-9a55-b7d6183ff277/
     size: portrait
-  - media: ""
-    size: portrait
-  - media: https://ucarecdn.com/48b0e6d0-e291-4b00-89c0-2669e46cabdb/
-    size: landscape
   - size: portrait
     media: https://ucarecdn.com/ef672340-9d8a-4cd5-ad14-c5241d56ab34/
   - media: https://ucarecdn.com/a4238b45-300f-49b7-92de-ae272d280203/
