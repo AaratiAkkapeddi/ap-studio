@@ -1,4 +1,4 @@
 ---
-title: Marie Amelié Sauvé
-name: Marie Amelié Sauvé
+title: Marie Amelie Sauvé
+name: Marie Amelie Sauvé
 ---
