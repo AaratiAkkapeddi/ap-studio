@@ -37,7 +37,7 @@ const ClientPageTemplate = ({ data, location }) => {
               
             <div className="hover">
             
-            <div className="hover-txt">{project.frontmatter.artists ? project.frontmatter.artists[0].artist + " " : ""}</div>
+            <div className="hover-txt">{project.frontmatter.artists ? project.frontmatter.artists[0]?.artist + " " : ""}</div>
             </div>
                     
             </a>

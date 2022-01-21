@@ -34,7 +34,7 @@ const ArtistTemplate = ({ data, location }) => {
 
             <div className="hover">
             <div className="hover-img"><Media size={project.frontmatter.thumb?.size} key={index} imageurl={project.frontmatter.thumb?.media_name} videourl={project.frontmatter.thumb?.video} /></div>
-            <div className="hover-txt">{project.frontmatter.clients ? project.frontmatter.clients[0].client + " " : ""}</div>
+            <div className="hover-txt">{project.frontmatter.clients ? project.frontmatter.clients[0]?.client + " " : ""}</div>
             </div>
             </a>
           )

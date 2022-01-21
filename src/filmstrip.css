@@ -4,7 +4,7 @@
   max-width:var(--maxWidth-wrapper);
   margin:var(--spacing-4) auto;
   margin-bottom: var(--spacing-16);
-
+  overflow:hidden;
 }
 .film-strip.text-column{
   display: flex;
