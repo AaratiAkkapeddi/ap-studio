@@ -1,10 +1,21 @@
 .film-strip{
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   max-width:var(--maxWidth-wrapper);
   margin:var(--spacing-4) auto;
   margin-bottom: var(--spacing-16);
 
+}
+.film-strip.text-column{
+  display: flex;
+}
+.film-spacer{
+  width: 150px;
+  height: 10vw;
+  float:right;
+}
+.film-strip.text-column *{
+  float:none;
 }
 .film-strip #text-projects{
   display: none;
@@ -15,6 +26,10 @@
 }
 .film-strip.text-column .film-item{
   display: none;
+}
+.projects-page.filmy#layout-toggle{
+  position:fixed;
+  z-index: 2;
 }
 .film-strip.text-column{
 /*  display: block;*/
@@ -39,9 +54,15 @@
 .film-strip .text-item:hover .hover-img img,.film-strip .text-item:hover .hover-img video{
   width:100%;
 }
-
+#film-strip > *{
+  display: inline-block;
+}
+#mini-first{
+  float:left;
+}
 .film-item{
   position:relative;
+ display:inline-block;
 }
 .film-strip .film-item .opacity-title{
   display: none;
@@ -62,6 +83,9 @@
 .film-strip .film-item:hover .opacity-title{
   display: flex;
 }
+.film-strip.text-column .film-spacer{
+  display: none;
+}
 .text-item:hover .hover-text{
   width: calc(45% + var(--spacing-24));
   right:0;
@@ -71,6 +95,10 @@
   width: 33%;
   margin-left:8%;
   text-align: center;
+    float:none;
+}
+.mini-overview:last-child{
+  float:right;
 }
 .film-strip.text-column *:last-child .more-info{
   text-align: center;
@@ -100,6 +128,7 @@
   flex-flow: row nowrap;
   max-width:var(--maxWidth-wrapper);
 }
+
 .mini-overview{
   width:calc(20% - var(--spacing-2));
   position:relative;
@@ -111,6 +140,7 @@
 }
 .mini-overview:last-child{
   width: calc(10% - var(--spacing-2));
+
 }
 .more-info{
   position: absolute;
@@ -165,6 +195,7 @@
       width: calc(100% - var(--spacing-2));
       height: auto;
       min-height:5vh;
+        float:none;
     }
     .more-info{
       left:auto;

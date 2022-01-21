@@ -1,4 +1,5 @@
-import * as React from "react"
+import React, { useState } from 'react';
+
 import Thumb from "../components/thumb"
 import ReactMarkdown from 'react-markdown'
 import { StaticImage } from "gatsby-plugin-image"
@@ -7,6 +8,8 @@ const FilmStrip = ({hpText, projects}) => {
  if(hpText){
  	projects = projects.slice(0, 25)
  }
+   const [reverse, setReverse] = useState(0);
+
  function imageColumn(){
     document.querySelector(".film-strip").classList.remove("text-column")
   
@@ -20,27 +23,35 @@ const FilmStrip = ({hpText, projects}) => {
     document.querySelector("#text-toggle").classList.add("on")
   }
   function recent(){
+  	console.log(reverse)
+  	setReverse(0)
     document.querySelector("#older").classList.remove("on")
     document.querySelector("#recent").classList.add("on")
-    let items = document.querySelectorAll(".film-item")
-    for (var i = items.length - 1; i >= 0; i--) {
+    // let items = document.querySelectorAll(".film-item")
+    // for (var i = items.length - 1; i >= 0; i--) {
 
-      items[i].style.order = Math.abs(i+2)
-    }
+    //   items[i].style.order = Math.abs(i+2)
+    // }
     
   }
   function older(){
+  	console.log(reverse)
     document.querySelector("#recent").classList.remove("on")
     document.querySelector("#older").classList.add("on")
-    let items = document.querySelectorAll(".film-item")
-    for (var i = items.length - 1; i >= 0; i--) {
+    setReverse(1)
+    // let items = document.querySelectorAll(".film-item")
+    // for (var i = items.length - 1; i >= 0; i--) {
 
-      items[i].style.order = "-"+Math.abs(i+2)
-    }
+    //   items[i].style.order = "-"+Math.abs(i+2)
+    // }
   }
+  let projectsReverse = projects.reverse()
 	return (
 		<>
-		<p className="filmy" id="layout-toggle">
+		
+	      <div className="film-strip">
+	      <div className="film-spacer"></div>
+	      <p className={`${hpText ? "" :"projects-page "} filmy`} id="layout-toggle">
 	       <svg id="image-toggle" className="on" onClick={imageColumn} width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
 	        <rect width="12.5" height="23.0705" fill="#111F4F"/>
 	        <rect y="26.9294" width="12.5" height="23.0705" />
@@ -53,8 +64,7 @@ const FilmStrip = ({hpText, projects}) => {
 	        <path d="M23.6042 50V6.71429H40V0H0V6.71429H16.3958V50H23.6042Z"/>
 	        </svg>
 	      </p>
-	      <div className="film-strip">
-	        <div style={{"order":"-1000"}} className="mini-overview">
+	        <div id="mini-first" style={{"order":"-1000"}} className={`${hpText ? " " :"projects-page-mini "} mini-overview`}>
 	          {hpText ?
 	          <>
 		          <ReactMarkdown>{hpText}</ReactMarkdown>
@@ -66,6 +76,30 @@ const FilmStrip = ({hpText, projects}) => {
         	  </div>
 	      	}
 	        </div>
+	        {reverse ?
+	        <div id="text-projects">
+	        {projectsReverse.map((project, index) => {
+	              if(!project.node.frontmatter.draft){
+	                const title = project.node.frontmatter.campaign_title
+	   
+	                return (
+	                
+	                  <a  className={`text-item`} key={index} href={project.node.fields.slug}>
+	                    <h1> {project.node.frontmatter.clients ? project.node.frontmatter.clients[0].client + ", " : ""} {project.node.frontmatter.campaign_title}</h1>
+	                    <div className="hover-img">
+	                     <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+	                    </div>
+	                    <div className="hover-text">
+	                     <p> <ReactMarkdown>{project.node.frontmatter.notes}</ReactMarkdown></p>
+	                    </div>
+	                  </a>
+	       
+	                )
+
+	              }
+	          })}
+	        </div>
+	        :
 	        <div id="text-projects">
 	        {projects.map((project, index) => {
 	              if(!project.node.frontmatter.draft){
@@ -87,7 +121,33 @@ const FilmStrip = ({hpText, projects}) => {
 
 	              }
 	          })}
-	        </div>
+	        </div>}
+	         {reverse ?
+	         	<>
+	            {projectsReverse.map((project, index) => {
+	              if(!project.node.frontmatter.draft){
+	                const title = project.node.frontmatter.campaign_title
+
+	                return (
+	                
+	                  <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
+	                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+	                  	<div className="opacity-title">{project.node.frontmatter.clients ? project.node.frontmatter.clients[0].client + ", " : ""}{project.node.frontmatter.campaign_title}</div>
+	                  </a>
+	       
+	                )
+
+	              }
+	          })}
+	            { hpText &&
+		          <div className="mini-overview">
+		            <div id='meta-text'></div>
+		            <a className="more-info" href="/projects">View All Projects</a>
+		          </div>
+		      }
+		      </>
+		      :
+		      <>
 	            {projects.map((project, index) => {
 	              if(!project.node.frontmatter.draft){
 	                const title = project.node.frontmatter.campaign_title
@@ -109,6 +169,8 @@ const FilmStrip = ({hpText, projects}) => {
 		            <a className="more-info" href="/projects">View All Projects</a>
 		          </div>
 		      }
+		      </>
+		  }
 	      </div>
 	    </>
 	  )
