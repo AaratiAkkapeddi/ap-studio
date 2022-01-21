@@ -168,7 +168,26 @@
   width:100%;
   height:10vw;
 }
-
+@media (max-width: 1518px) {
+  .mini-overview{
+    width:calc(30% - var(--spacing-2));
+  }
+}
+@media (max-width: 1170px) {
+  .mini-overview{
+    width:calc(50% - var(--spacing-2));
+  }
+}
+@media (max-width: 990px) {
+  .mini-overview{
+    width:calc(60% - var(--spacing-2));
+  }
+}
+@media (max-width: 859px) {
+  .mini-overview{
+    width:calc(80% - var(--spacing-2));
+  }
+}
 @media (max-width: 42rem) {
 
     .film-item{
