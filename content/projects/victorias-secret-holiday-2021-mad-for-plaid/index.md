@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Victoria's Secret, Holiday 2021, 'Mad for Plaid'
-description: Victoria's Secret, Holiday 2021, 'Mad for Plaid'
-campaign_title: Holiday 2021, 'Mad for Plaid'
+title: Victoria's Secret, Holiday 2021, Mad for Plaid
+description: Victoria's Secret, Holiday 2021, Mad for Plaid
+campaign_title: Holiday 2021, Mad for Plaid
 thumb:
   image: https://ucarecdn.com/b38af8a5-7fb6-4d24-b3d7-9edd6a400c69/
   size: portrait
