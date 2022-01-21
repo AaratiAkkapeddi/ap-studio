@@ -8,7 +8,7 @@ thumb:
   image: https://ucarecdn.com/443ee352-b163-4ef4-ac8c-07ff1a7dc9a0/
 carouselthumb:
   size: portrait
-  image: https://ucarecdn.com/62859111-181e-45b8-bab7-1aa684fa6c6b/
+  image: ""
 release_date: 2021-12-22T18:21:08.497Z
 release_date_public: 12/22/2021
 media:
