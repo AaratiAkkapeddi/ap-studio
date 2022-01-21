@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: System Magazine
 description: System Magazine
 campaign_title: System Magazine
