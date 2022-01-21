@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: The Face Magazine
 description: The Face Magazine
 campaign_title: '"Dream Deferred"'
