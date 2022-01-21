@@ -1,7 +1,7 @@
 ---
 draft: false
-title: Mc Q, Eden High Campaign
-description: Mc Q, Eden High Campaign
+title: Mc Q by Alexander Mc Queen, Eden High Campaign
+description: Mc Q by Alexander Mc Queen, Eden High Campaign
 campaign_title: Eden High Campaign
 thumb:
   image: https://ucarecdn.com/76e3f869-6c5c-4efb-801e-73af91245803/
@@ -36,5 +36,7 @@ media:
     size: portrait
   - media: https://ucarecdn.com/e854aef9-5823-4cd1-b802-537ee72c4521/
     size: portrait
+clients:
+  - client: McQ by Alexander McQueen
 date: 2022-01-21T16:59:56.778Z
 ---
