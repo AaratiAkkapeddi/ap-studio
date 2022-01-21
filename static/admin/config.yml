@@ -32,7 +32,10 @@ collections:
         fields:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'Intro', name: 'intro', widget: 'markdown'}
-          - { label: 'Featured Projects', name: 'projects', widget: 'list', 
+          - { label: 'Featured Projects (Carousel)', name: 'projects', widget: 'list', 
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}]
+              }
+          - { label: 'Featured Projects (Below Carousel)', name: 'featured_projects', widget: 'list', 
               fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}]
               }
           - { label: 'Selected Clients', name: 'clients', widget: 'list', 
@@ -109,6 +112,7 @@ collections:
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
+      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}
   - name: 'artists'
     label: 'Artist'
     folder: 'content/artists'
@@ -122,6 +126,7 @@ collections:
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
+      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}
   - name: 'locations'
     label: 'Location'
     folder: 'content/locations'

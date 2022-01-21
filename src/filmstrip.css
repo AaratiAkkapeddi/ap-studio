@@ -31,6 +31,9 @@
   position:fixed;
   z-index: 2;
 }
+.filmy{
+  z-index: 2;
+}
 .film-strip.text-column{
 /*  display: block;*/
    align-items: stretch;
