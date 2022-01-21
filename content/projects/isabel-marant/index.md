@@ -32,5 +32,7 @@ media:
     size: portrait
 clients:
   - client: Isabel Marant
+locations:
+  - location: Paris
 date: 2022-01-21T00:48:07.450Z
 ---
