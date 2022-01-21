@@ -165,7 +165,7 @@
 }
 
 .film-item img, .film-item video{
-  width:100%;
+  width:auto;
   height:10vw;
 }
 @media (max-width: 1518px) {
