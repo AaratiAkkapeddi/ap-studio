@@ -9,6 +9,13 @@ projects:
   - project: Chloe FW21
   - project: American Vogue, Show Of Hand
   - project: Aute Cuture Campaign for MAC
+featured_projects:
+  - project: American Vogue, December 2019 Cover
+  - project: American Vogue, It Takes An Industry
+  - project: American Vogue, March 2021 Cover
+  - project: American Vogue, Show Of Hand
+  - project: AnOther, Hold Me
+  - project: MAC, Autre Cuture Campaign
 clients:
   - client: Amazon Luxury Stores
   - client: Ambush
