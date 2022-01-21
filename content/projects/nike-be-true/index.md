@@ -24,5 +24,7 @@ media:
     size: portrait
   - media: https://ucarecdn.com/7cc2b8b3-ddaa-47c2-990f-ce126a154af8/
     size: portrait
+clients:
+  - client: Nike
 date: 2022-01-21T00:15:00.467Z
 ---
