@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Isabel Marant
 description: Isabel Marant
 campaign_title: Isabel Marant
