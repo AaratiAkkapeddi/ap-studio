@@ -36,6 +36,8 @@ media:
     size: portrait
   - media: https://ucarecdn.com/e854aef9-5823-4cd1-b802-537ee72c4521/
     size: portrait
+  - mediaVideo: https://ucarecdn.com/9ad46487-98a4-4e0a-83ba-7e52766ca083/
+    size: landscape
 clients:
   - client: McQ by Alexander McQueen
 date: 2022-01-21T16:59:56.778Z
