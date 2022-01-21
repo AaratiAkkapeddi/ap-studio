@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Victoria's Secret, Holiday 2021, Frozen Flowers
 campaign_title: Holiday 2021, Frozen Flowers
 thumb:
