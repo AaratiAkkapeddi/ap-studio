@@ -16,16 +16,24 @@
 .ac-spacer h1{
 	position: fixed;
 }
+.client-three-image-column{
+	margin-top:var(--spacing-16);
+}
 .image-column .hover-txt{
 	display: none;
 }
 .hover-img img{
 	max-width: 100%;
 }
-.client-project-list{
+.text-column .client-project-list{
   font-family: var(--font-heading);
   font-size: var(--fontSize-6);
   letter-spacing: -0.05em;
+}
+.client-project-list{
+/*  font-family: var(--font-heading);
+  font-size: var(--fontSize-6);*/
+  
   margin:0;
   line-height: var(--lineHeight-none);
 }

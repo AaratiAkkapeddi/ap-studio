@@ -58,6 +58,7 @@ const ArtistIndex = ({ data, location }) => {
           <ol style={{ listStyle: `none` }}>
               {artists.map((artist,index) => {
               	let featuredProjects = []
+                let featuredProject = artist.node.frontmatter.featured_project
               	let title = artist.node.frontmatter.name
                 let firstLetter = title[0] 
                 let drawLetterLabel = false
@@ -72,7 +73,13 @@ const ArtistIndex = ({ data, location }) => {
 				      }
 				    }
 				  }
-        
+        if(featuredProject){
+            for (var x = projects.length - 1; x >= 0; x--) {
+              if(projects[x].node.frontmatter.title == featuredProject){
+                featuredProjects.unshift(projects[x].node)
+              }
+            }
+          }
 
               return (
                 <li key={index}>
@@ -118,6 +125,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             name
+            featured_project
           }
           fields {
             slug

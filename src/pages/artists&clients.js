@@ -60,6 +60,7 @@ const ArtistIndex = ({ data, location }) => {
               	
               	let featuredProjects = []
               	let title = client.node.frontmatter.name
+                let featuredProject = client.node.frontmatter.featured_project
                 let firstLetter = title[0] 
                 let drawLetterLabel = false
                 if(firstLetter !== letterC){
@@ -73,7 +74,14 @@ const ArtistIndex = ({ data, location }) => {
 				      }
 				    }
 				  }
-              console.log(title, featuredProjects)
+          if(featuredProject){
+            for (var x = projects.length - 1; x >= 0; x--) {
+               if(projects[x].node.frontmatter.title == featuredProject){
+                featuredProjects.unshift(projects[x].node)
+              }
+            }
+          }
+          
               return (
                 <li key={index}>
                   {drawLetterLabel &&
@@ -104,6 +112,8 @@ const ArtistIndex = ({ data, location }) => {
               	let featuredProjects = []
               	let title = artist.node.frontmatter.name
                 let firstLetter = title[0] 
+                let featuredProject = artist.node.frontmatter.featured_project
+
                 let drawLetterLabel = false
                 if(firstLetter !== letterA){
                   letterA = firstLetter
@@ -116,7 +126,16 @@ const ArtistIndex = ({ data, location }) => {
       				      }
       				    }
       				  }
-        
+              if(featuredProject){
+       
+                for (var x = projects.length - 1; x >= 0; x--) {
+
+                  if(projects[x].node.frontmatter.title == featuredProject){
+                      featuredProjects.unshift(projects[x].node)
+
+                    }
+                }
+              }
 
               return (
                 <li key={index}>
@@ -162,6 +181,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             name
+            featured_project
           }
           fields {
             slug
@@ -176,6 +196,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             name
+            featured_project
           }
           fields {
             slug
