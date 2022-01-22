@@ -5,7 +5,7 @@ description: Fursac, FW21 Campaign
 campaign_title: FW 21 Campaign
 thumb:
   image: ""
-  size: portrait
+  size: square
   video: https://ucarecdn.com/1fa60dd8-b1f2-44b3-8f1f-cf6fafc95656/
 release_date: 2022-01-22T15:07:48.456Z
 media:
