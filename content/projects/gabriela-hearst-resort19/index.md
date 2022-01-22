@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Gabriela Hearst, Resort19
-description: Gabriela Hearst, Resort19
-campaign_title: Resort19
+title: Gabriela Hearst, Resort 19
+description: Gabriela Hearst, Resort 19
+campaign_title: Resort 19
 thumb:
   size: portrait
   image: https://ucarecdn.com/a1659a3d-34aa-4827-b710-a983f7c2fdaa/
