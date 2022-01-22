@@ -53,5 +53,7 @@ media:
     size: portrait
 clients:
   - client: Fursac
+artists:
+  - artist: Daniyel Lowden
 date: 2022-01-22T15:07:48.471Z
 ---
