@@ -1,7 +1,9 @@
 ---
 title: Paris
 name: Paris
-address: test address
-latitude: "40.650002"
-longitude: "-73.949997"
+address: |-
+  31 Avenue de Ségur\
+  75007 Paris
+latitude: "48.8510196"
+longitude: "2.3096462"
 ---
