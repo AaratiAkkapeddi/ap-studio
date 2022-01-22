@@ -112,7 +112,7 @@ collections:
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
-      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}
+      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"], required: false}
   - name: 'artists'
     label: 'Artist'
     folder: 'content/artists'
@@ -126,7 +126,7 @@ collections:
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
-      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}
+      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"], required: false}
   - name: 'locations'
     label: 'Location'
     folder: 'content/locations'
