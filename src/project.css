@@ -81,6 +81,7 @@
 	margin:var(--spacing-8) auto;
 	justify-content: center;
 	max-width:var(--maxWidth-wrapper);
+	margin-top:var(--spacing-20);
 }
 
 .project-media-container.two-column .media-item.portrait{
@@ -141,7 +142,7 @@
    	 position: relative;
    	 width:100%;
    	 left:calc((100vw - var(--maxWidth-wrapper) )/4);
-   	 margin-top:50px;
+   	 margin-top:80px;
    	 padding-right:0;
    }
    .project-header >h1:first-child, .project-header > #mobile-layout-toggle{

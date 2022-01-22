@@ -91,7 +91,9 @@ const ProjectTemplate = ({ data, location }) => {
       />
 
         <header className="project-header">
-          <h1><ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown></h1>
+          <h1>{project.frontmatter.clients[0] &&
+            <><ReactMarkdown>{project.frontmatter.clients[0]?.client}</ReactMarkdown></>
+          }<ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown></h1>
           <div className="notes">
           <div className="with-text">{withtext}</div>
           <ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown>
