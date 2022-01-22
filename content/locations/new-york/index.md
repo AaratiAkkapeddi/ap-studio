@@ -1,7 +1,14 @@
 ---
 title: New York
 name: New York
-address: test address
-latitude: "40.650002"
-longitude: "-73.949997"
+address: |-
+  265 Canal St. 
+
+  Suite 301 
+
+  New York, NY 
+
+  10013
+latitude: "40.719020"
+longitude: "-74.000990"
 ---
