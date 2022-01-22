@@ -48,6 +48,8 @@ media:
     size: portrait
   - media: https://ucarecdn.com/3e398652-8e74-4711-a34c-0f632ff9ec9a/
     size: portrait
+  - mediaVideo: https://ucarecdn.com/47d11ee0-3b6b-40fd-8425-6278f474f825/
+    size: landscape
 clients:
   - client: Fursac
 date: 2022-01-22T15:07:48.471Z
