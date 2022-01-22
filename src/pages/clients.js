@@ -68,7 +68,7 @@ const ArtistIndex = ({ data, location }) => {
                 }
 				 for (var x = projects.length - 1; x >= 0; x--) {
 				    for (var i = projects[x].node.frontmatter.clients?.length - 1; i >= 0; i--) {
-				      if(projects[x].node.frontmatter.clients[i].client == client.node.frontmatter.name){
+				      if(projects[x].node.frontmatter.clients[i].client.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "") == client.node.frontmatter.name.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "")){
 				        featuredProjects.push(projects[x].node)
 				      }
 				    }

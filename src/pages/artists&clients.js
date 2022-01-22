@@ -69,7 +69,8 @@ const ArtistIndex = ({ data, location }) => {
                 }
 				 for (var x = projects.length - 1; x >= 0; x--) {
 				    for (var i = projects[x].node.frontmatter.clients?.length - 1; i >= 0; i--) {
-				      if(projects[x].node.frontmatter.clients[i].client == title){
+              
+				      if(projects[x].node.frontmatter.clients[i].client.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "") == title.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "")){
 				        featuredProjects.push(projects[x].node)
 				      }
 				    }
@@ -81,7 +82,7 @@ const ArtistIndex = ({ data, location }) => {
               }
             }
           }
-          
+         
               return (
                 <li key={index}>
                   {drawLetterLabel &&
@@ -96,6 +97,7 @@ const ArtistIndex = ({ data, location }) => {
                       <div className="hover-txt">{featuredProjects[0]?.frontmatter.artists ? featuredProjects[0]?.frontmatter.artists[0]?.artist + ", " : ""}<ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes}</ReactMarkdown></div>
                       </div>
                     }
+                    
                     {title}
                       
                   </a>
@@ -120,8 +122,8 @@ const ArtistIndex = ({ data, location }) => {
                   drawLetterLabel = true
                 }
       				 for (var x = projects.length - 1; x >= 0; x--) {
-      				    for (var i = projects[x].node.frontmatter.artists?.length - 1; i >= 0; i--) {
-      				      if(projects[x].node.frontmatter.artists[i].artist == artist.node.frontmatter.name){
+                  for (var i = projects[x].node.frontmatter.artists?.length - 1; i >= 0; i--) {
+      				      if(projects[x].node.frontmatter.artists[i].artist.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "") == artist.node.frontmatter.name.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "")){
       				        featuredProjects.push(projects[x].node)
       				      }
       				    }
