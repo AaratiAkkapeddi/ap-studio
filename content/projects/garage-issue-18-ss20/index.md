@@ -10,7 +10,10 @@ carouselthumb:
   size: portrait
 release_date: 2021-12-22T16:47:00.387Z
 release_date_public: 12/22/2021
-notes: Shot in Tlayacapan, Mexico
+notes: |-2
+  
+
+   in Tlayacapan, Mexico
 media:
   - size: portrait
     media: https://ucarecdn.com/dedc0203-6af2-400d-949f-cdd93ef83bab/
