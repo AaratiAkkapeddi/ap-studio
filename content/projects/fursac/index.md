@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Fursac
-description: Fursac
-campaign_title: Fursac
+title: Fursac, FW 21 Campaign
+description: Fursac, FW21 Campaign
+campaign_title: FW 21 Campaign
 thumb:
   image: https://ucarecdn.com/7d32a73d-ad2b-4a22-9c7a-1007f24af9d4/
   size: portrait
