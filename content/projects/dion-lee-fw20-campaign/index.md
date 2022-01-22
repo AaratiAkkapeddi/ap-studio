@@ -5,9 +5,9 @@ description: Dion Lee, FW20 Campaign
 campaign_title: FW20 Campaign
 thumb:
   size: portrait
-  image: https://ucarecdn.com/1675a73b-d3d4-4929-a409-297c51049ea4/
-release_date: 2021-12-21T15:12:42.204Z
-release_date_public: 12/21/2021
+  image: https://ucarecdn.com/1d6dd4ba-63b2-4621-a147-b9afc5e95a53/
+release_date: 2022-01-22T13:36:44.541Z
+release_date_public: 1/21/2021
 media:
   - size: portrait
     media: https://ucarecdn.com/314e8781-16cb-4485-a139-fbc6958a8c83/
