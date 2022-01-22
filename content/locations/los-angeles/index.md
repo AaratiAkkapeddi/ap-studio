@@ -9,6 +9,6 @@ address: |-
   Los Angeles, CA 
 
   90013
-latitude: "40.650002"
-longitude: "-73.949997"
+latitude: -34°02'21.0"
+longitude: -118°14'09.9"
 ---
