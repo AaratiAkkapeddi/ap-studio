@@ -9,6 +9,14 @@
 	margin:0;
 	
 }
+.film-strip #mini-first.projects-page-mini{
+	display: none;
+}
+.film-strip.text-column #mini-first.projects-page-mini{
+	opacity: 0;
+	display: inline-block;
+	pointer-events: none;
+}
 .project-footer{
    	display: flex;
    }

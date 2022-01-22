@@ -25,7 +25,7 @@ const ProjectIndex = ({ data, location }) => {
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
       
-      <FilmStrip hpText={false} projects={projects}/>
+      <FilmStrip hpText={false} projects={projects.reverse()}/>
       
       
      
