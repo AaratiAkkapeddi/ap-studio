@@ -17,7 +17,17 @@ const ArtistIndex = ({ data, location }) => {
 
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const artists = data.artists?.edges
-  const clients = data.clients?.edges
+  const clientsold = data.clients?.edges
+  let clients;
+  clients = clientsold.sort(function (a, b) {
+    if ( a.node.frontmatter.name.toLowerCase() < b.node.frontmatter.name.toLowerCase() ) {
+        return -1;
+    } else if ( a.node.frontmatter.name.toLowerCase() > b.node.frontmatter.name.toLowerCase() ) {
+        return 1;
+    } else {
+        return 0;
+    }
+  } ) ;
   const projects = data.projects?.edges
   let letterC = "1"
   let letterA = "1"
@@ -62,8 +72,8 @@ const ArtistIndex = ({ data, location }) => {
               	let title = client.node.frontmatter.name
                 let firstLetter = title[0] 
                 let drawLetterLabel = false
-                if(firstLetter !== letterC){
-                  letterC = firstLetter
+                if(firstLetter.toUpperCase() !== letterC.toUpperCase()){
+                  letterC = firstLetter.toUpperCase()
                   drawLetterLabel = true
                 }
 				 for (var x = projects.length - 1; x >= 0; x--) {
@@ -84,7 +94,7 @@ const ArtistIndex = ({ data, location }) => {
               return (
                 <li key={index}>
                   {drawLetterLabel &&
-                    <div className="letter-label">{firstLetter}</div>
+                    <div className="letter-label">{firstLetter.toUpperCase()}</div>
                   }
                   <a href={client.node.fields.slug}>
                   {

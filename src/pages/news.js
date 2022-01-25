@@ -47,7 +47,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    blogs: allMarkdownRemark(filter: {fields: {slug: {regex: "/blog/"}}}) {
+    blogs: allMarkdownRemark(filter: {fields: {slug: {regex: "/blog/"}}}, sort: {fields: [frontmatter___date], order: ASC }) {
     edges {
         node {
           id
