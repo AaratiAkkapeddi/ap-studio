@@ -4,18 +4,17 @@ intro: AP Studio, Inc is an integrated creative production studio. offering
   full-service production, including art buying and casting, for editorial and
   commercial shoots of all sizes.
 projects:
-  - project: American Vogue, December 2019 Cover
-  - project: American Vogue, April 2020 Cover
+  - project: Prada, SS22 Campaign
+  - project: Loewe SS22 Womens
   - project: Chloe FW21
-  - project: American Vogue, Show Of Hand
-  - project: Aute Cuture Campaign for MAC
+  - project: Loewe SS22 Mens
 featured_projects:
-  - project: American Vogue, December 2019 Cover
-  - project: American Vogue, It Takes An Industry
-  - project: American Vogue, March 2021 Cover
-  - project: American Vogue, Show Of Hand
-  - project: AnOther, Hold Me
-  - project: MAC, Autre Cuture Campaign
+  - project: Loewe SS22 Womens
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
+  - project: Loewe SS22 Mens
+  - project: Chloe FW21
+  - project: Prada, SS22 Campaign
+  - project: Saint Laurent FW21
 clients:
   - client: Amazon Luxury Stores
   - client: Ambush
