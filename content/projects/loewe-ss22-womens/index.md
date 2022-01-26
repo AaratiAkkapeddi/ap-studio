@@ -19,6 +19,12 @@ media:
     size: portrait
   - media: https://ucarecdn.com/e4b5b671-6850-4768-a162-414345d00756/
     size: portrait
+  - media: https://ucarecdn.com/fdaabb81-7485-4bbf-ba0b-f8bc7fb82af1/
+    size: portrait
+  - media: https://ucarecdn.com/32a90f55-ac91-48ab-b0ff-6df1390fc65b/
+    size: portrait
+  - size: portrait
+    media: https://ucarecdn.com/e26e6ff5-264b-48b8-9713-e40596465755/
 clients:
   - client: Loewe
 artists:
