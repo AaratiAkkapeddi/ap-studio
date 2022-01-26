@@ -51,6 +51,13 @@ collections:
         fields:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'Cookie Policy', name: 'cookie', widget: 'markdown'}
+      - label: "Projects Page"
+        name: "projectspage"
+        file: "content/pages/projectspage.md"
+        fields:
+          - { label: 'Featured Projects', name: 'featured_projects', widget: 'list', 
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["campaign_title"]}]
+              }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
