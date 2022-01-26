@@ -8,10 +8,10 @@ projects:
   - project: Chloe FW21
   - project: Loewe SS22 Mens
 featured_projects:
-  - project: Prada, SS22 Campaign
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Loewe SS22 Mens
   - project: Chloe FW21
-  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
+  - project: Prada, SS22 Campaign
 clients:
   - client: Amazon Luxury Stores
   - client: Ambush
