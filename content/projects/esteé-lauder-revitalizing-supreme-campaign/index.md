@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: Esteé Lauder, Revitalizing Supreme Campaign
 description: Esteé Lauder, Revitalizing Supreme Campaign
 campaign_title: Revitalizing Supreme Campaign
