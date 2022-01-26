@@ -8,12 +8,10 @@ projects:
   - project: Chloe FW21
   - project: Loewe SS22 Mens
 featured_projects:
-  - project: American Vogue, December 2019 Cover
-  - project: American Vogue, It Takes An Industry
-  - project: American Vogue, March 2021 Cover
-  - project: American Vogue, Show Of Hand
-  - project: AnOther, Hold Me
-  - project: MAC, Autre Cuture Campaign
+  - project: Prada, SS22 Campaign
+  - project: Loewe SS22 Mens
+  - project: Chloe FW21
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
 clients:
   - client: Amazon Luxury Stores
   - client: Ambush
