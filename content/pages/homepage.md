@@ -14,6 +14,7 @@ featured_projects:
   - project: Loewe SS22 Mens
   - project: Chloe FW21
   - project: Prada, SS22 Campaign
+  - project: Saint Laurent FW21
 clients:
   - client: Amazon Luxury Stores
   - client: Ambush
