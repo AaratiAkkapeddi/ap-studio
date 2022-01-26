@@ -53,8 +53,6 @@ const HomeIndex = ({ data, location }) => {
   const projects = []
   const clients = data.clients.edges
   const artists = data.artists.edges
-  
-
 
   let featuredProjects = [];
   let featuredProjects2 = [];
@@ -123,7 +121,24 @@ const HomeIndex = ({ data, location }) => {
   }
   let lastScrollTop = 0;
 
-
+featuredArtists = featuredArtists.sort(function (a, b) {
+    if ( a.frontmatter.name.toLowerCase() < b.frontmatter.name.toLowerCase() ) {
+        return -1;
+    } else if ( a.frontmatter.name.toLowerCase() > b.frontmatter.name.toLowerCase() ) {
+        return 1;
+    } else {
+        return 0;
+    }
+} ) ;
+featuredClients = featuredClients.sort(function (a, b) {
+    if ( a.frontmatter.name.toLowerCase() < b.frontmatter.name.toLowerCase() ) {
+        return -1;
+    } else if ( a.frontmatter.name.toLowerCase() > b.frontmatter.name.toLowerCase() ) {
+        return 1;
+    } else {
+        return 0;
+    }
+} ) ;
 
 function mobileClose(){
     let headers = document.querySelectorAll('.site-header');
@@ -238,7 +253,7 @@ function mobileClose(){
   </div>
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
-       <FilmStrip hpText={homepage.intro || ""} projects={featuredProjects2.length > 0 ? featuredProjects2 : projects}/>
+       <FilmStrip hpText={homepage.intro || ""} projects={featuredProjects2.length > 0 ? featuredProjects2.reverse() : projects}/>
       <div className="artists-clients">
         <div className="selected-clients">
           <h1>Selected Clients <a className="more-info" href="/artists&clients">View All Clients</a> <a className="more-info mobile" href="/clients">View All Clients</a></h1>
