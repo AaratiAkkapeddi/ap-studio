@@ -2,8 +2,8 @@
 title: Paris
 name: Paris
 address: |-
-  31 Avenue de Ségur\
-  75007 Paris
-latitude: "48.8510196"
-longitude: "2.3096462"
+  40 Rue du Louvre
+  75001 Paris
+latitude: "48.8626845"
+longitude: "2.3419169"
 ---
