@@ -60,6 +60,7 @@ clients:
 artists:
   - artist: Zoë Ghertner
   - artist: Camilla Nickerson
+  - artist: Gabriela Hearst
 locations:
   - location: New York
 date: 2021-12-23T19:19:35.067Z
