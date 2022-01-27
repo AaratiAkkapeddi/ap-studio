@@ -34,5 +34,7 @@ media:
     size: portrait
 clients:
   - client: Gabriela Hearst
+artists:
+  - artist: Gabriela Hearst
 date: 2022-01-21T21:23:34.617Z
 ---
