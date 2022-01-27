@@ -13,10 +13,10 @@ profiles: |-
 contact: |-
   Alexis Piqueras, Founder & US Managing Director\
   alexis@apstudio-inc.com\
-  &nbsp;  \
+    \n\
   Marie Godeau Robinson, Partner & Managing Director\
   marie@apstudio-inc.com\
-  &nbsp;  \
+    \n \
   General Inquiries \
   studio@apstudio-inc.com
 location: We are an agile, flexible company with offices in PARIS, NEW YORK, and
