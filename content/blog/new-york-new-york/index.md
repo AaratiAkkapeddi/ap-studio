@@ -1,5 +1,5 @@
 ---
-title: Saint Laurent FW21 billboard above tk restaurant.
+title: Saint Laurent FW21 billboard in SOHO
 date: 2022-01-22T13:45:50.925Z
 ---
 
