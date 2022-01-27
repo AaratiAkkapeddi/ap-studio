@@ -3,7 +3,7 @@ title: Cooke Policy
 cookie: >-
   GDPR & COOKIES
 
-  <BR>
+  `<BR>`
 
   AP Studio, Inc (hereinafter: "we" and "us"), as the operator of the website www.apstudio.com, is responsible for the personal data of users (hereinafter: "you") of the website within the meaning of data protection laws and, under certain circumstances, European General Data Protection Regulation ("GDPR”).
 
