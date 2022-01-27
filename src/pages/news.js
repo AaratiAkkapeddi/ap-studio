@@ -27,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
                   </div>
                   <div>
                     <h1 className="post-title">{post.node.frontmatter.title}</h1>
-                    <ReactMarkdown>{post.node.rawMarkdownBody}</ReactMarkdown>
+                    <ReactMarkdown>{post.node.rawMarkdownBody?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown>
                   </div>
                 </div>
               )

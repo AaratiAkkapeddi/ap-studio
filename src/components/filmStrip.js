@@ -67,7 +67,7 @@ const FilmStrip = ({hpText, projects}) => {
 	        <div id="mini-first" style={{"order":"-1000"}} className={`${hpText ? " " :"projects-page-mini "} mini-overview`}>
 	          {hpText ?
 	          <>
-		          <ReactMarkdown>{hpText}</ReactMarkdown>
+		          <ReactMarkdown>{hpText?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown>
 		          <a className="more-info" href="/info">More Info</a>
 	          </> :
 	          <div> 
@@ -90,7 +90,7 @@ const FilmStrip = ({hpText, projects}) => {
 	                     <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
 	                    </div>
 	                    <div className="hover-text">
-	                     <p> <ReactMarkdown>{project.node.frontmatter.notes}</ReactMarkdown></p>
+	                     <p> <ReactMarkdown>{project.node.frontmatter.notes?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></p>
 	                    </div>
 	                  </a>
 	       
@@ -113,7 +113,7 @@ const FilmStrip = ({hpText, projects}) => {
 	                     <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
 	                    </div>
 	                    <div className="hover-text">
-	                     <p> <ReactMarkdown>{project.node.frontmatter.notes}</ReactMarkdown></p>
+	                     <p> <ReactMarkdown>{project.node.frontmatter.notes?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></p>
 	                    </div>
 	                  </a>
 	       

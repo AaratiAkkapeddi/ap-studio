@@ -16,11 +16,11 @@ const Info = ({ data, location }) => {
       <div className="info-wrapper">
         <div className="info-row">
           <h1>About</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.about}</ReactMarkdown></h1>
+          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.about?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
         </div>
         <div className="info-row">
           <h1>Location</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.location}</ReactMarkdown></h1>
+          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.location?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
         </div>
         <div className="maps-wrapper">
         {locations.map((location, index) => {
@@ -28,10 +28,10 @@ const Info = ({ data, location }) => {
                 <>
                
                 <div id={`${location.node.frontmatter.name.split(" ").join("-") + "-map"}`}className="map-wrapper" key={index}>
-                  <h1><ReactMarkdown>{location.node.frontmatter.name}</ReactMarkdown></h1>
+                  <h1><ReactMarkdown>{location.node.frontmatter.name?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
 
                   <Map latitude={parseFloat(location.node.frontmatter.latitude)} longitude={parseFloat(location.node.frontmatter.longitude)}/>
-                  <div><ReactMarkdown>{location.node.frontmatter.address}</ReactMarkdown></div>
+                  <div><ReactMarkdown>{location.node.frontmatter.address?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></div>
                 </div>
   
                 
@@ -41,11 +41,11 @@ const Info = ({ data, location }) => {
         </div>
         <div className="info-row">
           <h1>Contact</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.contact}</ReactMarkdown></h1>
+          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.contact?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
         </div>
         <div className="info-row">
           <h1>Platforms</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles}</ReactMarkdown></h1>
+          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
         </div>
       </div>
     </Layout>
