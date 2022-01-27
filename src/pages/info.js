@@ -14,38 +14,37 @@ const Info = ({ data, location }) => {
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />   
       <div className="info-wrapper">
-        <div className="info-row">
-          <h1>About</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.about?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
+      <div className="info-column">
+        <div>
+          <h1>Info</h1>
+          <ReactMarkdown>{data.info?.edges[0].node.frontmatter.about?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown>
         </div>
-        <div className="info-row">
-          <h1>Location</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.location?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
-        </div>
-        <div className="maps-wrapper">
-        {locations.map((location, index) => {
-              return (
-                <>
-               
-                <div id={`${location.node.frontmatter.name.split(" ").join("-") + "-map"}`}className="map-wrapper" key={index}>
-                  <h1><ReactMarkdown>{location.node.frontmatter.name?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
-
-                  <Map latitude={parseFloat(location.node.frontmatter.latitude)} longitude={parseFloat(location.node.frontmatter.longitude)}/>
-                  <div><ReactMarkdown>{location.node.frontmatter.address?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></div>
-                </div>
-  
-                
-                </>
-              )
-            })}
-        </div>
-        <div className="info-row">
+        <div>
           <h1>Contact</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.contact?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
+          <ReactMarkdown>{data.info?.edges[0].node.frontmatter.contact?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown>
         </div>
-        <div className="info-row">
-          <h1>Platforms</h1>
-          <h1><ReactMarkdown>{data.info?.edges[0].node.frontmatter.profiles?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></h1>
+        </div>
+        <div className="info-column">
+        <div>
+          <h1>Offices</h1>
+          <div className="maps-wrapper">
+          {locations.map((location, index) => {
+                return (
+                  <>
+                 
+                  <div id={`${location.node.frontmatter.name.split(" ").join("-") + "-map"}`}className="map-wrapper" key={index}>
+                   
+
+                    <Map latitude={parseFloat(location.node.frontmatter.latitude)} longitude={parseFloat(location.node.frontmatter.longitude)}/>
+                    <div className="map-label"><div><ReactMarkdown>{location.node.frontmatter.name?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></div><div><ReactMarkdown>{location.node.frontmatter.address?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></div></div>
+                  </div>
+    
+                  
+                  </>
+                )
+              })}
+          </div>
+        </div>
         </div>
       </div>
     </Layout>
@@ -72,7 +71,6 @@ export const pageQuery = graphql`
            email
            instagram
            models
-           profiles
            contact
            location
           }

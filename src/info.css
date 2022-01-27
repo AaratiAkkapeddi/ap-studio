@@ -3,12 +3,19 @@
 	justify-content: space-between;
 	margin-bottom: var(--spacing-10);
 }
+.info-column{
+	display: flex;
+	flex-direction: column;
+}
+.info-wrapper > div{
+	flex-basis: 50%;
+}
 .info-row > h1{
 	flex-basis: 50%;
 }
 .info-wrapper{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-between;
 	max-width: var(--maxWidth-wrapper);
 	margin: var(--spacing-2) auto;
@@ -16,6 +23,7 @@
 }
 .maps-wrapper{
 	display: flex;
+	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	width:100%;
@@ -29,9 +37,24 @@
 #Los-Angeles-map{
 	order:3;
 }
+.info-wrapper > div:first-child{
+	padding-right:  var(--spacing-8);
+}
+.info-column:first-child > div:last-child{
+	margin-top: var(--spacing-16);
+}
+.info-column > div > h1{
+	margin-bottom: var(--spacing-2);
+}
+.map-label{
+	display: flex;
+}
+.map-label > div:first-child{
+	flex-basis: 55.5%;
+}
 .map-wrapper{
-	width: calc(33% - var(--spacing-8));
-	margin-bottom:var(--spacing-20);
+	width: calc(100% - var(--spacing-2));
+	margin-bottom:var(--spacing-4);
 	align-self: flex-start;
 }
 .map-wrapper .map-inner{
@@ -45,12 +68,15 @@
 	border-radius: 100%;
 }
 /* Cookie Policy*/
-
+.cookie-row{
+	justify-content: flex-start;
+}
 .cookie-row > h1{
-	flex-basis: 22%;
+	flex-basis: 25%;
 }
 .cookie-row > p{
-	flex-basis: 78%;
+	flex-basis: 53%;
+	margin-top: 8px;
 }
 
 @media(max-width: 42rem){

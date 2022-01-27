@@ -292,7 +292,7 @@ const Map = ({latitude, longitude}) => {
 	const zoom = 18;
 
 	return (
-	    <div className="map-inner" style={{ height: '20vw', width: '100%' }}>
+	    <div className="map-inner" style={{ height: '35vw', width: '100%' }}>
         <GoogleMapReact
           bootstrapURLKeys={{
 		      key: process.env.GATSBY_GMAPS, 
