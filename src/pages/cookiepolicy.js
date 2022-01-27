@@ -23,7 +23,7 @@ const CookiePolicy = ({ data, location }) => {
       <div className="info-wrapper">
         <div className="cookie-row">
           <h1>Privacy & Cookies</h1>
-          <p><ReactMarkdown>{data.cookie?.edges[0].node.frontmatter.cookie}</ReactMarkdown></p>
+          <p><ReactMarkdown>{data.cookie?.edges[0].node.frontmatter.cookie?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></p>
         </div>
 
         
