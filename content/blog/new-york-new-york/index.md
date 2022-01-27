@@ -1,5 +1,5 @@
 ---
-title: "New York, New York "
+title: Chloe FW21 campaign in SoHo
 date: 2022-01-22T13:45:50.925Z
 ---
 
