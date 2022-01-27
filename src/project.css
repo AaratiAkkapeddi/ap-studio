@@ -7,7 +7,7 @@
 }
 .project-header{
 	margin:0;
-	
+	margin-top: var(--spacing-4);
 }
 .film-strip #mini-first.projects-page-mini{
 	display: none;
