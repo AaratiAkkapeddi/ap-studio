@@ -12,11 +12,11 @@ profiles: |-
   [Models.com](models.com)
 contact: |-
   Alexis Piqueras, Founder & US Managing Director\
-  alexis@apstudio-inc.com  
-  \
+  alexis@apstudio-inc.com\
+  &nbsp;  \
   Marie Godeau Robinson, Partner & Managing Director\
-  marie@apstudio-inc.com  
-  \
+  marie@apstudio-inc.com\
+  &nbsp;  \
   General Inquiries \
   studio@apstudio-inc.com
 location: We are an agile, flexible company with offices in PARIS, NEW YORK, and
