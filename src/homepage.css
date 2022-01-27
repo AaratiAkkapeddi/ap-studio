@@ -14,11 +14,14 @@
   pointer-events: none;
   font-size:10em;
   mix-blend-mode: difference;
-  margin:var(--spacing-4) auto;
+  margin:0 auto;
   max-width:var(--maxWidth-wrapper);
   color:white;
   height: calc(100vh);
   overflow: hidden;
+}
+.overlay-title > *:first-child{
+  margin-top: var(--spacing-4);
 }
 .overlay-title svg path{
   fill:white;
@@ -58,7 +61,7 @@ padding-top:25px;
   overflow:scroll;
   height:100vh;
   scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y proximity;
+  scroll-snap-type: none;
   scroll-snap-margin:0;
   scroll-snap-padding:0;
 }
@@ -163,6 +166,7 @@ svg.logo-svg.los-angeles .invert path{
     transform:translateY(calc(-100% + 90vw));
   }
 }
+
 /* homepage carousel */
 @keyframes carouselSlideHorizontal {
   from {

@@ -196,6 +196,7 @@
     width: 50%;
     left: 20%;
     margin-top: 0;
+    min-height: 50vh;
     display: inline-block;
     align-items: start;
     justify-content: flex-start;
