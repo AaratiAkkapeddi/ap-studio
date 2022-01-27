@@ -1,4 +1,5 @@
 import * as React from "react"
+import {useEffect} from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import Thumb from "../components/thumb"
@@ -14,7 +15,16 @@ const flickityOptions = {
 }
 
 const ArtistIndex = ({ data, location }) => {
+  useEffect(() => {
+    // Update the document title using the browser API
+    if(typeof(window) != `undefined`){
+      if(window.innerWidth > 768){
+        window.location.href = "/artists&clients"
+      }  
 
+    }
+
+  });
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const artistsold = data.artists?.edges
   let artists;
@@ -100,7 +110,7 @@ const ArtistIndex = ({ data, location }) => {
                    {
                       (featuredProjects[0]?.frontmatter?.thumb?.image || featuredProjects[0]?.frontmatter?.thumb?.video) &&
                       <div className="hover">
-                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.video} /></div>
+                      <div className="hover-img"><Thumb size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.video} /></div>
                       <div className="hover-txt">{featuredProjects[0]?.frontmatter.clients ? featuredProjects[0]?.frontmatter.clients[0]?.client + ", " : ""}<ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></div>
                       </div>
                     }

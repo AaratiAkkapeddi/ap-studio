@@ -6,6 +6,7 @@ import Seo from "../components/seo"
 import ReactMarkdown from 'react-markdown'
 import Flickity from 'react-flickity-component'
 import Media from "../components/media"
+import {useEffect} from "react"
 
 const flickityOptions = {
     groupCells: true,
@@ -13,8 +14,17 @@ const flickityOptions = {
     wrapAround: true
 }
 
-const ArtistIndex = ({ data, location }) => {
+const ClientIndex = ({ data, location }) => {
+useEffect(() => {
+    // Update the document title using the browser API
+    if(typeof(window) != `undefined`){
+      if(window.innerWidth > 768){
+        window.location.href = "/artists&clients"
+      }  
 
+    }
+
+  });
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const artists = data.artists?.edges
   const clientsold = data.clients?.edges
@@ -101,7 +111,7 @@ const ArtistIndex = ({ data, location }) => {
 
                       (featuredProjects[0]?.frontmatter?.thumb?.image || featuredProjects[0]?.frontmatter?.thumb?.video)&&
                       <div className="hover">
-                      <div className="hover-img"><Media size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.video} /></div>
+                      <div className="hover-img"><Thumb size={featuredProjects[0]?.frontmatter?.thumb?.size} key={index} imageurl={featuredProjects[0]?.frontmatter?.thumb?.image} videourl={featuredProjects[0]?.frontmatter?.thumb?.video} /></div>
                       <div className="hover-txt">{featuredProjects[0]?.frontmatter.artists ? featuredProjects[0]?.frontmatter.artists[0]?.artist + ", " : ""}<ReactMarkdown>{featuredProjects[0]?.frontmatter?.campaign_title}</ReactMarkdown><br/><ReactMarkdown>{featuredProjects[0]?.frontmatter?.notes?.replace(/<br>/gi, '\n &nbsp;  ')}</ReactMarkdown></div>
                       </div>
                     }
@@ -121,7 +131,7 @@ const ArtistIndex = ({ data, location }) => {
   )
 }
 
-export default ArtistIndex
+export default ClientIndex
 
 export const pageQuery = graphql`
   query {

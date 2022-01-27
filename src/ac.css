@@ -22,6 +22,9 @@
 .image-column .hover-txt{
 	display: none;
 }
+.hover-img video{
+	max-width: 100%;
+}
 .hover-img img{
 	max-width: 100%;
 }
