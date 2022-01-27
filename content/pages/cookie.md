@@ -3,31 +3,29 @@ title: Cooke Policy
 cookie: >-
   GDPR & COOKIES
 
-  `<BR>`
+  <br>
 
   AP Studio, Inc (hereinafter: "we" and "us"), as the operator of the website www.apstudio.com, is responsible for the personal data of users (hereinafter: "you") of the website within the meaning of data protection laws and, under certain circumstances, European General Data Protection Regulation ("GDPR”).
 
-  <BR>
+  <br>
 
   We recognize the importance of protecting privacy when it comes to personal and financial information. We therefore only collect, process and use your personal data in accordance with the content of this data protection declaration and the applicable data protection laws, in particular the GDPR.
 
   In this data protection declaration we inform you which personal data we collect, process and use about you when you use our website or in e-mails, texts and other electronic messages between you and us.
 
-  <BR>
+  <br>
 
   We ask you to read the following information carefully. We reserve the right to change the data protection declaration from time to time. Please check these regularly.
 
-  <BR>
+  <br>
 
-  Our website is not intended for anyone under the age of 16. Persons under the age of 16 are not authorized to provide personal data on or on our website. We would like to point out that we do not knowingly collect data from persons under the age of 16. If you are under 16 years of age, we ask you not to register on our website, not to make purchases on our website, not to use any interactive or public comment functions on this website and not to provide any information about yourself, including your name To pass on your address, telephone number, email address or a user name to us. If we come to the knowledge that we have collected or received personal data from a person under the age of 16 without verification of parental consent, this data will be deleted. If you suspect that we may have data from or about a person under the age of 16, please contact us at the email address or postal address given in the CONTACT section.
+  Our website is not intended for anyone under the age of 16. Persons under the age of 16 are not authorized to provide personal data on or on our website. We would like to point out that we do not knowingly collect data from persons under the age of 16. If you are under 16 years of age, we ask you not to register on our website, not to make purchases on our website, not to use any interactive or public comment functions on this website and not to provide any information about yourself, including your name To pass on your address, telephone number, email address or a user name to us. If we come to the knowledge that we have collected or received personal data from a person under the age of 16 without verification of parental consent, this data will be deleted. If you suspect that we may have data from or about a person under the age of 16, please contact us <br>
 
-  <BR>
-
-  <BR>
+  <br>
 
   TYPES OF DATA WE COLLECT AND USE
 
-  <BR>
+  <br>
 
   We collect certain individually identifiable data that is actively transmitted by you through the website and through cookies, flash cookies, web beacons and other tracking technologies.
 
