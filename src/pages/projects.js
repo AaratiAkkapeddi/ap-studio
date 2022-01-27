@@ -16,8 +16,23 @@ const flickityOptions = {
 const ProjectIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const projects = data.projects.edges
-  
-  
+  const featured_projects = data.projectspage.edges[0].node.frontmatter.featured_projects
+  let projectsOrder = []
+  let featured_projectsOrder = []
+  for (var i = projects.length - 1; i >= 0; i--) {
+    if(!featured_projects.includes(projects[i].node.frontmatter.campaign_title)){
+      projectsOrder.unshift(projects[i])
+    } 
+  }
+  for (var y = featured_projects.length - 1; y >= 0; y--) {
+      for (var i = projects.length - 1; i >= 0; i--) {
+        if(featured_projects[y] == (projects[i].node.frontmatter.campaign_title)){
+          featured_projectsOrder.unshift(projects[i])
+        } 
+      }
+  }
+  let projectsFinalOrder = featured_projectsOrder.concat(projectsOrder);
+
   return (
     <>
     
@@ -25,7 +40,7 @@ const ProjectIndex = ({ data, location }) => {
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
       
-      <FilmStrip hpText={false} projects={projects.reverse()}/>
+      <FilmStrip hpText={false} projects={projectsFinalOrder.reverse()}/>
       
       
      
@@ -64,6 +79,20 @@ export const pageQuery = graphql`
           }
           fields {
             slug
+          }
+        }
+      }
+    }
+    projectspage: allMarkdownRemark(
+    filter: {fields: {slug: {regex: "/pages/"}}, fileAbsolutePath: {regex: "/projectspage/"}}
+  ) {
+    edges {
+      node {
+          id
+          frontmatter {
+           featured_projects{
+              project
+           }
           }
         }
       }
