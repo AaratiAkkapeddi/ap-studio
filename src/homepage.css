@@ -196,7 +196,7 @@ svg.logo-svg.los-angeles .invert path{
   width: auto;
   position: absolute;
   animation-name: carouselSlideHorizontal;
-  animation-duration: 80s;
+  animation-duration: 70s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }

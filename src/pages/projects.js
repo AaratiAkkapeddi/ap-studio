@@ -16,7 +16,12 @@ const flickityOptions = {
 const ProjectIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const projects = data.projects.edges
-  const featured_projects = data.projectspage.edges[0].node.frontmatter.featured_projects
+  let featured_projectsoriginal = data.projectspage.edges[0].node.frontmatter.featured_projects
+  let featured_projects = []
+  for (var i = 0; i < featured_projectsoriginal.length; i++) {
+    featured_projects.push(featured_projectsoriginal[i].project)
+  }
+ 
   let projectsOrder = []
   let featured_projectsOrder = []
   for (var i = projects.length - 1; i >= 0; i--) {
@@ -26,7 +31,7 @@ const ProjectIndex = ({ data, location }) => {
   }
   for (var y = featured_projects.length - 1; y >= 0; y--) {
       for (var i = projects.length - 1; i >= 0; i--) {
-        if(featured_projects[y] == (projects[i].node.frontmatter.campaign_title)){
+        if(featured_projects[y] == (projects[i].node.frontmatter.title)){
           featured_projectsOrder.unshift(projects[i])
         } 
       }
