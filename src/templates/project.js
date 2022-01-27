@@ -83,7 +83,8 @@ const ProjectTemplate = ({ data, location }) => {
     document.querySelector("#two").classList.remove("on")
     document.querySelector("#three").classList.add("on")
   }
-  return (
+  if(project.frontmatter.clients){
+    return (
     <Layout data={data} location={location} title={siteTitle}>
       <Seo
         title={siteTitle}
@@ -91,12 +92,12 @@ const ProjectTemplate = ({ data, location }) => {
       />
 
         <header className="project-header">
-          <h1>{project.frontmatter.clients[0] &&
-            <><ReactMarkdown>{project.frontmatter.clients[0]?.client}</ReactMarkdown></>
-          }<ReactMarkdown>{project.frontmatter.campaign_title}</ReactMarkdown></h1>
+          <h1>{project.frontmatter?.clients[0] &&
+            <><ReactMarkdown>{project.frontmatter?.clients[0]?.client}</ReactMarkdown></>
+          }<ReactMarkdown>{project.frontmatter?.campaign_title}</ReactMarkdown></h1>
           <div className="notes">
           <div className="with-text">{withtext}</div>
-          <ReactMarkdown>{project.frontmatter.notes}</ReactMarkdown>
+          <ReactMarkdown>{project.frontmatter?.notes}</ReactMarkdown>
           </div>
           <p id="mobile-layout-toggle">
             <svg onClick={oneColumn} className={`${projectDefaultColumns == "one-column" ? 'on' : ''}`} id='one-mobile' width="25" height="25" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">            <rect width="23" height="11"/>
@@ -145,6 +146,10 @@ const ProjectTemplate = ({ data, location }) => {
 
     </Layout>
   )
+  }else{
+    return(
+    <div></div>)
+  }
 }
 
 export default ProjectTemplate
