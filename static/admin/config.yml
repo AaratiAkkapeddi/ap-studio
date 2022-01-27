@@ -22,7 +22,6 @@ collections:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'About', name: 'about', widget: 'markdown'}
           - {label: 'Contact', name: 'contact', widget: 'markdown'}
-          - {label: 'Locations', name: 'location', widget: 'markdown'}
           - {label: 'general inquiries email', name: 'email', widget: 'string'}
           - {label: 'instagram link', name: 'instagram', widget: 'string'}
           - {label: 'models.com link', name: 'models', widget: 'string'}
