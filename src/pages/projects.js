@@ -36,7 +36,7 @@ const ProjectIndex = ({ data, location }) => {
         } 
       }
   }
-  let projectsFinalOrder = featured_projectsOrder.concat(projectsOrder);
+  let projectsFinalOrder = featured_projectsOrder;
 
   return (
     <>

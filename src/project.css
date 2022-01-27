@@ -27,6 +27,7 @@
 }
 .project-header h1:first-child{
 	position: fixed;
+	max-width: 60%;
 	left:calc((100vw - var(--maxWidth-wrapper) )/2);
 }
 .project-header #mobile-layout-toggle,.project-header #layout-toggle{
@@ -129,6 +130,13 @@
 	.project-media-container.one-column .media-item.landscape{
       margin: var(--spacing-8) auto;
    }
+   .project-header h1:first-child{
+   	max-width: calc(100% - 100px);
+	}
+	.project-header{
+		z-index: 2;
+		position: relative
+	}
    .mini-overview.projects-page-mini{
    	min-height:10vw;
    }
