@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Loewe SS22 Mens
-description: Loewe SS22 Mens
-campaign_title: SS22 Mens
+title: Loewe,  SS22 Mens Campaign
+description: Loewe, SS22 Mens Campaign
+campaign_title: SS22 Mens Campaign
 thumb:
   image: https://ucarecdn.com/f120f76e-ff66-46e4-8c54-05a95ed2a93a/
   size: portrait
