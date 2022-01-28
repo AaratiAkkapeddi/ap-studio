@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Isabel Marant
-description: Isabel Marant
-campaign_title: Isabel Marant
+title: Isabel Marant Étoile, SS22
+description: Isabel Marant Étoile, SS22
+campaign_title: SS22
 thumb:
   image: https://ucarecdn.com/27a374fb-e4d6-4ed9-aa95-96099d688c38/
   size: portrait
