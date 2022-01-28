@@ -30,7 +30,7 @@ media:
     media: https://ucarecdn.com/e26e6ff5-264b-48b8-9713-e40596465755/
   - media: https://ucarecdn.com/ac6e306f-b78f-4716-9fea-db4001ddc1c3/
     size: landscape
-  - media: https://ucarecdn.com/5342246f-b13d-4e08-8f1b-80a6f2a54ed0/
+  - media: ""
     size: portrait
   - media: https://ucarecdn.com/2367fb27-43c9-4cc2-9f67-6b9746a1fb42/
     size: portrait
