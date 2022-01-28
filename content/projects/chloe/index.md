@@ -53,6 +53,7 @@ artists:
   - artist: Zoë Ghertner
   - artist: Camilla Nickerson
 categories: []
-locations: []
+locations:
+  - location: New York
 date: 2021-11-29T21:47:21.396Z
 ---
