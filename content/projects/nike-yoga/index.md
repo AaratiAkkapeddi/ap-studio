@@ -1,8 +1,8 @@
 ---
 draft: false
-title: Nike Yoga
-description: "Nike Yoga "
-campaign_title: Nike Yoga FW21
+title: Nike Yoga, FW 21 Campaign
+description: Nike Yoga, FW 21 Campaign
+campaign_title: FW 21 Campaign
 thumb:
   image: https://ucarecdn.com/ab052c1d-8c1d-4d92-b324-c333d1c54295/
   size: portrait
@@ -33,6 +33,9 @@ media:
     size: portrait
 clients:
   - client: Nike
+artists:
+  - artist: Victoria Sekrier
+  - artist: Emily Lipson
 locations:
   - location: New York
 date: 2022-01-20T19:38:32.252Z
