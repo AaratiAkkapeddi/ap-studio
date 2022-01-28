@@ -7,4 +7,12 @@ featured_projects:
   - project: Prada, SS22 Campaign
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
+  - project: AnOther, Dark Poet
+  - project: American Vogue, The Future is Female
+  - project: MAC, Autre Cuture Campaign
+  - project: MAC, Autre Cuture Campaign
+  - project: American Vogue, Suit Yourself
+  - project: American Vogue, April 2020 Cover
+  - project: Fendi, Couture SS21
+  - project: AnOther, American Lyric Dance of Assembly
 ---
