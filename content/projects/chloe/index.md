@@ -1,7 +1,7 @@
 ---
 draft: false
-title: Chloe FW21
-description: Chloe FW21
+title: Chloé FW21
+description: Chloé FW21
 campaign_title: FW21 Campaign
 thumb:
   image: https://ucarecdn.com/c20685ad-efc9-40c6-b99c-82c329a9d0cd/
