@@ -5,4 +5,6 @@ featured_projects:
   - project: Loewe SS22 Mens
   - project: Loewe SS22 Womens
   - project: Prada, SS22 Campaign
+  - project: Dior Joaillerie 2022 "La Rose Dior"
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
 ---
