@@ -1,5 +1,5 @@
 ---
-title: Chloe FW21 campaign in SOHO
+title: Chloé FW21 campaign in SOHO
 date: 2022-01-22T14:05:28.129Z
 ---
 View full Chloé FW21 campaign [here](https://apstudio.netlify.app/projects/chloe/).
