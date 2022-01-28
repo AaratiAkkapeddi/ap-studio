@@ -12,7 +12,7 @@ carouselthumb:
 release_date: 2022-01-20T20:55:36.929Z
 release_date_public: 12/20/2021
 notes: |-
-  With: Filfury and Karla Welch
+  With: Ethan James Green and Carlos Nazario
 
   Office: New York
 media:
