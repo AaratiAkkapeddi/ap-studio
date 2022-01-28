@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Loewe SS22 Womens
-campaign_title: SS2 Campaign
+campaign_title: SS22 Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/6b1abeb3-f01c-47a0-8523-95fdc898812f/
@@ -26,6 +26,14 @@ media:
     size: portrait
   - size: portrait
     media: https://ucarecdn.com/e26e6ff5-264b-48b8-9713-e40596465755/
+  - media: https://ucarecdn.com/ac6e306f-b78f-4716-9fea-db4001ddc1c3/
+    size: landscape
+  - media: https://ucarecdn.com/dccf7924-004c-4c57-b06f-56613aca385b/
+    size: landscape
+  - media: https://ucarecdn.com/5342246f-b13d-4e08-8f1b-80a6f2a54ed0/
+    size: portrait
+  - media: https://ucarecdn.com/2367fb27-43c9-4cc2-9f67-6b9746a1fb42/
+    size: portrait
 clients:
   - client: Loewe
 artists:
