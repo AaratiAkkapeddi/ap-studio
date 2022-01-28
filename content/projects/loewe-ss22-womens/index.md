@@ -12,7 +12,7 @@ release_date: 2022-01-26T19:52:28.523Z
 media:
   - media: https://ucarecdn.com/7ba2c50e-8843-4703-8fd5-62728318170d/
     size: portrait
-  - media: https://ucarecdn.com/dccf7924-004c-4c57-b06f-56613aca385b/
+  - media: ""
     size: landscape
   - media: https://ucarecdn.com/587a2b48-a6fa-4403-b908-6fb03e3ac1af/
     size: portrait
