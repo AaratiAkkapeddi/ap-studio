@@ -12,9 +12,13 @@ featured_projects:
   - project: Loewe SS22 Womens
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Loewe SS22 Mens
+  - project: American Vogue, It Takes An Industry
   - project: Chloe FW21
   - project: Prada, SS22 Campaign
   - project: Saint Laurent FW21
+  - project: MAC, Autre Cuture Campaign
+  - project: YSL Beauty, Nu Campaign
+  - project: American Vogue, The Future is Female
 clients:
   - client: Amazon Luxury Stores
   - client: Ambush
