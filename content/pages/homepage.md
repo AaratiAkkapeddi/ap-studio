@@ -38,33 +38,16 @@ clients:
   - client: Louis Vuitton
 artists:
   - artist: Alastair McKimm
-  - artist: Alba Melendo
-  - artist: Albert Moya
-  - artist: Alejandra Catalan
-  - artist: Aleksandra Woroniecka
-  - artist: Alex White
-  - artist: Alique
-  - artist: Alister Mackie
   - artist: American Vogue Editors
-  - artist: Amy Troost
-  - artist: Anne Gedes
-  - artist: Anya Ziourova
   - artist: Benjamin Bruno
-  - artist: Bibi Cornejo-Borthwick
   - artist: Brett Lloyd
-  - artist: Bryan Liston
   - artist: Camilla Nickerson
   - artist: Carlos Nazario
-  - artist: Dara
-  - artist: Elin Svahn
-  - artist: Ellie Grace Cumming
   - artist: Ferdinando Verderi
-  - artist: Filfury
   - artist: Gabriella Karefa-Johnson
-  - artist: Grace Ahlbom
-  - artist: Hannah Moon
-  - artist: Hannes Hetta
-  - artist: Jake Jones
-  - artist: Jay Massacret
-  - artist: Jora Frantzis
+  - artist: Zoë Ghertner
+  - artist: Marie Chaix
+  - artist: David Sims
+  - artist: Lachlan Bailey
+  - artist: Oliver Hadlee Pearch
 ---
