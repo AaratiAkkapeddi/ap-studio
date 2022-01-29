@@ -21,22 +21,21 @@ featured_projects:
   - project: American Vogue, The Future is Female
 clients:
   - client: American Vogue
-  - client: AnOther
   - client: Chloe
-  - client: COS
-  - client: Dazed
   - client: Dior
-  - client: Double
   - client: Estée Lauder
   - client: Fendi
   - client: Gabriela Hearst
   - client: I-D
-  - client: Isabel Marant
   - client: M Magazine
   - client: MAC
   - client: Prada
   - client: Loewe
   - client: Victoria's Secret
+  - client: Self Service
+  - client: Saint Laurent
+  - client: Nike
+  - client: Louis Vuitton
 artists:
   - artist: Alastair McKimm
   - artist: Alba Melendo
