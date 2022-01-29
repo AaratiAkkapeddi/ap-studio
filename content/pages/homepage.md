@@ -20,36 +20,23 @@ featured_projects:
   - project: YSL Beauty, Nu Campaign
   - project: American Vogue, The Future is Female
 clients:
-  - client: Amazon Luxury Stores
-  - client: Ambush
   - client: American Vogue
   - client: AnOther
   - client: Chloe
   - client: COS
   - client: Dazed
-  - client: Dion Lee
   - client: Dior
   - client: Double
-  - client: Dust
   - client: Estée Lauder
   - client: Fendi
-  - client: Fursac
   - client: Gabriela Hearst
-  - client: Garage
-  - client: Glossier
-  - client: Holiday
-  - client: Hood By Air
   - client: I-D
   - client: Isabel Marant
-  - client: Jimmy Choo
-  - client: Judy Turner
-  - client: L'Uomo Vogue
   - client: M Magazine
   - client: MAC
-  - client: M Magazine
-  - client: Mango
-  - client: Massimo Dutti
-  - client: McQ by Alexander McQueen
+  - client: Prada
+  - client: Loewe
+  - client: Victoria's Secret
 artists:
   - artist: Alastair McKimm
   - artist: Alba Melendo
