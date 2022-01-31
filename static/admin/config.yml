@@ -80,8 +80,8 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: "ID", name: "id", widget: "uuid"}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "ID", name: "id", widget: "uuid"}
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Description (internal)', name: 'description', widget: 'string',required: false }
       - { label: 'Campaign Title', name: 'campaign_title', widget: 'markdown' }
