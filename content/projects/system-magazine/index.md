@@ -4,7 +4,7 @@ title: System Magazine
 description: System Magazine
 campaign_title: Chanel Supplement N.18
 thumb:
-  image: https://ucarecdn.com/777cf848-7a4e-4353-ac71-ab76935d1017/
+  image: https://ucarecdn.com/cb055647-7333-48b6-addc-3ca84576b0ff/
   size: portrait
 release_date: 2022-01-21T00:31:31.665Z
 media:
