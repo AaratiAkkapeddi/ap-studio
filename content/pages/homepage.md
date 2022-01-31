@@ -1,11 +1,12 @@
 ---
 title: test homepage
-intro: P Studio, Inc is an integrated creative production studio offering
+intro: >-
+  P Studio, Inc is an integrated creative production studio offering
   full-service production, including art buying and casting, for editorial and
-  commercial shoots of all sizes, covering both stills and motion. We support
-  clients and creatives in navigating the artistic and production landscape – we
-  can handle everything from initial concept to post-production and final
-  delivery.
+  commercial shoots of all sizes, covering both stills and motion. 
+
+
+  We support clients and creatives in navigating the artistic and production landscape – we can handle everything from initial concept to post-production and final delivery.
 projects:
   - project: Loewe, SS22 Womens
   - project: Chloé FW21 Campaign
