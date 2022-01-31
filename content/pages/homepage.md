@@ -25,8 +25,10 @@ featured_projects:
   - project: Loewe, SS22 Womens
   - project: American Vogue, It Takes An Industry
   - project: MAC, Autre Cuture Campaign
+  - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: YSL Beauty, Nu Campaign
   - project: American Vogue, The Future is Female
+  - project: Esteé Lauder, Revitalizing Supreme Campaign
 clients:
   - client: American Vogue
   - client: Chloe
