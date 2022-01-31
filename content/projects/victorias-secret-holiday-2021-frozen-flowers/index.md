@@ -3,7 +3,7 @@ draft: false
 title: Victoria's Secret, Holiday 2021, Frozen Flowers
 campaign_title: Holiday 2021, Frozen Flowers
 thumb:
-  image: https://ucarecdn.com/b646a175-f276-4375-af34-9860c50d21c1/
+  image: ""
   size: portrait
 release_date: 2022-01-20T23:34:28.071Z
 media:

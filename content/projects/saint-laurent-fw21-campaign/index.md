@@ -6,7 +6,7 @@ campaign_title: FW21 Campaign
 thumb:
   size: portrait
   video: ""
-  image: https://ucarecdn.com/81b745f0-6fa5-424f-b154-87df3f39ae07/
+  image: ""
 carouselthumb:
   size: landscape
   video: https://ucarecdn.com/46d55267-1f5a-43e1-96e4-813b8017377a/
