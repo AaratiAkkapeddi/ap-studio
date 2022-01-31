@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Loewe SS22 Womens
+title: Loewe, SS22 Womens
 campaign_title: SS22 Campaign
 thumb:
   size: portrait

@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Chloé FW21 Campaign
+title: Chloé, FW21 Campaign
 description: Chloé FW21
 campaign_title: FW21 Campaign
 thumb:

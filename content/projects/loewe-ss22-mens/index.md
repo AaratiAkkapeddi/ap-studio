@@ -1,6 +1,6 @@
 ---
 draft: false
-title: Loewe,  SS22 Mens Campaign
+title: Loewe, SS22 Mens Campaign
 description: Loewe, SS22 Mens Campaign
 campaign_title: SS22 Mens Campaign
 thumb:
