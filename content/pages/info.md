@@ -2,7 +2,7 @@
 contact: |-
   Alexis Piqueras, Founder & Managing Director\
   alexis@apstudio-inc.com<br><br>\
-  Marie Godeau Robinson, Partner & Managing Director\
+  Marie Godeau Robinson, Partner & Paris Managing Director\
   marie@apstudio-inc.com<br><br>\
   General Inquiries \
   studio@apstudio-inc.com
