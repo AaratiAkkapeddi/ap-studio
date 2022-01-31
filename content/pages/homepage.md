@@ -29,6 +29,7 @@ featured_projects:
   - project: YSL Beauty, Nu Campaign
   - project: American Vogue, The Future is Female
   - project: Esteé Lauder, Revitalizing Supreme Campaign
+  - project: Victoria's Secret, Holiday 2021, Frozen Flowers
 clients:
   - client: American Vogue
   - client: Chloe
