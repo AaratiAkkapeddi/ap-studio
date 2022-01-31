@@ -36,9 +36,8 @@ collections:
               }
           - { label: 'Featured Projects (Below Carousel)', name: 'featured_projects', widget: 'list', 
               fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"]}]
-      
-          - { label: 'Selected Clients', name: 'clients', widget: 'list', 
-              fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+              }
+          - { label: 'Selected Clients', name: 'clients', widget: 'list', fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
               }
           - { label: 'Selected Artists', name: 'artists', widget: 'list', 
               fields: [ { label: "Artist", name: "artist", widget: "relation", collection: "artists", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
