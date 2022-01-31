@@ -4,8 +4,8 @@ title: Chloé FW21 Campaign
 description: Chloé FW21
 campaign_title: FW21 Campaign
 thumb:
-  image: https://ucarecdn.com/c20685ad-efc9-40c6-b99c-82c329a9d0cd/
-  size: portrait
+  image: https://ucarecdn.com/74a155d3-b444-480d-aff3-e2d6a0e597c8/
+  size: landscape
 carouselthumb:
   video: https://ucarecdn.com/7dae87dd-4a38-49bb-ac27-c9a1b03a7368/
   image: https://ucarecdn.com/4cb50d26-dbea-4f78-8ca6-7c975e15f17b/
