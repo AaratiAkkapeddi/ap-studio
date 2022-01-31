@@ -6,7 +6,6 @@ intro: AP Studio, Inc is an integrated creative production studio. offering
 projects:
   - project: Loewe, SS22 Womens
   - project: Chloé FW21 Campaign
-  - project: Loewe, SS22 Mens Campaign
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine
 featured_projects:
