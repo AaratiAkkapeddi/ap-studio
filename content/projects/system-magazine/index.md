@@ -2,7 +2,7 @@
 draft: false
 title: System Magazine
 description: System Magazine
-campaign_title: System Magazine
+campaign_title: Chanel Supplement N.18
 thumb:
   image: https://ucarecdn.com/777cf848-7a4e-4353-ac71-ab76935d1017/
   size: portrait
