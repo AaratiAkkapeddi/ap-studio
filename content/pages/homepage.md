@@ -8,8 +8,10 @@ projects:
   - project: Chloe FW21
   - project: Loewe SS22 Mens
   - project: Prada, SS22 Women's Campaign
+  - project: System Magazine
 featured_projects:
   - project: Prada, SS22 Campaign
+  - project: System Magazine
   - project: Loewe SS22 Womens
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Loewe SS22 Mens
