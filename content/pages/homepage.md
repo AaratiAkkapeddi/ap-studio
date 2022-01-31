@@ -17,7 +17,7 @@ featured_projects:
   - project: Loewe, SS22 Mens Campaign
   - project: American Vogue, It Takes An Industry
   - project: Chloé, FW21 Campaign
-  - project: Saint Laurent FW21
+  - project: Saint Laurent FW21 Campaign
   - project: MAC, Autre Cuture Campaign
   - project: YSL Beauty, Nu Campaign
   - project: American Vogue, The Future is Female
