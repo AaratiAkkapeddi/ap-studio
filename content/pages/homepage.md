@@ -1,7 +1,7 @@
 ---
 title: test homepage
 intro: >-
-  P Studio, Inc is an integrated creative production studio offering
+  AP Studio, Inc is an integrated creative production studio offering
   full-service production, including art buying and casting, for editorial and
   commercial shoots of all sizes, covering both stills and motion. 
 
