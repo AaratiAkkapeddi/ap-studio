@@ -80,7 +80,7 @@ collections:
       preview: false
     fields:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "ID", name: "id", widget: "datetime", hidden: true}
+      - {label: "ID", name: "id", widget: "uuid", hidden: true}
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Description (internal)', name: 'description', widget: 'string',required: false }
       - { label: 'Campaign Title', name: 'campaign_title', widget: 'markdown' }
