@@ -4,7 +4,7 @@ title: Loewe, SS22 Mens Campaign
 description: Loewe, SS22 Mens Campaign
 campaign_title: SS22 Mens Campaign
 thumb:
-  image: https://ucarecdn.com/f120f76e-ff66-46e4-8c54-05a95ed2a93a/
+  image: https://ucarecdn.com/8b3b528d-9472-4ba2-9909-727653c4393f/
   size: portrait
 release_date: 2021-12-18T16:36:29.346Z
 release_date_public: 12/18/2021
