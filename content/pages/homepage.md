@@ -26,11 +26,11 @@ featured_projects:
   - project: Loewe, SS22 Womens
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: YSL Beauty, Nu Campaign
+  - project: Vogue Italia, September 2020 100 Covers
   - project: American Vogue, The Future is Female
+  - project: More or Less, Issue 04 Cover
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
-  - project: More or Less, Issue 04 Cover
-  - project: Vogue Italia, September 2020 100 Covers
 clients:
   - client: American Vogue
   - client: Chloe
