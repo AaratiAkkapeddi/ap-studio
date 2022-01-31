@@ -18,13 +18,13 @@ projects:
 featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine
-  - project: Loewe, SS22 Mens Campaign
   - project: Chloé, FW21 Campaign
+  - project: Loewe, SS22 Mens Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Saint Laurent FW21 Campaign
-  - project: Loewe, SS22 Womens
   - project: American Vogue, It Takes An Industry
   - project: MAC, Autre Cuture Campaign
+  - project: Loewe, SS22 Womens
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: YSL Beauty, Nu Campaign
   - project: American Vogue, The Future is Female
