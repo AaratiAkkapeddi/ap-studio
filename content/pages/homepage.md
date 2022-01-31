@@ -1,8 +1,15 @@
 ---
 title: test homepage
-intro: AP Studio, Inc is an integrated creative production studio. offering
+intro: >-
+  P Studio, Inc is an integrated creative production studio offering
   full-service production, including art buying and casting, for editorial and
-  commercial shoots of all sizes.
+  commercial shoots of all sizes, covering both stills and motion. We support
+  clients and creatives in navigating the artistic and production landscape – we
+  can handle everything from initial concept to post-production and final
+  delivery.
+
+
+  We are an agile, flexible company with offices in New York, Paris and Los Angeles and a global network of partners. We are inspired by the artists we work with, and find creativity and innovation essential to every project. We prioritize client services without sacrificing artistry.
 projects:
   - project: Loewe, SS22 Womens
   - project: Chloé FW21 Campaign
