@@ -18,11 +18,11 @@ projects:
 featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine
-  - project: Loewe, SS22 Womens
-  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Loewe, SS22 Mens Campaign
-  - project: American Vogue, It Takes An Industry
   - project: Chloé, FW21 Campaign
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
+  - project: Loewe, SS22 Womens
+  - project: American Vogue, It Takes An Industry
   - project: Saint Laurent FW21 Campaign
   - project: MAC, Autre Cuture Campaign
   - project: YSL Beauty, Nu Campaign
