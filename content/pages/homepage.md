@@ -21,9 +21,9 @@ featured_projects:
   - project: Loewe, SS22 Mens Campaign
   - project: Chloé, FW21 Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
+  - project: Saint Laurent FW21 Campaign
   - project: Loewe, SS22 Womens
   - project: American Vogue, It Takes An Industry
-  - project: Saint Laurent FW21 Campaign
   - project: MAC, Autre Cuture Campaign
   - project: YSL Beauty, Nu Campaign
   - project: American Vogue, The Future is Female
