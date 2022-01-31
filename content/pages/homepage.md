@@ -30,6 +30,7 @@ featured_projects:
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: More or Less, Issue 04 Cover
+  - project: Vogue Italia, September 2020 100 Covers
 clients:
   - client: American Vogue
   - client: Chloe
