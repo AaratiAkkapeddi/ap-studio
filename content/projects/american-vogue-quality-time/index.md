@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 7f4d12d6-2e05-4009-a78f-b376052bdb8d
 title: American Vogue, Quality Time
 description: American Vogue, Quality Time
 campaign_title: Quality Time
