@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 01c8a5bf-0f82-4a84-9e82-c89a6e491d7a
 title: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
 description: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
 campaign_title: " Spécial Mode Homme 'Le Temps De La Douceur'"
