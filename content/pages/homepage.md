@@ -22,6 +22,7 @@ featured_projects:
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
   - project: ANR Campaign
+  - project: The Gentlewoman, Large It
 clients:
   - client: American Vogue
   - client: Chloe
