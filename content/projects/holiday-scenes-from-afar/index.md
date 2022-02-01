@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 0b1dacb2-45aa-43dc-b7b3-5d4e97a5a747
 title: Holiday, Scenes From Afar
 description: Holiday, Scenes From Afar
 campaign_title: Scenes From Afar
