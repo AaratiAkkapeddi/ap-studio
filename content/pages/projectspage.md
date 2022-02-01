@@ -10,7 +10,6 @@ featured_projects:
   - project: AnOther, Dark Poet
   - project: American Vogue, The Future is Female
   - project: MAC, Autre Cuture Campaign
-  - project: MAC, Autre Cuture Campaign
   - project: American Vogue, Suit Yourself
   - project: American Vogue, April 2020 Cover
   - project: Fendi, Couture SS21
