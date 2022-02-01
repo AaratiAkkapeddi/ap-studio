@@ -1,5 +1,6 @@
 ---
 draft: false
+id: e50c4541-d297-427f-83ee-a8bfb72955d7
 title: Vogue Paris, May 2021 Cover
 description: Vogue Paris, May 2021 Cover
 campaign_title: May 2021 Cover
