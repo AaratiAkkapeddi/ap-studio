@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 72d11577-082a-423b-b97b-20674657c6fd
 title: Vogue Italia, 20 People
 description: Vogue Italia, 20 People
 campaign_title: 20 People
