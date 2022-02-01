@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 6d5b1d4b-4d8f-4e6d-a811-dedeb7eadf34
 title: Nike, Be True
 description: Nike, Be True
 campaign_title: Be True
