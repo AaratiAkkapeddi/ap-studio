@@ -1,5 +1,6 @@
 ---
 draft: false
+id: c41657fe-eeaf-4cf8-83c6-70dd2cdbcb99
 title: MAC, Autre Cuture Campaign
 description: MAC, Autre Cuture Campaign
 campaign_title: Aute Cuture Campaign
