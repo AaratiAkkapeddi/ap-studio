@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 8d1035d7-30a9-4071-8c6f-71bdf7eaa4bd
 title: T Magazine, Men's Fashion March 2021
 description: T Magazine, Men's Fashion March 2021
 campaign_title: Men's Fashion March 2021
