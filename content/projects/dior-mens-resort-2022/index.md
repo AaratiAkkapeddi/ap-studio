@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 8d6daa76-3e3a-45a4-94a3-75468174e1a2
 title: Dior, Men's Resort 2022
 description: Dior, Men's Resort 2022
 campaign_title: Men's Resort 2022
