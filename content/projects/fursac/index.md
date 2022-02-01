@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 5e9565fe-7539-44ee-9004-4574d1f9639f
 title: Fursac, FW 21 Campaign
 description: Fursac, FW21 Campaign
 campaign_title: FW 21 Campaign
