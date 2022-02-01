@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 5c115274-85cc-449a-9546-d13b031320c6
 title: "Victoria's Secret, Destination: Swim"
 description: "Victoria's Secret, Destination: Swim"
 campaign_title: "Destination: Swim"
