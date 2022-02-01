@@ -6,6 +6,7 @@ description: "Amazon, Smile! It's Summer Campaign "
 campaign_title: Smile! It's Summer Campaign
 thumb:
   size: landscape
+  video: https://ucarecdn.com/0d06163a-9242-491f-9464-7e035e307d20/
 release_date: 2022-02-01T16:40:24.586Z
 media:
   - size: landscape
