@@ -36,4 +36,5 @@ featured_projects:
   - project: Gabriela Hearst, Resort 19
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
+  - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
 ---
