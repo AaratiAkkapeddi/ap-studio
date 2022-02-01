@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 89362106-a42c-405e-a98a-d75dfa808f45
 title: Vogue Italia, Dies Irae
 description: Vogue Italia, Dies Irae
 campaign_title: Dies Irae
