@@ -25,4 +25,8 @@ featured_projects:
   - project: T Magazine, Men's Fashion March 2021
   - project: The Face
   - project: System Magazine
+  - project: Esteé Lauder, ANR Campaign
+  - project: Stuart Weitzman, FW20 Campaign
+  - project: Louis Vuitton, Capucines SS20 Campaign
+  - project: Louis Vuitton, New Classics AW19 Campaign
 ---
