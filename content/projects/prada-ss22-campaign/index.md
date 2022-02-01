@@ -1,11 +1,10 @@
 ---
 draft: false
-id: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
 title: Prada, SS22 Women's Campaign
 description: Prada, SS22 Women's Campaign
 campaign_title: Women's SS22 Campaign "In The Mood for Prada"
 thumb:
-  video: ""
+  video: https://ucarecdn.com/2a0518fd-ff79-457c-9c17-13f143480da1/
   size: landscape
 carouselthumb:
   video: https://ucarecdn.com/8bf38019-4e14-49c8-b2a2-8da2ee78674c/
@@ -23,7 +22,8 @@ artists:
   - artist: David Sims
   - artist: Ferdinando Verderi
   - artist: Olivier Rizzo
+date: 2022-01-20T23:47:11.190Z
+id: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
 locations:
   - location: Los Angeles
-date: 2022-01-20T23:47:11.190Z
 ---
