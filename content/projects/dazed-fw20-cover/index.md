@@ -1,5 +1,6 @@
 ---
 draft: false
+id: a6e45cec-38be-4774-8f39-cd88d7f81111
 title: Dazed, FW20 Cover
 description: Dazed, FW20 Cover
 campaign_title: FW20 Cover
