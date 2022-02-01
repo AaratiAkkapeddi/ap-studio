@@ -1,5 +1,6 @@
 ---
 draft: false
+id: a7d3a82a-6716-43bb-84ce-ae69cf276342
 title: Glossier, Cloud Paint Campaign
 description: Glossier, Cloud Paint Campaign
 campaign_title: Cloud Paint Campaign
