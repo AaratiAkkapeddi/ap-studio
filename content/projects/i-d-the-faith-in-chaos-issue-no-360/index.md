@@ -1,5 +1,6 @@
 ---
 draft: false
+id: e902701c-b3d9-4fe7-b3dc-9bd1aeea8841
 title: i-D, The Faith In Chaos Issue, No. 360
 description: i-D, The Faith In Chaos Issue, No. 360
 campaign_title: The Faith In Chaos Issue, No. 360
