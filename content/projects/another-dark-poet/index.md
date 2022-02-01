@@ -1,5 +1,6 @@
 ---
 draft: false
+id: aa620c2b-3209-45fd-96ff-399c71e7d0d1
 title: AnOther, Dark Poet
 description: AnOther, Dark Poet
 campaign_title: Dark Poet
