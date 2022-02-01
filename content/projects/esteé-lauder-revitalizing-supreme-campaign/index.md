@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 1ac4d9e8-3cab-4fda-9033-ad900e408387
 title: Esteé Lauder, Revitalizing Supreme Campaign
 description: Esteé Lauder, Revitalizing Supreme Campaign
 campaign_title: Revitalizing Supreme Campaign
