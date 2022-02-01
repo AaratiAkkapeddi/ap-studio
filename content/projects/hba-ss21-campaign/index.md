@@ -1,5 +1,6 @@
 ---
 draft: false
+id: ae47f6b1-a5ba-4bfa-8f42-11b97cc23618
 title: HBA, SS21 Campaign
 description: HBA, SS21 Campaign
 campaign_title: SS21 Campaign
