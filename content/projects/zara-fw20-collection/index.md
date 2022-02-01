@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 7d343f70-4ef3-4481-8124-4b408af38892
 title: Zara, FW20 Collection
 description: Zara, FW20 Collection
 campaign_title: FW20 Collection
