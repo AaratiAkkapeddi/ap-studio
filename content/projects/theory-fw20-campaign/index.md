@@ -1,5 +1,6 @@
 ---
 draft: false
+id: de1369b4-b284-43bf-b60b-d13e5172d4f8
 title: Theory, FW20 Campaign
 description: Theory, FW20 Campaign
 campaign_title: FW20 Campaign
