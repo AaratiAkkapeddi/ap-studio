@@ -1,5 +1,6 @@
 ---
 draft: true
+id: 8ac72d58-35e5-4bcb-9e81-37a3390edf4e
 title: AnOther, Hold Me
 description: AnOther, Hold Me
 campaign_title: Hold Me
