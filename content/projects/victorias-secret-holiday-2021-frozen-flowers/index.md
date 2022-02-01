@@ -1,11 +1,11 @@
 ---
 draft: false
-id: 57619fb6-7f04-421c-8523-ca6fd09cdffa
 title: Victoria's Secret, Holiday 2021, Frozen Flowers
 campaign_title: Holiday 2021, Frozen Flowers
 thumb:
   image: ""
-  size: portrait
+  size: landscape
+  video: https://ucarecdn.com/24e20426-65fd-4d50-aafc-a46b9e4370f9/
 release_date: 2022-01-20T23:34:28.071Z
 media:
   - size: portrait
@@ -24,4 +24,5 @@ artists:
   - artist: Zoey Grossman
   - artist: Jorden Bickham
 date: 2022-01-20T23:34:28.090Z
+id: 57619fb6-7f04-421c-8523-ca6fd09cdffa
 ---

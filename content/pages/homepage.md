@@ -1,12 +1,8 @@
 ---
 title: homepage
-intro: >-
-  AP Studio, Inc is an integrated creative production studio offering
+intro: AP Studio, Inc is an integrated creative production studio offering
   full-service production, including art buying and casting, for editorial and
-  commercial shoots of all sizes, covering both stills and motion. 
-
-
-  We support clients and creatives in navigating the artistic and production landscape – we can handle everything from initial concept to post-production and final delivery.
+  commercial shoots of all sizes, covering both stills and motion.
 projects:
   - project: Loewe, SS22 Womens
   - project: Chloé, FW21 Campaign
@@ -17,18 +13,16 @@ featured_projects:
   - project: System Magazine
   - project: Chloé, FW21 Campaign
   - project: Loewe, SS22 Mens Campaign
-  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Saint Laurent FW21 Campaign
-  - project: American Vogue, It Takes An Industry
   - project: MAC, Autre Cuture Campaign
   - project: Loewe, SS22 Womens
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Dior Joaillerie 2022 "La Rose Dior"
-  - project: YSL Beauty, Nu Campaign
-  - project: Vogue Italia, September 2020 100 Covers
-  - project: American Vogue, The Future is Female
-  - project: More or Less, Issue 04 Cover
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
+  - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
+  - project: ANR Campaign
+  - project: The Gentlewoman, Large It
 clients:
   - client: American Vogue
   - client: Chloe
