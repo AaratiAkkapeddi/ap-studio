@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 019913e9-0c66-403c-bfc9-b94fb4706506
 title: Nicholas Kirkwood, SS20 Campaign
 description: Nicholas Kirkwood, SS20 Campaign
 campaign_title: SS20 Campaign
