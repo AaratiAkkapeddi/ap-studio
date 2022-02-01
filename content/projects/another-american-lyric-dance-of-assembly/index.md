@@ -1,5 +1,6 @@
 ---
 draft: false
+id: fff5dfab-eb65-45d4-823f-6c57f2d9279c
 title: AnOther, American Lyric Dance of Assembly
 description: AnOther, American Lyric Dance of Assembly
 campaign_title: American Lyric Dance of Assembly
