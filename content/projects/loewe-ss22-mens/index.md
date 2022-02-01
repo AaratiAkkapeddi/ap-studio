@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 50673f05-8fb6-4ced-b63d-a52b975d1b2a
 title: Loewe, SS22 Mens Campaign
 description: Loewe, SS22 Mens Campaign
 campaign_title: SS22 Mens Campaign
