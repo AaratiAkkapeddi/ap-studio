@@ -13,10 +13,10 @@ featured_projects:
   - project: System Magazine
   - project: Chloé, FW21 Campaign
   - project: Loewe, SS22 Mens Campaign
-  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Saint Laurent FW21 Campaign
   - project: MAC, Autre Cuture Campaign
   - project: Loewe, SS22 Womens
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
