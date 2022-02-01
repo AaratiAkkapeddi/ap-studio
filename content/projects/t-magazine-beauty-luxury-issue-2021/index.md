@@ -1,5 +1,6 @@
 ---
 draft: true
+id: a25e9381-f8a8-4b43-b4fe-c7f6718e341a
 title: T Magazine, Beauty & Luxury Issue 2021
 description: T Magazine, Beauty & Luxury Issue 2021
 campaign_title: Beauty & Luxury Issue 2021
