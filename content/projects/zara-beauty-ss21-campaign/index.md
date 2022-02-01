@@ -1,5 +1,6 @@
 ---
 draft: true
+id: fba6f910-b287-46ba-a950-903b6e17b146
 title: Zara Beauty, SS21 Campaign
 description: Zara Beauty, SS21 Campaign
 campaign_title: SS21 Campaign
