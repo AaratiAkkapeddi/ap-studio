@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 41ec28c8-2b32-469e-9bd0-dd0aad6ca67d
 title: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
 description: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
 campaign_title: Spécial Mode Femmes D'Influence "Les Éclaireuses"
