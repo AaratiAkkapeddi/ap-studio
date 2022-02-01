@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 2657be66-9658-4105-84f5-1495f27bd9ac
 title: Zara, FW20 Series
 description: Zara, FW20 Series
 campaign_title: FW20 Series
