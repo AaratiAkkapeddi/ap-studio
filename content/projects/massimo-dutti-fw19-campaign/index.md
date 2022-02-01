@@ -1,5 +1,6 @@
 ---
 draft: false
+id: d87d3885-1a67-4f96-81fd-9d363923b5b0
 title: Massimo Dutti, FW19 Campaign
 description: Massimo Dutti, FW19 Campaign
 campaign_title: FW19 Campaign
