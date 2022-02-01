@@ -1,5 +1,6 @@
 ---
 draft: false
+id: a67220be-b529-4a41-b609-5b24f870b75e
 title: Fendi, Couture SS21
 description: Fendi, Couture SS21
 campaign_title: Couture SS21
