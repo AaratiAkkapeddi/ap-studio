@@ -1,6 +1,8 @@
 ---
 draft: false
-title: ANR Campaign
+id: 966ac696-9a05-405b-8087-55f94b08e19b
+title: Esteé Lauder, ANR Campaign
+description: Esteé Lauder, ANR Campaign
 campaign_title: ANR Campaign
 thumb:
   size: landscape
