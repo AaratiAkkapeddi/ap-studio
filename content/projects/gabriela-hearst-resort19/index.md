@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 9a86a9c3-41c7-4642-9b68-0bc54005ac8f
 title: Gabriela Hearst, Resort 19
 description: Gabriela Hearst, Resort 19
 campaign_title: Resort 19
