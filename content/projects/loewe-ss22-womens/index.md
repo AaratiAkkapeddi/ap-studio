@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
 title: Loewe, SS22 Womens
 campaign_title: SS22 Campaign
 thumb:
