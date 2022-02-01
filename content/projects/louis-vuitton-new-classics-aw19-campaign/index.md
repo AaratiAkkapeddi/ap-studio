@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 37adc507-6c9f-43a6-a9c8-cf12a6463b20
 title: Louis Vuitton, New Classics AW19 Campaign
 description: Louis Vuitton, New Classics AW19 Campaign
 campaign_title: New Classics AW19 Campaign
