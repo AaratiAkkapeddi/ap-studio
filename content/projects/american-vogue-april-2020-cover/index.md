@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 068d62d5-0594-4a22-962d-8d252fc9d46f
 title: American Vogue, April 2020 Cover
 description: American Vogue, April 2020 Cover
 campaign_title: April 2020 Cover
