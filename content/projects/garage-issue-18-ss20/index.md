@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 9d5f7838-8fae-4f8a-ba68-fa24b0806776
 title: Garage, Issue 18 SS20
 description: Garage, Issue 18 SS20
 campaign_title: Issue 18 SS20
