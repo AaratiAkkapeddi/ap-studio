@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 0b91484f-f519-4127-83fd-8d9a9d8eba30
 title: Dior Joaillerie 2022 "La Rose Dior"
 description: Dior Joaillerie 2022 "La Rose Dior"
 campaign_title: Joaillerie 2022 "La Rose Dior"
