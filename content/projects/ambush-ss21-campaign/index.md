@@ -12,10 +12,7 @@ carouselthumb:
   size: landscape
 release_date: 2022-01-20T20:55:36.929Z
 release_date_public: 12/20/2021
-notes: |-
-  With: Ethan James Green and Carlos Nazario
-
-  Office: New York
+notes: ""
 media:
   - size: landscape
     media: https://ucarecdn.com/2a1ca75f-a658-457d-ac6c-c2c760ce0d75/
