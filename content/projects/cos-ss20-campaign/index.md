@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 073bd16f-1a6d-4373-afa5-ea944374ef11
 title: COS, SS20 Campaign
 description: COS, SS20 Campaign
 campaign_title: SS20 Campaign
