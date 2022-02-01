@@ -1,5 +1,6 @@
 ---
 draft: false
+id: ec3bdf8f-c425-4813-9c11-17dd9e71bf13
 title: L'Uomo Vogue, February 2021 Cover
 description: L'Uomo Vogue, February 2021 Cover
 campaign_title: February 2021 Cover
