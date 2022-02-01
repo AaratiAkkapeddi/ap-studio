@@ -1,5 +1,6 @@
 ---
 draft: false
+id: db5fc3f0-22c9-4376-9f07-a439e9a9cc08
 title: American Vogue, The Future is Female
 description: American Vogue, The Future is Female
 campaign_title: The Future is Female
