@@ -14,4 +14,11 @@ featured_projects:
   - project: American Vogue, April 2020 Cover
   - project: Fendi, Couture SS21
   - project: AnOther, American Lyric Dance of Assembly
+  - project: The Gentlewoman, Large It
+  - project: Victoria's Secret Beauty, Tease Creme Cloud
+  - project: Victoria's Secret, Holiday 2021, Frozen Flowers
+  - project: More or Less, Issue 04 Cover
+  - project: Self Service, Issue 52 SS20
+  - project: "Self Service, Issue 53: The Obsessions"
+  - project: "Self Service, Issue 53: This Body"
 ---
