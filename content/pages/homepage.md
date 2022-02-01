@@ -21,6 +21,7 @@ featured_projects:
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
+  - project: ANR Campaign
 clients:
   - client: American Vogue
   - client: Chloe
