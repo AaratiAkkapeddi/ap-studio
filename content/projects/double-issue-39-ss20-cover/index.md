@@ -1,5 +1,6 @@
 ---
 draft: false
+id: dba264ac-c8dd-41cf-a78f-b7ef1e11d958
 title: Double, Issue 39 SS20 Cover
 description: Double, Issue 39 SS20 Cover
 campaign_title: Issue 39 SS20 Cover
