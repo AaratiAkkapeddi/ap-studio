@@ -1,5 +1,6 @@
 ---
 draft: true
+id: 8c81efcb-3142-4037-ba12-2e3101d76aeb
 title: Self Service, Issue 54, The Obsessions
 description: Self Service, Issue 54, The Obsessions
 campaign_title: Issue 54, The Obsessions
