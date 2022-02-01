@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
 title: Prada, SS22 Women's Campaign
 description: Prada, SS22 Women's Campaign
 campaign_title: Women's SS22 Campaign "In The Mood for Prada"
