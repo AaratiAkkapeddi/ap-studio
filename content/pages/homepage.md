@@ -15,16 +15,12 @@ featured_projects:
   - project: Loewe, SS22 Mens Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Saint Laurent FW21 Campaign
-  - project: American Vogue, It Takes An Industry
   - project: MAC, Autre Cuture Campaign
   - project: Loewe, SS22 Womens
   - project: Dior Joaillerie 2022 "La Rose Dior"
-  - project: YSL Beauty, Nu Campaign
-  - project: Vogue Italia, September 2020 100 Covers
-  - project: American Vogue, The Future is Female
-  - project: More or Less, Issue 04 Cover
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
+  - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
 clients:
   - client: American Vogue
   - client: Chloe
