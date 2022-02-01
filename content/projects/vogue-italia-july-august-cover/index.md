@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 07955c5d-9d8c-476c-b664-efc3a20d7fa2
 title: Vogue Italia, July/August Cover
 description: Vogue Italia, July/August Cover
 campaign_title: July/August Cover
