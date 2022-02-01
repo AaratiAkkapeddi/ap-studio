@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 4d5eff29-4cf8-436a-a440-c9ac85b318e3
 title: American Vogue, November 2020 Cover
 description: American Vogue, November 2020 Cover
 campaign_title: November 2020 Cover
