@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 220d73a0-bead-4f81-98b5-6665f1a55298
 title: Isabel Marant Étoile, SS22
 description: Isabel Marant Étoile, SS22
 campaign_title: SS22
