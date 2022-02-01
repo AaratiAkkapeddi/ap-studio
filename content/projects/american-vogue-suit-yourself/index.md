@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 5a55f7bd-9f87-47fd-b11a-bfb09b8941be
 title: American Vogue, Suit Yourself
 description: American Vogue, Suit Yourself
 campaign_title: Suit Yourself
