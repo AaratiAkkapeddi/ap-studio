@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 8fc976ad-a65e-4c11-b7b6-502b650b9a36
 title: Mango, Denim SS20 Campaign
 description: Mango, Denim SS20 Campaign
 campaign_title: Denim SS20 Campaign
