@@ -1,5 +1,6 @@
 ---
 draft: false
+id: badf81ce-88b3-4ecb-bcca-dbf22eed12fc
 title: Zara, Z1975 Denim Collection
 description: Zara, Z1975 Denim Collection
 campaign_title: Z1975 Denim Collection
