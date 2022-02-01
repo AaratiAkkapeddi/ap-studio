@@ -1,5 +1,6 @@
 ---
 draft: false
+id: ef422406-fc7a-474b-8c47-2c96864267e6
 title: Vogue Paris, April 2021, 'Dream Vacation'
 description: Vogue Paris, April 2021, 'Dream Vacation'
 campaign_title: April 2021, 'Dream Vacation'
