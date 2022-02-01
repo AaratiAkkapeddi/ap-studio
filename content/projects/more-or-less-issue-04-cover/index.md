@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 43366a2d-9eaa-4f36-ad02-7555ea3becd3
 title: More or Less, Issue 04 Cover
 description: More or Less, Issue 04 Cover
 campaign_title: Issue 04 Cover
