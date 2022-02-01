@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 96a9a730-15b2-4692-860d-049c38b23e41
 title: Vogue HK, April 2019 Cover
 description: Vogue HK, April 2019 Cover
 campaign_title: April 2019 Cover
