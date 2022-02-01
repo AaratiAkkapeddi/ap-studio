@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 332bcba6-a0d4-44e1-9993-06f66e070d5f
 title: Saint Laurent FW21 Campaign
 description: Saint Laurent FW21 Campaign
 campaign_title: FW21 Campaign
