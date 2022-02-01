@@ -21,4 +21,8 @@ featured_projects:
   - project: Self Service, Issue 52 SS20
   - project: "Self Service, Issue 53: The Obsessions"
   - project: "Self Service, Issue 53: This Body"
+  - project: T Magazine, Beauty & Luxury Issue 2021
+  - project: T Magazine, Men's Fashion March 2021
+  - project: The Face
+  - project: System Magazine
 ---
