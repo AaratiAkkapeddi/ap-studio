@@ -1,5 +1,6 @@
 ---
 draft: false
+id: bdd1e5eb-9c02-48ca-b2f2-a3f16ec3ba82
 title: System Magazine
 description: System Magazine
 campaign_title: Chanel Supplement N.18
