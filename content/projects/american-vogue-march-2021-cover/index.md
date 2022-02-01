@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 89e2fa78-8bbf-4e99-9adc-5a4e42bcbaf0
 title: American Vogue, March 2021 Cover
 description: American Vogue, March 2021 Cover
 campaign_title: March 2021 Cover
