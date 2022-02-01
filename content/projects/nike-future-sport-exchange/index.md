@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 7d3ac108-4f1c-468e-b623-b41b233a9c43
 title: Nike, Future Sport Exchange
 description: Nike, Future Sport Exchange
 campaign_title: Future Sport Exchange
