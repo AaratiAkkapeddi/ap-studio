@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 952c41c6-a898-48f3-ab01-fb12477e48d1
 title: American Vogue, December 2019 Cover
 description: American Vogue, December 2019 Cover
 campaign_title: December 2019 Cover
