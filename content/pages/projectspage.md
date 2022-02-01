@@ -17,9 +17,9 @@ featured_projects:
   - project: The Gentlewoman, Large It
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
+  - project: "Self Service, Issue 53: The Obsessions"
   - project: More or Less, Issue 04 Cover
   - project: Self Service, Issue 52 SS20
-  - project: "Self Service, Issue 53: The Obsessions"
   - project: "Self Service, Issue 53: This Body"
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: T Magazine, Men's Fashion March 2021
@@ -29,4 +29,11 @@ featured_projects:
   - project: Stuart Weitzman, FW20 Campaign
   - project: Louis Vuitton, Capucines SS20 Campaign
   - project: Louis Vuitton, New Classics AW19 Campaign
+  - project: AnOther, Dark Poet
+  - project: AnOther, Hold Me
+  - project: Dazed, FW20 Cover
+  - project: Gabriela Hearst, Resort 22
+  - project: Gabriela Hearst, Resort 19
+  - project: Dion Lee, FW20 Campaign
+  - project: Double, Issue 39 SS20 Cover
 ---
