@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 0e1d79b5-f67b-4128-9543-0bb422d477a6
 title: Vogue HK, September 2019 Cover
 description: Vogue HK, September 2019 Cover
 campaign_title: September 2019 Cover
