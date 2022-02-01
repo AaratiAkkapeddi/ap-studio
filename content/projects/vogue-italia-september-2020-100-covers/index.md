@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 48b2823a-042f-4dd0-b4d0-d38460d41bec
 title: Vogue Italia, September 2020 100 Covers
 description: Vogue Italia, September 2020 100 Covers
 campaign_title: September 2020 100 Covers
