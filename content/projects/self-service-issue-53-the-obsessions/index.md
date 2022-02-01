@@ -1,5 +1,6 @@
 ---
 draft: false
+id: a0898dfb-b697-4379-b80a-014a1848bd45
 title: "Self Service, Issue 53: The Obsessions"
 description: "Self Service, Issue 53: The Obsessions"
 campaign_title: "Issue 53: The Obsessions"
