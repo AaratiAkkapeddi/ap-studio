@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 74ec45f6-086e-46c8-8be2-c9a771a57504
 title: Ambush, SS21 Campaign
 description: Ambush, SS21 Campaign
 campaign_title: SS21 Campaign
