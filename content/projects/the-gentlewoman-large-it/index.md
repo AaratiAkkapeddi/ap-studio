@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 319f53a5-9b5f-49a6-ba0e-269b8dabd4c8
 title: The Gentlewoman, Large It
 description: The Gentlewoman, Large It
 campaign_title: Large It
