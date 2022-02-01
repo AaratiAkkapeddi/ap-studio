@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 11c7b635-c1ad-403e-af70-0e1448d1cce1
 title: Louis Vuitton, Capucines SS20 Campaign
 description: Louis Vuitton, Capucines SS20 Campaign
 campaign_title: Capucines SS20 Campaign
