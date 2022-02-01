@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 765de594-5f56-46d4-bf5b-cf6316c1fda0
 title: American Vogue, Streat Easy
 description: American Vogue, Streat Easy
 campaign_title: Streat Easy
