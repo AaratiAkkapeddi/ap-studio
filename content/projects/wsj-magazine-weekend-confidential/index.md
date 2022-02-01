@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 0389e916-ef92-4ea9-bb38-f1de66ae5d3f
 title: WSJ Magazine, Weekend Confidential
 description: WSJ Magazine, Weekend Confidential
 campaign_title: Weekend Confidential
