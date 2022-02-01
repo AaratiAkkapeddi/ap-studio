@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 7cd018be-9355-4832-964a-f00f9bda8f56
 title: American Vogue, Show Of Hand
 description: American Vogue, Show Of Hand
 campaign_title: Show Of Hand
