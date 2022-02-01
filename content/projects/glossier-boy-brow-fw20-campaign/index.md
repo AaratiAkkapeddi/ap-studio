@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 7ab3242b-ec74-4b83-8c09-1dd71dfc0fa5
 title: Glossier, Boy Brow FW20 Campaign
 description: Glossier, Boy Brow FW20 Campaign
 campaign_title: Boy Brow FW20 Campaign
