@@ -1,5 +1,6 @@
 ---
 draft: false
+id: e4cb4a97-1c0c-4b11-8e4e-b653681267f8
 title: Loro Piana, Sesia Campaign
 description: Loro Piana, Sesia Campaign
 campaign_title: Sesia Campaign
