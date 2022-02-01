@@ -2,7 +2,8 @@ import CMS from 'netlify-cms-app';
 import React, { Component } from 'react';
 import uploadcare from 'netlify-cms-media-library-uploadcare';
 import cloudinary from 'netlify-cms-media-library-cloudinary';
-import {UuidControl, UuidPreview} from 'netlify-cms-widget-uuid-v4';
+import { UuidControl } from 'netlify-cms-widget-uuid-v4/dist/index';
+
 
 // Initialize the CMS object
 CMS.init()
@@ -10,7 +11,7 @@ CMS.init()
 // here for example purposes.
 CMS.registerMediaLibrary(uploadcare);
 CMS.registerMediaLibrary(cloudinary);
-CMS.registerWidget('uuid', UuidControl, UuidPreview)
+CMS.registerWidget('uuid', UuidControl)
 
 export default class ProjectPreview extends React.Component {
 
