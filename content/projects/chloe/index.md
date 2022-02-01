@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 12b58ec5-36e5-4b56-bd1d-b279f535a35b
 title: Chloé, FW21 Campaign
 description: Chloé FW21
 campaign_title: FW21 Campaign
