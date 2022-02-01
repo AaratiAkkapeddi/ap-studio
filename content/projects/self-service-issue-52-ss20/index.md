@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 8a88fc4e-4e5b-4414-9e54-a0a2423c507b
 title: Self Service, Issue 52 SS20
 description: Self Service, Issue 52 SS20
 campaign_title: Issue 52 SS20
