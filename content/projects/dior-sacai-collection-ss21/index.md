@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 0f929fc7-6943-477a-9b91-7171e44e1427
 title: Dior, Sacai Collection SS21
 description: Dior, Sacai Collection SS21
 campaign_title: Sacai Collection SS21
