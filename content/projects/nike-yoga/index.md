@@ -1,5 +1,6 @@
 ---
 draft: false
+id: fa51a70a-d88d-4665-9285-0cf680fb2f22
 title: Nike Yoga, FW 21 Campaign
 description: Nike Yoga, FW 21 Campaign
 campaign_title: FW 21 Campaign
