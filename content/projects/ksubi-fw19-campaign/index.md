@@ -1,5 +1,6 @@
 ---
 draft: false
+id: a312ea6f-a4cb-4393-8cc0-b990dd357b85
 title: Ksubi, FW19 Campaign
 description: Ksubi, FW19 Campaign
 campaign_title: FW19 Campaign
