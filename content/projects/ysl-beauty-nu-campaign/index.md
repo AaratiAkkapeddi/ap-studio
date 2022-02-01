@@ -1,5 +1,6 @@
 ---
 draft: false
+id: c7c5250e-a0f9-4409-a548-0bc8152823ae
 title: YSL Beauty, Nu Campaign
 description: YSL Beauty, Nu Campaign
 campaign_title: Nu Campaign
