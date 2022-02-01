@@ -1,5 +1,6 @@
 ---
 draft: true
+id: d6633f98-1325-4775-8813-ce4e9005a2f6
 title: Judy Turner, SS21 Collection
 description: Judy Turner, SS21 Collection
 campaign_title: SS21 Collection
