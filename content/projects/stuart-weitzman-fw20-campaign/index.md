@@ -1,5 +1,6 @@
 ---
 draft: false
+id: 16828ed3-49f1-4ee6-b20e-9fb1cc57ccbe
 title: Stuart Weitzman, FW20 Campaign
 description: Stuart Weitzman, FW20 Campaign
 campaign_title: FW20 Campaign
