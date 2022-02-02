@@ -19,7 +19,6 @@ featured_projects:
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: Esteé Lauder, Revitalizing Supreme Campaign
-  - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
   - project: ANR Campaign
   - project: The Gentlewoman, Large It
