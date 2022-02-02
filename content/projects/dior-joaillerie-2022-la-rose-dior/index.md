@@ -7,6 +7,7 @@ campaign_title: Joaillerie 2022 "La Rose Dior"
 thumb:
   image: ""
   size: portrait
+  video: https://ucarecdn.com/76824bbe-aa32-405e-ac9b-37235f8d32ae/
 release_date: 2022-01-28T17:29:09.365Z
 media:
   - media: https://ucarecdn.com/81f4c742-2076-42de-9fbf-644cc0fb9e60/
