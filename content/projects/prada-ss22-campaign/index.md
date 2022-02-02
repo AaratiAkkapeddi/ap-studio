@@ -27,6 +27,12 @@ media:
     media: https://ucarecdn.com/a10b9e23-2c71-4dee-842a-b685822233f4/
   - size: landscape
     media: https://ucarecdn.com/4b5d4558-aa35-401a-ae3a-7e55318e29e3/
+  - size: landscape
+    mediaVideo: https://ucarecdn.com/cfdfbc4d-00a0-4af1-ad75-48b374e3df17/
+  - size: landscape
+    media: https://ucarecdn.com/ee31f466-c827-4add-8365-5fc1f619a701/
+  - size: landscape
+    mediaVideo: https://ucarecdn.com/e241f65c-3a4b-4504-bd8e-61f9de7c3e7f/
 clients:
   - client: Prada
 artists:
