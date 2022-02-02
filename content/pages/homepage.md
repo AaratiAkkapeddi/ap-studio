@@ -20,8 +20,8 @@ featured_projects:
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
   - project: ANR Campaign
-  - project: The Gentlewoman, Large It
   - project: Prada Mens SS22
+  - project: The Gentlewoman, Large It
   - project: Loewe, SS22 Men's Campaign
 clients:
   - client: American Vogue
