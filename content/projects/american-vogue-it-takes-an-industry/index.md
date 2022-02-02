@@ -3,7 +3,7 @@ draft: false
 id: 34e9ae99-4aea-4d9f-8ba3-ccafc1cf9190
 title: American Vogue, It Takes An Industry
 description: American Vogue,  It Takes An Industry
-campaign_title: It Takes An Industry
+campaign_title: '"It Takes An Industry"'
 thumb:
   size: portrait
   image: https://ucarecdn.com/35c5e2a4-928b-436f-ab37-8ace810c1a65/
