@@ -10,7 +10,7 @@ projects:
   - project: System Magazine
 featured_projects:
   - project: Prada, SS22 Women's Campaign
-  - project: Loewe, SS22 Womens
+  - project: "Loewe, Women's SS22 Campaign "
   - project: System Magazine
   - project: Chloé, FW21 Campaign
   - project: Saint Laurent FW21 Campaign
