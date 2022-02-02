@@ -5,7 +5,7 @@ title: Loewe, SS22 Womens
 campaign_title: SS22 Campaign
 thumb:
   size: portrait
-  image: https://ucarecdn.com/6b1abeb3-f01c-47a0-8523-95fdc898812f/
+  image: https://ucarecdn.com/bcb4a243-71ce-4879-a924-60faf6c26526/
 carouselthumb:
   size: portrait
   image: https://ucarecdn.com/2ac81ed1-94b7-4926-95da-f6fd91bdca2e/
