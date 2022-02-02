@@ -5,7 +5,7 @@ title: Isabel Marant Étoile, SS22
 description: Isabel Marant Étoile, SS22
 campaign_title: SS22
 thumb:
-  image: https://ucarecdn.com/27a374fb-e4d6-4ed9-aa95-96099d688c38/
+  image: https://ucarecdn.com/55d0cdab-012b-468f-9a9b-a7143c393d75/
   size: portrait
 release_date: 2022-01-21T00:48:07.431Z
 media:
