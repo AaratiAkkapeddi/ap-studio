@@ -1,9 +1,9 @@
 ---
 draft: false
 id: 50673f05-8fb6-4ced-b63d-a52b975d1b2a
-title: Loewe, SS22 Mens Campaign
-description: Loewe, SS22 Mens Campaign
-campaign_title: SS22 Mens Campaign
+title: Loewe, SS22 Men's Campaign
+description: Loewe, SS22 Men's Campaign
+campaign_title: SS22 Men's Campaign
 thumb:
   image: https://ucarecdn.com/8b3b528d-9472-4ba2-9909-727653c4393f/
   size: portrait
