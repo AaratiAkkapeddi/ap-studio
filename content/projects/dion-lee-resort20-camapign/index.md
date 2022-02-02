@@ -1,9 +1,9 @@
 ---
 draft: false
 id: 51af8026-cf64-442c-8b4c-db187d27e039
-title: Dion Lee, Resort '20 Campaign
-description: Dion Lee, Resort '20 Campaign
-campaign_title: Resort '20 Campaign
+title: Dion Lee, Resort 20 Campaign
+description: Dion Lee, Resort 20 Campaign
+campaign_title: Resort 20 Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/debde48d-ffb3-437f-bf57-8bbd1c21de92/
