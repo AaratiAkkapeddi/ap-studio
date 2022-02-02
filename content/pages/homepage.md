@@ -14,6 +14,7 @@ featured_projects:
   - project: System Magazine
   - project: Chloé, FW21 Campaign
   - project: Loewe, SS22 Mens Campaign
+  - project: Prada Mens SS22
   - project: Saint Laurent FW21 Campaign
   - project: MAC, Autre Cuture Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
