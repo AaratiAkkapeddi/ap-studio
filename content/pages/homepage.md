@@ -19,7 +19,6 @@ featured_projects:
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
-  - project: ANR Campaign
   - project: Prada Mens SS22
   - project: The Gentlewoman, Large It
   - project: Loewe, SS22 Men's Campaign
