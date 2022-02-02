@@ -5,7 +5,7 @@ title: Prada, SS22 Women's Campaign
 description: Prada, SS22 Women's Campaign
 campaign_title: Women's SS22 Campaign "In The Mood for Prada"
 thumb:
-  video: https://ucarecdn.com/fc0ccdf9-94f5-4476-96ec-fa2d2a745d1d/
+  video: https://ucarecdn.com/a22f3016-2ec0-442a-92be-70476fdae82d/
   size: landscape
 carouselthumb:
   video: https://ucarecdn.com/8bf38019-4e14-49c8-b2a2-8da2ee78674c/
