@@ -13,7 +13,6 @@ featured_projects:
   - project: Loewe, SS22 Womens
   - project: System Magazine
   - project: Chloé, FW21 Campaign
-  - project: Loewe, SS22 Mens Campaign
   - project: Saint Laurent FW21 Campaign
   - project: MAC, Autre Cuture Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
@@ -23,6 +22,7 @@ featured_projects:
   - project: ANR Campaign
   - project: The Gentlewoman, Large It
   - project: Prada Mens SS22
+  - project: Loewe, SS22 Men's Campaign
 clients:
   - client: American Vogue
   - client: Chloe
