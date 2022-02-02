@@ -6,7 +6,7 @@ description: Dior Joaillerie 2022 "La Rose Dior"
 campaign_title: Joaillerie 2022 "La Rose Dior"
 thumb:
   image: ""
-  size: portrait
+  size: landscape
   video: https://ucarecdn.com/76824bbe-aa32-405e-ac9b-37235f8d32ae/
 release_date: 2022-01-28T17:29:09.365Z
 media:
