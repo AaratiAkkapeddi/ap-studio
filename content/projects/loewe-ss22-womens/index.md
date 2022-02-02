@@ -1,8 +1,9 @@
 ---
 draft: false
 id: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
-title: Loewe, SS22 Womens
-campaign_title: SS22 Campaign
+title: "Loewe, Women's SS22 Campaign "
+description: "Loewe, Women's SS22 Campaign "
+campaign_title: Women's SS22 Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/bcb4a243-71ce-4879-a924-60faf6c26526/
