@@ -1,8 +1,8 @@
 ---
 draft: false
 id: bdd1e5eb-9c02-48ca-b2f2-a3f16ec3ba82
-title: System Magazine
-description: System Magazine
+title: System Magazine, Chanel Supplement N.18
+description: System Magazine, Chanel Supplement N.18
 campaign_title: Chanel Supplement N.18
 thumb:
   image: https://ucarecdn.com/cb055647-7333-48b6-addc-3ca84576b0ff/
