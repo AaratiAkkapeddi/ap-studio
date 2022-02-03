@@ -53,5 +53,4 @@ featured_projects:
   - project: Dior, Sacai Collection SS21
   - project: Glossier, Boy Brow FW20 Campaign
   - project: Glossier, Cloud Paint Campaign
-  - project: YSL Beauty, Nu Campaign
 ---
