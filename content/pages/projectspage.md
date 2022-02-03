@@ -6,13 +6,14 @@ featured_projects:
   - project: American Vogue, Show Of Hand
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
-  - project: "Loewe, Women's SS22 Campaign "
   - project: Self Service, Issue 52 SS20
+  - project: MAC, Autre Cuture Campaign
+  - project: "Loewe, Women's SS22 Campaign "
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
   - project: American Vogue, The Future is Female
-  - project: MAC, Autre Cuture Campaign
+  - project: Loewe, SS22 Men's Campaign
   - project: American Vogue, Suit Yourself
   - project: American Vogue, April 2020 Cover
   - project: Fendi, Couture SS21
