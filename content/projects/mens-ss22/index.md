@@ -1,9 +1,9 @@
 ---
 draft: false
 id: a435c162-bcf7-445c-aa04-d6881eab8943
-title: "Mens SS22 "
-description: "Mens SS22 "
-campaign_title: Mens SS22
+title: "Dior, Men's SS22 "
+description: "Dior, Men's SS22 "
+campaign_title: Men's SS22
 thumb:
   size: landscape
   video: https://ucarecdn.com/05a45335-1ab3-48aa-8df8-4be8e53aa10d/
