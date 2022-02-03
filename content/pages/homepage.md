@@ -10,7 +10,7 @@ projects:
   - project: System Magazine
 featured_projects:
   - project: Prada, SS22 Women's Campaign
-  - project: System Magazine
+  - project: System Magazine, Chanel Supplement N.18
   - project: "Loewe, Women's SS22 Campaign "
   - project: Chloé, FW21 Campaign
   - project: Saint Laurent FW21 Campaign
@@ -25,7 +25,6 @@ featured_projects:
   - project: Louis Vuitton, New Classics AW19 Campaign
   - project: Loewe, SS22 Men's Campaign
   - project: "Dior, Men's SS22 "
-  - project: "Mens SS22 "
   - project: American Vogue, April 2020 Cover
   - project: Victoria's Secret Beauty, Tease Creme Cloud
 clients:
