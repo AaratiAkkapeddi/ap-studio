@@ -5,7 +5,7 @@ title: Nike Yoga, FW 21 Campaign
 description: Nike Yoga, FW 21 Campaign
 campaign_title: FW 21 Campaign
 thumb:
-  image: https://ucarecdn.com/ab052c1d-8c1d-4d92-b324-c333d1c54295/
+  image: https://ucarecdn.com/0b7c432c-15ec-4f79-8121-139a2986807a/
   size: portrait
 carouselthumb:
   size: portrait
@@ -31,6 +31,12 @@ media:
   - media: https://ucarecdn.com/36e206e0-f8f2-4a96-9903-b19fe5bb1eb5/
     size: portrait
   - media: https://ucarecdn.com/7f57d275-c812-4339-9e87-52c8bffab5ae/
+    size: portrait
+  - media: https://ucarecdn.com/3c4264b1-83e7-43e7-833a-34c863318185/
+    size: portrait
+  - media: https://ucarecdn.com/22d04ef2-5c36-4b28-b20e-ea69cb31c6cc/
+    size: portrait
+  - media: https://ucarecdn.com/0d23dac8-31f5-4c7a-b2df-88cf59aee95b/
     size: portrait
 clients:
   - client: Nike
