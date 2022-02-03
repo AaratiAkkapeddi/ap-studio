@@ -13,7 +13,7 @@ const Thumb = ({imageurl, videourl, name}) => {
 			    </div>
 			  )
 	} else if(imageurl){
-		let imgsizes = imageurl + "/-/resize/x480/ 480w, " + imageurl + "/-/resize/x800/ 800w"
+		let imgsizes = imageurl + "/-/resize/x480/ 480w, " + imageurl + "/-/resize/x500/ 800w"
 		return (
 			    <div className="thumb-item">
 			      <img src={imageurl+"/-/resize/x480/"} srcSet={imgsizes} sizes="(max-width: 600px) 480px,

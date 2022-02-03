@@ -14,6 +14,7 @@ const BlogIndex = ({ data, location }) => {
     let formatted = days[x.getDay()] + ", " + (months[x.getMonth()]) + " " +  x.getDate() +", " + x.getFullYear();
     return formatted
   }
+  posts = posts.reverse()
   return (
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />

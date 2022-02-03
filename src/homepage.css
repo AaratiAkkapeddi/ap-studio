@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: space-between;
   animation-name: overlaySlide;
-  animation-duration: 15s;
+  animation-duration: 25s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -204,7 +204,7 @@ svg.logo-svg.los-angeles .invert path{
 
   position: absolute;
   animation-name: carouselSlideHorizontal;
-  animation-duration: 23s;
+  animation-duration: 33s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
