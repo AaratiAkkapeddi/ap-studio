@@ -43,4 +43,6 @@ featured_projects:
   - project: Zeit Magazine, September 2019 Cover
   - project: Fursac, FW21 Campaign
   - project: American Vogue, It Takes An Industry
+  - project: Vogue HK, April 2019 Cover
+  - project: Vogue HK, September 2019 Cover
 ---
