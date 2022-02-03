@@ -5,8 +5,8 @@ title: Off-White ®, Eyewear Campaign SS21
 description: Off-White ®, Eyewear Campaign SS21
 campaign_title: Eyewear Campaign SS21
 thumb:
-  size: portrait
-  image: https://ucarecdn.com/dae3355c-6dad-421e-bf09-8793b655a81b/
+  size: landscape
+  image: ""
 release_date: 2021-12-18T21:37:41.278Z
 release_date_public: 12/18/2021
 media:
