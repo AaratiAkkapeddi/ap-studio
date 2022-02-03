@@ -45,4 +45,6 @@ featured_projects:
   - project: American Vogue, It Takes An Industry
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
+  - project: Esteé Lauder, Revitalizing Supreme Campaign
+  - project: Zara Beauty, SS21 Campaign
 ---
