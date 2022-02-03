@@ -29,9 +29,9 @@ featured_projects:
   - project: "Dior, Men's SS22 "
   - project: American Vogue, April 2020 Cover
   - project: Off-White ®, Eyewear Campaign SS21
-  - project: American Vogue, November 2020 Cover
-  - project: YSL Beauty, Nu Campaign
   - project: Bare Campaign
+  - project: YSL Beauty, Nu Campaign
+  - project: YSL Beauty, Nu Campaign
 clients:
   - client: American Vogue
   - client: Chloe
