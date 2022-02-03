@@ -9,7 +9,7 @@ thumb:
   size: landscape
 carouselthumb:
   video: ""
-  image: https://ucarecdn.com/3f0ce8f8-53fe-43c4-b223-585351987f2e/
+  image: https://ucarecdn.com/7fa4ee2e-09fa-4506-87d8-a4418d6d40aa/
   size: portrait
 release_date: 2021-11-29T21:47:21.406Z
 release_date_public: 03/23/2021
