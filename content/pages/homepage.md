@@ -4,10 +4,9 @@ intro: AP Studio, Inc is an integrated creative production studio offering
   full-service production, including art buying and casting, for editorial and
   commercial shoots of all sizes, covering both stills and motion.
 projects:
-  - project: Loewe, SS22 Womens
-  - project: Chloé, FW21 Campaign
   - project: Prada, SS22 Women's Campaign
-  - project: System Magazine
+  - project: Chloé, FW21 Campaign
+  - project: Prada Mens SS22
 featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine, Chanel Supplement N.18
