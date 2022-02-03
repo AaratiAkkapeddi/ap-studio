@@ -1,11 +1,12 @@
 ---
 draft: false
+id: 332bcba6-a0d4-44e1-9993-06f66e070d5f
 title: Saint Laurent FW21 Campaign
 description: Saint Laurent FW21 Campaign
 campaign_title: FW21 Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/685ff848-aaec-45a2-9506-711876d511a4/
+  video: https://ucarecdn.com/398d4410-621e-47d2-9058-c0a6a27a62d6/
   image: ""
 carouselthumb:
   size: landscape
@@ -34,8 +35,7 @@ clients:
 artists:
   - artist: David Sims
   - artist: Paul Sinclare
-date: 2021-12-29T01:21:21.314Z
-id: 332bcba6-a0d4-44e1-9993-06f66e070d5f
 locations:
   - location: Paris
+date: 2021-12-29T01:21:21.314Z
 ---
