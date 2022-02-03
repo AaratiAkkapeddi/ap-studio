@@ -10,8 +10,8 @@ projects:
   - project: System Magazine
 featured_projects:
   - project: Prada, SS22 Women's Campaign
-  - project: "Loewe, Women's SS22 Campaign "
   - project: System Magazine
+  - project: "Loewe, Women's SS22 Campaign "
   - project: Chloé, FW21 Campaign
   - project: Saint Laurent FW21 Campaign
   - project: MAC, Autre Cuture Campaign
@@ -21,6 +21,7 @@ featured_projects:
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
   - project: Prada Mens SS22
   - project: The Gentlewoman, Large It
+  - project: Louis Vuitton, New Classics AW19 Campaign
   - project: Loewe, SS22 Men's Campaign
   - project: "Mens SS22 "
 clients:
