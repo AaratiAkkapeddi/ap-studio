@@ -14,6 +14,7 @@ featured_projects:
   - project: "Loewe, Women's SS22 Campaign "
   - project: Chloé, FW21 Campaign
   - project: Saint Laurent FW21 Campaign
+  - project: Vogue Italia, September 2020 100 Covers
   - project: MAC, Autre Cuture Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Dior Joaillerie 2022 "La Rose Dior"
@@ -24,6 +25,7 @@ featured_projects:
   - project: Louis Vuitton, New Classics AW19 Campaign
   - project: Loewe, SS22 Men's Campaign
   - project: "Mens SS22 "
+  - project: American Vogue, April 2020 Cover
 clients:
   - client: American Vogue
   - client: Chloe
