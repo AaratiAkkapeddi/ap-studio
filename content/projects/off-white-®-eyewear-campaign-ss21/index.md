@@ -7,6 +7,7 @@ campaign_title: Eyewear Campaign SS21
 thumb:
   size: landscape
   image: ""
+  video: https://ucarecdn.com/0ef76350-1f05-4571-bcac-c379b18ec9be/
 release_date: 2021-12-18T21:37:41.278Z
 release_date_public: 12/18/2021
 media:
