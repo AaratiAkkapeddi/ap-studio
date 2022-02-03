@@ -18,7 +18,8 @@ clients:
   - client: Amazon Luxury Stores
 artists:
   - artist: Tyler Mitchell
+  - artist: Malina Gilchrist
 locations:
-  - location: New York
+  - location: Los Angeles
 date: 2022-02-01T16:40:24.603Z
 ---
