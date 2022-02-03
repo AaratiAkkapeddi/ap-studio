@@ -2,6 +2,7 @@
 featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: American Vogue, December 2019 Cover
+  - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
   - project: American Vogue, Show Of Hand
   - project: Loewe, SS22 Mens Campaign
   - project: Loewe, SS22 Womens
@@ -36,7 +37,6 @@ featured_projects:
   - project: Gabriela Hearst, Resort 19
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
-  - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
   - project: Vogue Italia, Dies Irae
   - project: Vogue Italia, July/August Cover
   - project: Vogue Paris, April 2021, 'Dream Vacation'
