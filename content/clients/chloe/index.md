@@ -1,4 +1,4 @@
 ---
-title: Chloe
-name: Chloe
+title: Chloé
+name: Chloé
 ---
