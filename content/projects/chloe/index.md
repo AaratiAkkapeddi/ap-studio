@@ -8,8 +8,8 @@ thumb:
   image: https://ucarecdn.com/74a155d3-b444-480d-aff3-e2d6a0e597c8/
   size: landscape
 carouselthumb:
-  video: https://ucarecdn.com/7dae87dd-4a38-49bb-ac27-c9a1b03a7368/
-  image: ""
+  video: ""
+  image: https://ucarecdn.com/c3508634-f702-4273-a9b3-d6f7245a97d6/
   size: landscape
 release_date: 2021-11-29T21:47:21.406Z
 release_date_public: 03/23/2021
