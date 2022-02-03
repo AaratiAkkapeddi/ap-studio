@@ -59,4 +59,5 @@ featured_projects:
   - project: Nike Yoga, FW 21 Campaign
   - project: Off-White ®, Eyewear Campaign SS21
   - project: HBA, SS21 Campaign
+  - project: Esteé Lauder, Revitalizing Supreme Campaign
 ---
