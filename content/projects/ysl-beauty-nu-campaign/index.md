@@ -19,5 +19,7 @@ clients:
 artists:
   - artist: Amy Troost
   - artist: Sydney Rose Thomas
+locations:
+  - location: New York
 date: 2021-12-29T04:01:11.530Z
 ---
