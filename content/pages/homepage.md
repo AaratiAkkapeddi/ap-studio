@@ -28,7 +28,7 @@ featured_projects:
   - project: Loewe, SS22 Men's Campaign
   - project: "Dior, Men's SS22 "
   - project: American Vogue, April 2020 Cover
-  - project: Victoria's Secret Beauty, Tease Creme Cloud
+  - project: Off-White ®, Eyewear Campaign SS21
 clients:
   - client: American Vogue
   - client: Chloe
