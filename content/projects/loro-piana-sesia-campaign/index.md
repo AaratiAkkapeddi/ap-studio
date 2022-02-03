@@ -6,7 +6,8 @@ description: Loro Piana, Sesia Campaign
 campaign_title: Sesia Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/b13e1572-9563-461c-8e24-9e5136843bb5/
+  video: ""
+  image: https://ucarecdn.com/7ff176d5-6746-41bf-a411-ee346044c1a3/
 carouselthumb:
   size: portrait
 release_date: 2021-12-29T01:43:39.131Z
