@@ -22,6 +22,7 @@ featured_projects:
   - project: Prada Mens SS22
   - project: The Gentlewoman, Large It
   - project: Loewe, SS22 Men's Campaign
+  - project: "Mens SS22 "
 clients:
   - client: American Vogue
   - client: Chloe
@@ -58,4 +59,7 @@ artists:
   - artist: David Sims
   - artist: Lachlan Bailey
   - artist: Oliver Hadlee Pearch
+  - artist: Jackie Nickerson
+  - artist: Mario Sorrenti
+  - artist: Melanie Ward
 ---
