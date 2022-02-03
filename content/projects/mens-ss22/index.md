@@ -7,6 +7,8 @@ campaign_title: Men's SS22
 thumb:
   size: landscape
   video: https://ucarecdn.com/05a45335-1ab3-48aa-8df8-4be8e53aa10d/
+carouselthumb:
+  size: landscape
 release_date: 2022-02-03T17:16:40.757Z
 media:
   - size: landscape
