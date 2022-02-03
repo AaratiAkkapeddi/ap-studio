@@ -53,4 +53,8 @@ featured_projects:
   - project: Dior, Sacai Collection SS21
   - project: Glossier, Boy Brow FW20 Campaign
   - project: Glossier, Cloud Paint Campaign
+  - project: American Vogue, Quality Time
+  - project: American Vogue, Suit Yourself
+  - project: Dust, SS21 Love More
+  - project: Nike Yoga, FW 21 Campaign
 ---
