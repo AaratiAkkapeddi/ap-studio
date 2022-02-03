@@ -16,7 +16,7 @@ const Thumb = ({imageurl, videourl, name}) => {
 		let imgsizes = imageurl + "/-/resize/x480/ 480w, " + imageurl + "/-/resize/x800/ 800w"
 		return (
 			    <div className="thumb-item">
-			      <img src={imageurl} srcSet={imgsizes} sizes="(max-width: 600px) 480px,
+			      <img src={imageurl+"/-/resize/x480/"} srcSet={imgsizes} sizes="(max-width: 600px) 480px,
             800px" alt={name}/>
 			    </div>
 			  )

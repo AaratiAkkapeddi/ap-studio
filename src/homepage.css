@@ -65,6 +65,8 @@ padding-top:25px;
 #homepage-wrapper {
   overflow:scroll;
   height:100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: none;
   scroll-snap-margin:0;
@@ -187,7 +189,7 @@ svg.logo-svg.los-angeles .invert path{
 }
 .carousel{
   width: 100vw;
-  overflow: scroll;
+  overflow: hidden;
   height:100vh;
 }
 .carousel > a{
@@ -199,6 +201,7 @@ svg.logo-svg.los-angeles .invert path{
   display: flex;
   flex-wrap: nowrap;
   width: auto;
+
   position: absolute;
   animation-name: carouselSlideHorizontal;
   animation-duration: 23s;
