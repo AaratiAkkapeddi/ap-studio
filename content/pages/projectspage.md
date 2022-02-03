@@ -7,6 +7,7 @@ featured_projects:
   - project: Loewe, SS22 Mens Campaign
   - project: Loewe, SS22 Womens
   - project: Dior Joaillerie 2022 "La Rose Dior"
+  - project: Self Service, Issue 52 SS20
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: AnOther, Dark Poet
   - project: American Vogue, The Future is Female
@@ -20,7 +21,6 @@ featured_projects:
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: "Self Service, Issue 53: The Obsessions"
   - project: More or Less, Issue 04 Cover
-  - project: Self Service, Issue 52 SS20
   - project: "Self Service, Issue 53: This Body"
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: T Magazine, Men's Fashion March 2021
