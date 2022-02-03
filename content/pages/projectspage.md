@@ -45,6 +45,13 @@ featured_projects:
   - project: American Vogue, It Takes An Industry
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
-  - project: Esteé Lauder, Revitalizing Supreme Campaign
-  - project: Zara Beauty, SS21 Campaign
+  - project: American Vogue, March 2021 Cover
+  - project: American Vogue, November 2020 Cover
+  - project: Vogue Paris, May 2021 Cover
+  - project: "Dior, Men's SS22 "
+  - project: Dior, Men's Resort 2022
+  - project: Dior, Sacai Collection SS21
+  - project: Glossier, Boy Brow FW20 Campaign
+  - project: Glossier, Cloud Paint Campaign
+  - project: YSL Beauty, Nu Campaign
 ---
