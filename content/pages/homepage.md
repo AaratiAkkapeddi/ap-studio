@@ -66,4 +66,9 @@ artists:
   - artist: Jackie Nickerson
   - artist: Mario Sorrenti
   - artist: Melanie Ward
+  - artist: Alasdair McLellan
+  - artist: Gabriella Karefa-Johnson
+  - artist: Marie Amelie Sauvé
+  - artist: Mark Borthwick
+  - artist: Tyler Mitchell
 ---
