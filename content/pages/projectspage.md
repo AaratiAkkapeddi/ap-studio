@@ -61,4 +61,8 @@ featured_projects:
   - project: Nike Yoga, FW 21 Campaign
   - project: Off-White ®, Eyewear Campaign SS21
   - project: HBA, SS21 Campaign
+  - project: Chloé, FW21 Campaign
+  - project: Prada Mens SS22
+  - project: Fendi, Couture SS21
+  - project: i-D, The Faith In Chaos Issue, No. 360
 ---
