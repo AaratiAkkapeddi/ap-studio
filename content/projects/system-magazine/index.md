@@ -33,5 +33,6 @@ clients:
   - client: System Magazine
 artists:
   - artist: Aleksandra Woroniecka
+  - artist: Alasdair McLellan
 date: 2022-01-21T00:31:31.680Z
 ---
