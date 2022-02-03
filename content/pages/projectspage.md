@@ -57,4 +57,6 @@ featured_projects:
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
   - project: Nike Yoga, FW 21 Campaign
+  - project: Off-White ®, Eyewear Campaign SS21
+  - project: HBA, SS21 Campaign
 ---
