@@ -30,6 +30,7 @@ featured_projects:
   - project: American Vogue, April 2020 Cover
   - project: Off-White ®, Eyewear Campaign SS21
   - project: American Vogue, November 2020 Cover
+  - project: Loro Piana, Sesia Campaign
 clients:
   - client: American Vogue
   - client: Chloe
