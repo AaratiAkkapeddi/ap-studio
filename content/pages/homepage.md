@@ -7,6 +7,8 @@ projects:
   - project: Prada, SS22 Women's Campaign
   - project: Chloé, FW21 Campaign
   - project: Prada Mens SS22
+  - project: "Loewe, Women's SS22 Campaign "
+  - project: "Dior, Men's SS22 "
 featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine, Chanel Supplement N.18
