@@ -5,9 +5,9 @@ title: "Loewe, Women's SS22 Campaign "
 description: "Loewe, Women's SS22 Campaign "
 campaign_title: Women's SS22 Campaign
 thumb:
-  size: landscape
-  image: ""
-  video: https://ucarecdn.com/694eabed-a5b8-4307-a703-9fee54d66ca9/
+  size: portrait
+  image: https://ucarecdn.com/ebe1da73-b4bb-4e27-a9d1-4d89a243cab3/
+  video: ""
 carouselthumb:
   size: landscape
   image: ""
