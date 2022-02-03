@@ -30,7 +30,7 @@ featured_projects:
   - project: American Vogue, April 2020 Cover
   - project: Off-White ®, Eyewear Campaign SS21
   - project: Bare Campaign
-  - project: YSL Beauty, Nu Campaign
+  - project: American Vogue, November 2020 Cover
   - project: YSL Beauty, Nu Campaign
 clients:
   - client: American Vogue
