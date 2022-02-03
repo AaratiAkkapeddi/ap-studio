@@ -31,6 +31,7 @@ media:
     size: portrait
 clients:
   - client: System Magazine
-artists: []
+artists:
+  - artist: Aleksandra Woroniecka
 date: 2022-01-21T00:31:31.680Z
 ---
