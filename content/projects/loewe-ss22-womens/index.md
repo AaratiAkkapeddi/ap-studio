@@ -9,7 +9,7 @@ thumb:
   image: ""
   video: https://ucarecdn.com/694eabed-a5b8-4307-a703-9fee54d66ca9/
 carouselthumb:
-  size: portrait
+  size: landscape
   image: ""
   video: https://ucarecdn.com/81696987-1d68-4ef5-b180-759f7da1a1d2/
 release_date: 2022-01-26T19:52:28.523Z
