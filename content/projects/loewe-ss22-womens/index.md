@@ -9,8 +9,8 @@ thumb:
   image: ""
   video: https://ucarecdn.com/e385bc60-f7dd-4b41-ad6d-5b5f98970976/
 carouselthumb:
-  size: portrait
-  image: https://ucarecdn.com/d4e6f8cd-a752-424c-8c84-8be988095317/
+  size: square
+  image: https://ucarecdn.com/8e8ef3f1-4211-4f95-97be-9b924635373c/
   video: ""
 release_date: 2022-01-26T19:52:28.523Z
 media:
