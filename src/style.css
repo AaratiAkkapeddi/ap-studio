@@ -242,7 +242,7 @@ main{
   transition: 0.2s;
 }
 main{
-  margin-top:calc(2.488rem + var(--spacing-4));
+  margin-top:calc(2.488rem + var(--spacing-6));
 }
 @media (max-width: 42rem) {
   :root {

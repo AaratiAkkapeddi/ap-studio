@@ -83,14 +83,27 @@
 	.info-row{
 		flex-direction: column;
 	}
+	.info-wrapper{
+		flex-direction: column;
+	}
+	.info-column:first-child > div:last-child{
+		margin-top: var(--spacing-8);
+	}
+	.info-wrapper > div:first-child{
+		padding-right: 0;
+	}
+	.info-wrapper > div{
+		flex-basis: auto;
+		padding-bottom: var(--spacing-8);
+	}
 	.map-wrapper{
 		    width: calc(100% - var(--spacing-2));
     		margin-bottom: var(--spacing-10);
 	}
 	.map-wrapper .map-inner{
 		margin-left:0;
-		width: 70% !important;
-		height: 30vh !important;
+		width: 100% !important;
+		height: 35vh !important;
 	}
 	.maps-wrapper{
 		flex-direction: column;

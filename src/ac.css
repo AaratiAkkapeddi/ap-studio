@@ -86,7 +86,7 @@
 	display: flex;
 	z-index: -1;
 }
-.client-three-image-column a.portrait{
+/*.client-three-image-column a.portrait{
    width:33.333%;
 }
 .client-three-image-column a > *{
@@ -94,6 +94,9 @@
 }
 .client-three-image-column a.landscape{
    width:100%;
+}*/
+.client-three-image-column .client-project-list{
+	padding-left: 0;
 }
 .text-column .media-item{
 	display: none;

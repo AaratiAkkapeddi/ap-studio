@@ -55,11 +55,13 @@ const ClientPageTemplate = ({ data, location }) => {
   function imageColumn(){
     document.querySelector(".project-media-container").classList.remove("text-column")
     document.querySelector(".project-media-container").classList.add("client-three-image-column")
+    document.querySelector(".project-media-container").classList.add("three-image-column")
     document.querySelector("#text-toggle").classList.remove("on")
     document.querySelector("#image-toggle").classList.add("on")
   }
   function textColumn(){
     document.querySelector(".project-media-container").classList.remove("client-three-image-column")
+    document.querySelector(".project-media-container").classList.remove("three-image-column")
     document.querySelector(".project-media-container").classList.add("text-column")
     document.querySelector("#image-toggle").classList.remove("on")
     document.querySelector("#text-toggle").classList.add("on")
@@ -87,7 +89,7 @@ const ClientPageTemplate = ({ data, location }) => {
             </svg>
           </p>
         </header>
-        <div className={`${(mobile || clientProjectDivs.length < 5) ? 'client-three-image-column ' : 'text-column '} project-media-container client-media-container`}>
+        <div className={`${(mobile || clientProjectDivs.length < 5) ? 'client-three-image-column three-image-column ' : 'text-column '} project-media-container client-media-container`}>
         {clientProjectDivs}
         </div>
           <div className="project-footer">

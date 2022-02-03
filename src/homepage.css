@@ -28,6 +28,7 @@
 }
 .overlay-title svg{
   height:1em;
+  margin-bottom: 0.8em;
 }
 .overlay-inner{
   height:auto;
@@ -35,6 +36,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  animation-name: overlaySlide;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 .flickity-page-dots, .flickity-button{
@@ -196,9 +201,16 @@ svg.logo-svg.los-angeles .invert path{
   width: auto;
   position: absolute;
   animation-name: carouselSlideHorizontal;
-  animation-duration: 70s;
+  animation-duration: 23s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.overlay-inner svg.logo-svg.los-angeles .invert path,
+.overlay-inner svg.logo-svg.new-york .invert path,
+.overlay-inner svg.logo-svg.paris .invert path{
+  stroke-width: 0;
+  fill: white;
 }
 .carousel-slide{
    width:auto;
