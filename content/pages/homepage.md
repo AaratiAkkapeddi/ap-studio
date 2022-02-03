@@ -27,10 +27,10 @@ featured_projects:
   - project: Louis Vuitton, New Classics AW19 Campaign
   - project: Loewe, SS22 Men's Campaign
   - project: "Dior, Men's SS22 "
-  - project: American Vogue, November 2020 Cover
+  - project: American Vogue, March 2021 Cover
   - project: Off-White ®, Eyewear Campaign SS21
   - project: Bare Campaign
-  - project: American Vogue, March 2021 Cover
+  - project: American Vogue, November 2020 Cover
   - project: YSL Beauty, Nu Campaign
 clients:
   - client: American Vogue
