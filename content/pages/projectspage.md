@@ -37,4 +37,10 @@ featured_projects:
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
+  - project: Vogue Italia, Dies Irae
+  - project: Vogue Italia, July/August Cover
+  - project: Vogue Paris, April 2021, 'Dream Vacation'
+  - project: Zeit Magazine, September 2019 Cover
+  - project: Fursac, FW21 Campaign
+  - project: American Vogue, It Takes An Industry
 ---
