@@ -1,5 +1,5 @@
 ---
-title: Chloé FW21 seen in New York. Los Angeles & Hong Kong
+title: Chloé FW21 seen in New York, Los Angeles & Hong Kong
 date: 2022-01-22T14:05:28.129Z
 ---
 View full Chloé FW21 campaign [here](https://apstudio.netlify.app/projects/chloe/).
