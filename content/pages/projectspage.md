@@ -3,11 +3,11 @@ featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: American Vogue, Show Of Hand
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
-  - project: American Vogue, December 2019 Cover
-  - project: Loewe, SS22 Mens Campaign
-  - project: Loewe, SS22 Womens
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: Self Service, Issue 52 SS20
+  - project: Loewe, SS22 Mens Campaign
+  - project: American Vogue, December 2019 Cover
+  - project: Loewe, SS22 Womens
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: AnOther, Dark Poet
   - project: American Vogue, The Future is Female
