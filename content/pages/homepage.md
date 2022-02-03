@@ -5,8 +5,9 @@ intro: AP Studio, Inc is an integrated creative production studio offering
   commercial shoots of all sizes, covering both stills and motion.
 projects:
   - project: Prada, SS22 Women's Campaign
-  - project: Chloé, FW21 Campaign
   - project: "Loewe, Women's SS22 Campaign "
+  - project: Prada Mens SS22
+  - project: Chloé, FW21 Campaign
 featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine, Chanel Supplement N.18
