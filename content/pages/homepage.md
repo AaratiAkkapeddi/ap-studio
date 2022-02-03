@@ -13,6 +13,7 @@ featured_projects:
   - project: System Magazine, Chanel Supplement N.18
   - project: "Loewe, Women's SS22 Campaign "
   - project: Chloé, FW21 Campaign
+  - project: Self Service, Issue 52 SS20
   - project: Saint Laurent FW21 Campaign
   - project: Vogue Italia, September 2020 100 Covers
   - project: MAC, Autre Cuture Campaign
