@@ -26,7 +26,6 @@ featured_projects:
   - project: Loewe, SS22 Men's Campaign
   - project: "Mens SS22 "
   - project: American Vogue, April 2020 Cover
-  - project: Esteé Lauder, ANR Campaign
 clients:
   - client: American Vogue
   - client: Chloe
