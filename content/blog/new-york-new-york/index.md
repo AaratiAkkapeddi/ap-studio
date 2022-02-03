@@ -1,5 +1,5 @@
 ---
-title: Saint Laurent  FW21 billboard in SOHO
+title: Saint Laurent Billboards in New York and Los Angeles
 date: 2022-01-22T13:45:50.925Z
 ---
 View full Saint Laurent FW 21 Campaign [here](https://apstudio.netlify.app/projects/saint-laurent-fw21-campaign/).
