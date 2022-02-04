@@ -4,8 +4,8 @@ featured_projects:
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Dior Joaillerie 2022 "La Rose Dior"
-  - project: Chloé, FW21 Campaign
   - project: The Gentlewoman, Large It
+  - project: Chloé, FW21 Campaign
   - project: Vogue Paris, May 2021 Cover
   - project: Self Service, Issue 52 SS20
   - project: American Vogue, The Future is Female
