@@ -7,14 +7,16 @@ featured_projects:
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Self Service, Issue 52 SS20
+  - project: Loewe, SS22 Men's Campaign
+  - project: American Vogue, The Future is Female
   - project: MAC, Autre Cuture Campaign
+  - project: American Vogue, Suit Yourself
+  - project: Vogue Italia, July/August Cover
+  - project: Prada Mens SS22
   - project: "Loewe, Women's SS22 Campaign "
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
-  - project: American Vogue, The Future is Female
-  - project: Loewe, SS22 Men's Campaign
-  - project: American Vogue, Suit Yourself
   - project: American Vogue, April 2020 Cover
   - project: Fendi, Couture SS21
   - project: AnOther, American Lyric Dance of Assembly
@@ -40,7 +42,6 @@ featured_projects:
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
-  - project: Vogue Italia, July/August Cover
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Zeit Magazine, September 2019 Cover
   - project: Fursac, FW21 Campaign
@@ -62,7 +63,6 @@ featured_projects:
   - project: Off-White ®, Eyewear Campaign SS21
   - project: HBA, SS21 Campaign
   - project: Chloé, FW21 Campaign
-  - project: Prada Mens SS22
   - project: Fendi, Couture SS21
   - project: i-D, The Faith In Chaos Issue, No. 360
 ---
