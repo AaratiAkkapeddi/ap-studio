@@ -21,12 +21,12 @@ featured_projects:
   - project: Chloé, FW21 Campaign
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: American Vogue, It Takes An Industry
+  - project: AnOther, American Lyric Dance of Assembly
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
   - project: Fendi, Couture SS21
-  - project: AnOther, American Lyric Dance of Assembly
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: "Self Service, Issue 53: The Obsessions"
