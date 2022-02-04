@@ -31,7 +31,6 @@ featured_projects:
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
-  - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: "Self Service, Issue 53: This Body"
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: T Magazine, Beauty & Luxury Issue 2021
