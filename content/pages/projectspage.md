@@ -20,6 +20,7 @@ featured_projects:
   - project: Off-White ®, Eyewear Campaign SS21
   - project: Chloé, FW21 Campaign
   - project: Vogue Paris, April 2021, 'Dream Vacation'
+  - project: American Vogue, It Takes An Industry
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
@@ -37,17 +38,16 @@ featured_projects:
   - project: Esteé Lauder, ANR Campaign
   - project: Stuart Weitzman, FW20 Campaign
   - project: Louis Vuitton, Capucines SS20 Campaign
-  - project: Louis Vuitton, New Classics AW19 Campaign
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
-  - project: Gabriela Hearst, Resort 19
+  - project: Gabriela Hearst, Resort 22
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
-  - project: Zeit Magazine, September 2019 Cover
+  - project: Vogue Italia, Dies Irae
   - project: Fursac, FW21 Campaign
-  - project: American Vogue, It Takes An Industry
+  - project: Fursac, FW21 Campaign
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
   - project: American Vogue, March 2021 Cover
