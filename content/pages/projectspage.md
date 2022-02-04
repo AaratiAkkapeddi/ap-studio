@@ -5,13 +5,13 @@ featured_projects:
   - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: Chloé, FW21 Campaign
+  - project: The Gentlewoman, Large It
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Self Service, Issue 52 SS20
   - project: Loewe, SS22 Men's Campaign
   - project: American Vogue, The Future is Female
   - project: MAC, Autre Cuture Campaign
   - project: American Vogue, Suit Yourself
-  - project: The Gentlewoman, Large It
   - project: Prada Mens SS22
   - project: "Loewe, Women's SS22 Campaign "
   - project: American Vogue, April 2020 Cover
