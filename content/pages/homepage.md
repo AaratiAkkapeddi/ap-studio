@@ -12,11 +12,11 @@ featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine, Chanel Supplement N.18
   - project: "Loewe, Women's SS22 Campaign "
-  - project: Chloé, FW21 Campaign
+  - project: "Dior, Men's SS22 "
   - project: Self Service, Issue 52 SS20
   - project: Saint Laurent FW21 Campaign
   - project: Vogue Italia, September 2020 100 Covers
-  - project: MAC, Autre Cuture Campaign
+  - project: Chloé, FW21 Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: Esteé Lauder, Revitalizing Supreme Campaign
@@ -25,7 +25,7 @@ featured_projects:
   - project: The Gentlewoman, Large It
   - project: Louis Vuitton, New Classics AW19 Campaign
   - project: Loewe, SS22 Men's Campaign
-  - project: "Dior, Men's SS22 "
+  - project: MAC, Autre Cuture Campaign
   - project: American Vogue, March 2021 Cover
   - project: Off-White ®, Eyewear Campaign SS21
   - project: American Vogue, November 2020 Cover
