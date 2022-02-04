@@ -7,7 +7,7 @@ campaign_title: SS21 Campaign
 thumb:
   size: landscape
   image: ""
-  video: null
+  video: https://ucarecdn.com/5828248b-ca40-47a9-8641-7885ac8dd146/
 carouselthumb:
   size: landscape
 release_date: 2022-01-20T20:55:36.929Z
