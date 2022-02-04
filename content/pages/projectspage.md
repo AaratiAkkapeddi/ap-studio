@@ -70,4 +70,10 @@ featured_projects:
   - project: YSL Beauty, Nu Campaign
   - project: Isabel Marant Étoile, SS22
   - project: Ambush, SS21 Campaign
+  - project: Dion Lee, FW20 Campaign
+  - project: Dion Lee, Resort 20 Campaign
+  - project: American Vogue, Streat Easy
+  - project: Zara Beauty, SS21 Campaign
+  - project: T Magazine, Beauty & Luxury Issue 2021
+  - project: Theory, FW20 Campaign
 ---
