@@ -296,7 +296,35 @@ function mobileClose(){
 
             }
         })}
- 
+        {featuredProjects.map((project, index) => {
+
+            if(index < 2 && !project.node.frontmatter.draft){
+              const title = project.node.frontmatter.campaign_title
+             console.log(project.node.frontmatter.carouselthumb && (project.node.frontmatter.carouselthumb?.image || project.node.frontmatter.carouselthumb?.video))
+
+              if(project.node.frontmatter.carouselthumb && (project.node.frontmatter.carouselthumb?.image || project.node.frontmatter.carouselthumb?.video)){
+                return (
+                
+                  <a className={`${project.node.frontmatter.carouselthumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
+                    <Thumb name={project.node.frontmatter.carouselthumb?.media_name} id={project.node.frontmatter.carouselthumb?.id} imageurl={project.node.frontmatter.carouselthumb?.image} videourl={project.node.frontmatter.carouselthumb?.video} />
+                    <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+                  </a>
+       
+                )
+              }else{
+                return (
+              
+                  <a className={`${project.node.frontmatter.thumb?.size} carousel-slide`} key={index} href={project.node.fields.slug}>
+                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
+                    <div className="slide-title"><h1><ReactMarkdown>{project.node.frontmatter.campaign_title}</ReactMarkdown></h1></div>
+                  </a>
+       
+                )
+              }
+              
+
+            }
+        })}
       </div>
     </div>
     :
