@@ -71,4 +71,5 @@ featured_projects:
   - project: Zara Beauty, SS21 Campaign
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Theory, FW20 Campaign
+  - project: Ambush, SS21 Campaign
 ---
