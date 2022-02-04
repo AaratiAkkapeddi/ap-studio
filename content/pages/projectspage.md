@@ -27,6 +27,7 @@ featured_projects:
   - project: Fendi, Couture SS21
   - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
+  - project: Saint Laurent FW21 Campaign
   - project: Victoria's Secret, Holiday 2021, Mad for Plaid
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
@@ -64,6 +65,5 @@ featured_projects:
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Bare Campaign
   - project: i-D, 40th Anniversary  Issue, Judy Turner
-  - project: Saint Laurent FW21 Campaign
   - project: Nike, Be True
 ---
