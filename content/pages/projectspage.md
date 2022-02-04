@@ -27,18 +27,19 @@ featured_projects:
   - project: Fendi, Couture SS21
   - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
-  - project: Glossier, Cloud Paint Campaign
+  - project: Victoria's Secret, Holiday 2021, Mad for Plaid
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
-  - project: "Self Service, Issue 53: This Body"
   - project: Victoria's Secret Beauty, Tease Creme Cloud
+  - project: "Self Service, Issue 53: This Body"
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: T Magazine, Men's Fashion March 2021
   - project: The Face
   - project: System Magazine
   - project: Stuart Weitzman, FW20 Campaign
   - project: Louis Vuitton, Capucines SS20 Campaign
+  - project: Glossier, Cloud Paint Campaign
   - project: AnOther, American Lyric Dance of Assembly
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
@@ -62,6 +63,5 @@ featured_projects:
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Bare Campaign
-  - project: Victoria's Secret, Holiday 2021, Mad for Plaid
   - project: i-D, 40th Anniversary  Issue, Judy Turner
 ---
