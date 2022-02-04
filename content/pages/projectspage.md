@@ -15,7 +15,6 @@ featured_projects:
   - project: American Vogue, Suit Yourself
   - project: Glossier, Boy Brow FW20 Campaign
   - project: Prada Mens SS22
-  - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: American Vogue, April 2020 Cover
   - project: "Loewe, Women's SS22 Campaign "
   - project: More or Less, Issue 04 Cover
@@ -31,6 +30,7 @@ featured_projects:
   - project: Fendi, Couture SS21
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
+  - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: "Self Service, Issue 53: The Obsessions"
   - project: "Self Service, Issue 53: This Body"
   - project: T Magazine, Beauty & Luxury Issue 2021
