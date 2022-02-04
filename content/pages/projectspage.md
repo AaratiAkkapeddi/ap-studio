@@ -40,7 +40,6 @@ featured_projects:
   - project: System Magazine
   - project: Stuart Weitzman, FW20 Campaign
   - project: Glossier, Cloud Paint Campaign
-  - project: Glossier, Cloud Paint Campaign
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
