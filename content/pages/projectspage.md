@@ -64,4 +64,6 @@ featured_projects:
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Bare Campaign
   - project: i-D, 40th Anniversary  Issue, Judy Turner
+  - project: Saint Laurent FW21 Campaign
+  - project: Nike, Be True
 ---
