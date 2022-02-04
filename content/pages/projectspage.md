@@ -6,11 +6,12 @@ featured_projects:
   - project: Dior Joaillerie 2022 "La Rose Dior"
   - project: Chloé, FW21 Campaign
   - project: The Gentlewoman, Large It
-  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
+  - project: Vogue Paris, May 2021 Cover
   - project: Self Service, Issue 52 SS20
   - project: American Vogue, The Future is Female
   - project: Loewe, SS22 Men's Campaign
   - project: MAC, Autre Cuture Campaign
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: American Vogue, Suit Yourself
   - project: Glossier, Boy Brow FW20 Campaign
   - project: Prada Mens SS22
@@ -53,7 +54,6 @@ featured_projects:
   - project: Vogue HK, September 2019 Cover
   - project: American Vogue, March 2021 Cover
   - project: American Vogue, November 2020 Cover
-  - project: Vogue Paris, May 2021 Cover
   - project: "Dior, Men's SS22 "
   - project: Dior, Men's Resort 2022
   - project: Dior, Sacai Collection SS21
