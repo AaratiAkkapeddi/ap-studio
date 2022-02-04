@@ -17,6 +17,7 @@ featured_projects:
   - project: "Loewe, Women's SS22 Campaign "
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
+  - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: AnOther, Dark Poet
   - project: American Vogue, April 2020 Cover
   - project: Vogue Italia, July/August Cover
@@ -43,7 +44,6 @@ featured_projects:
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
-  - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Zeit Magazine, September 2019 Cover
   - project: Fursac, FW21 Campaign
   - project: American Vogue, It Takes An Industry
