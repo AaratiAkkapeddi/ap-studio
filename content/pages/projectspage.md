@@ -26,9 +26,9 @@ featured_projects:
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
+  - project: Fendi, Couture SS21
   - project: Vogue Italia, July/August Cover
   - project: Glossier, Cloud Paint Campaign
-  - project: Fendi, Couture SS21
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
