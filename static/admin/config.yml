@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: proxy
   branch: main # Branch to update (optional; defaults to master)
   repo: AaratiAkkapeddi/ap-studio
 local_backend: true
@@ -32,10 +32,10 @@ collections:
           - {label: 'Title (internal)', name: 'title', widget: 'string'}
           - {label: 'Intro', name: 'intro', widget: 'markdown'}
           - { label: 'Featured Projects (Carousel)', name: 'projects', widget: 'list', 
-              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"]}]
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
               }
           - { label: 'Featured Projects (Below Carousel)', name: 'featured_projects', widget: 'list', 
-              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"]}]
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
               }
           - { label: 'Selected Clients', name: 'clients', widget: 'list', fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
               }
@@ -118,7 +118,7 @@ collections:
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
-      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"], required: false}
+      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"], required: false}
   - name: 'artists'
     label: 'Artist'
     folder: 'content/artists'
@@ -132,7 +132,7 @@ collections:
     fields:
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
-      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"], required: false}
+      - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"], required: false}
   - name: 'locations'
     label: 'Location'
     folder: 'content/locations'
