@@ -408,7 +408,14 @@ main{
    .site-header.open{
     display: block;
    }
-
+   
+   .site-header > a:hover ~ .anim{
+      display: none;
+    }
+    .site-header > a:hover {
+      display: block;
+      opacity: 1;
+    }
 
    .site-header{
       display: none;

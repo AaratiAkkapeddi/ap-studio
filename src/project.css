@@ -142,7 +142,7 @@
    }
    .project-header, .project-footer{
    	max-width: calc(100% - var(--spacing-4));
-   	margin: var(--spacing-2) 0;
+   	margin: var(--spacing-2) auto;
    }
    .project-media-container.one-column .media-item.landscape img, .project-media-container.one-column .media-item.landscape video{
    	width: 100%;

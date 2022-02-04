@@ -198,6 +198,7 @@
       margin: var(--spacing-1);
     }
     .film-strip{
+      display: flex;
       justify-content: center;
     }
     .film-item img, .film-item video{
@@ -217,7 +218,7 @@
       width: calc(100% - var(--spacing-2));
       height: auto;
       min-height:5vh;
-        float:none;
+      float:none;
     }
     .more-info{
       left:auto;
