@@ -63,4 +63,5 @@ featured_projects:
   - project: i-D, The Faith In Chaos Issue, No. 360
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
+  - project: Bare Campaign
 ---
