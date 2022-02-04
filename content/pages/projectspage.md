@@ -36,7 +36,6 @@ featured_projects:
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: "Self Service, Issue 53: This Body"
   - project: Louis Vuitton, Capucines SS20 Campaign
-  - project: T Magazine, Beauty & Luxury Issue 2021
   - project: T Magazine, Men's Fashion March 2021
   - project: The Face
   - project: System Magazine
@@ -46,7 +45,6 @@ featured_projects:
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
-  - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
   - project: Fursac, FW21 Campaign
