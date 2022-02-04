@@ -44,7 +44,6 @@ featured_projects:
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
-  - project: Gabriela Hearst, Resort 22
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
@@ -62,4 +61,5 @@ featured_projects:
   - project: HBA, SS21 Campaign
   - project: Fendi, Couture SS21
   - project: i-D, The Faith In Chaos Issue, No. 360
+  - project: Gabriela Hearst, Resort 19
 ---
