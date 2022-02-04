@@ -47,8 +47,6 @@ featured_projects:
   - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
-  - project: Vogue Italia, Dies Irae
-  - project: Fursac, FW21 Campaign
   - project: Fursac, FW21 Campaign
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
