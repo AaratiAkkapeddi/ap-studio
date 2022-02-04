@@ -10,7 +10,6 @@ featured_projects:
   - project: Loewe, SS22 Men's Campaign
   - project: American Vogue, The Future is Female
   - project: MAC, Autre Cuture Campaign
-  - project: Glossier, Cloud Paint Campaign
   - project: American Vogue, Suit Yourself
   - project: The Gentlewoman, Large It
   - project: Prada Mens SS22
@@ -20,12 +19,14 @@ featured_projects:
   - project: Off-White ®, Eyewear Campaign SS21
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: American Vogue, It Takes An Industry
+  - project: Glossier, Boy Brow FW20 Campaign
   - project: AnOther, American Lyric Dance of Assembly
   - project: American Vogue, Show Of Hand
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
+  - project: Glossier, Cloud Paint Campaign
   - project: Fendi, Couture SS21
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
@@ -56,7 +57,6 @@ featured_projects:
   - project: "Dior, Men's SS22 "
   - project: Dior, Men's Resort 2022
   - project: Dior, Sacai Collection SS21
-  - project: Glossier, Boy Brow FW20 Campaign
   - project: American Vogue, Quality Time
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
