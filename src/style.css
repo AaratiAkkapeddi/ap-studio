@@ -141,9 +141,11 @@ body {
   0% {
     opacity: 0;
   }
-
-  50% {
+  16.666%{
     opacity: 1;
+  }
+  33.333% {
+    opacity: 0;
   }
 
   100%{
@@ -154,11 +156,34 @@ body {
   0% {
     opacity: 0;
   }
-  80%{
+  33.333%{
     opacity: 0;
   }
-  100% {
+  49.333% {
     opacity: 1;
+  }
+
+  66.666%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes opacityLocation3 {
+  0% {
+    opacity: 0;
+  }
+  66.666%{
+    opacity: 0;
+  }
+  82.333% {
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
   }
 }
 
@@ -186,39 +211,40 @@ body {
 .site-header svg.anim .invert path{
   fill: rgba(0,0,0,0);
   stroke:  var(--color-text);
-  stroke-width:  10px;
+  stroke-width:  8px;
 }
 .site-header svg.anim.new-york .invert path{
   animation-name: opacityLocation;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-delay: 0s;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .site-header svg.anim.paris .invert path{
-  animation-name: opacityLocation;
-  animation-duration: 1s;
-  animation-delay: 1s;
-  animation-iteration-count: 1;
+  animation-name: opacityLocation2;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .site-header svg.anim.los-angeles .invert path{
-  animation-name: opacityLocation;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
+  animation-name: opacityLocation3;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .site-header svg.anim.los-angeles .invert path{
   stroke-width:  2px;
 }
 .site-header > a:hover svg{
-  animation-name: opacityLocation2;
+  opacity: 0;
+/*  animation-name: opacityLocation2;
   animation-duration: 4s;
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  animation-timing-function: linear;
+  animation-timing-function: linear;*/
 }
 .site-header > a:hover ~ .anim{
   display: block;
