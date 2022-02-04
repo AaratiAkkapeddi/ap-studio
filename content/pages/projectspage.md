@@ -24,9 +24,8 @@ featured_projects:
   - project: American Vogue, Show Of Hand
   - project: Louis Vuitton, New Classics AW19 Campaign
   - project: American Vogue, December 2019 Cover
-  - project: Loewe, SS22 Womens
-  - project: AnOther, Dark Poet
   - project: Fendi, Couture SS21
+  - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
   - project: Glossier, Cloud Paint Campaign
   - project: Victoria's Secret Beauty, Tease Creme Cloud
