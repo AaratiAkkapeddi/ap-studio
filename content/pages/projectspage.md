@@ -10,6 +10,7 @@ featured_projects:
   - project: Loewe, SS22 Men's Campaign
   - project: American Vogue, The Future is Female
   - project: MAC, Autre Cuture Campaign
+  - project: Glossier, Cloud Paint Campaign
   - project: American Vogue, Suit Yourself
   - project: Vogue Italia, July/August Cover
   - project: Prada Mens SS22
@@ -55,7 +56,6 @@ featured_projects:
   - project: Dior, Men's Resort 2022
   - project: Dior, Sacai Collection SS21
   - project: Glossier, Boy Brow FW20 Campaign
-  - project: Glossier, Cloud Paint Campaign
   - project: American Vogue, Quality Time
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
