@@ -65,7 +65,6 @@ featured_projects:
   - project: Loro Piana, Sesia Campaign
   - project: YSL Beauty, Nu Campaign
   - project: Isabel Marant Étoile, SS22
-  - project: Ambush, SS21 Campaign
   - project: Dion Lee, FW20 Campaign
   - project: Dion Lee, Resort 20 Campaign
   - project: American Vogue, Streat Easy
