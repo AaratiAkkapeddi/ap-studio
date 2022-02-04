@@ -18,6 +18,7 @@ featured_projects:
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: Vogue Paris, April 2021, 'Dream Vacation'
+  - project: More or Less, Issue 04 Cover
   - project: AnOther, Dark Poet
   - project: American Vogue, April 2020 Cover
   - project: Vogue Italia, July/August Cover
@@ -26,7 +27,6 @@ featured_projects:
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: "Self Service, Issue 53: The Obsessions"
-  - project: More or Less, Issue 04 Cover
   - project: "Self Service, Issue 53: This Body"
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: T Magazine, Men's Fashion March 2021
