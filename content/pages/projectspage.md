@@ -12,16 +12,16 @@ featured_projects:
   - project: MAC, Autre Cuture Campaign
   - project: Glossier, Cloud Paint Campaign
   - project: American Vogue, Suit Yourself
-  - project: Vogue Italia, July/August Cover
+  - project: The Gentlewoman, Large It
   - project: Prada Mens SS22
   - project: "Loewe, Women's SS22 Campaign "
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
   - project: American Vogue, April 2020 Cover
+  - project: Vogue Italia, July/August Cover
   - project: Fendi, Couture SS21
   - project: AnOther, American Lyric Dance of Assembly
-  - project: The Gentlewoman, Large It
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: "Self Service, Issue 53: The Obsessions"
