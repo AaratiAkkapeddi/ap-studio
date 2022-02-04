@@ -28,6 +28,7 @@ featured_projects:
   - project: Fendi, Couture SS21
   - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
+  - project: HBA, SS21 Campaign
   - project: Saint Laurent FW21 Campaign
   - project: Bare Campaign
   - project: Esteé Lauder, ANR Campaign
@@ -58,7 +59,6 @@ featured_projects:
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
   - project: Nike Yoga, FW 21 Campaign
-  - project: HBA, SS21 Campaign
   - project: i-D, The Faith In Chaos Issue, No. 360
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
