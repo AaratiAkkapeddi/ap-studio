@@ -8,8 +8,8 @@ featured_projects:
   - project: The Gentlewoman, Large It
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Self Service, Issue 52 SS20
-  - project: Loewe, SS22 Men's Campaign
   - project: American Vogue, The Future is Female
+  - project: Loewe, SS22 Men's Campaign
   - project: MAC, Autre Cuture Campaign
   - project: American Vogue, Suit Yourself
   - project: Prada Mens SS22
