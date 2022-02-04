@@ -20,6 +20,7 @@ featured_projects:
   - project: More or Less, Issue 04 Cover
   - project: Off-White ®, Eyewear Campaign SS21
   - project: American Vogue, It Takes An Industry
+  - project: "Dior, Men's SS22 "
   - project: AnOther, American Lyric Dance of Assembly
   - project: American Vogue, Show Of Hand
   - project: American Vogue, December 2019 Cover
@@ -52,7 +53,6 @@ featured_projects:
   - project: Vogue HK, September 2019 Cover
   - project: American Vogue, March 2021 Cover
   - project: American Vogue, November 2020 Cover
-  - project: "Dior, Men's SS22 "
   - project: Dior, Men's Resort 2022
   - project: Dior, Sacai Collection SS21
   - project: American Vogue, Quality Time
