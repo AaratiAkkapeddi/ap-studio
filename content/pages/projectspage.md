@@ -66,4 +66,8 @@ featured_projects:
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: i-D, 40th Anniversary  Issue, Judy Turner
   - project: Nike, Be True
+  - project: L'Uomo Vogue, February 2021 Cover
+  - project: Amazon, Smile! It's Summer Campaign
+  - project: Loro Piana, Sesia Campaign
+  - project: YSL Beauty, Nu Campaign
 ---
