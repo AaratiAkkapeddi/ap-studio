@@ -38,7 +38,6 @@ featured_projects:
   - project: Stuart Weitzman, FW20 Campaign
   - project: Louis Vuitton, Capucines SS20 Campaign
   - project: Louis Vuitton, New Classics AW19 Campaign
-  - project: AnOther, Dark Poet
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
