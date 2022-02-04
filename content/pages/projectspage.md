@@ -59,7 +59,6 @@ featured_projects:
   - project: Dust, SS21 Love More
   - project: Nike Yoga, FW 21 Campaign
   - project: HBA, SS21 Campaign
-  - project: Fendi, Couture SS21
   - project: i-D, The Faith In Chaos Issue, No. 360
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
