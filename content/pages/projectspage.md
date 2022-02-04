@@ -16,8 +16,8 @@ featured_projects:
   - project: Glossier, Boy Brow FW20 Campaign
   - project: Prada Mens SS22
   - project: Vogue Paris, April 2021, 'Dream Vacation'
-  - project: "Loewe, Women's SS22 Campaign "
   - project: American Vogue, April 2020 Cover
+  - project: "Loewe, Women's SS22 Campaign "
   - project: More or Less, Issue 04 Cover
   - project: Off-White ®, Eyewear Campaign SS21
   - project: American Vogue, It Takes An Industry
