@@ -28,7 +28,7 @@ featured_projects:
   - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
   - project: Saint Laurent FW21 Campaign
-  - project: Victoria's Secret, Holiday 2021, Mad for Plaid
+  - project: Bare Campaign
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
@@ -51,6 +51,7 @@ featured_projects:
   - project: Fursac, FW21 Campaign
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
+  - project: Victoria's Secret, Holiday 2021, Mad for Plaid
   - project: American Vogue, March 2021 Cover
   - project: American Vogue, November 2020 Cover
   - project: Dior, Men's Resort 2022
@@ -63,7 +64,6 @@ featured_projects:
   - project: i-D, The Faith In Chaos Issue, No. 360
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
-  - project: Bare Campaign
   - project: i-D, 40th Anniversary  Issue, Judy Turner
   - project: Nike, Be True
 ---
