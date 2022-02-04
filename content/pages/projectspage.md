@@ -12,6 +12,7 @@ featured_projects:
   - project: Loewe, SS22 Men's Campaign
   - project: MAC, Autre Cuture Campaign
   - project: American Vogue, Suit Yourself
+  - project: Glossier, Boy Brow FW20 Campaign
   - project: Prada Mens SS22
   - project: "Loewe, Women's SS22 Campaign "
   - project: American Vogue, April 2020 Cover
@@ -19,7 +20,6 @@ featured_projects:
   - project: Off-White ®, Eyewear Campaign SS21
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: American Vogue, It Takes An Industry
-  - project: Glossier, Boy Brow FW20 Campaign
   - project: AnOther, American Lyric Dance of Assembly
   - project: American Vogue, Show Of Hand
   - project: American Vogue, December 2019 Cover
