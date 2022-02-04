@@ -15,14 +15,14 @@ featured_projects:
   - project: The Gentlewoman, Large It
   - project: Prada Mens SS22
   - project: "Loewe, Women's SS22 Campaign "
-  - project: Vogue Paris, April 2021, 'Dream Vacation'
+  - project: American Vogue, April 2020 Cover
   - project: More or Less, Issue 04 Cover
   - project: Off-White ®, Eyewear Campaign SS21
   - project: Chloé, FW21 Campaign
+  - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
-  - project: American Vogue, April 2020 Cover
   - project: Vogue Italia, July/August Cover
   - project: Fendi, Couture SS21
   - project: AnOther, American Lyric Dance of Assembly
