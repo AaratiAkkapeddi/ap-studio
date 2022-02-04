@@ -1,10 +1,10 @@
 ---
 featured_projects:
   - project: Prada, SS22 Women's Campaign
-  - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
-  - project: American Vogue, Show Of Hand
+  - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Dior Joaillerie 2022 "La Rose Dior"
+  - project: Chloé, FW21 Campaign
   - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: Self Service, Issue 52 SS20
   - project: Loewe, SS22 Men's Campaign
@@ -18,10 +18,10 @@ featured_projects:
   - project: American Vogue, April 2020 Cover
   - project: More or Less, Issue 04 Cover
   - project: Off-White ®, Eyewear Campaign SS21
-  - project: Chloé, FW21 Campaign
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: American Vogue, It Takes An Industry
   - project: AnOther, American Lyric Dance of Assembly
+  - project: American Vogue, Show Of Hand
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
