@@ -17,6 +17,8 @@ featured_projects:
   - project: "Loewe, Women's SS22 Campaign "
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: More or Less, Issue 04 Cover
+  - project: Off-White ®, Eyewear Campaign SS21
+  - project: Chloé, FW21 Campaign
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
@@ -60,9 +62,7 @@ featured_projects:
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
   - project: Nike Yoga, FW 21 Campaign
-  - project: Off-White ®, Eyewear Campaign SS21
   - project: HBA, SS21 Campaign
-  - project: Chloé, FW21 Campaign
   - project: Fendi, Couture SS21
   - project: i-D, The Faith In Chaos Issue, No. 360
 ---
