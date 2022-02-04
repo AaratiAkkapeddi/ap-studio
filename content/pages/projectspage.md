@@ -22,6 +22,7 @@ featured_projects:
   - project: American Vogue, It Takes An Industry
   - project: "Dior, Men's SS22 "
   - project: American Vogue, Show Of Hand
+  - project: Louis Vuitton, New Classics AW19 Campaign
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
   - project: AnOther, Dark Poet
@@ -64,5 +65,4 @@ featured_projects:
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Bare Campaign
-  - project: Louis Vuitton, New Classics AW19 Campaign
 ---
