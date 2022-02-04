@@ -6,8 +6,8 @@ description: Ambush, SS21 Campaign
 campaign_title: SS21 Campaign
 thumb:
   size: landscape
-  image: ""
-  video: https://ucarecdn.com/5828248b-ca40-47a9-8641-7885ac8dd146/
+  image: https://ucarecdn.com/f6d7935b-1fba-478c-9404-789e37d2c188/
+  video: ""
 carouselthumb:
   size: landscape
 release_date: 2022-01-20T20:55:36.929Z
