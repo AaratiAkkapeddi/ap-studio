@@ -235,6 +235,9 @@
 	.project-footer .desktop-only{
 		display: none;
 	}
+	.client-three-image-column{
+		margin-top: var(--spacing-32);
+	}
 	.project-footer .mobile-only{
 		display: inline-block;
 	}
