@@ -21,7 +21,6 @@ featured_projects:
   - project: Off-White ®, Eyewear Campaign SS21
   - project: American Vogue, It Takes An Industry
   - project: "Dior, Men's SS22 "
-  - project: AnOther, American Lyric Dance of Assembly
   - project: American Vogue, Show Of Hand
   - project: American Vogue, December 2019 Cover
   - project: Loewe, SS22 Womens
@@ -41,6 +40,7 @@ featured_projects:
   - project: Esteé Lauder, ANR Campaign
   - project: Stuart Weitzman, FW20 Campaign
   - project: Louis Vuitton, Capucines SS20 Campaign
+  - project: AnOther, American Lyric Dance of Assembly
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
@@ -64,4 +64,5 @@ featured_projects:
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Bare Campaign
+  - project: Louis Vuitton, New Classics AW19 Campaign
 ---
