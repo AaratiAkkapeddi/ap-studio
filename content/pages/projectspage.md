@@ -70,4 +70,5 @@ featured_projects:
   - project: Amazon, Smile! It's Summer Campaign
   - project: Loro Piana, Sesia Campaign
   - project: YSL Beauty, Nu Campaign
+  - project: Isabel Marant Étoile, SS22
 ---
