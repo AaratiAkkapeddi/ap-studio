@@ -30,19 +30,18 @@ featured_projects:
   - project: Vogue Italia, July/August Cover
   - project: HBA, SS21 Campaign
   - project: Saint Laurent FW21 Campaign
-  - project: Bare Campaign
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Victoria's Secret Beauty, Tease Creme Cloud
-  - project: "Self Service, Issue 53: This Body"
+  - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Louis Vuitton, Capucines SS20 Campaign
   - project: T Magazine, Men's Fashion March 2021
   - project: The Face
   - project: System Magazine
   - project: Stuart Weitzman, FW20 Campaign
   - project: Glossier, Cloud Paint Campaign
-  - project: AnOther, American Lyric Dance of Assembly
+  - project: Glossier, Cloud Paint Campaign
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
@@ -51,13 +50,14 @@ featured_projects:
   - project: Fursac, FW21 Campaign
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
-  - project: Victoria's Secret, Holiday 2021, Mad for Plaid
+  - project: Vogue HK, September 2019 Cover
   - project: American Vogue, November 2020 Cover
   - project: Dior, Men's Resort 2022
   - project: Dior, Sacai Collection SS21
   - project: American Vogue, Quality Time
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
+  - project: Nike Yoga, FW 21 Campaign
   - project: Nike Yoga, FW 21 Campaign
   - project: i-D, The Faith In Chaos Issue, No. 360
   - project: Gabriela Hearst, Resort 19
