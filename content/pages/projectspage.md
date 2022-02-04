@@ -64,4 +64,5 @@ featured_projects:
   - project: Gabriela Hearst, Resort 19
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Bare Campaign
+  - project: Victoria's Secret, Holiday 2021, Mad for Plaid
 ---
