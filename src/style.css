@@ -62,7 +62,7 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
-  --color-text: #1E253C;
+  --color-text: #1a1f34;
   --color-text-light: rgba(17, 31, 79, 0.34);
   --color-heading: #1a202c;
   --color-heading-black: black;
@@ -417,7 +417,7 @@ main{
     --fontSize-6: 2rem;
     --fontSize-7: 2.986rem;
     --color-primary: #005b99;
-    --color-text: #111F4F;
+    --color-text: #1a1f34;
     --color-text-light: rgba(17, 31, 79, 0.34);
     --color-heading: #1a202c;
     --color-heading-black: black;
