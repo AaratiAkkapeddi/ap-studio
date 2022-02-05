@@ -16,22 +16,25 @@ const ProjectTemplate = ({ data, location }) => {
 
   let artist = []
   let client = []
-  for (var i = artists.length - 1; i >= 0; i--) {
-    for (var x = data.markdownRemark.frontmatter.artists.length - 1; x >= 0; x--) {
-      console.log(artists[i].node.frontmatter.id)
-      if((artists[i].node.frontmatter.id == data.markdownRemark.frontmatter.artists[x].artist)||(artists[i].node.frontmatter.title == data.markdownRemark.frontmatter.artists[x].artist)){
-        artist.push(artists[i].node.frontmatter.name)
+  if(artists && data.markdownRemark.frontmatter.artists){
+    for (var i = artists.length - 1; i >= 0; i--) {
+      for (var x = data.markdownRemark.frontmatter.artists.length - 1; x >= 0; x--) {
+        console.log(artists[i].node.frontmatter.id)
+        if((artists[i].node.frontmatter.id == data.markdownRemark.frontmatter.artists[x].artist)||(artists[i].node.frontmatter.title == data.markdownRemark.frontmatter.artists[x].artist)){
+          artist.push(artists[i].node.frontmatter.name)
+        }
       }
     }
   }
-  for (var i = clients.length - 1; i >= 0; i--) {
-    for (var x = data.markdownRemark.frontmatter.clients.length - 1; x >= 0; x--) {
-      if((clients[i].node.frontmatter.id == data.markdownRemark.frontmatter.clients[x].client)||(clients[i].node.frontmatter.title == data.markdownRemark.frontmatter.clients[x].client)){
-        client.push(clients[i].node.frontmatter.name)
+  if(clients && data.markdownRemark.frontmatter.clients){
+    for (var i = clients.length - 1; i >= 0; i--) {
+      for (var x = data.markdownRemark.frontmatter.clients.length - 1; x >= 0; x--) {
+        if((clients[i].node.frontmatter.id == data.markdownRemark.frontmatter.clients[x].client)||(clients[i].node.frontmatter.title == data.markdownRemark.frontmatter.clients[x].client)){
+          client.push(clients[i].node.frontmatter.name)
+        }
       }
     }
   }
-
   const { previous, next } = data
   let projectDefaultColumns = "two-column"
   if(project.frontmatter.media?.length > 10){
