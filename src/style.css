@@ -330,6 +330,8 @@ footer a{
 
 }
 main{
+  display: inline-block;
+  width: 100%;
   min-height:75vh;
 }
 .site-header nav li.mobile-only{

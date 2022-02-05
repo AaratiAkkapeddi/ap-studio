@@ -52,6 +52,9 @@
 #Los-Angeles-map{
 	order:3;
 }
+.info-wrapper > div:first-child p{
+	max-width: 700px;
+}
 .info-wrapper > div:first-child{
 	padding-right:  var(--spacing-8);
 }

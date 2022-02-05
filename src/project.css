@@ -28,10 +28,12 @@
 .project-header h1:first-child{
 	position: fixed;
 	max-width: 60%;
+	top: 1.5em;
 	left:calc((100vw - var(--maxWidth-wrapper) )/2);
 }
 .project-header #mobile-layout-toggle,.project-header #layout-toggle{
 	position: fixed;
+	top: 4em;
 	right:calc((100vw - var(--maxWidth-wrapper) )/2);
 }
 .project-footer{
