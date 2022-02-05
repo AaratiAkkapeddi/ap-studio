@@ -91,7 +91,7 @@ const HomeIndex = ({ data, location }) => {
   /*create array of featured clients by matching the title from all clients to the ones specified under the homepage*/
   for (var x = clients.length - 1; x >= 0; x--) {
     for (var i = homepage.clients.length - 1; i >= 0; i--) {
-      if(clients[x].node.frontmatter.name == homepage.clients[i].client){
+      if((clients[x].node.frontmatter.name == homepage.clients[i].client) || (clients[x].node.frontmatter.id == homepage.clients[i].client)){
         featuredClients.push(clients[x].node)
       }
     }
@@ -99,7 +99,7 @@ const HomeIndex = ({ data, location }) => {
   /*create array of featured artists by matching the title from all artists to the ones specified under the homepage*/
   for (var x = artists.length - 1; x >= 0; x--) {
     for (var i = homepage.artists.length - 1; i >= 0; i--) {
-      if(artists[x].node.frontmatter.name == homepage.artists[i].artist){
+      if((artists[x].node.frontmatter.name == homepage.artists[i].artist) || (artists[x].node.frontmatter.id == homepage.artists[i].artist)){
         featuredArtists.push(artists[x].node)
       }
     }

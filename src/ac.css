@@ -79,7 +79,7 @@
   	font-size: var(--fontSize-1);
   	font-weight: normal;
 }
-.text-column .client-project:hover .media-item, .text-column .client-project:hover .hover-img, .artists-clients.text-column li:hover .hover-img, .artists-clients.text-column li:hover .hover-img .media-item{
+.text-column .client-project:hover .media-item,.text-column .client-project:hover .thumb-item, .text-column .client-project:hover .hover-img, .artists-clients.text-column li:hover .hover-img, .artists-clients.text-column li:hover .hover-img .media-item, .artists-clients.text-column li:hover .hover-img .thumb-item{
 	opacity:1;
 	display: block;
 }
@@ -107,7 +107,14 @@
 .client-three-image-column .client-project-list{
 	padding-left: 0;
 }
-.text-column .media-item{
+.text-column a > .thumb-item, .text-column .client-project:hover > .media-item{
+	display: none;
+}
+.client-project > .media-item img, .client-project > .media-item video{
+	width:  100%;
+	margin-bottom: var(--spacing-4);
+}
+.text-column .media-item, .text-column .thumb-item{
 	display: none;
 }
 .three-column .txt-item{
@@ -136,7 +143,7 @@
 .text-column .client-project:hover .hover-img > div{
 	width: 50vw;
 }
-.text-column .client-project:hover .media-item{
+.text-column .client-project:hover .media-item, .text-column .client-project:hover .thumb-item{
 	width: 30%;
     z-index: -1;
     left: 50%;

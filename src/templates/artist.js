@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Top from "../components/top"
 import Media from "../components/media"
+import Thumb from "../components/thumb"
 import ReactMarkdown from 'react-markdown'
 
 import Layout from "../components/layout"
@@ -16,7 +17,7 @@ const ArtistTemplate = ({ data, location }) => {
   projects.map((project,index) => {
     for(let i = project.node.frontmatter.artists?.length - 1; i >= 0; i--){
 
-      if(project.node.frontmatter.artists[i]?.artist == artist.frontmatter.name){
+      if((project.node.frontmatter.artists[i]?.artist == artist.frontmatter.name) || project.node.frontmatter.artists[i]?.artist == artist.frontmatter.id){
         if(!project.node.frontmatter.draft){
           artistProjects.push(project.node)
         }
@@ -33,7 +34,7 @@ const ArtistTemplate = ({ data, location }) => {
             <p className="client-project-list">{project.frontmatter.campaign_title} {project.frontmatter.release_date_public ? ", "+project.frontmatter.release_date_public : ""}</p>
 
             <div className="hover">
-            <div className="hover-img"><Media size={project.frontmatter.thumb?.size} key={index} imageurl={project.frontmatter.thumb?.media_name} videourl={project.frontmatter.thumb?.video} /></div>
+            <div className="hover-img"><Thumb size={project.frontmatter.thumb?.size} key={index} imageurl={project.frontmatter.thumb?.media_name} videourl={project.frontmatter.thumb?.video} /></div>
             <div className="hover-txt">{project.frontmatter.clients ? project.frontmatter.clients[0]?.client + " " : ""}</div>
             </div>
             </a>
@@ -117,6 +118,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         name
+        id
       }
     }
     projects: allMarkdownRemark(filter: 

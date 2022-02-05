@@ -45,6 +45,7 @@ const ProjectTemplate = ({ data, location }) => {
     withtext = artist.map((artist, index) => {
       let a = artist
       let link = "/artists/"+ a.toLowerCase().split(" ").join("-");
+
       if(index == 0){
         return(
           <span><span className="with">With</span>: <a href={link}>{a}</a></span>

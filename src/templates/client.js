@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Top from "../components/top"
+import Thumb from "../components/thumb"
 import Media from "../components/media"
 import ReactMarkdown from 'react-markdown'
 
@@ -16,7 +17,7 @@ const ClientPageTemplate = ({ data, location }) => {
   projects.map((project,index) => {
     for(let i = project.node.frontmatter.clients?.length - 1; i >= 0; i--){
 
-      if(project.node.frontmatter.clients[i]?.client == client.frontmatter.name){
+      if((project.node.frontmatter.clients[i]?.client == client.frontmatter.name) || (project.node.frontmatter.clients[i]?.client == client.frontmatter.id)){
         if(!project.node.frontmatter.draft){
            clientProjects.push(project.node)
         }
@@ -36,7 +37,8 @@ const ClientPageTemplate = ({ data, location }) => {
 
               
             <div className="hover">
-            
+            <Thumb name={project.frontmatter.thumb?.media_name} size={project.frontmatter.thumb?.size} key={index} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+
             <div className="hover-txt">{project.frontmatter.artists ? project.frontmatter.artists[0]?.artist + " " : ""}</div>
             </div>
                     
@@ -120,6 +122,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       html
       frontmatter {
+        id
         name
       }
     }
