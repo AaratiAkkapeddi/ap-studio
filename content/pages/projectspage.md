@@ -56,7 +56,6 @@ featured_projects:
   - project: Nike Yoga, FW 21 Campaign
   - project: i-D, The Faith In Chaos Issue, No. 360
   - project: Gabriela Hearst, Resort 19
-  - project: T Magazine, Beauty & Luxury Issue 2021
   - project: i-D, 40th Anniversary  Issue, Judy Turner
   - project: Nike, Be True
   - project: L'Uomo Vogue, February 2021 Cover
