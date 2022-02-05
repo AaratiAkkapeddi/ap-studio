@@ -71,4 +71,7 @@ featured_projects:
   - project: T Magazine, Beauty & Luxury Issue 2021
   - project: Theory, FW20 Campaign
   - project: Ambush, SS21 Campaign
+mobile_featured_projects:
+  - project: 068d62d5-0594-4a22-962d-8d252fc9d46f
+  - project: 7f4d12d6-2e05-4009-a78f-b376052bdb8d
 ---
