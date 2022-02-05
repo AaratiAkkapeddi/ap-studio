@@ -30,6 +30,10 @@ featured_projects:
   - project: Off-White ®, Eyewear Campaign SS21
   - project: American Vogue, November 2020 Cover
   - project: Bare Campaign
+mobile_featured_projects:
+  - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
+  - project: bdd1e5eb-9c02-48ca-b2f2-a3f16ec3ba82
+  - project: 50673f05-8fb6-4ced-b63d-a52b975d1b2a
 clients:
   - client: American Vogue
   - client: Chloe
