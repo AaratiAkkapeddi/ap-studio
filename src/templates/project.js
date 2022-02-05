@@ -18,6 +18,7 @@ const ProjectTemplate = ({ data, location }) => {
   let client = []
   for (var i = artists.length - 1; i >= 0; i--) {
     for (var x = data.markdownRemark.frontmatter.artists.length - 1; x >= 0; x--) {
+      console.log(artists[i].node.frontmatter.id)
       if((artists[i].node.frontmatter.id == data.markdownRemark.frontmatter.artists[x].artist)||(artists[i].node.frontmatter.title == data.markdownRemark.frontmatter.artists[x].artist)){
         artist.push(artists[i].node.frontmatter.name)
       }
@@ -39,6 +40,7 @@ const ProjectTemplate = ({ data, location }) => {
     projectDefaultColumns = "one-column"
   }
   let withtext = ''
+  let artistArray = artist
   if(project.frontmatter.artists){
     withtext = artist.map((artist, index) => {
       let a = artist
@@ -47,7 +49,7 @@ const ProjectTemplate = ({ data, location }) => {
         return(
           <span><span className="with">With</span>: <a href={link}>{a}</a></span>
           )
-      }else if(index == project.frontmatter.artists.length - 1){
+      }else if(index == artistArray.length - 1){
         return(
           <span> and <a href={link}>{a}</a></span>
           )
@@ -220,6 +222,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
             featured_project
@@ -235,6 +238,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
             featured_project

@@ -33,7 +33,7 @@ const ProjectIndex = ({ data, location }) => {
   }
   for (var y = featured_projects.length - 1; y >= 0; y--) {
       for (var i = projects.length - 1; i >= 0; i--) {
-        if((featured_projects[y] == (projects[i].node.frontmatter.title)) || featured_projects[y] == (projects[i].node.id)){
+        if((featured_projects[y] == (projects[i].node.frontmatter.title)) || featured_projects[y] == (projects[i].node.frontmatter.id)){
           featured_projectsOrder.unshift(projects[i])
         } 
       }
@@ -70,6 +70,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
             featured_project
@@ -85,6 +86,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
             featured_project

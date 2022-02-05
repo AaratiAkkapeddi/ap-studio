@@ -90,7 +90,7 @@
 	margin:var(--spacing-8) auto;
 	justify-content: center;
 	max-width:var(--maxWidth-wrapper);
-	margin-top:var(--spacing-20);
+	margin-top:var(--spacing-32);
 }
 .media-item{
 	overflow: hidden;

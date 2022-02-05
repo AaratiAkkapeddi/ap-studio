@@ -88,14 +88,14 @@ const ArtistIndex = ({ data, location }) => {
                 }
 				 for (var x = projects.length - 1; x >= 0; x--) {
 				    for (var i = projects[x].node.frontmatter.artists?.length - 1; i >= 0; i--) {
-				      if((projects[x].node.frontmatter.artists[i].artist.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "") == artist.node.frontmatter.name.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "")) || (projects[x].node.frontmatter.artists[i].artist == artist.node.id)){
+				      if((projects[x].node.frontmatter.artists[i].artist.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "") == artist.node.frontmatter.name.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "")) || (projects[x].node.frontmatter.artists[i].artist == artist.node.frontmatter.id)){
                       featuredProjects.push(projects[x].node)
                     }
 				    }
 				  }
         if(featuredProject){
             for (var x = projects.length - 1; x >= 0; x--) {
-              if((projects[x].node.frontmatter.title == featuredProject) || (projects[x].node.id == featuredProject)){
+              if((projects[x].node.frontmatter.title == featuredProject) || (projects[x].node.frontmatter.id == featuredProject)){
                 featuredProjects.unshift(projects[x].node)
               }
             }
@@ -143,6 +143,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
             featured_project
@@ -158,6 +159,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
           }

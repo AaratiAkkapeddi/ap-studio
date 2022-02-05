@@ -40,7 +40,7 @@ clients:
 artists:
   - artist: David Sims
   - artist: Ferdinando Verderi
-  - artist: Olivier Rizzo
+  - artist: d83d45d1-cab9-4c2f-9e22-29c56bc54bca
 locations:
   - location: Los Angeles
 date: 2022-01-20T23:47:11.190Z
