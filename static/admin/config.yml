@@ -116,6 +116,7 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: "ID", name: "id", widget: "uuid", hidden: true}
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
       - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"], required: false}
@@ -130,6 +131,7 @@ collections:
     editor:
       preview: false
     fields:
+      - {label: "ID", name: "id", widget: "uuid", hidden: true}
       - { label: 'Title (internal)', name: 'title', widget: 'string' }
       - { label: 'Name', name: 'name', widget: 'markdown' }
       - { label: "Featured Project", name: "featured_project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"], required: false}
