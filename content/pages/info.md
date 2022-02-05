@@ -20,11 +20,12 @@ about: >-
   delivery.
 
 
-
+  <br>\
 
   We are an agile, flexible company with offices in New York, Paris and Los Angeles and a global network of partners. We are inspired by the artists we work with, and find creativity and innovation essential to every project. We prioritize client services without sacrificing artistry.
 
 
+  <br>
 
 
   AP Studio, Inc was founded in 2019 by Spanish-born producer Alexis Piqueras, who combines valuable practical skill–years of international experience, extensive film and print expertise, formal knowledge of the production landscape, and invaluable worldwide connections–with a dedication to unique concepts and fostering artistic talent.

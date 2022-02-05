@@ -1,68 +1,75 @@
 ---
 featured_projects:
   - project: Prada, SS22 Women's Campaign
-  - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
-  - project: American Vogue, Show Of Hand
+  - project: Esteé Lauder, Revitalizing Supreme Campaign
   - project: Dior Joaillerie 2022 "La Rose Dior"
-  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
+  - project: The Gentlewoman, Large It
+  - project: Chloé, FW21 Campaign
+  - project: Vogue Paris, May 2021 Cover
   - project: Self Service, Issue 52 SS20
-  - project: MAC, Autre Cuture Campaign
-  - project: "Loewe, Women's SS22 Campaign "
-  - project: American Vogue, December 2019 Cover
-  - project: Loewe, SS22 Womens
-  - project: AnOther, Dark Poet
+  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
   - project: American Vogue, The Future is Female
   - project: Loewe, SS22 Men's Campaign
+  - project: MAC, Autre Cuture Campaign
+  - project: American Vogue, March 2021 Cover
   - project: American Vogue, Suit Yourself
+  - project: Glossier, Boy Brow FW20 Campaign
+  - project: Prada Mens SS22
   - project: American Vogue, April 2020 Cover
-  - project: Fendi, Couture SS21
-  - project: AnOther, American Lyric Dance of Assembly
-  - project: The Gentlewoman, Large It
-  - project: Victoria's Secret Beauty, Tease Creme Cloud
-  - project: Victoria's Secret, Holiday 2021, Frozen Flowers
-  - project: "Self Service, Issue 53: The Obsessions"
+  - project: "Loewe, Women's SS22 Campaign "
   - project: More or Less, Issue 04 Cover
-  - project: "Self Service, Issue 53: This Body"
-  - project: T Magazine, Beauty & Luxury Issue 2021
+  - project: Off-White ®, Eyewear Campaign SS21
+  - project: American Vogue, It Takes An Industry
+  - project: "Dior, Men's SS22 "
+  - project: American Vogue, Show Of Hand
+  - project: Louis Vuitton, New Classics AW19 Campaign
+  - project: American Vogue, December 2019 Cover
+  - project: Fendi, Couture SS21
+  - project: AnOther, Dark Poet
+  - project: Vogue Italia, July/August Cover
+  - project: HBA, SS21 Campaign
+  - project: Saint Laurent FW21 Campaign
+  - project: Esteé Lauder, ANR Campaign
+  - project: Victoria's Secret, Holiday 2021, Frozen Flowers
+  - project: Vogue Paris, April 2021, 'Dream Vacation'
+  - project: Victoria's Secret Beauty, Tease Creme Cloud
+  - project: Louis Vuitton, Capucines SS20 Campaign
   - project: T Magazine, Men's Fashion March 2021
   - project: The Face
   - project: System Magazine
-  - project: Esteé Lauder, ANR Campaign
   - project: Stuart Weitzman, FW20 Campaign
-  - project: Louis Vuitton, Capucines SS20 Campaign
-  - project: Louis Vuitton, New Classics AW19 Campaign
-  - project: AnOther, Dark Poet
+  - project: Glossier, Cloud Paint Campaign
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
-  - project: Gabriela Hearst, Resort 19
-  - project: Dion Lee, FW20 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
-  - project: Vogue Italia, July/August Cover
-  - project: Vogue Paris, April 2021, 'Dream Vacation'
-  - project: Zeit Magazine, September 2019 Cover
   - project: Fursac, FW21 Campaign
-  - project: American Vogue, It Takes An Industry
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
-  - project: American Vogue, March 2021 Cover
   - project: American Vogue, November 2020 Cover
-  - project: Vogue Paris, May 2021 Cover
-  - project: "Dior, Men's SS22 "
   - project: Dior, Men's Resort 2022
   - project: Dior, Sacai Collection SS21
-  - project: Glossier, Boy Brow FW20 Campaign
-  - project: Glossier, Cloud Paint Campaign
   - project: American Vogue, Quality Time
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
   - project: Nike Yoga, FW 21 Campaign
-  - project: Off-White ®, Eyewear Campaign SS21
-  - project: HBA, SS21 Campaign
-  - project: Chloé, FW21 Campaign
-  - project: Prada Mens SS22
-  - project: Fendi, Couture SS21
   - project: i-D, The Faith In Chaos Issue, No. 360
+  - project: Gabriela Hearst, Resort 19
+  - project: T Magazine, Beauty & Luxury Issue 2021
+  - project: i-D, 40th Anniversary  Issue, Judy Turner
+  - project: Nike, Be True
+  - project: L'Uomo Vogue, February 2021 Cover
+  - project: Amazon, Smile! It's Summer Campaign
+  - project: Loro Piana, Sesia Campaign
+  - project: YSL Beauty, Nu Campaign
+  - project: Isabel Marant Étoile, SS22
+  - project: Dion Lee, FW20 Campaign
+  - project: Dion Lee, Resort 20 Campaign
+  - project: American Vogue, Streat Easy
+  - project: Zara Beauty, SS21 Campaign
+  - project: T Magazine, Beauty & Luxury Issue 2021
+  - project: Theory, FW20 Campaign
+  - project: Ambush, SS21 Campaign
 ---

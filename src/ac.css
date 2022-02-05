@@ -10,6 +10,9 @@
 	opacity: 1;
 	z-index: 0; 
 }
+.text-column .hover-txt, .text-column .hover-img{
+	display: none;
+}
 #small-artist-header, #small-client-header{
 	flex-basis: 20%;
 }
@@ -194,7 +197,7 @@
     width: 25%;
 }
 .hover-img > div{
-	width: 85%;
+	width: 30vw;
 	float: right;
 }
 .text-column.project-media-container.client-media-container{
@@ -237,6 +240,7 @@
 	}
 	.client-three-image-column{
 		margin-top: var(--spacing-32);
+		min-height: 50vh;
 	}
 	.project-footer .mobile-only{
 		display: inline-block;

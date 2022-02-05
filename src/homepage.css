@@ -4,7 +4,7 @@
   }
 
   to {
-    transform:translateY(calc(-100% + 90vh));
+    transform:translateY(calc(-100% + 100vh));
   }
 }
 
@@ -181,7 +181,7 @@ svg.logo-svg.los-angeles .invert path{
   }
 
   to {
-    transform:translateX(calc(-100% + 90vw));
+    transform:translateX(calc(-100% + 100vw));
   }
 }
 #spacer{

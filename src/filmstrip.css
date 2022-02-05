@@ -209,6 +209,20 @@
       height:auto;
       width:calc(100vw - var(--spacing-4));
     }
+    .film-item.portrait img{
+      height: 98.5%;
+
+    }
+    .film-item.portrait .thumb-item{
+      height: 100%;
+      overflow: hidden;
+    }
+   .film-item.portrait{
+    width:  calc(50% - var(--spacing-2));
+   }
+    .film-item.portrait img{
+      width: auto;
+    }
     .mini-overview{
       min-height:50vw;
       width:100%;

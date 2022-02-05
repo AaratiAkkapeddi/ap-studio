@@ -60,7 +60,6 @@ artists:
   - artist: Camilla Nickerson
   - artist: Carlos Nazario
   - artist: Ferdinando Verderi
-  - artist: Gabriella Karefa-Johnson
   - artist: Zoë Ghertner
   - artist: Marie Chaix
   - artist: David Sims

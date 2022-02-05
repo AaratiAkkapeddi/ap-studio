@@ -21,12 +21,27 @@
 	margin: var(--spacing-2) auto;
 	margin-top:0;
 }
+
 .maps-wrapper{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	width:100%;
+}
+.maps-wrapper svg{
+	height: var(--fontSize-6);
+}
+.maps-wrapper svg  path{
+	fill: var(--color-text);
+}
+.maps-wrapper svg .invert path{
+	fill: transparent;
+	stroke: var(--color-text);
+	stroke-width: 8px;
+}
+.maps-wrapper svg.los-angeles .invert path{
+	stroke-width: 2px;
 }
 #New-York-map{
 	order:1;
@@ -107,6 +122,9 @@
 	}
 	.maps-wrapper{
 		flex-direction: column;
+	}
+	.map-label{
+		display: block;
 	}
 	.info-row > *:last-child{
 		margin-top:var(--spacing-4);

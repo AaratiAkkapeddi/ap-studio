@@ -35,8 +35,8 @@ media:
 clients:
   - client: American Vogue
 artists:
-  - artist: Bibi Cornejo-Borthwick
   - artist: Camilla Nickerson
+  - artist: Bibi Cornejo-Borthwick
 locations:
   - location: New York
 date: 2021-12-23T19:53:31.206Z
