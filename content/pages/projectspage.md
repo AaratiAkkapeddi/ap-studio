@@ -35,7 +35,6 @@ featured_projects:
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: Louis Vuitton, Capucines SS20 Campaign
-  - project: T Magazine, Men's Fashion March 2021
   - project: The Face
   - project: System Magazine
   - project: Stuart Weitzman, FW20 Campaign
