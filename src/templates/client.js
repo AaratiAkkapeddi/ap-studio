@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 import Top from "../components/top"
+import Thumb from "../components/thumb"
 import Media from "../components/media"
 import ReactMarkdown from 'react-markdown'
 
@@ -16,7 +17,7 @@ const ClientPageTemplate = ({ data, location }) => {
   projects.map((project,index) => {
     for(let i = project.node.frontmatter.clients?.length - 1; i >= 0; i--){
 
-      if(project.node.frontmatter.clients[i]?.client == client.frontmatter.name){
+      if((project.node.frontmatter.clients[i]?.client == client.frontmatter.name) || (project.node.frontmatter.clients[i]?.client == client.frontmatter.id)){
         if(!project.node.frontmatter.draft){
            clientProjects.push(project.node)
         }
@@ -36,7 +37,8 @@ const ClientPageTemplate = ({ data, location }) => {
 
               
             <div className="hover">
-            
+            <Thumb name={project.frontmatter.thumb?.media_name} size={project.frontmatter.thumb?.size} key={index} imageurl={project.frontmatter.thumb?.image} videourl={project.frontmatter.thumb?.video} />
+
             <div className="hover-txt">{project.frontmatter.artists ? project.frontmatter.artists[0]?.artist + " " : ""}</div>
             </div>
                     
@@ -76,7 +78,7 @@ const ClientPageTemplate = ({ data, location }) => {
           <h1><ReactMarkdown>{client.frontmatter.name}</ReactMarkdown></h1>
           <div></div>
           <p id="layout-toggle">
-           <svg id="image-toggle" className={`${ clientProjectDivs.length < 5 ? "on" :" "}`} onClick={imageColumn} width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <svg id="image-toggle" className={`${ clientProjectDivs.length < 2 ? "on" :" "}`} onClick={imageColumn} width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="12.5" height="23.0705" fill="#111F4F"/>
             <rect y="26.9294" width="12.5" height="23.0705" />
             <rect x="16.5" width="11.6667" height="23.0705" />
@@ -84,12 +86,12 @@ const ClientPageTemplate = ({ data, location }) => {
             <rect x="32.166" width="12.5" height="23.0705" />
             <rect x="32.166" y="26.9294" width="12.5" height="23.0705" />
             </svg>
-            <svg id="text-toggle" onClick={textColumn} className={`${ clientProjectDivs.length < 5 ? "" :" on"}`} width="40" height="40" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="text-toggle" onClick={textColumn} className={`${ clientProjectDivs.length < 2 ? "" :" on"}`} width="40" height="40" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M23.6042 50V6.71429H40V0H0V6.71429H16.3958V50H23.6042Z"/>
             </svg>
           </p>
         </header>
-        <div className={`${(mobile || clientProjectDivs.length < 5) ? 'client-three-image-column three-image-column ' : 'text-column '} project-media-container client-media-container`}>
+        <div className={`${(mobile || clientProjectDivs.length < 2) ? 'client-three-image-column three-image-column ' : 'text-column '} project-media-container client-media-container`}>
         {clientProjectDivs}
         </div>
           <div className="project-footer">
@@ -120,6 +122,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       html
       frontmatter {
+        id
         name
       }
     }
@@ -129,6 +132,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             draft
             artists{

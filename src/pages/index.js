@@ -63,7 +63,7 @@ const HomeIndex = ({ data, location }) => {
   for (var i = homepage.projects.length - 1; i >= 0; i--) {
     for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
     
-      if(unfilteredProjects[x].node.frontmatter.title == homepage.projects[i].project){
+      if((unfilteredProjects[x].node.frontmatter.title == homepage.projects[i].project) || (unfilteredProjects[x].node.frontmatter.id == homepage.projects[i].project)){
         if(!unfilteredProjects[x].node.frontmatter.draft){
           featuredProjects.unshift(unfilteredProjects[x])
         }
@@ -74,7 +74,7 @@ const HomeIndex = ({ data, location }) => {
   for (var i = homepage.featured_projects.length - 1; i >= 0; i--) {
     for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
     
-      if(unfilteredProjects[x].node.frontmatter.title == homepage.featured_projects[i].project){
+      if((unfilteredProjects[x].node.frontmatter.title == homepage.featured_projects[i].project)||unfilteredProjects[x].node.frontmatter.id == homepage.featured_projects[i].project){
         if(!unfilteredProjects[x].node.frontmatter.draft){
           featuredProjects2.unshift(unfilteredProjects[x])
         }
@@ -91,7 +91,7 @@ const HomeIndex = ({ data, location }) => {
   /*create array of featured clients by matching the title from all clients to the ones specified under the homepage*/
   for (var x = clients.length - 1; x >= 0; x--) {
     for (var i = homepage.clients.length - 1; i >= 0; i--) {
-      if(clients[x].node.frontmatter.name == homepage.clients[i].client){
+      if((clients[x].node.frontmatter.name == homepage.clients[i].client) || (clients[x].node.frontmatter.id == homepage.clients[i].client)){
         featuredClients.push(clients[x].node)
       }
     }
@@ -99,7 +99,7 @@ const HomeIndex = ({ data, location }) => {
   /*create array of featured artists by matching the title from all artists to the ones specified under the homepage*/
   for (var x = artists.length - 1; x >= 0; x--) {
     for (var i = homepage.artists.length - 1; i >= 0; i--) {
-      if(artists[x].node.frontmatter.name == homepage.artists[i].artist){
+      if((artists[x].node.frontmatter.name == homepage.artists[i].artist) || (artists[x].node.frontmatter.id == homepage.artists[i].artist)){
         featuredArtists.push(artists[x].node)
       }
     }
@@ -376,7 +376,7 @@ function mobileClose(){
   </div>
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
-       <FilmStrip hpText={homepage.intro || ""} projects={featuredProjects2.length > 0 ? featuredProjects2.reverse() : projects}/>
+       <FilmStrip hpText={homepage.intro || ""} clients={clients} projects={featuredProjects2.length > 0 ? featuredProjects2.reverse() : projects}/>
       <div className="artists-clients">
         <div className="selected-clients">
           <h1>Selected Clients <a className="more-info" href="/artists&clients">View All Clients</a> <a className="more-info mobile" href="/clients">View All Clients</a></h1>
@@ -457,6 +457,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             draft
             notes
@@ -488,6 +489,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
           }
@@ -502,6 +504,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
           }

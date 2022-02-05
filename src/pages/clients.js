@@ -88,14 +88,14 @@ useEffect(() => {
                 }
 				 for (var x = projects.length - 1; x >= 0; x--) {
 				    for (var i = projects[x].node.frontmatter.clients?.length - 1; i >= 0; i--) {
-				      if(projects[x].node.frontmatter.clients[i].client.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "") == client.node.frontmatter.name.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "")){
-				        featuredProjects.push(projects[x].node)
-				      }
+				     if((projects[x].node.frontmatter.clients[i].client.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "") == client.node.frontmatter.name.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "")) || (projects[x].node.frontmatter.clients[i].client == client.node.frontmatter.id)){
+                      featuredProjects.push(projects[x].node)
+                    }
 				    }
 				  }
           if(featuredProject){
             for (var x = projects.length - 1; x >= 0; x--) {
-              if(projects[x].node.frontmatter.title == featuredProject){
+              if((projects[x].node.frontmatter.title == featuredProject) || (projects[x].node.frontmatter.id == featuredProject)){
                 featuredProjects.unshift(projects[x].node)
               }
             }
@@ -145,6 +145,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
           }
@@ -159,6 +160,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             name
             featured_project
@@ -175,6 +177,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             artists{
             	artist
