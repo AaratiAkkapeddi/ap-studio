@@ -327,4 +327,7 @@
 		background: transparent;
 		text-decoration: none;
 	}
+	.client-three-image-column .hover{
+		display: none;
+	}
 }
