@@ -6,6 +6,9 @@
   margin-bottom: var(--spacing-16);
   overflow:hidden;
 }
+.film-strip.mobile-only{
+  display: none;
+}
 .film-strip.text-column{
   display: flex;
 }
@@ -192,7 +195,15 @@
   }
 }
 @media (max-width: 42rem) {
-
+    .film-strip.mobile-only{
+      display: flex;
+    }
+    .film-strip.desktop-only{
+      display: none;
+    }
+    .film-spacer{
+      display: none;
+    }
     .film-item{
       height:auto;
       margin: var(--spacing-1);

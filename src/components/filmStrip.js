@@ -4,7 +4,7 @@ import Thumb from "../components/thumb"
 import ReactMarkdown from 'react-markdown'
 import { StaticImage } from "gatsby-plugin-image"
 
-const FilmStrip = ({hpText, projects, clients}) => {
+const FilmStrip = ({hpText, projects, clients, mobile}) => {
  if(hpText){
  	projects = projects.slice(0, 25)
  }
@@ -51,7 +51,7 @@ const FilmStrip = ({hpText, projects, clients}) => {
 	return (
 		<>
 		
-	      <div className="film-strip">
+	      <div className={`${mobile ? "mobile-only ":"desktop-only "} film-strip`}>
 	      <div className="film-spacer"></div>
 	      <p className={`${hpText ? "" :"projects-page "} filmy`} id="layout-toggle">
 	       <svg id="image-toggle" className="on" onClick={imageColumn} width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">

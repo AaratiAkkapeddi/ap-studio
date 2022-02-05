@@ -57,6 +57,7 @@ const HomeIndex = ({ data, location }) => {
 
   let featuredProjects = [];
   let featuredProjects2 = [];
+  let mobileFeaturedProjects2 = [];
   let featuredClients = [];
   let featuredArtists = [];
   /*create array of featured projects by matching the title from all projects to the ones specified under the homepage*/
@@ -77,6 +78,18 @@ const HomeIndex = ({ data, location }) => {
       if((unfilteredProjects[x].node.frontmatter.title == homepage.featured_projects[i].project)||unfilteredProjects[x].node.frontmatter.id == homepage.featured_projects[i].project){
         if(!unfilteredProjects[x].node.frontmatter.draft){
           featuredProjects2.unshift(unfilteredProjects[x])
+        }
+      }
+    
+    }
+  }
+  
+  for (var i = homepage.mobile_featured_projects.length - 1; i >= 0; i--) {
+    for (var x = unfilteredProjects.length - 1; x >= 0; x--) {
+    
+      if((unfilteredProjects[x].node.frontmatter.title == homepage.mobile_featured_projects[i].project)||unfilteredProjects[x].node.frontmatter.id == homepage.mobile_featured_projects[i].project){
+        if(!unfilteredProjects[x].node.frontmatter.draft){
+          mobileFeaturedProjects2.unshift(unfilteredProjects[x])
         }
       }
     
@@ -376,7 +389,8 @@ function mobileClose(){
   </div>
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
-       <FilmStrip hpText={homepage.intro || ""} clients={clients} projects={featuredProjects2.length > 0 ? featuredProjects2.reverse() : projects}/>
+       <FilmStrip mobile={false} hpText={homepage.intro || ""} clients={clients} projects={featuredProjects2.length > 0 ? featuredProjects2.reverse() : projects}/>
+       <FilmStrip mobile={true} hpText={homepage.intro || ""} clients={clients} projects={mobileFeaturedProjects2.length > 0 ? mobileFeaturedProjects2.reverse() : projects}/>
       <div className="artists-clients">
         <div className="selected-clients">
           <h1>Selected Clients <a className="more-info" href="/artists&clients">View All Clients</a> <a className="more-info mobile" href="/clients">View All Clients</a></h1>
@@ -445,6 +459,9 @@ export const pageQuery = graphql`
               project
             }
             featured_projects {
+              project
+            }
+            mobile_featured_projects {
               project
             }
           }
