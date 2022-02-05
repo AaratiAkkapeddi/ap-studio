@@ -37,6 +37,9 @@ collections:
           - { label: 'Featured Projects (Below Carousel)', name: 'featured_projects', widget: 'list', 
               fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
               }
+          - { label: 'Mobile Featured Projects (Below Carousel, mobile only)', name: 'mobile_featured_projects', widget: 'list', 
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
+              }
           - { label: 'Selected Clients', name: 'clients', widget: 'list', fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "id", display_fields: ["name"]}]
               }
           - { label: 'Selected Artists', name: 'artists', widget: 'list', 
@@ -53,6 +56,9 @@ collections:
         file: "content/pages/projectspage.md"
         fields:
           - { label: 'Featured Projects', name: 'featured_projects', widget: 'list', 
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
+              }
+          - { label: 'Mobile Featured Projects (Mobile only)', name: 'mobile_featured_projects', widget: 'list', 
               fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
               }
   - name: 'blog'
