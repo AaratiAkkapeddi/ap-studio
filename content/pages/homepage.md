@@ -7,6 +7,7 @@ projects:
   - project: Prada, SS22 Women's Campaign
   - project: "Loewe, Women's SS22 Campaign "
   - project: Prada Mens SS22
+  - project: 12b58ec5-36e5-4b56-bd1d-b279f535a35b
 featured_projects:
   - project: Prada, SS22 Women's Campaign
   - project: System Magazine, Chanel Supplement N.18
