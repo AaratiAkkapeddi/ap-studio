@@ -22,6 +22,12 @@
 .client-three-image-column{
 	margin-top:var(--spacing-24);
 }
+.client-three-image-column{
+	width: calc(70vw - var(--spacing-32));
+}
+.client-three-image-column  a {
+	width: 100%;
+}
 .image-column .hover-txt{
 	display: none;
 }
@@ -286,8 +292,12 @@
 	.text-column.project-media-container.client-media-container{
 		top:0;
 	}
+	.client-three-image-column{
+		width: calc(100vw - var(--spacing-2));
+	}
 	.client-three-image-column a{
 		width: 50%;
+		margin-bottom: var(--spacing-4);
 		text-decoration: none;
 	}
 	.client-three-image-column a.portrait{

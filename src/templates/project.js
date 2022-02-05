@@ -10,6 +10,27 @@ import Seo from "../components/seo"
 const ProjectTemplate = ({ data, location }) => {
   const project = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
+  let artists = data.artists.edges
+
+  let clients = data.clients.edges
+
+  let artist = []
+  let client = []
+  for (var i = artists.length - 1; i >= 0; i--) {
+    for (var x = data.markdownRemark.frontmatter.artists.length - 1; x >= 0; x--) {
+      if((artists[i].node.frontmatter.id == data.markdownRemark.frontmatter.artists[x].artist)||(artists[i].node.frontmatter.title == data.markdownRemark.frontmatter.artists[x].artist)){
+        artist.push(artists[i].node.frontmatter.name)
+      }
+    }
+  }
+  for (var i = clients.length - 1; i >= 0; i--) {
+    for (var x = data.markdownRemark.frontmatter.clients.length - 1; x >= 0; x--) {
+      if((clients[i].node.frontmatter.id == data.markdownRemark.frontmatter.clients[x].client)||(clients[i].node.frontmatter.title == data.markdownRemark.frontmatter.clients[x].client)){
+        client.push(clients[i].node.frontmatter.name)
+      }
+    }
+  }
+
   const { previous, next } = data
   let projectDefaultColumns = "two-column"
   if(project.frontmatter.media?.length > 10){
@@ -19,8 +40,8 @@ const ProjectTemplate = ({ data, location }) => {
   }
   let withtext = ''
   if(project.frontmatter.artists){
-    withtext = project.frontmatter.artists.map((artist, index) => {
-      let a = artist.artist
+    withtext = artist.map((artist, index) => {
+      let a = artist
       let link = "/artists/"+ a.toLowerCase().split(" ").join("-");
       if(index == 0){
         return(
@@ -92,8 +113,8 @@ const ProjectTemplate = ({ data, location }) => {
       />
 
         <header className="project-header">
-          <h1>{project.frontmatter?.clients[0] &&
-            <><ReactMarkdown>{project.frontmatter?.clients[0]?.client}</ReactMarkdown></>
+          <h1>{client[0] &&
+            <><ReactMarkdown>{client[0]}</ReactMarkdown></>
           }<ReactMarkdown>{project.frontmatter?.campaign_title}</ReactMarkdown></h1>
           <div className="notes">
           <div className="with-text">{withtext}</div>
@@ -191,6 +212,36 @@ export const pageQuery = graphql`
           media
           size
           media_name
+        }
+      }
+    }
+    artists: allMarkdownRemark(filter: {fields: {slug: {regex: "/artists/"}}}, sort: { fields: [frontmatter___name], order: ASC }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            name
+            featured_project
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+    clients: allMarkdownRemark(filter: {fields: {slug: {regex: "/clients/"}}}, sort: { fields: [frontmatter___name], order: ASC }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            name
+            featured_project
+          }
+          fields {
+            slug
+          }
         }
       }
     }

@@ -37,10 +37,10 @@ collections:
           - { label: 'Featured Projects (Below Carousel)', name: 'featured_projects', widget: 'list', 
               fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
               }
-          - { label: 'Selected Clients', name: 'clients', widget: 'list', fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+          - { label: 'Selected Clients', name: 'clients', widget: 'list', fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "id", display_fields: ["name"]}]
               }
           - { label: 'Selected Artists', name: 'artists', widget: 'list', 
-              fields: [ { label: "Artist", name: "artist", widget: "relation", collection: "artists", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+              fields: [ { label: "Artist", name: "artist", widget: "relation", collection: "artists", search_fields: ["name"], value_field: "id", display_fields: ["name"]}]
               }
       - label: "Cookie Policy"
         name: "cookie"
@@ -53,7 +53,7 @@ collections:
         file: "content/pages/projectspage.md"
         fields:
           - { label: 'Featured Projects', name: 'featured_projects', widget: 'list', 
-              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "title", display_fields: ["title"]}]
+              fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
               }
   - name: 'blog'
     label: 'Blog'
@@ -93,10 +93,10 @@ collections:
           fields: [{ label: 'Alt Text (for screen readers)', name: 'media_name', widget: 'string', required: false },{ label: 'Aspect Ratio', name: 'size', widget: 'select', options: ["portrait", "landscape", "square"], required: true },{ label: "Image (or backup image for video)", name: "media", widget: 'image',required: false, preview: true},{ label: "Video", name: "mediaVideo",required: false, widget: 'file',preview: true}]
         }
       - { label: 'Clients', name: 'clients', widget: 'list', 
-        fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+        fields: [ { label: "Client", name: "client", widget: "relation", collection: "clients", search_fields: ["name"], value_field: "id", display_fields: ["name"]}]
         }
       - { label: 'Artists', name: 'artists', widget: 'list', 
-        fields: [ { label: "Artist", name: "artist", widget: "relation", collection: "artists", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]
+        fields: [ { label: "Artist", name: "artist", widget: "relation", collection: "artists", search_fields: ["name"], value_field: "id", display_fields: ["name"]}]
         }
       - { label: 'Categories', name: 'categories', widget: 'list', 
         fields: [ { label: "Category", name: "category", widget: "relation", collection: "categories", search_fields: ["name"], value_field: "name", display_fields: ["name"]}]

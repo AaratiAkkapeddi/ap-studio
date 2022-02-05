@@ -72,7 +72,7 @@ const ArtistTemplate = ({ data, location }) => {
           <h1><ReactMarkdown>{artist.frontmatter.name}</ReactMarkdown></h1>
           <div></div>
           <p id="layout-toggle">
-           <svg id="image-toggle" className={`${ artistProjectDivs.length < 5 ? "on" :""}`} onClick={imageColumn} width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+           <svg id="image-toggle" className={`${ artistProjectDivs.length < 2 ? "on" :""}`} onClick={imageColumn} width="40" height="40" viewBox="0 0 45 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="12.5" height="23.0705" fill="#111F4F"/>
             <rect y="26.9294" width="12.5" height="23.0705" />
             <rect x="16.5" width="11.6667" height="23.0705" />
@@ -80,12 +80,12 @@ const ArtistTemplate = ({ data, location }) => {
             <rect x="32.166" width="12.5" height="23.0705" />
             <rect x="32.166" y="26.9294" width="12.5" height="23.0705" />
             </svg>
-            <svg id="text-toggle" onClick={textColumn} className={`${ artistProjectDivs.length < 5 ? "" :" on"}`} width="40" height="40" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="text-toggle" onClick={textColumn} className={`${ artistProjectDivs.length < 2 ? "" :" on"}`} width="40" height="40" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M23.6042 50V6.71429H40V0H0V6.71429H16.3958V50H23.6042Z"/>
             </svg>
           </p>
         </header>
-        <div className={`${(mobile || artistProjectDivs.length < 5) ? 'client-three-image-column three-image-column ' : 'text-column '} project-media-container client-media-container`}>
+        <div className={`${(mobile || artistProjectDivs.length < 2) ? 'client-three-image-column three-image-column ' : 'text-column '} project-media-container client-media-container`}>
         {artistProjectDivs}
         </div>
           <div className="project-footer">
@@ -125,6 +125,7 @@ export const pageQuery = graphql`
         node {
           id
           frontmatter {
+            id
             title
             draft
             artists{

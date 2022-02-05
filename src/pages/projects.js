@@ -13,9 +13,11 @@ const flickityOptions = {
     wrapAround: true
 }
 
+
 const ProjectIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const projects = data.projects.edges
+  const clients = data.clients.edges
   let featured_projectsoriginal = data.projectspage.edges[0].node.frontmatter.featured_projects
   let featured_projects = []
   for (var i = 0; i < featured_projectsoriginal.length; i++) {
@@ -31,7 +33,7 @@ const ProjectIndex = ({ data, location }) => {
   }
   for (var y = featured_projects.length - 1; y >= 0; y--) {
       for (var i = projects.length - 1; i >= 0; i--) {
-        if(featured_projects[y] == (projects[i].node.frontmatter.title)){
+        if((featured_projects[y] == (projects[i].node.frontmatter.title)) || featured_projects[y] == (projects[i].node.id)){
           featured_projectsOrder.unshift(projects[i])
         } 
       }
@@ -45,7 +47,7 @@ const ProjectIndex = ({ data, location }) => {
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
       
-      <FilmStrip hpText={false} projects={projectsFinalOrder.reverse()}/>
+      <FilmStrip hpText={false} clients={clients} projects={projectsFinalOrder.reverse()}/>
       
       
      
@@ -63,12 +65,43 @@ export const pageQuery = graphql`
         title
       }
     }
+    artists: allMarkdownRemark(filter: {fields: {slug: {regex: "/artists/"}}}, sort: { fields: [frontmatter___name], order: ASC }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            name
+            featured_project
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+    clients: allMarkdownRemark(filter: {fields: {slug: {regex: "/clients/"}}}, sort: { fields: [frontmatter___name], order: ASC }) {
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            name
+            featured_project
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
     projects: allMarkdownRemark(filter: 
     {fields: {slug: {regex: "/projects/"}}}, sort: { fields: [frontmatter___date], order: ASC }) {
     edges {
         node {
           id
           frontmatter {
+            id
             title
             draft
             clients{
