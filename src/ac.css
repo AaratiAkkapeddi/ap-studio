@@ -16,6 +16,12 @@
 #small-artist-header, #small-client-header{
 	flex-basis: 20%;
 }
+.project-media-container.client-media-container.text-column .media-item{
+    display: none;
+}
+.project-media-container.client-media-container.text-column .hover-img{
+	text-align: center;
+}
 .project-media-container.client-media-container.client-three-image-column.three-image-column .hover{
 	display: none;
 }
