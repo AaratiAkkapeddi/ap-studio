@@ -62,9 +62,9 @@ const Header = ({location}) => {
 	         <ul>
 	            <li><a className={`${currentPath.includes("/projects") ? "current " : ""} `} href="/projects">Projects</a></li>
 	            <li className="desktop-only"><a className={` ${currentPath.includes("/artists&clients") || currentPath.includes("/clients/") ? "current " : ""} `} href="/artists&clients">Clients</a></li>
-	            <li className="desktop-only"><a className={` ${currentPath.includes("/artists&clients") || currentPath.includes("/artists/") ? "current " : ""} `} href="/artists&clients">Artists</a></li>
+	            <li className="desktop-only"><a className={` ${currentPath.includes("/artists&clients") || currentPath.includes("/artists/") ? "current " : ""} `} href="/artists&clients">Ar<span className="special-t">t</span>ists</a></li>
 	            <li className="mobile-only"><a className={` ${currentPath.includes("/artists&clients") || currentPath.includes("/clients/") ? "current " : ""} `} href="/clients">Clients</a></li>
-	            <li className="mobile-only"><a className={` ${currentPath.includes("/artists&clients") || currentPath.includes("/artists/") ? "current " : ""} `} href="/artists">Artists</a></li>
+	            <li className="mobile-only"><a className={` ${currentPath.includes("/artists&clients") || currentPath.includes("/artists/") ? "current " : ""} `} href="/artists">Ar<span className="special-t">t</span>ists</a></li>
 	            <li><a className={`${currentPath.includes("/news") ? "current " : ""} `} href="/news">News</a></li>
 	            <li><a className={`${currentPath.includes("/info") || currentPath.includes("/cookiepolicy") ? "current " : ""} `} href="/info">Info</a></li>
 	         </ul>

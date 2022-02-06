@@ -116,6 +116,7 @@ svg.logo-svg.los-angeles .invert path{
 .global-wrapper.loading .before svg path{
   fill:white;
 }
+
 .global-wrapper.loading .before{
   display: flex;
   text-align: center;
@@ -245,8 +246,14 @@ svg.logo-svg.los-angeles .invert path{
   width:auto;
   height:100vh;
 }
-
+@media (max-width:  1170px){
+  .loading .logo-svg{
+    top: -50px;
+    position: relative;
+  }
+}
 @media (max-width: 42rem) {
+  
   .carousel{
     width: 100%;
     height: 100vh;

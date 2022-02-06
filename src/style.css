@@ -111,7 +111,10 @@ svg.logo-svg .invert path{
    stroke-width:8px;
    stroke:var(--color-text);
 }
-
+.special-t{
+  display: inline-block;
+  margin-left: 2px;
+}
 a{
   color:inherit;
 }
