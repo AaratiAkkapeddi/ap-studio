@@ -82,6 +82,12 @@
 .text-column .client-project:hover .hover-img, .selected-artists li:hover .hover-img, .selected-clients li:hover .hover-img, .selected-artists li:hover .hover-txt, .selected-clients li:hover .hover-txt {
 	opacity: 1;
 }
+.client-media-container .hover{
+  display: none;
+}
+.client-media-container  .client-project:hover .hover{
+	display: flex;
+}
 .selected-artists a, .selected-clients a{
 	text-decoration: none;
 }
