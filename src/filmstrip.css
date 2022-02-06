@@ -183,6 +183,13 @@
   .text-column .mini-overview{
     width:0;
   }
+  #homepage-wrapper .text-column #mini-first.mini-overview{
+    width:calc(30% - var(--spacing-2));
+  }
+   #homepage-wrapper .text-column .mini-overview{
+    width: calc(100% - var(--spacing-2));
+    margin-top: var(--spacing-2);
+   }
   .mini-overview{
     width:calc(50% - var(--spacing-2));
   }

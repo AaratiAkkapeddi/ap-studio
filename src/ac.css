@@ -279,6 +279,9 @@
 	.client-project-list{
 		padding-left: 27.5%;
 	}
+	#homepage-wrapper .artists-clients > * > *{
+		flex-basis: 49%;
+	}
 }
 @media (max-width: 42rem) {
 	.artists-clients{
