@@ -120,7 +120,7 @@
 	width:  100%;
 	margin-bottom: var(--spacing-4);
 }
-.text-column .media-item, .text-column .thumb-item{
+.client-three-image-column .text-column .media-item, .client-three-image-column.text-column .thumb-item{
 	display: none;
 }
 .three-column .txt-item{
