@@ -2,12 +2,12 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Media = ({imageurl, videourl, size}) => {
+const Media = ({imageurl, videourl, size, controls}) => {
 
 	if(videourl && videourl.length > 0){
 		return (
 			   <div className={`${size == "portrait" ? "portrait" : "landscape"} media-item`}>
-			    <video muted loop autoPlay controls>
+			    <video muted loop autoPlay controls={controls}>
 			      <source src={videourl} type="video/mp4"/>
 			    </video>
 			    </div>
