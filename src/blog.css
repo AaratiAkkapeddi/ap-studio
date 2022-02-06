@@ -17,7 +17,7 @@
 .blog-row > *:last-child{
 	flex-basis:75%;
 	text-align: left;
-	padding-left: var(--spacing-8);
+	padding-left: 0;
 }
 .blog-row > *:last-child > *{
 	max-width: 80%;

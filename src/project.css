@@ -12,6 +12,9 @@
 .film-strip #mini-first.projects-page-mini{
 	display: none;
 }
+.project-media-container.two-column .media-item.landscape, .project-media-container.three-column .media-item.landscape{
+	margin-bottom: var(--spacing-1);
+}
 .film-strip.text-column #mini-first.projects-page-mini{
 	opacity: 0;
 	display: inline-block;
