@@ -85,6 +85,12 @@
 .client-media-container .hover{
   display: none;
 }
+.artists-clients.ac-page.image-column li{
+	margin-bottom: var(--spacing-1);
+}
+.client-project > .portrait.media-item img{
+	    width: calc(100% - var(--spacing-2));
+}
 .client-media-container  .client-project:hover .hover{
 	display: flex;
 }
@@ -331,6 +337,9 @@
 	}
 	.client-three-image-column a.landscape,.client-three-image-column a.square{
 		width: 100%;
+	}
+	.client-project > .media-item img, .client-project > .media-item video{
+		margin-bottom: 0;
 	}
 	#homepage-wrapper .artists-clients > * > h1 {
 	    flex-basis: calc(63% - 45px);
