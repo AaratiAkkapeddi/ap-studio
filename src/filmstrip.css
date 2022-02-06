@@ -233,6 +233,7 @@
    }
     .film-item.portrait img{
       width: auto;
+      max-width: 100%;
     }
     .mini-overview{
       min-height:50vw;
