@@ -362,7 +362,16 @@ main{
 main{
   margin-top:calc(2.488rem + var(--spacing-6));
 }
+@media (max-width: 1170px){
+  main{
+    min-height: 86vh;
+  }
+
+}
 @media (max-width: 42rem) {
+  main{
+    min-height: 75vh;
+  }
   :root {
     --maxWidth-none: "none";
     --maxWidth-xs: 20rem;

@@ -180,16 +180,25 @@
   }
 }
 @media (max-width: 1170px) {
+  .text-column .mini-overview{
+    width:0;
+  }
   .mini-overview{
     width:calc(50% - var(--spacing-2));
   }
 }
 @media (max-width: 990px) {
+  .text-column .mini-overview{
+    width:0;
+  }
   .mini-overview{
     width:calc(60% - var(--spacing-2));
   }
 }
 @media (max-width: 859px) {
+  .text-column .mini-overview{
+    width:0;
+  }
   .mini-overview{
     width:calc(80% - var(--spacing-2));
   }

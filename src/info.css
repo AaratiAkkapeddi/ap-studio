@@ -97,12 +97,26 @@
 	margin-top: 8px;
 }
 
+@media(max-width: 1095px){
+	.map-label > div:last-child{
+		text-align: right;
+		flex-basis: 45.5%;
+		width: 45.5%;
+	}
+	.info-wrapper > div.cookie-row{
+		flex-basis: 100%;
+	}
+}
 @media(max-width: 42rem){
 	.info-row{
 		flex-direction: column;
 	}
 	.info-wrapper{
 		flex-direction: column;
+	}
+	.map-label > div:last-child{
+		text-align: left;
+		width:  auto;
 	}
 	.info-column:first-child > div:last-child{
 		margin-top: var(--spacing-8);

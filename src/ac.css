@@ -269,6 +269,17 @@
 .project-footer .mobile-only{
 	display: none;
 }
+@media (max-width: 1170px){
+	.artists-clients.ac-page.text-column #small-artist-header,.artists-clients.ac-page.text-column  #small-client-header{
+		flex-basis: 30%;
+	}
+	.letter-label{
+		left: -1rem;
+	}
+	.client-project-list{
+		padding-left: 27.5%;
+	}
+}
 @media (max-width: 42rem) {
 	.artists-clients{
 		flex-direction: column;
