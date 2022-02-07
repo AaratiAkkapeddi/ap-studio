@@ -33,6 +33,7 @@ featured_projects:
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
   - project: Louis Vuitton, Capucines SS20 Campaign
+  - project: American Vogue, November 2020 Cover
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
@@ -47,7 +48,6 @@ featured_projects:
   - project: Fursac, FW21 Campaign
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
-  - project: American Vogue, November 2020 Cover
   - project: Dior, Men's Resort 2022
   - project: Dior, Sacai Collection SS21
   - project: American Vogue, Quality Time
