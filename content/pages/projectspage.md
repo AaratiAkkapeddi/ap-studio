@@ -48,7 +48,6 @@ featured_projects:
   - project: Dazed, FW20 Cover
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
-  - project: Vogue HK, September 2019 Cover
   - project: Dior, Sacai Collection SS21
   - project: American Vogue, Suit Yourself
   - project: Nike Yoga, FW 21 Campaign
