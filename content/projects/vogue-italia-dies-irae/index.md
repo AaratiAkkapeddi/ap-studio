@@ -26,6 +26,6 @@ clients:
   - client: Vogue Italia
 artists:
   - artist: David Sims
-  - artist: Marie Amelié Sauvé
+  - artist: 3cb68ccb-c8a0-4adc-8559-717c5b10c583
 date: 2021-12-18T21:18:52.931Z
 ---
