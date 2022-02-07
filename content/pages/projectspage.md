@@ -35,33 +35,33 @@ featured_projects:
   - project: Louis Vuitton, Capucines SS20 Campaign
   - project: American Vogue, November 2020 Cover
   - project: Isabel Marant Étoile, SS22
-  - project: Esteé Lauder, ANR Campaign
+  - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: The Face
-  - project: Victoria's Secret Beauty, Tease Creme Cloud
+  - project: System Magazine
   - project: The Face
   - project: Stuart Weitzman, FW20 Campaign
   - project: AnOther, Hold Me
-  - project: Glossier, Cloud Paint Campaign
+  - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
   - project: Dazed, FW20 Cover
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
-  - project: Vogue HK, April 2019 Cover
+  - project: Vogue HK, September 2019 Cover
   - project: Vogue HK, September 2019 Cover
   - project: Dior, Sacai Collection SS21
-  - project: Dior, Sacai Collection SS21
   - project: American Vogue, Quality Time
+  - project: American Vogue, Suit Yourself
   - project: American Vogue, Suit Yourself
   - project: Nike Yoga, FW 21 Campaign
   - project: Nike Yoga, FW 21 Campaign
   - project: Gabriela Hearst, Resort 19
-  - project: Gabriela Hearst, Resort 19
+  - project: i-D, 40th Anniversary  Issue, Judy Turner
   - project: Nike, Be True
   - project: L'Uomo Vogue, February 2021 Cover
   - project: Amazon, Smile! It's Summer Campaign
   - project: Loro Piana, Sesia Campaign
-  - project: Loro Piana, Sesia Campaign
+  - project: YSL Beauty, Nu Campaign
   - project: YSL Beauty, Nu Campaign
   - project: Dion Lee, FW20 Campaign
   - project: Dion Lee, Resort 20 Campaign
