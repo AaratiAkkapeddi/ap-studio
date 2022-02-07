@@ -17,8 +17,8 @@ media:
 clients:
   - client: Estée Lauder
 artists:
-  - artist: Filfury
-  - artist: Karla Welch
+  - artist: 46a5a09e-5394-4f7f-b079-3e460a5aaf7a
+  - artist: 47a576eb-3e0b-4417-9c43-d6b879d6b7d7
 locations:
   - location: New York
 date: 2022-02-01T01:24:59.323Z
