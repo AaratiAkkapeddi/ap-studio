@@ -34,13 +34,14 @@ featured_projects:
   - project: Vogue Italia, Dies Irae
   - project: Louis Vuitton, Capucines SS20 Campaign
   - project: American Vogue, November 2020 Cover
+  - project: Isabel Marant Étoile, SS22
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
-  - project: Vogue Paris, April 2021, 'Dream Vacation'
+  - project: The Face
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: The Face
-  - project: System Magazine
   - project: Stuart Weitzman, FW20 Campaign
+  - project: AnOther, Hold Me
   - project: Glossier, Cloud Paint Campaign
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
@@ -54,15 +55,14 @@ featured_projects:
   - project: American Vogue, Suit Yourself
   - project: Dust, SS21 Love More
   - project: Nike Yoga, FW 21 Campaign
-  - project: i-D, The Faith In Chaos Issue, No. 360
   - project: Gabriela Hearst, Resort 19
-  - project: i-D, 40th Anniversary  Issue, Judy Turner
+  - project: Gabriela Hearst, Resort 19
   - project: Nike, Be True
-  - project: L'Uomo Vogue, February 2021 Cover
+  - project: Nike, Be True
+  - project: Amazon, Smile! It's Summer Campaign
   - project: Amazon, Smile! It's Summer Campaign
   - project: Loro Piana, Sesia Campaign
   - project: YSL Beauty, Nu Campaign
-  - project: Isabel Marant Étoile, SS22
   - project: Dion Lee, FW20 Campaign
   - project: Dion Lee, Resort 20 Campaign
   - project: American Vogue, Streat Easy
