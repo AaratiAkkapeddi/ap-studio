@@ -34,7 +34,7 @@ clients:
   - client: Saint Laurent
 artists:
   - artist: David Sims
-  - artist: Paul Sinclare
+  - artist: 172c9a72-f9af-47bc-b307-9bcaaa2ba8bc
 locations:
   - location: Paris
 date: 2021-12-29T01:21:21.314Z
