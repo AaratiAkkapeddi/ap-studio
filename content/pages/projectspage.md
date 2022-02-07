@@ -49,11 +49,8 @@ featured_projects:
   - project: Vogue HK, April 2019 Cover
   - project: Vogue HK, September 2019 Cover
   - project: Vogue HK, September 2019 Cover
-  - project: Vogue HK, September 2019 Cover
   - project: Dior, Sacai Collection SS21
   - project: American Vogue, Suit Yourself
-  - project: American Vogue, Suit Yourself
-  - project: Nike Yoga, FW 21 Campaign
   - project: Nike Yoga, FW 21 Campaign
   - project: Gabriela Hearst, Resort 19
   - project: i-D, 40th Anniversary  Issue, Judy Turner
@@ -61,7 +58,6 @@ featured_projects:
   - project: L'Uomo Vogue, February 2021 Cover
   - project: Amazon, Smile! It's Summer Campaign
   - project: Loro Piana, Sesia Campaign
-  - project: YSL Beauty, Nu Campaign
   - project: YSL Beauty, Nu Campaign
   - project: Dion Lee, FW20 Campaign
   - project: Dion Lee, Resort 20 Campaign
