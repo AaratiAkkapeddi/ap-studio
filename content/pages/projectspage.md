@@ -35,6 +35,7 @@ featured_projects:
   - project: Louis Vuitton, Capucines SS20 Campaign
   - project: American Vogue, November 2020 Cover
   - project: Isabel Marant Étoile, SS22
+  - project: American Vogue, Quality Time
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: The Face
@@ -50,7 +51,6 @@ featured_projects:
   - project: Vogue HK, September 2019 Cover
   - project: Vogue HK, September 2019 Cover
   - project: Dior, Sacai Collection SS21
-  - project: American Vogue, Quality Time
   - project: American Vogue, Suit Yourself
   - project: American Vogue, Suit Yourself
   - project: Nike Yoga, FW 21 Campaign
