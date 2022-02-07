@@ -18,7 +18,7 @@ clients:
   - client: Louis Vuitton
 artists:
   - artist: Albert Moya
-  - artist: Marie Amelié Sauvé
+  - artist: 3cb68ccb-c8a0-4adc-8559-717c5b10c583
 locations:
   - location: Palm Springs
 date: 2021-12-29T02:08:30.925Z
