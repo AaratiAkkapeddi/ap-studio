@@ -6,4 +6,6 @@ View full Chloé FW21 campaign [here](https://apstudio.netlify.app/projects/chlo
 
 ![](https://ucarecdn.com/201ee591-c933-4e47-ab7f-7e30263e7f4c/)
 
+![](https://ucarecdn.com/9ed60cf2-f2e4-47ba-8745-ea1ad3533736/)
+
 ![](https://ucarecdn.com/f9813a32-db70-4bad-9ceb-fbfe5980847e/)
