@@ -30,6 +30,7 @@ featured_projects:
   - project: Vogue Italia, July/August Cover
   - project: HBA, SS21 Campaign
   - project: Saint Laurent FW21 Campaign
+  - project: Double, Issue 39 SS20 Cover
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
@@ -42,7 +43,6 @@ featured_projects:
   - project: AnOther, Hold Me
   - project: Dazed, FW20 Cover
   - project: Gabriela Hearst, Resort 22
-  - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
   - project: Fursac, FW21 Campaign
   - project: Vogue HK, April 2019 Cover
