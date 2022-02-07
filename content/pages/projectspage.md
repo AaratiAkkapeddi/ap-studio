@@ -29,13 +29,13 @@ featured_projects:
   - project: AnOther, Dark Poet
   - project: Vogue Italia, July/August Cover
   - project: HBA, SS21 Campaign
+  - project: American Vogue, Quality Time
   - project: Saint Laurent FW21 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
   - project: Louis Vuitton, Capucines SS20 Campaign
   - project: American Vogue, November 2020 Cover
   - project: Isabel Marant Étoile, SS22
-  - project: American Vogue, Quality Time
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Victoria's Secret Beauty, Tease Creme Cloud
   - project: The Face
