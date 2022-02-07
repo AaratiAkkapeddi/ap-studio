@@ -32,11 +32,11 @@ featured_projects:
   - project: Saint Laurent FW21 Campaign
   - project: Double, Issue 39 SS20 Cover
   - project: Vogue Italia, Dies Irae
+  - project: Louis Vuitton, Capucines SS20 Campaign
   - project: Esteé Lauder, ANR Campaign
   - project: Victoria's Secret, Holiday 2021, Frozen Flowers
   - project: Vogue Paris, April 2021, 'Dream Vacation'
   - project: Victoria's Secret Beauty, Tease Creme Cloud
-  - project: Louis Vuitton, Capucines SS20 Campaign
   - project: The Face
   - project: System Magazine
   - project: Stuart Weitzman, FW20 Campaign
