@@ -6,4 +6,4 @@ View full Saint Laurent FW 21 Campaign [here](https://apstudio.netlify.app/proje
 
 ![](https://ucarecdn.com/5a154171-5390-4230-8388-be418093e901/)
 
-![](https://ucarecdn.com/54c01f76-c455-4ee1-83d3-37b9ed29c75d/)
+![](https://ucarecdn.com/47401eb9-8c4d-4e6b-b719-0994ab88113d/)
