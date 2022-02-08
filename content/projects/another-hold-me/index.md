@@ -42,7 +42,7 @@ clients:
   - client: AnOther
 artists:
   - artist: Luis Alberto Rodriguez
-  - artist: Raphael Hirsch
+  - artist: 9e7d10e0-d32a-439e-876a-7a4917c5ec19
 locations:
   - location: Paris
 date: 2021-12-20T14:26:39.543Z
