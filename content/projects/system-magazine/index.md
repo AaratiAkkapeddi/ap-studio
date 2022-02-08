@@ -7,6 +7,9 @@ campaign_title: Chanel Supplement N.18
 thumb:
   image: https://ucarecdn.com/e18f5529-3470-4ff8-ba44-ecfac13b25b1/
   size: portrait
+carouselthumb:
+  image: https://ucarecdn.com/72422a33-d24a-4880-833f-7c35f34c94d9/
+  size: portrait
 release_date: 2022-01-21T00:31:31.665Z
 media:
   - media: https://ucarecdn.com/8c3c15e2-8b19-48e9-8bb9-c482f7e0962d/
