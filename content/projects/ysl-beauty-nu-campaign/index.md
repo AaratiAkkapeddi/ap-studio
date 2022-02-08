@@ -6,7 +6,7 @@ description: YSL Beauty, Nu Campaign
 campaign_title: Nu Campaign
 thumb:
   video: ""
-  size: landscape
+  size: portrait
   image: https://ucarecdn.com/8a811adb-00ff-419d-85ae-62e57a46defe/
 carouselthumb:
   size: portrait
