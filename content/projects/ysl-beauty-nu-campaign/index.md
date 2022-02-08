@@ -7,7 +7,7 @@ campaign_title: Nu Campaign
 thumb:
   video: ""
   size: landscape
-  image: https://ucarecdn.com/37984079-8355-4369-9c35-39ab5f926a3d/
+  image: https://ucarecdn.com/8a811adb-00ff-419d-85ae-62e57a46defe/
 carouselthumb:
   size: portrait
 release_date: 2021-12-29T04:01:11.512Z
