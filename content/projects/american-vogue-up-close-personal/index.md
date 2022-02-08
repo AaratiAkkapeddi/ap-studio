@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 937e1b2c-937e-40bb-9adb-b6c3983f7cfc
 title: American Vogue, Up Close & Personal
 description: American Vogue, Up Close & Personal
