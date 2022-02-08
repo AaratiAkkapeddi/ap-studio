@@ -1,69 +1,67 @@
 ---
 featured_projects:
-  - project: Prada, SS22 Women's Campaign
-  - project: M Le Monde, Spécial Mode Femmes D'Influence "Les Éclaireuses"
-  - project: Esteé Lauder, Revitalizing Supreme Campaign
-  - project: Dior Joaillerie 2022 "La Rose Dior"
-  - project: The Gentlewoman, Large It
-  - project: Chloé, FW21 Campaign
-  - project: Vogue Paris, May 2021 Cover
-  - project: Self Service, Issue 52 SS20
-  - project: M Le Monde, Spécial Mode Homme 'Le Temps De La Douceur'
-  - project: American Vogue, The Future is Female
-  - project: Loewe, SS22 Men's Campaign
-  - project: MAC, Autre Cuture Campaign
-  - project: American Vogue, March 2021 Cover
-  - project: American Vogue, Suit Yourself
-  - project: Glossier, Boy Brow FW20 Campaign
-  - project: Prada Mens SS22
-  - project: American Vogue, April 2020 Cover
-  - project: "Loewe, Women's SS22 Campaign "
-  - project: More or Less, Issue 04 Cover
-  - project: Off-White ®, Eyewear Campaign SS21
-  - project: American Vogue, It Takes An Industry
-  - project: "Dior, Men's SS22 "
-  - project: American Vogue, Show Of Hand
-  - project: Louis Vuitton, New Classics AW19 Campaign
-  - project: American Vogue, December 2019 Cover
-  - project: Fendi, Couture SS21
-  - project: AnOther, Dark Poet
-  - project: Vogue Italia, July/August Cover
-  - project: HBA, SS21 Campaign
-  - project: American Vogue, Quality Time
-  - project: Saint Laurent FW21 Campaign
-  - project: Double, Issue 39 SS20 Cover
-  - project: Vogue Italia, Dies Irae
-  - project: Louis Vuitton, Capucines SS20 Campaign
-  - project: American Vogue, November 2020 Cover
-  - project: Isabel Marant Étoile, SS22
-  - project: Vogue Paris, April 2021, 'Dream Vacation'
-  - project: Victoria's Secret Beauty, Tease Creme Cloud
-  - project: The Face
-  - project: System Magazine
-  - project: The Face
-  - project: Stuart Weitzman, FW20 Campaign
-  - project: AnOther, Hold Me
-  - project: Dazed, FW20 Cover
-  - project: Gabriela Hearst, Resort 22
-  - project: Dazed, FW20 Cover
-  - project: Vogue HK, April 2019 Cover
-  - project: Vogue HK, September 2019 Cover
-  - project: Dior, Sacai Collection SS21
-  - project: American Vogue, Suit Yourself
-  - project: Nike Yoga, FW 21 Campaign
-  - project: Gabriela Hearst, Resort 19
-  - project: i-D, 40th Anniversary  Issue, Judy Turner
-  - project: Nike, Be True
-  - project: L'Uomo Vogue, February 2021 Cover
-  - project: Amazon, Smile! It's Summer Campaign
-  - project: Loro Piana, Sesia Campaign
-  - project: YSL Beauty, Nu Campaign
-  - project: Dion Lee, FW20 Campaign
-  - project: Dion Lee, Resort 20 Campaign
-  - project: American Vogue, Streat Easy
-  - project: Zara Beauty, SS21 Campaign
-  - project: T Magazine, Beauty & Luxury Issue 2021
-  - project: Theory, FW20 Campaign
+  - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
+  - project: 01c8a5bf-0f82-4a84-9e82-c89a6e491d7a
+  - project: 1ac4d9e8-3cab-4fda-9033-ad900e408387
+  - project: 0b91484f-f519-4127-83fd-8d9a9d8eba30
+  - project: 319f53a5-9b5f-49a6-ba0e-269b8dabd4c8
+  - project: 12b58ec5-36e5-4b56-bd1d-b279f535a35b
+  - project: e50c4541-d297-427f-83ee-a8bfb72955d7
+  - project: 8a88fc4e-4e5b-4414-9e54-a0a2423c507b
+  - project: 41ec28c8-2b32-469e-9bd0-dd0aad6ca67d
+  - project: db5fc3f0-22c9-4376-9f07-a439e9a9cc08
+  - project: 50673f05-8fb6-4ced-b63d-a52b975d1b2a
+  - project: c41657fe-eeaf-4cf8-83c6-70dd2cdbcb99
+  - project: 89e2fa78-8bbf-4e99-9adc-5a4e42bcbaf0
+  - project: 7ab3242b-ec74-4b83-8c09-1dd71dfc0fa5
+  - project: b874dadd-c4c9-4ee6-a75e-0fd8eede593e
+  - project: 068d62d5-0594-4a22-962d-8d252fc9d46f
+  - project: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
+  - project: 43366a2d-9eaa-4f36-ad02-7555ea3becd3
+  - project: 18b472c4-7817-444e-aee5-8a3c8b5c15dd
+  - project: 34e9ae99-4aea-4d9f-8ba3-ccafc1cf9190
+  - project: a435c162-bcf7-445c-aa04-d6881eab8943
+  - project: 7cd018be-9355-4832-964a-f00f9bda8f56
+  - project: 37adc507-6c9f-43a6-a9c8-cf12a6463b20
+  - project: 952c41c6-a898-48f3-ab01-fb12477e48d1
+  - project: a67220be-b529-4a41-b609-5b24f870b75e
+  - project: aa620c2b-3209-45fd-96ff-399c71e7d0d1
+  - project: 07955c5d-9d8c-476c-b664-efc3a20d7fa2
+  - project: ae47f6b1-a5ba-4bfa-8f42-11b97cc23618
+  - project: 7f4d12d6-2e05-4009-a78f-b376052bdb8d
+  - project: 332bcba6-a0d4-44e1-9993-06f66e070d5f
+  - project: dba264ac-c8dd-41cf-a78f-b7ef1e11d958
+  - project: 89362106-a42c-405e-a98a-d75dfa808f45
+  - project: 11c7b635-c1ad-403e-af70-0e1448d1cce1
+  - project: 4d5eff29-4cf8-436a-a440-c9ac85b318e3
+  - project: 220d73a0-bead-4f81-98b5-6665f1a55298
+  - project: ef422406-fc7a-474b-8c47-2c96864267e6
+  - project: ab6ffdfb-6378-4bcf-a9a6-04a847ec57b5
+  - project: bdd1e5eb-9c02-48ca-b2f2-a3f16ec3ba82
+  - project: 4ab8b9e6-3761-4d4b-8ce9-ada3f97301df
+  - project: 16828ed3-49f1-4ee6-b20e-9fb1cc57ccbe
+  - project: 8ac72d58-35e5-4bcb-9e81-37a3390edf4e
+  - project: a6e45cec-38be-4774-8f39-cd88d7f81111
+  - project: 83812f27-94e3-4eb8-b28c-69f266bfbec4
+  - project: a6e45cec-38be-4774-8f39-cd88d7f81111
+  - project: 96a9a730-15b2-4692-860d-049c38b23e41
+  - project: 0e1d79b5-f67b-4128-9543-0bb422d477a6
+  - project: 0f929fc7-6943-477a-9b91-7171e44e1427
+  - project: 5a55f7bd-9f87-47fd-b11a-bfb09b8941be
+  - project: fa51a70a-d88d-4665-9285-0cf680fb2f22
+  - project: 9a86a9c3-41c7-4642-9b68-0bc54005ac8f
+  - project: 4f3e2fd0-d3bb-408a-9f90-0a980f0ec6dc
+  - project: 6d5b1d4b-4d8f-4e6d-a811-dedeb7eadf34
+  - project: ec3bdf8f-c425-4813-9c11-17dd9e71bf13
+  - project: 4cd2e561-d9f1-449c-99fa-e9623efa6843
+  - project: e4cb4a97-1c0c-4b11-8e4e-b653681267f8
+  - project: c7c5250e-a0f9-4409-a548-0bc8152823ae
+  - project: 9dbb80fc-eae9-4d45-bb7c-a4ef5ca4c5a8
+  - project: 51af8026-cf64-442c-8b4c-db187d27e039
+  - project: 765de594-5f56-46d4-bf5b-cf6316c1fda0
+  - project: fba6f910-b287-46ba-a950-903b6e17b146
+  - project: a25e9381-f8a8-4b43-b4fe-c7f6718e341a
+  - project: de1369b4-b284-43bf-b60b-d13e5172d4f8
   - project: 74ec45f6-086e-46c8-8be2-c9a771a57504
 mobile_featured_projects:
   - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1

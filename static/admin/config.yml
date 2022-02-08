@@ -55,7 +55,7 @@ collections:
         name: "projectspage"
         file: "content/pages/projectspage.md"
         fields:
-          - { label: 'Featured Projects', name: 'featured_projects', widget: 'list', 
+          - { label: 'Featured Projects', summary: '{{fields.project}}', name: 'featured_projects', widget: 'list', 
               fields: [ { label: "Project", name: "project", widget: "relation", collection: "projects", search_fields: ["title"], value_field: "id", display_fields: ["title"]}]
               }
           - { label: 'Mobile Featured Projects (Mobile only)', name: 'mobile_featured_projects', widget: 'list', 
