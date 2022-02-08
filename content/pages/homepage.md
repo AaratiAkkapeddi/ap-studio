@@ -8,7 +8,6 @@ projects:
   - project: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
   - project: b874dadd-c4c9-4ee6-a75e-0fd8eede593e
   - project: 12b58ec5-36e5-4b56-bd1d-b279f535a35b
-  - project: bdd1e5eb-9c02-48ca-b2f2-a3f16ec3ba82
 featured_projects:
   - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
   - project: bdd1e5eb-9c02-48ca-b2f2-a3f16ec3ba82
