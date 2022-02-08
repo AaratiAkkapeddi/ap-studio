@@ -114,11 +114,18 @@ const FilmStrip = ({hpText, projects, clients, mobile}) => {
 	        {projects.map((project, index) => {
 	              if(!project.node.frontmatter.draft){
 	                const title = project.node.frontmatter.campaign_title
-	   
+	   							let featuredClients = []
+	        	    for (var i = clients.length - 1; i >= 0; i--) {
+								    for (var x = project.node.frontmatter.clients.length - 1; x >= 0; x--) {
+								      if((clients[i].node.frontmatter.id == project.node.frontmatter.clients[x].client)||(clients[i].node.frontmatter.title == project.node.frontmatter.clients[x].client)){
+								        featuredClients.push(clients[i].node.frontmatter.name)
+								      }
+								    }
+								  }
 	                return (
 	                
 	                  <a  className={`text-item`} key={index} href={project.node.fields.slug}>
-	                    <h1> {project.node.frontmatter.clients ? project.node.frontmatter.clients[0].client + ", " : ""} {project.node.frontmatter.campaign_title}</h1>
+	                    <h1> {featuredClients.length > 0 ? featuredClients[0] + ", " : ""} {project.node.frontmatter.campaign_title}</h1>
 	                    <div className="hover-img">
 	                     <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
 	                    </div>
@@ -135,6 +142,14 @@ const FilmStrip = ({hpText, projects, clients, mobile}) => {
 	         {reverse ?
 	         	<>
 	            {projectsReverse.map((project, index) => {
+	            	let featuredClients = []
+	        	    for (var i = clients.length - 1; i >= 0; i--) {
+								    for (var x = project.node.frontmatter.clients.length - 1; x >= 0; x--) {
+								      if((clients[i].node.frontmatter.id == project.node.frontmatter.clients[x].client)||(clients[i].node.frontmatter.title == project.node.frontmatter.clients[x].client)){
+								        featuredClients.push(clients[i].node.frontmatter.name)
+								      }
+								    }
+								  }
 	              if(!project.node.frontmatter.draft){
 	                const title = project.node.frontmatter.campaign_title
 
@@ -142,7 +157,7 @@ const FilmStrip = ({hpText, projects, clients, mobile}) => {
 	                
 	                  <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
 	                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-	                  	<div className="opacity-title">{project.node.frontmatter.clients ? project.node.frontmatter.clients[0].client + ", " : ""}{project.node.frontmatter.campaign_title}</div>
+	                  	<div className="opacity-title">{featuredClients.length > 0 ? featuredClients[0] + ", " : ""}{project.node.frontmatter.campaign_title}</div>
 	                  </a>
 	       
 	                )
@@ -159,6 +174,14 @@ const FilmStrip = ({hpText, projects, clients, mobile}) => {
 		      :
 		      <>
 	            {projects.map((project, index) => {
+	            	let featuredClients = []
+	        	    for (var i = clients.length - 1; i >= 0; i--) {
+								    for (var x = project.node.frontmatter.clients.length - 1; x >= 0; x--) {
+								      if((clients[i].node.frontmatter.id == project.node.frontmatter.clients[x].client)||(clients[i].node.frontmatter.title == project.node.frontmatter.clients[x].client)){
+								        featuredClients.push(clients[i].node.frontmatter.name)
+								      }
+								    }
+								  }
 	              if(!project.node.frontmatter.draft){
 	                const title = project.node.frontmatter.campaign_title
 
@@ -166,7 +189,7 @@ const FilmStrip = ({hpText, projects, clients, mobile}) => {
 	                
 	                  <a className={`${project.node.frontmatter.thumb?.size} film-item`} key={index} href={project.node.fields.slug}>
 	                    <Thumb name={project.node.frontmatter.thumb?.media_name} id={project.node.frontmatter.thumb?.id} imageurl={project.node.frontmatter.thumb?.image} videourl={project.node.frontmatter.thumb?.video} />
-	                  	<div className="opacity-title">{project.node.frontmatter.clients ? project.node.frontmatter.clients[0].client + ", " : ""}{project.node.frontmatter.campaign_title}</div>
+	                  	<div className="opacity-title">{featuredClients.length > 0 ? featuredClients[0] + ", " : ""}{project.node.frontmatter.campaign_title}</div>
 	                  </a>
 	       
 	                )

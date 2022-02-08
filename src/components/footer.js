@@ -65,10 +65,9 @@ const Footer = ({ data }) => {
 		</h1></div>
 	    <footer>
 	      <div>
-	      	<a href="/">NEWSLETTER</a>
+	      	<a href={`${data?.info?.edges[0].node.frontmatter.instagram}`}>INSTAGRAM</a><br/>
 	      </div>
 	      <div>
-	      	<a href={`${data?.info?.edges[0].node.frontmatter.instagram}`}>INSTAGRAM</a><br/>
 	      	<a href={`${data?.info?.edges[0].node.frontmatter.models}`}>MODELS.COM</a>
 	      </div>
 	      <div>
