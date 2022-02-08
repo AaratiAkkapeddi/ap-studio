@@ -38,6 +38,7 @@ mobile_featured_projects:
   - project: 01c8a5bf-0f82-4a84-9e82-c89a6e491d7a
   - project: 41ec28c8-2b32-469e-9bd0-dd0aad6ca67d
   - project: b874dadd-c4c9-4ee6-a75e-0fd8eede593e
+  - project: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
 clients:
   - client: American Vogue
   - client: Chloe
