@@ -1,9 +1,9 @@
 ---
 draft: false
 id: ef422406-fc7a-474b-8c47-2c96864267e6
-title: Vogue Paris, April 2021, 'Vacances des Rêves'
-description: Vogue Paris, April 2021, 'Vacances des Rêves'
-campaign_title: April 2021, 'Vacances des Rêves'
+title: Vogue Paris, April 2021, Vacances des Rêves
+description: Vogue Paris, April 2021, Vacances des Rêves
+campaign_title: April 2021, Vacances des Rêves
 thumb:
   image: https://ucarecdn.com/dc8ca9d0-035e-42e4-9ba9-3be75c1efb5b/
   size: portrait
