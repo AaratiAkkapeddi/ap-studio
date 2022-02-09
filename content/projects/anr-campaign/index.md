@@ -3,7 +3,7 @@ draft: false
 id: 966ac696-9a05-405b-8087-55f94b08e19b
 title: Esteé Lauder, ANR Campaign
 description: Esteé Lauder, ANR Campaign
-campaign_title: ANR Campaign
+campaign_title: Advanced Night Repair Campaign
 thumb:
   size: landscape
   video: https://ucarecdn.com/ef848133-0c38-48d7-ab12-ca34bdde4b90/
