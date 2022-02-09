@@ -21,7 +21,8 @@ media:
     size: portrait
   - media: https://ucarecdn.com/56268393-248b-40e0-a28c-e6ccbc68ec6d/
     size: landscape
-clients: []
+clients:
+  - client: 437fa30e-341b-4f6b-b48b-db64ca2a06a1
 artists:
   - artist: caab2bee-f71a-47c6-b349-cf33d263f48e
   - artist: d965c27d-9e0f-4ea7-b3db-6bd7a78ce65d
