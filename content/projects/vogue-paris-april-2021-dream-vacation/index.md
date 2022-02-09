@@ -35,6 +35,7 @@ clients:
   - client: Vogue Paris
 artists:
   - artist: Oliver Hadlee Pearch
+  - artist: a370132a-74e5-4245-8f71-f86cece1e8a7
 locations:
   - location: Paris
 date: 2022-01-20T21:59:15.112Z
