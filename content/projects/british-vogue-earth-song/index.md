@@ -1,9 +1,9 @@
 ---
 draft: false
 id: 202ddd33-e69d-461a-8c1b-1de13c8b4646
-title: British Vogue, 'Earth Song'
-description: British Vogue, 'Earth Song'
-campaign_title: "'Earth Song'"
+title: British Vogue, Earth Song
+description: British Vogue, Earth Song
+campaign_title: Earth Song
 thumb:
   image: https://ucarecdn.com/057e69e9-f285-480b-ac04-20e2d6473bad/
   size: portrait
