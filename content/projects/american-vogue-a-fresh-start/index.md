@@ -29,5 +29,9 @@ clients:
   - client: 903c5424-71b9-469b-873b-f86106c869af
 artists:
   - artist: d965c27d-9e0f-4ea7-b3db-6bd7a78ce65d
+  - artist: cf719d14-2766-4aee-bbff-853c99365026
+  - artist: e3c3d55b-8091-4243-8e65-c03e584ace70
+  - artist: 8cf15ff3-6ce0-485f-b663-5261abb5b832
+  - artist: e3d59bfd-7a30-4f8b-9700-664a564ebe3c
 date: 2022-02-09T19:58:18.204Z
 ---
