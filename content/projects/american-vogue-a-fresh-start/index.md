@@ -33,5 +33,7 @@ artists:
   - artist: e3c3d55b-8091-4243-8e65-c03e584ace70
   - artist: 8cf15ff3-6ce0-485f-b663-5261abb5b832
   - artist: e3d59bfd-7a30-4f8b-9700-664a564ebe3c
+  - artist: b2076840-66d3-4f23-b222-267386005439
+  - artist: 17df7a28-be36-44fc-afd2-6f18de6ee24e
 date: 2022-02-09T19:58:18.204Z
 ---
