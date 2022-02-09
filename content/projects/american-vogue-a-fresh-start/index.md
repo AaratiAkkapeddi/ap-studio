@@ -1,9 +1,9 @@
 ---
 draft: false
 id: fe2f3f37-3467-4dd0-8f23-543ff9c1dd05
-title: American Vogue, 'A Fresh Start'
-description: American Vogue, 'A Fresh Start'
-campaign_title: "'A Fresh Start'"
+title: American Vogue, A Fresh Start
+description: American Vogue, A Fresh Start
+campaign_title: A Fresh Start
 thumb:
   image: https://ucarecdn.com/de88df2d-f648-4d87-8a94-eb6e37bb936f/
   size: portrait
