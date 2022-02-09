@@ -3,7 +3,7 @@ draft: true
 id: 81f7579e-1b7b-4863-abc0-9600957864fc
 title: Saint Laurent
 description: Saint Laurent
-campaign_title: FW 2021 Campaign
+campaign_title: FW21 Campaign
 thumb:
   image: https://ucarecdn.com/65af0b5d-dd52-4e8f-9c21-a0353b80e302/-/crop/456x388/136,0/-/preview/
   size: square
