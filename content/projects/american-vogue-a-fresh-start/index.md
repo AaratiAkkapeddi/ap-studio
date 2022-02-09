@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: fe2f3f37-3467-4dd0-8f23-543ff9c1dd05
 title: American Vogue, 'A Fresh Start'
 description: American Vogue, 'A Fresh Start'
