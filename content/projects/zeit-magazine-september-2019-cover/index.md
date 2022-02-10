@@ -1,27 +1,27 @@
 ---
 draft: false
 id: 1a3d1357-4964-423a-a577-81e845e4a777
-title: Zeit Magazine, September 2019 Cover
-description: Zeit Magazine, September 2019 Cover
+title: Zeit Magazin, September 2019 Cover
+description: Zeit Magazin, September 2019 Cover
 campaign_title: September 2019 Cover
 thumb:
-  size: landscape
-  image: https://ucarecdn.com/12eeb146-f748-4c34-82f7-6e1ab515b211/
+  size: portrait
+  image: https://ucarecdn.com/8e1e7d8f-4578-4999-942e-86314b2d04a1/
 release_date: 2021-12-23T21:05:28.234Z
 release_date_public: 12/23/2021
 media:
+  - size: portrait
+    media: https://ucarecdn.com/18ab7bd6-d97d-438c-bb41-c9ea2acda012/
   - size: landscape
-    media: https://ucarecdn.com/f7007f1b-3e85-46f2-a0f4-604073d13d93/
-  - size: portrait
-    media: https://ucarecdn.com/f9ed060f-d99d-4e51-b441-cd11aac0506f/
-  - size: portrait
-    media: https://ucarecdn.com/3cb2ea29-d98f-41b4-9967-d30959c2e32a/
-  - size: square
-    media: https://ucarecdn.com/eda1175d-67fc-4538-ad21-9f4c91ef6a7a/
+    media: https://ucarecdn.com/b70ff67f-9963-4c3f-b104-bbffcf6ee18c/
+  - media: https://ucarecdn.com/7c743083-a26c-43ef-9cca-3e8959415272/
+    size: landscape
+  - size: landscape
+    media: https://ucarecdn.com/539717aa-c479-45e2-b948-626f6ca2b850/
   - size: portrait
     media: https://ucarecdn.com/938784ef-27c4-4c18-8b91-19b628576b9d/
   - size: portrait
-    media: https://ucarecdn.com/1df5079a-9ac4-440b-a567-759f47694d46/
+    media: https://ucarecdn.com/f9ed060f-d99d-4e51-b441-cd11aac0506f/
 clients:
   - client: Zeit Magazine
 artists:
