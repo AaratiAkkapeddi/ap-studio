@@ -35,7 +35,8 @@ media:
     media: https://ucarecdn.com/5e1f4fc2-e7d6-4c61-a152-401d3194dd1c/
 clients:
   - client: 14c5d921-4bd2-4c75-adab-cbcdd14af01c
-artists: []
+artists:
+  - artist: 6de9af83-8110-4224-b3bc-33afe381df94
 locations:
   - location: New York
 date: 2022-02-10T16:11:40.671Z
