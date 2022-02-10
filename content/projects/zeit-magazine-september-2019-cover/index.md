@@ -23,7 +23,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/f9ed060f-d99d-4e51-b441-cd11aac0506f/
 clients:
-  - client: Zeit Magazine
+  - client: bfc8c8cd-71e8-491d-9c86-218f977c597f
 artists:
   - artist: Petra Collins
   - artist: Klaus Stockhausen
