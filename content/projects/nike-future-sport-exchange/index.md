@@ -1,9 +1,9 @@
 ---
 draft: false
 id: 7d3ac108-4f1c-468e-b623-b41b233a9c43
-title: Nike, Future Sport Exchange
-description: Nike, Future Sport Exchange
-campaign_title: Future Sport Exchange
+title: Nike, Future Sport Exchange, January 2020
+description: Nike, Future Sport Exchange, January 2020
+campaign_title: Future Sport Exchange, January 2020
 thumb:
   size: portrait
   image: https://ucarecdn.com/8029d2d8-5bec-4056-8f96-50eb608c4e4d/
