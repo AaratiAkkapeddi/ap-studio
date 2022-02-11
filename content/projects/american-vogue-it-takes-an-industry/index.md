@@ -103,8 +103,12 @@ media:
 clients:
   - client: American Vogue
 artists:
-  - artist: American Vogue Editors
   - artist: Ethan James Green
+  - artist: cf719d14-2766-4aee-bbff-853c99365026
+  - artist: d965c27d-9e0f-4ea7-b3db-6bd7a78ce65d
+  - artist: a4497c1b-5b5c-4f45-9b00-d6f6c99ad2a5
+  - artist: 297886d5-ec8b-4ac7-926c-b032dc6a535f
+  - artist: 8fc89bd3-df33-4fc6-9203-069ee76b937f
 locations:
   - location: New York
 date: 2021-12-18T19:50:35.129Z
