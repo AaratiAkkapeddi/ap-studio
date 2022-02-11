@@ -6,7 +6,7 @@ description: WSJ Magazine, Weekend Confidential
 campaign_title: Weekend Confidential
 thumb:
   size: portrait
-  image: https://ucarecdn.com/36efc78a-11b6-41ad-80ed-3595c1b777d3/
+  image: https://ucarecdn.com/07d9e5e1-16d8-4ae2-8adb-c198893caa62/
 carouselthumb:
   size: portrait
 release_date: 2021-12-21T15:42:47.200Z
