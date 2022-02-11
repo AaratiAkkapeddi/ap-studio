@@ -5,7 +5,7 @@ title: American Vogue, A Fresh Start
 description: American Vogue, A Fresh Start
 campaign_title: A Fresh Start
 thumb:
-  image: https://ucarecdn.com/de88df2d-f648-4d87-8a94-eb6e37bb936f/
+  image: https://ucarecdn.com/5ae23b47-5d33-4123-82ce-bc3dd373e067/
   size: portrait
 release_date: 2022-02-09T19:58:18.195Z
 media:
