@@ -35,7 +35,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/9eb64527-a36e-464a-91f1-abe69f44d8d1/
 clients:
-  - client: WSJ Magazine
+  - client: 5e405ebb-ecdf-4e50-8e28-7db592a2de2f
 artists:
   - artist: Bryan Liston
   - artist: Tony Irvine
