@@ -2,7 +2,7 @@
 draft: false
 id: b874dadd-c4c9-4ee6-a75e-0fd8eede593e
 title: Prada Mens SS22
-campaign_title: SS22 Mens Campaign
+campaign_title: Mens Campaign SS22
 thumb:
   size: landscape
   video: https://ucarecdn.com/b960f522-7398-409b-bec1-b06776b999e4/
