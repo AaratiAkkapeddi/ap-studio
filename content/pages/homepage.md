@@ -60,7 +60,6 @@ clients:
   - client: Hood By Air
   - client: Off White ®
   - client: Vogue Italia
-  - client: Zara
 artists:
   - artist: Alastair McKimm
   - artist: American Vogue Editors
