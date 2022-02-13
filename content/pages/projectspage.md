@@ -33,19 +33,19 @@ featured_projects:
   - project: 7f4d12d6-2e05-4009-a78f-b376052bdb8d
   - project: 332bcba6-a0d4-44e1-9993-06f66e070d5f
   - project: dba264ac-c8dd-41cf-a78f-b7ef1e11d958
+  - project: 5a55f7bd-9f87-47fd-b11a-bfb09b8941be
   - project: 89362106-a42c-405e-a98a-d75dfa808f45
   - project: 11c7b635-c1ad-403e-af70-0e1448d1cce1
   - project: 4d5eff29-4cf8-436a-a440-c9ac85b318e3
   - project: 220d73a0-bead-4f81-98b5-6665f1a55298
   - project: e4cb4a97-1c0c-4b11-8e4e-b653681267f8
-  - project: 5a55f7bd-9f87-47fd-b11a-bfb09b8941be
+  - project: c7c5250e-a0f9-4409-a548-0bc8152823ae
   - project: ab6ffdfb-6378-4bcf-a9a6-04a847ec57b5
   - project: 8d6daa76-3e3a-45a4-94a3-75468174e1a2
   - project: fba6f910-b287-46ba-a950-903b6e17b146
   - project: 74ec45f6-086e-46c8-8be2-c9a771a57504
   - project: 48b2823a-042f-4dd0-b4d0-d38460d41bec
   - project: fa51a70a-d88d-4665-9285-0cf680fb2f22
-  - project: c7c5250e-a0f9-4409-a548-0bc8152823ae
   - project: 202ddd33-e69d-461a-8c1b-1de13c8b4646
   - project: 8ac72d58-35e5-4bcb-9e81-37a3390edf4e
   - project: a6e45cec-38be-4774-8f39-cd88d7f81111
