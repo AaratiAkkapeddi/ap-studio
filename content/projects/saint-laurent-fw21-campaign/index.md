@@ -13,6 +13,7 @@ carouselthumb:
   video: https://ucarecdn.com/46d55267-1f5a-43e1-96e4-813b8017377a/
 release_date: 2022-01-01T21:16:49.277Z
 release_date_public: ""
+notes: "Executive Production: Partner Films"
 media:
   - size: landscape
     mediaVideo: https://ucarecdn.com/33b4393d-7b63-430b-9d5f-2671e0466916/
