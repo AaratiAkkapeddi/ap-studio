@@ -10,6 +10,7 @@ carouselthumb:
   image: https://ucarecdn.com/0761cbf7-41b1-4f98-bd59-62a2f12a7ceb/
   size: portrait
 release_date: 2022-02-02T22:45:57.529Z
+notes: "Executive Production: Partner Films"
 media:
   - size: landscape
     mediaVideo: https://ucarecdn.com/1f175287-bba9-4a41-a7dd-9a3d112696c7/
