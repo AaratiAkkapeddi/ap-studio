@@ -9,6 +9,7 @@ thumb:
   size: portrait
 release_date: 2021-12-18T16:36:29.346Z
 release_date_public: 12/18/2021
+notes: "Executive Production: Partner Films"
 media:
   - size: portrait
     media: https://ucarecdn.com/2c92b46d-64ca-484f-a1ea-2eb108e787ee/
