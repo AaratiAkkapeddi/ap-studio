@@ -12,6 +12,7 @@ carouselthumb:
   size: portrait
 release_date: 2021-12-29T01:43:39.131Z
 release_date_public: 12/28/2021
+notes: "Executive Production: Partner Films"
 media:
   - size: landscape
     mediaVideo: https://ucarecdn.com/f20fc0b6-cc0a-4b3f-b1fe-5246b056f733/
