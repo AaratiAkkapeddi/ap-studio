@@ -1,11 +1,17 @@
 ---
 contact: |-
   Alexis Piqueras, Founder & Managing Director\
-  alexis@apstudio-inc.com<br><br>\
+  [alexis@apstudio-inc.com<br><br>](mailto:alexis@apstudio-inc.com)\
   Marie Godeau Robinson, Partner & Paris Managing Director\
-  marie@apstudio-inc.com<br><br>\
+  [marie@apstudio-inc.com<br><br>](mailto:marie@apstudio-inc.com)\
   General Inquiries \
-  studio@apstudio-inc.com
+  [studio@apstudio-inc.com](mailto:studio@apstudio-inc.com)
+
+
+
+  Helios Capdevila, Brand Identity Designer
+
+  Kurt Woerpel, Web Design
 models: https://models.com/agency/ap-studio-inc
 profiles: |-
   [Instagram](instagram.com)
