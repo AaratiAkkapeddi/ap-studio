@@ -41,12 +41,10 @@ mobile_featured_projects:
   - project: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
 clients:
   - client: American Vogue
-  - client: Chloe
   - client: Dior
   - client: Estée Lauder
   - client: Fendi
   - client: Gabriela Hearst
-  - client: I-D
   - client: M Magazine
   - client: MAC
   - client: Prada
@@ -60,6 +58,8 @@ clients:
   - client: Hood By Air
   - client: Off White ®
   - client: Vogue Italia
+  - client: 96921bfd-9d5a-45a7-bc68-cccd724923ea
+  - client: 814ad41a-c249-4fab-a97b-488a161db585
 artists:
   - artist: Alastair McKimm
   - artist: American Vogue Editors
