@@ -29,6 +29,7 @@ clients:
   - client: Dior
 artists:
   - artist: David Sims
+  - artist: c2c6b9e2-b30c-4658-bb06-c97f7e09eac8
 locations:
   - location: Paris
 date: 2022-01-28T17:29:09.379Z
