@@ -8,6 +8,7 @@ thumb:
   image: https://ucarecdn.com/d81c36c3-7443-452a-b0ef-912d260bdf5a/
   size: portrait
 release_date: 2022-01-28T19:26:42.599Z
+notes: "Executive Production: Partner Films"
 media:
   - media: https://ucarecdn.com/b2052852-ae0c-47cc-8ece-23bb81165311/
     size: portrait
