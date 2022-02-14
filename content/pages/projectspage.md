@@ -62,7 +62,6 @@ featured_projects:
   - project: 83812f27-94e3-4eb8-b28c-69f266bfbec4
   - project: 073bd16f-1a6d-4373-afa5-ea944374ef11
   - project: 137ff339-150d-445d-be99-38a7db3dc703
-  - project: 5a305fe5-a11f-47de-b341-7de262b3b703
 mobile_featured_projects:
   - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
 ---
