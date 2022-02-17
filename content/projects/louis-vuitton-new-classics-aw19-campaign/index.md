@@ -6,7 +6,7 @@ description: Louis Vuitton, New Classics AW19 Campaign
 campaign_title: New Classics AW19 Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/485625ec-bdff-4e08-b137-07255ddd5cec/
+  video: https://ucarecdn.com/ef7e31c6-786d-44b6-ad3c-7e41c2eff2b1/
 carouselthumb:
   size: portrait
 release_date: 2021-12-29T03:33:23.876Z
