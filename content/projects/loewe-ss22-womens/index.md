@@ -7,7 +7,7 @@ campaign_title: Women's SS22 Campaign
 thumb:
   size: landscape
   image: ""
-  video: https://ucarecdn.com/e385bc60-f7dd-4b41-ad6d-5b5f98970976/
+  video: https://ucarecdn.com/5663c12e-3324-43ad-8585-3007e3f12ab8/
 carouselthumb:
   size: square
   image: https://ucarecdn.com/8e8ef3f1-4211-4f95-97be-9b924635373c/
