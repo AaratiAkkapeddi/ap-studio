@@ -2,8 +2,7 @@ import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-const Footer = ({ data }) => {
-   console.log(data)
+const Footer = ({ data, location }) => {
 	function marquee(){
 	  let speed = 0.2
 	  const parentSelector = document.querySelector('.marquee');
@@ -65,7 +64,14 @@ const Footer = ({ data }) => {
 		</h1></div>
 	    <footer>
 	      <div>
-	      	<a href={`${data?.info?.edges[0].node.frontmatter.instagram}`}>INSTAGRAM</a><br/>
+	      	<a href={`${data?.info?.edges[0].node.frontmatter.instagram}`}>INSTAGRAM</a><br/><br/>
+	      	{location.pathname.includes("/info") &&
+	      	  <>
+	      		<span>Design: Kurt Woerpel</span><br/>
+	      		<span>Development: Aarati Akkapeddi</span><br/>
+	      		<span>Brand Identity: Helios Capdevila</span>
+	      		</>
+	        }
 	      </div>
 	      <div>
 	      	<a href={`${data?.info?.edges[0].node.frontmatter.models}`}>MODELS.COM</a>
