@@ -485,13 +485,11 @@ export const pageQuery = graphql`
             thumb {
               image
               video
-              media_name
               size
             }
             carouselthumb {
               image
               video
-              media_name
               size
             }
           }

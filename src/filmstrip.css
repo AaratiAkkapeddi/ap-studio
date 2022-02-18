@@ -109,10 +109,11 @@
 .film-strip.text-column *:last-child .more-info{
   text-align: center;
 }
-.film-strip .text-item:hover .hover-img{
-  right: 35%;
-  top:10%;
-  width: 40%;
+.film-strip .text-item:hover .hover-img {
+    right: 50%;
+    transform: translate(50%, -50%);
+    top: 50vh;
+    width: 40%;
 }
 .film-strip .hover-text{
   right:0;

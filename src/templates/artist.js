@@ -141,7 +141,6 @@ export const pageQuery = graphql`
               image
               video
               size
-              media_name
             }
           }
           fields {

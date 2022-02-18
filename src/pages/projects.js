@@ -139,7 +139,6 @@ export const pageQuery = graphql`
             campaign_title
             thumb {
               image
-              media_name
               video
               size
             }
