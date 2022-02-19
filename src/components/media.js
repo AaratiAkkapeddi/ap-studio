@@ -7,7 +7,7 @@ const Media = ({imageurl, videourl, size, controls}) => {
 	if(videourl && videourl.length > 0){
 		return (
 			   <div className={`${size == "portrait" ? "portrait" : "landscape"} media-item`}>
-			    <video muted loop autoPlay controls={controls}>
+			    <video muted loop autoPlay defaultMuted playsinline controls={controls}>
 			      <source src={videourl} type="video/mp4"/>
 			    </video>
 			    </div>
