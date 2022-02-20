@@ -202,4 +202,7 @@
    	margin-bottom:var(--spacing-8);
    	margin-top:var(--spacing-4);
    }
+   video{
+   	background: whitesmoke;
+   }
 }
