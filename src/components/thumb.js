@@ -8,7 +8,7 @@ const Thumb = ({imageurl, videourl, name}) => {
 		let imgsizes = imageurl + "/-/resize/x480/ 480w, " + imageurl + "/-/resize/x500/ 800w"
 		return (
 			    <div className="thumb-item">
-				    <video muted loop autoPlay playsinline defaultMuted>
+				    <video muted loop autoPlay playsInline defaultMuted>
 				      <source src={videourl} type="video/mp4"/>
 				      <img src={imageurl+"/-/resize/x480/"} srcSet={imgsizes} sizes="(max-width: 600px) 480px,
             800px" alt={name}/>
