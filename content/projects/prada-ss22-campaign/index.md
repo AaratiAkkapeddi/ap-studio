@@ -5,7 +5,7 @@ title: Prada, SS22 Women's Campaign
 description: Prada, SS22 Women's Campaign
 campaign_title: Women's Campaign SS22
 thumb:
-  video: https://ucarecdn.com/d7aa7a48-d2d7-47bb-b12d-1d79ce171bc1/
+  video: https://ucarecdn.com/3b80b8f1-9ee0-4615-ab95-2a3f177ff07d/
   size: landscape
 carouselthumb:
   video: ""
