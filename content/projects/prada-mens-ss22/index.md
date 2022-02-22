@@ -5,7 +5,7 @@ title: Prada Mens SS22
 campaign_title: Mens Campaign SS22
 thumb:
   size: landscape
-  video: https://ucarecdn.com/9eeeeecc-b310-43a1-b3fa-c2adc0c42f2e/
+  video: https://ucarecdn.com/c2d78078-fc62-4725-832a-b905c9c3796a/
 carouselthumb:
   image: https://ucarecdn.com/0761cbf7-41b1-4f98-bd59-62a2f12a7ceb/
   size: portrait
