@@ -6,7 +6,7 @@ description: MAC, Autre Cuture Campaign
 campaign_title: Aute Cuture Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/e7b6cedb-24a3-4f05-ab4d-fb59c18e92b5/
+  video: https://ucarecdn.com/3a18b920-dabd-4960-bf16-d07a1eb7d9d7/
   image: ""
 carouselthumb:
   image: ""
