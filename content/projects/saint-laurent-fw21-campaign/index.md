@@ -6,7 +6,7 @@ description: Saint Laurent FW21 Campaign
 campaign_title: FW21 Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/6a65d3d5-e789-4eb7-9f76-dcb1d2c6aa37/
+  video: https://ucarecdn.com/c17ea67f-27d0-4d99-b50c-adae3ae336d5/
   image: ""
 carouselthumb:
   size: landscape
