@@ -5,7 +5,7 @@ title: "Victoria's Secret, Valentine's Day 2022 Campaign "
 description: "Victoria's Secret, Valentine's Day 2022 Campaign "
 campaign_title: " Valentine's Day 2022 Campaign"
 thumb:
-  video: https://ucarecdn.com/f33d63c6-9174-40af-8e62-f33893dddc14/
+  video: https://ucarecdn.com/3a0a5dda-31cd-4249-952b-a379f2d48388/
   size: landscape
 release_date: 2022-02-10T18:01:40.250Z
 media:
