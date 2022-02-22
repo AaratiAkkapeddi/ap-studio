@@ -4,8 +4,8 @@ id: a0474a07-3a0f-44ca-951c-42b22b430d86
 title: Prada Eyewear SS22
 campaign_title: Prada Eyewear SS22
 thumb:
-  size: landscape
-  image: https://ucarecdn.com/2b6da22a-ad26-47d2-9963-60c3337befb4/
+  size: portrait
+  image: https://ucarecdn.com/b03606a5-eee3-4415-a3c4-dbd913a971a3/
 release_date: 2022-02-22T16:47:14.133Z
 notes: "Executive Production: Partner Films"
 media:
