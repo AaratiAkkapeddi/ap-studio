@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: a0474a07-3a0f-44ca-951c-42b22b430d86
 title: Prada Eyewear SS22
 campaign_title: Prada Eyewear SS22
