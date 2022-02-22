@@ -6,7 +6,7 @@ description: Esteé Lauder, ANR Campaign
 campaign_title: Advanced Night Repair Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/ef848133-0c38-48d7-ab12-ca34bdde4b90/
+  video: https://ucarecdn.com/b42e2c7c-ee4d-4c32-b8d6-8705459d9821/
 carouselthumb:
   size: landscape
   video: https://ucarecdn.com/5ca91382-b0cf-42b1-955b-8978d7d0e651/
