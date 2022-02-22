@@ -7,7 +7,7 @@ campaign_title: Joaillerie 2022, La Rose Dior
 thumb:
   image: ""
   size: landscape
-  video: https://ucarecdn.com/97366624-25db-451d-ac7d-0957cf77fdbe/
+  video: https://ucarecdn.com/cd4e02c0-f1f1-4c49-9320-4328035c0b9f/
 release_date: 2022-01-28T17:29:09.365Z
 notes: "Executive Production: Partner Films"
 media:
