@@ -1,8 +1,8 @@
 ---
 draft: false
 id: e23c6113-f002-4015-b41b-f8f356b89b5f
-title: Bare Campaign
-description: ""
+title: Victoria's Secret, Bare Campaign
+description: Victoria's Secret, Bare Campaign
 campaign_title: Bare Campaign
 thumb:
   size: landscape
