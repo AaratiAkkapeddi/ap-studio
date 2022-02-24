@@ -3,7 +3,7 @@ draft: false
 id: e23c6113-f002-4015-b41b-f8f356b89b5f
 title: Bare Campaign
 description: ""
-campaign_title: Victoria's Secret, Bare Campaign
+campaign_title: Bare Campaign
 thumb:
   size: landscape
   image: https://ucarecdn.com/fecd46f2-f9be-4391-90ec-a385f02b5c6f/
