@@ -5,7 +5,7 @@ title: Victoria's Secret, Heritage Campaign
 description: Victoria's Secret, Heritage Campaign
 campaign_title: Heritage Campaign
 thumb:
-  image: https://ucarecdn.com/803e3395-0e10-4c7b-b6b3-06200972aa73/
+  image: https://ucarecdn.com/4757a669-c059-48c7-ac05-aa00ff5f0b45/
   size: portrait
 release_date: 2022-03-01T18:09:14.590Z
 media:
