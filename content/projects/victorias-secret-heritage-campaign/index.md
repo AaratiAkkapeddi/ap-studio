@@ -25,6 +25,14 @@ media:
     size: portrait
   - media: https://ucarecdn.com/4de89f83-5330-476b-a221-68e8365c2613/
     size: portrait
+  - media: https://ucarecdn.com/55479f24-7c8d-4201-ad53-a5306ff95f66/
+    size: portrait
+  - media: https://ucarecdn.com/19f154b7-4d7f-482d-9151-0a1c5825e944/
+    size: portrait
+  - media: https://ucarecdn.com/bd536b38-4c90-4d10-b731-95666ccea546/
+    size: portrait
+  - media: https://ucarecdn.com/64913832-f802-4049-af8f-a6dc8760bf45/
+    size: portrait
 clients:
   - client: bfc52b1a-84ff-40c6-8390-356fd57acd13
 artists: []
