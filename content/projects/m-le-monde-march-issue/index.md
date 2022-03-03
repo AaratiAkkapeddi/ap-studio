@@ -43,7 +43,8 @@ media:
     media: https://ucarecdn.com/446cb96e-d9ce-40ae-9c63-abca00995035/
   - size: portrait
     media: https://ucarecdn.com/9860dbd2-38bb-4683-b348-2919061558e2/
-clients: []
+clients:
+  - client: e569a382-a71e-4213-95d4-09720d2eb352
 artists:
   - artist: 606df193-01f0-44ff-a0c9-15d36e6d96ef
   - artist: 96935289-4f1d-4094-b293-d94553b834f3
