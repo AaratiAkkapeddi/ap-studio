@@ -45,7 +45,7 @@ media:
   - media: https://ucarecdn.com/b0e12425-58cc-40b5-90cf-72df8af98b0b/
     size: landscape
 clients:
-  - client: Chloe
+  - client: 96921bfd-9d5a-45a7-bc68-cccd724923ea
 artists:
   - artist: Zoë Ghertner
   - artist: Camilla Nickerson
