@@ -1,8 +1,8 @@
 ---
 draft: false
 id: 9ca041f6-f198-4f6c-a212-f64508523601
-title: M Le Monde March Issue
-description: M Le Monde
+title: M Le Monde March 2022
+description: M Le Monde March 2022
 campaign_title: Au-Delà Réel
 thumb:
   size: portrait
