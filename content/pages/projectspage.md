@@ -65,4 +65,5 @@ mobile_featured_projects:
   - project: c41657fe-eeaf-4cf8-83c6-70dd2cdbcb99
   - project: e23c6113-f002-4015-b41b-f8f356b89b5f
   - project: 41ec28c8-2b32-469e-9bd0-dd0aad6ca67d
+  - project: 9816860c-8d56-4195-9409-4667a96b3323
 ---
