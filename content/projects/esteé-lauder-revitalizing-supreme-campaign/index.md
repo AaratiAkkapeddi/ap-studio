@@ -6,7 +6,7 @@ description: Esteé Lauder, Revitalizing Supreme Campaign
 campaign_title: Revitalizing Supreme Campaign
 thumb:
   image: https://ucarecdn.com/6d646b4f-7387-43bb-bb22-f023b7c257a5/
-  size: portrait
+  size: landscape
 carouselthumb:
   image: ""
   size: square
