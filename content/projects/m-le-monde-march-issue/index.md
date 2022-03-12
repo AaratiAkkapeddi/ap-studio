@@ -7,6 +7,9 @@ campaign_title: Au-Delà Réel
 thumb:
   size: portrait
   image: https://ucarecdn.com/391ceaf6-7b4e-40e4-948f-2595363fb7a7/
+carouselthumb:
+  size: portrait
+  image: https://ucarecdn.com/f4d2a125-522c-4ee6-81df-d3131423e9cc/
 release_date: 2022-03-03T17:28:34.594Z
 media:
   - size: portrait
