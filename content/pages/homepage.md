@@ -77,10 +77,10 @@ artists:
   - artist: Oliver Hadlee Pearch
   - artist: Jackie Nickerson
   - artist: Mario Sorrenti
-  - artist: Melanie Ward
   - artist: Alasdair McLellan
   - artist: Gabriella Karefa-Johnson
   - artist: Marie Amelie Sauvé
   - artist: Mark Borthwick
   - artist: Tyler Mitchell
+  - artist: 847c0ddb-95f9-4754-abed-e2382ca300c4
 ---
