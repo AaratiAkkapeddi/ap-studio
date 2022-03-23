@@ -6,6 +6,9 @@ campaign_title: 51 Shades of Skin Love
 thumb:
   size: landscape
   image: https://ucarecdn.com/03ed9099-0fd9-49ca-a60e-fe05fa5cefc3/
+carouselthumb:
+  size: portrait
+  image: https://ucarecdn.com/0cc879f3-a581-4055-8bb2-6c4f20f44609/
 release_date: 2022-03-22T22:28:32.389Z
 media:
   - size: portrait
