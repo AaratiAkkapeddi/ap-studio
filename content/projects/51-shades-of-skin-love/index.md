@@ -4,8 +4,8 @@ id: 7b05a4fb-c0f7-46ca-8aeb-48ad74734c15
 title: 51 Shades of Skin Love
 campaign_title: 51 Shades of Skin Love
 thumb:
-  size: landscape
-  image: https://ucarecdn.com/03ed9099-0fd9-49ca-a60e-fe05fa5cefc3/
+  size: portrait
+  image: https://ucarecdn.com/fd631749-e6ed-47c5-a192-1ad328947274/
 carouselthumb:
   size: portrait
   image: https://ucarecdn.com/0cc879f3-a581-4055-8bb2-6c4f20f44609/
