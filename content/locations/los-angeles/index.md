@@ -2,13 +2,13 @@
 title: Los Angeles
 name: Los Angeles
 address: |-
-  1300 Factory Pl. 
+  The Bradbury
 
-  Suite 306 
+  304 S Broadway 
 
   Los Angeles, CA 
 
-  90013
+  90030
 latitude: "34.038870"
 longitude: "-118.236020"
 ---
