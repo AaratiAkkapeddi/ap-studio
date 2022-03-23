@@ -9,6 +9,6 @@ address: |-
   Los Angeles, CA 
 
   90030
-latitude: "34.038870"
-longitude: "-118.236020"
+latitude: "34.0510662426402"
+longitude: "-118.24781438465683"
 ---
