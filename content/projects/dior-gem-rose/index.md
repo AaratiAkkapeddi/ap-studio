@@ -1,8 +1,8 @@
 ---
 draft: false
 id: d43eeb4b-b286-44fb-b12a-1e14970cb421
-title: Dior Gem Rose
-campaign_title: Gem Rose
+title: Dior Gem Rose Campaign
+campaign_title: Gem Rose Campaign
 thumb:
   size: landscape
   video: https://ucarecdn.com/6e4213a4-e154-489e-908e-4369eeabe943/
