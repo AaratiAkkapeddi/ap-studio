@@ -249,8 +249,8 @@
     width:  calc(50% - var(--spacing-2));
    }
     .film-item.portrait img{
-      height: auto;
-      width: 100%;
+      height: 100%;
+      min-width: 100%;
     }
     .mini-overview{
       min-height:50vw;
