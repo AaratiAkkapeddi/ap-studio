@@ -12,7 +12,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/55894606-1e45-4199-a8b4-52a85ee5a8bf/
   - size: portrait
-    media: https://ucarecdn.com/47b49ff1-ce9e-48af-be93-42872e351f40/
+    media: https://ucarecdn.com/f16cc06b-99c6-4f94-9e57-4412f9a22977/
   - size: portrait
     media: https://ucarecdn.com/b5b76c83-b6a4-427f-bc24-f4cfb7a3873c/
   - size: portrait
