@@ -14,9 +14,11 @@ media:
   - size: portrait
     media: https://ucarecdn.com/f16cc06b-99c6-4f94-9e57-4412f9a22977/
   - size: portrait
-    media: https://ucarecdn.com/b5b76c83-b6a4-427f-bc24-f4cfb7a3873c/
+    media: https://ucarecdn.com/aa98604b-0638-4395-8730-cee2e02cdaf6/
   - size: portrait
     media: https://ucarecdn.com/7cd306f5-dca3-4bb7-8d88-4c4b45ab13cf/
+  - size: portrait
+    media: https://ucarecdn.com/b5b76c83-b6a4-427f-bc24-f4cfb7a3873c/
   - media: https://ucarecdn.com/10b66e11-9390-47e5-aa13-53847d1a86d6/
     size: landscape
   - size: landscape
