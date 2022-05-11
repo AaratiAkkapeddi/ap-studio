@@ -10,6 +10,10 @@ release_date: 2022-05-11T18:52:32.616Z
 media:
   - media: https://ucarecdn.com/f25bfd10-9b68-4d6f-b6b9-5980ed5dfc6c/
     size: portrait
+  - media: https://ucarecdn.com/02c7c239-c780-4849-ae02-a601581b95b3/
+    size: portrait
+  - size: portrait
+    media: https://ucarecdn.com/270ca196-40ec-418d-a119-80db1a83248b/
 clients:
   - client: 903c5424-71b9-469b-873b-f86106c869af
 artists:
