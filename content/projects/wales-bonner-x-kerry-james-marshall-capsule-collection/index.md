@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 3b763c38-85c9-4cc4-97f2-8b7637bfdb6d
 title: Wales Bonner x Kerry James Marshall Capsule Collection
 campaign_title: Wales Bonner x Kerry James Marshall Capsule Collection
