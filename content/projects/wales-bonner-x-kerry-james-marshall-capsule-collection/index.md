@@ -18,6 +18,8 @@ media:
     size: portrait
   - size: portrait
     media: https://ucarecdn.com/a1a9e4a3-f48e-41d7-a774-ba4309320800/
+clients:
+  - client: c8a9d76f-b285-4437-8280-9fd8e60fb444
 artists:
   - artist: 606df193-01f0-44ff-a0c9-15d36e6d96ef
 locations:
