@@ -1,7 +1,7 @@
 ---
 draft: false
 id: 2da2e673-80cc-4e22-b857-95a8e944bb30
-title: Jacquemus
+title: Jacquemus Campaign
 campaign_title: Jacquemus
 thumb:
   size: portrait
