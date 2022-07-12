@@ -1,8 +1,9 @@
 ---
 draft: false
 id: 2da2e673-80cc-4e22-b857-95a8e944bb30
-title: Jacquemus Campaign
-campaign_title: Jacquemus Campaign
+title: "Nike, Jacquemus Collection "
+description: Nike, Jacquemus Collection
+campaign_title: Nike, Jacquemus Collection
 thumb:
   size: portrait
   image: https://ucarecdn.com/39e600f4-8062-4deb-aabd-1beaf55fc1f5/
