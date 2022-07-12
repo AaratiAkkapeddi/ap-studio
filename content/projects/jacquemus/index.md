@@ -20,6 +20,8 @@ media:
     media: https://ucarecdn.com/a31e0b95-4bab-4dbc-bd5d-8178e4ec0aaf/
   - size: portrait
     media: https://ucarecdn.com/79c09eb5-4cd2-4153-8f29-cdf6e95521cf/
+  - media: https://ucarecdn.com/3d06a380-499e-47c9-8f5c-d359d3f1cfd6/
+    size: portrait
   - size: landscape
     media: https://ucarecdn.com/709d4bde-be79-4498-a36d-ffe8c6638307/
   - size: landscape
@@ -33,8 +35,6 @@ media:
   - size: portrait
     media: https://ucarecdn.com/4f59e88c-7476-421b-b38f-4bb4d62c5af3/
   - media: https://ucarecdn.com/f033b564-c365-45b3-8203-b34c315f6646/
-    size: portrait
-  - media: https://ucarecdn.com/3d06a380-499e-47c9-8f5c-d359d3f1cfd6/
     size: portrait
 clients:
   - client: 14c5d921-4bd2-4c75-adab-cbcdd14af01c
