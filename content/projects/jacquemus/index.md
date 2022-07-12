@@ -28,10 +28,10 @@ media:
     media: https://ucarecdn.com/f7895cfb-bef6-4b5e-ab19-d0ca8d9030a1/
   - media: https://ucarecdn.com/1b127546-1a27-415d-9af7-2d13bd8cea8c/
     size: portrait
-  - size: portrait
-    media: https://ucarecdn.com/e3ac6abe-b9ab-4fa7-ba04-26826566cf76/
   - media: https://ucarecdn.com/6bf4134e-133f-49ae-be40-e6e07e5b5d1e/
     size: portrait
+  - size: portrait
+    media: https://ucarecdn.com/e3ac6abe-b9ab-4fa7-ba04-26826566cf76/
   - size: portrait
     media: https://ucarecdn.com/4f59e88c-7476-421b-b38f-4bb4d62c5af3/
   - media: https://ucarecdn.com/f033b564-c365-45b3-8203-b34c315f6646/
