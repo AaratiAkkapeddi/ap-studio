@@ -20,7 +20,6 @@ featured_projects:
   - project: 0b91484f-f519-4127-83fd-8d9a9d8eba30
   - project: 1ac4d9e8-3cab-4fda-9033-ad900e408387
   - project: 41ec28c8-2b32-469e-9bd0-dd0aad6ca67d
-  - project: 9816860c-8d56-4195-9409-4667a96b3323
   - project: a435c162-bcf7-445c-aa04-d6881eab8943
   - project: 50673f05-8fb6-4ced-b63d-a52b975d1b2a
   - project: c41657fe-eeaf-4cf8-83c6-70dd2cdbcb99
