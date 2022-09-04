@@ -31,6 +31,7 @@ featured_projects:
   - project: 18b472c4-7817-444e-aee5-8a3c8b5c15dd
   - project: 4d5eff29-4cf8-436a-a440-c9ac85b318e3
 mobile_featured_projects:
+  - project: 6c46e828-43bd-43b8-9a18-1e1b3bd5802f
   - project: a13b9a3c-1241-47be-b9ab-a9fa9188df57
   - project: a0474a07-3a0f-44ca-951c-42b22b430d86
   - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
@@ -62,6 +63,7 @@ clients:
   - client: Vogue Italia
   - client: 96921bfd-9d5a-45a7-bc68-cccd724923ea
   - client: 814ad41a-c249-4fab-a97b-488a161db585
+  - client: 8f62456c-0728-4c2a-a327-1b13ae740209
 artists:
   - artist: Alastair McKimm
   - artist: American Vogue Editors
