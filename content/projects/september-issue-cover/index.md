@@ -1,9 +1,9 @@
 ---
 draft: false
 id: a13b9a3c-1241-47be-b9ab-a9fa9188df57
-title: September Issue Cover
-description: September Issue Cover
-campaign_title: September Issue Cover
+title: Vogue, September 2022, Serena Williams Cover
+description: Vogue, September 2022, Serena Williams Cover
+campaign_title: September 2022 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/c33f6be1-f3dd-4ab1-8002-553cea42945b/
