@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 5234d8f7-a915-4bad-bc2e-de0b06d862cf
 title: "POP Magazine, Issue 47, Cover "
 description: "POP Magazine, Issue 47, Cover "
