@@ -11,7 +11,11 @@ release_date: 2022-09-08T15:25:36.999Z
 media:
   - size: portrait
     media: https://ucarecdn.com/9d363816-2de4-4e3a-bdad-aa7dc35fd66b/
-clients: []
+clients:
+  - client: f66eed56-4206-4b78-87ae-34aed9b36d86
+artists:
+  - artist: 6e00e1bb-b853-4e60-82af-11184524c7d5
+  - artist: 58a6a9c8-5ef4-4b6b-93ad-6deea0417f71
 categories: []
 locations:
   - location: Los Angeles
