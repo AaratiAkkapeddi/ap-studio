@@ -1,8 +1,9 @@
 ---
 draft: false
 id: f5e8cbcc-7847-429b-b15c-324273dde657
-title: American Vogue June / July Cover
-campaign_title: June/July Cover
+title: American Vogue, June/July 2022 Cover
+description: American Vogue, June/July 2022 Cover
+campaign_title: June/July 2022 Cover
 thumb:
   size: portrait
   image: https://ucarecdn.com/eacaef61-b5ca-4e10-a553-8858bc730437/
