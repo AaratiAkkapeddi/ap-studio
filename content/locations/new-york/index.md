@@ -4,7 +4,7 @@ name: New York
 address: |-
   265 Canal St. 
 
-  Suite 301 
+  Suite 222 
 
   New York, NY 
 
