@@ -5,8 +5,9 @@ title: "Nike, Jacquemus Collection "
 description: Nike, Jacquemus Collection
 campaign_title: Jacquemus Collection
 thumb:
-  size: portrait
-  image: https://ucarecdn.com/39e600f4-8062-4deb-aabd-1beaf55fc1f5/
+  size: landscape
+  image: ""
+  video: https://ucarecdn.com/99194a0b-ec35-4a95-98c3-5c3547711b49/
 carouselthumb:
   size: portrait
   image: https://ucarecdn.com/673c0179-9372-467d-ab03-458f6d88f55d/
