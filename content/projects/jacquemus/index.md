@@ -7,7 +7,7 @@ campaign_title: Jacquemus Collection
 thumb:
   size: landscape
   image: ""
-  video: https://ucarecdn.com/99194a0b-ec35-4a95-98c3-5c3547711b49/
+  video: https://ucarecdn.com/9df21f25-8159-4fb7-bd3d-b9b1012eb6ab/
 carouselthumb:
   size: portrait
   image: https://ucarecdn.com/673c0179-9372-467d-ab03-458f6d88f55d/
