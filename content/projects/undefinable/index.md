@@ -5,7 +5,7 @@ title: Undefinable
 description: Undefinable
 campaign_title: U﻿ndefinable
 thumb:
-  video: https://ucarecdn.com/1532428b-d12a-4d69-a001-ad8aee42b7b7/
+  video: https://ucarecdn.com/98f4177f-b441-497f-ac52-d4df178a8d4d/
   size: landscape
 release_date: 2022-10-04T20:04:53.606Z
 media:
