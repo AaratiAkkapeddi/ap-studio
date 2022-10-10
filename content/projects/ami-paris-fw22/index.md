@@ -1,7 +1,7 @@
 ---
 draft: false
 id: 6c46e828-43bd-43b8-9a18-1e1b3bd5802f
-title: AMI Paris FW22
+title: AMI Paris, FW22
 campaign_title: F﻿W22 Campaign
 thumb:
   video: https://ucarecdn.com/094dd7c6-daf0-42c8-a24f-795c23807d41/
