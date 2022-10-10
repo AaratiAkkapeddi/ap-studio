@@ -1,7 +1,8 @@
 ---
 draft: false
 id: 7b05a4fb-c0f7-46ca-8aeb-48ad74734c15
-title: 51 Shades of Skin Love
+title: Zara Beauty, 51 Shades of Skin Love
+description: Zara Beauty, 51 Shades of Skin Love
 campaign_title: 51 Shades of Skin Love
 thumb:
   size: portrait
