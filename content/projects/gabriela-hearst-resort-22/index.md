@@ -3,7 +3,7 @@ draft: false
 id: 83812f27-94e3-4eb8-b28c-69f266bfbec4
 title: Gabriela Hearst, Resort 22
 description: Gabriela Hearst, Resort 22
-campaign_title: Resort 22
+campaign_title: Resort 22 Lookbook
 thumb:
   image: https://ucarecdn.com/5a21bfa3-e946-418e-87fe-326d05520bd5/
   size: portrait
