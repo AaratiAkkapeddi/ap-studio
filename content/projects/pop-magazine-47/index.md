@@ -1,8 +1,8 @@
 ---
 draft: false
 id: b145a665-6ed7-460a-9fe4-877cc80da346
-title: Pop Magazine 47
-description: Pop Magazine 47
+title: Pop Magazine 47, Kendall Cover
+description: Pop Magazine 47, Kendall Cover
 campaign_title: I﻿ssue 47 Cover
 thumb:
   image: https://ucarecdn.com/5d324cf3-1802-4508-8a3f-0b05933b1773/
