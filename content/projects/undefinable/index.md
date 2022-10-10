@@ -1,8 +1,8 @@
 ---
 draft: false
 id: a694b86e-4427-4cc6-b25c-3a3955c80ab5
-title: Undefinable
-description: Undefinable
+title: Victoria's Secret, Undefinable Campaign
+description: Victoria's Secret, Undefinable Campaign
 campaign_title: U﻿ndefinable
 thumb:
   video: https://ucarecdn.com/98f4177f-b441-497f-ac52-d4df178a8d4d/
