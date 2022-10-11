@@ -13,14 +13,14 @@ carouselthumb:
   image: https://ucarecdn.com/673c0179-9372-467d-ab03-458f6d88f55d/
 release_date: 2022-06-28T20:52:52.322Z
 media:
-  - size: landscape
-    mediaVideo: https://ucarecdn.com/1e1c1813-f6e6-4df3-88c9-86411b335db3/
   - media: https://ucarecdn.com/ea06b264-3b8a-4564-9d23-518a42796bbd/
     size: portrait
   - media: https://ucarecdn.com/5a92fe73-83cf-47be-ab2f-bb1d0d4b55c7/
     size: portrait
   - size: portrait
     media: https://ucarecdn.com/a31e0b95-4bab-4dbc-bd5d-8178e4ec0aaf/
+  - size: landscape
+    mediaVideo: https://ucarecdn.com/1e1c1813-f6e6-4df3-88c9-86411b335db3/
   - size: portrait
     media: https://ucarecdn.com/79c09eb5-4cd2-4153-8f29-cdf6e95521cf/
   - media: https://ucarecdn.com/3d06a380-499e-47c9-8f5c-d359d3f1cfd6/
