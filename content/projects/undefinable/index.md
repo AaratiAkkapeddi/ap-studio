@@ -19,6 +19,7 @@ media:
     media: https://ucarecdn.com/c7f1b997-a04b-463a-ad8d-9323baae3163/
   - size: square
     media: https://ucarecdn.com/dfecba2d-1091-4ccd-9109-7e5986a95849/
+  - size: landscape
   - size: square
     media: https://ucarecdn.com/f4eaa7f2-e1fb-42f1-8851-a4a5d42be5fd/
   - size: square
