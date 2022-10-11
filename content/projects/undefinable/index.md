@@ -20,6 +20,7 @@ media:
   - size: square
     media: https://ucarecdn.com/dfecba2d-1091-4ccd-9109-7e5986a95849/
   - size: landscape
+    mediaVideo: https://ucarecdn.com/ed32312f-cb4a-40c0-acbb-98399c32b7d9/
   - size: square
     media: https://ucarecdn.com/f4eaa7f2-e1fb-42f1-8851-a4a5d42be5fd/
   - size: square
