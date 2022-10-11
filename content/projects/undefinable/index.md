@@ -25,6 +25,7 @@ media:
   - size: square
     media: https://ucarecdn.com/5bf6b6f6-8d09-49c5-95cb-881a56161daf/
   - size: landscape
+    mediaVideo: https://ucarecdn.com/c94717b9-ebc6-4572-bc5e-c865787f835b/
 clients:
   - client: bfc52b1a-84ff-40c6-8390-356fd57acd13
 artists:
