@@ -35,8 +35,6 @@ media:
     size: portrait
   - size: portrait
     media: https://ucarecdn.com/e3ac6abe-b9ab-4fa7-ba04-26826566cf76/
-  - size: portrait
-    media: https://ucarecdn.com/4f59e88c-7476-421b-b38f-4bb4d62c5af3/
   - media: https://ucarecdn.com/f033b564-c365-45b3-8203-b34c315f6646/
     size: portrait
 clients:
