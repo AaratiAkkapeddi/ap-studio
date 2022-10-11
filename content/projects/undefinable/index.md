@@ -15,14 +15,16 @@ media:
     media: https://ucarecdn.com/77cec13b-6913-41ae-9061-3f329feac807/
   - size: square
     media: https://ucarecdn.com/6deb8437-ca7d-4e6f-a7d8-458090af140a/
+  - size: landscape
+    mediaVideo: https://ucarecdn.com/a31b6d12-ee9b-478b-9da3-c090922b9b18/
   - size: square
     media: https://ucarecdn.com/c7f1b997-a04b-463a-ad8d-9323baae3163/
   - size: square
     media: https://ucarecdn.com/dfecba2d-1091-4ccd-9109-7e5986a95849/
-  - size: landscape
-    mediaVideo: https://ucarecdn.com/ed32312f-cb4a-40c0-acbb-98399c32b7d9/
   - size: square
     media: https://ucarecdn.com/f4eaa7f2-e1fb-42f1-8851-a4a5d42be5fd/
+  - size: landscape
+    mediaVideo: https://ucarecdn.com/ed32312f-cb4a-40c0-acbb-98399c32b7d9/
   - size: square
     media: https://ucarecdn.com/5bf6b6f6-8d09-49c5-95cb-881a56161daf/
   - size: landscape
