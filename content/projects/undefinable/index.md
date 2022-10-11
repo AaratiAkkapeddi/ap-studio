@@ -10,24 +10,23 @@ thumb:
 release_date: 2022-10-04T20:04:53.606Z
 media:
   - size: landscape
-  - size: landscape
     mediaVideo: https://ucarecdn.com/5f787c24-d916-4922-aaa9-31b91eb0bca2/
-  - size: square
-    media: https://ucarecdn.com/77cec13b-6913-41ae-9061-3f329feac807/
-  - size: square
-    media: https://ucarecdn.com/6deb8437-ca7d-4e6f-a7d8-458090af140a/
+  - size: portrait
+    media: https://ucarecdn.com/d542c49d-8506-4e5e-9c94-819282595200/
+  - size: portrait
+    media: https://ucarecdn.com/8cbfae01-597c-4aec-a64e-3ccea576ff65/
   - size: landscape
     mediaVideo: https://ucarecdn.com/a31b6d12-ee9b-478b-9da3-c090922b9b18/
-  - size: square
-    media: https://ucarecdn.com/c7f1b997-a04b-463a-ad8d-9323baae3163/
-  - size: square
-    media: https://ucarecdn.com/dfecba2d-1091-4ccd-9109-7e5986a95849/
-  - size: square
-    media: https://ucarecdn.com/f4eaa7f2-e1fb-42f1-8851-a4a5d42be5fd/
+  - size: portrait
+    media: https://ucarecdn.com/bf09008a-1d52-4e9a-ba73-f7479ea9aa56/
+  - size: portrait
+    media: https://ucarecdn.com/61e95b76-eebd-48a2-96c1-1c1a759eecc9/
+  - size: portrait
+    media: https://ucarecdn.com/2fda17d4-1a8b-4ce4-bd8f-ee1833e10e5d/
   - size: landscape
     mediaVideo: https://ucarecdn.com/ed32312f-cb4a-40c0-acbb-98399c32b7d9/
-  - size: square
-    media: https://ucarecdn.com/5bf6b6f6-8d09-49c5-95cb-881a56161daf/
+  - size: portrait
+    media: https://ucarecdn.com/ed67344c-d248-419c-a87c-c9b3d5e8ba07/
   - size: landscape
     mediaVideo: https://ucarecdn.com/c94717b9-ebc6-4572-bc5e-c865787f835b/
 clients:
