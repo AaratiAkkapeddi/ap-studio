@@ -11,6 +11,7 @@ release_date: 2022-10-04T20:04:53.606Z
 media:
   - size: landscape
   - size: landscape
+    mediaVideo: https://ucarecdn.com/5f787c24-d916-4922-aaa9-31b91eb0bca2/
   - size: square
     media: https://ucarecdn.com/77cec13b-6913-41ae-9061-3f329feac807/
   - size: square
