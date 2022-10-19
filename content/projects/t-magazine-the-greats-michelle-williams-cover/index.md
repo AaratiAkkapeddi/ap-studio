@@ -1,8 +1,8 @@
 ---
 draft: false
 id: 36a35561-3aed-4fbb-bee3-1ff8752f9491
-title: T Magazine, The Greats - Michelle Williams Cover
-description: T Magazine, The Greats, Michelle WIlliams
+title: T Magazine, The Greats, Michelle Williams Cover
+description: T Magazine, The Greats, Michelle Williams Cover
 campaign_title: T﻿he Greats, Michelle Williams Cover
 thumb:
   image: https://ucarecdn.com/f0a00c92-3225-419c-b69c-69fe879e8d7d/
