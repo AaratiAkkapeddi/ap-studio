@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 36a35561-3aed-4fbb-bee3-1ff8752f9491
 title: T Magazine, The Greats - Michelle Williams Cover
 description: T Magazine, The Greats, Michelle WIlliams
@@ -23,5 +23,6 @@ clients:
   - client: 703dac73-8090-4174-9b59-f8770a674a5d
 artists:
   - artist: 205a9fdf-faf5-4c7a-a255-613dd6b207e4
+  - artist: 5bbee4b4-5727-4648-b5ff-15d12816f1ef
 date: 2022-10-19T16:22:04.060Z
 ---
