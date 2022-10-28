@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: f3900275-7331-4c72-8cfe-3e51791f3292
 title: Self Service 57 The Obsessions
 description: Self Service 57 The Obsessions
