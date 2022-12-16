@@ -5,7 +5,7 @@ title: Self Service 57 The Obsessions
 description: Self Service 57 The Obsessions
 campaign_title: T﻿he Obsessions, Issue 57
 thumb:
-  image: https://ucarecdn.com/f191f118-ff09-4adc-bef6-97fe204716bd/
+  image: https://ucarecdn.com/da3f39d2-629c-41ed-a80d-4e055814116e/
   size: portrait
 release_date: 2022-10-28T19:12:52.659Z
 media:
