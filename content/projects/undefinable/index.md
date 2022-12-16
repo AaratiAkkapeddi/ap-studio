@@ -5,7 +5,7 @@ title: Victoria's Secret, Undefinable Campaign
 description: Victoria's Secret, Undefinable Campaign
 campaign_title: U﻿ndefinable
 thumb:
-  video: https://ucarecdn.com/98f4177f-b441-497f-ac52-d4df178a8d4d/
+  video: https://ucarecdn.com/c4e3fd8c-016d-4e32-90f2-65035c55fcd8/
   size: landscape
 release_date: 2022-10-04T20:04:53.606Z
 media:
