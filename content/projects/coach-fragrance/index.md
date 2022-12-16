@@ -5,7 +5,7 @@ title: Coach Fragrance
 campaign_title: M﻿en's Fragrance Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/97c54610-c739-4cc8-b8b0-ba4765d91a69/
+  video: https://ucarecdn.com/ff57ade8-209b-4f96-9602-a8439724128b/
 release_date: 2022-12-16T12:04:33.297Z
 media:
   - size: landscape
