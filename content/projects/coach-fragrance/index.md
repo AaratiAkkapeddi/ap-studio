@@ -5,16 +5,16 @@ title: Coach Fragrance
 campaign_title: M﻿en's Fragrance Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/ebcc5dc9-fb23-40c8-b171-d181ef0f3b85/
+  video: https://ucarecdn.com/97c54610-c739-4cc8-b8b0-ba4765d91a69/
 release_date: 2022-12-16T12:04:33.297Z
 media:
   - size: landscape
-    mediaVideo: https://ucarecdn.com/56214d58-ee31-4164-977a-691805cebd7f/
+    mediaVideo: https://ucarecdn.com/0d77bc01-db7c-4bcc-b9ce-2cc573447e95/
   - size: landscape
     media: https://ucarecdn.com/5d3f941f-1576-4d8a-ba58-b0b99c3816c6/
   - size: landscape
-    media: https://ucarecdn.com/0d9eaa14-2e3d-4a5a-9532-876c34a88371/
-    mediaVideo: https://ucarecdn.com/a3af0789-5d60-4927-b165-2e6d44b67ed9/
+    media: ""
+    mediaVideo: https://ucarecdn.com/6629a0c5-a70f-4066-bdc8-4605f3127ce3/
   - size: landscape
     media: https://ucarecdn.com/89003bc1-68e5-4f1d-a96f-853566e1ff33/
 clients:
