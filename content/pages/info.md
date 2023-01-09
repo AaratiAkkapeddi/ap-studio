@@ -11,13 +11,11 @@ contact: |-
 
   <br>\
   Marie Godeau Robinson, Partner & Executive Producer\
-  marie@apstudio-inc.com
+  [marie@apstudio-inc.com](Mailto:marie@apstudio-inc.com)
 
   <br>\
   Margaux Godeau, Managing Director Europe\
   [margaux@apstudio-inc.com](Mailto:margaux@apstudio-inc.com)
-
-
 
   <br>\
   General Inquiries \
