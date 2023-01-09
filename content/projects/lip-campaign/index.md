@@ -6,6 +6,9 @@ campaign_title: L﻿ip Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/641f01e7-1fc4-401f-b932-fd676844991c/
+carouselthumb:
+  size: portrait
+  image: https://ucarecdn.com/0ff184b4-0014-4d6b-9d4c-6558c997792f/
 release_date: 2022-10-06T16:50:35.976Z
 media:
   - size: portrait
