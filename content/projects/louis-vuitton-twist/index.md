@@ -7,8 +7,9 @@ thumb:
   video: https://ucarecdn.com/46d4b0b4-910a-4e3a-a373-f8933cdbe523/
   size: landscape
 carouselthumb:
-  video: https://ucarecdn.com/c6e040ea-ab88-40b5-99db-f80525c316d5/
+  video: ""
   size: landscape
+  image: https://ucarecdn.com/b0b12293-323f-4bcf-bf14-a23145b39c5d/
 release_date: 2022-10-25T17:29:50.751Z
 media:
   - size: landscape
