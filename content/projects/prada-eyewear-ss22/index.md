@@ -6,6 +6,9 @@ campaign_title: Eyewear Campaign
 thumb:
   size: landscape
   image: https://ucarecdn.com/332beb62-6c47-432f-afc7-e4589d473af9/
+carouselthumb:
+  size: portrait
+  image: https://ucarecdn.com/e173749a-9860-4676-a741-41b6198e632a/
 release_date: 2022-02-22T16:47:14.133Z
 notes: ""
 media:
