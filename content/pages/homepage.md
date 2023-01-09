@@ -4,10 +4,12 @@ intro: AP Studio, Inc is an integrated creative production studio offering
   full-service production, including art buying and casting, for editorial and
   commercial shoots of all sizes, covering both stills and motion.
 projects:
-  - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
-  - project: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
-  - project: b874dadd-c4c9-4ee6-a75e-0fd8eede593e
-  - project: 12b58ec5-36e5-4b56-bd1d-b279f535a35b
+  - project: 4cedf371-2de7-48ae-a336-1f74a06ca369
+  - project: a227b29f-c5e5-4860-b151-24d97d706e13
+  - project: bfd39077-0537-413f-8175-a9c2dc9fc421
+  - project: e603d099-c48f-492b-b380-2d7dbe913980
+  - project: 2c7834ff-2d1d-44ef-9c60-85129eb08599
+  - project: a0474a07-3a0f-44ca-951c-42b22b430d86
 featured_projects:
   - project: a227b29f-c5e5-4860-b151-24d97d706e13
   - project: 89539f25-6cd2-490e-920b-36bd5f6cfc8f
