@@ -15,6 +15,9 @@ const BlogIndex = ({ data, location }) => {
     return formatted
   }
   posts = posts.reverse()
+  if(typeof window != `undefined`){
+    window.location.href = '/'
+  }
   return (
     <Layout data={data} location={location} title={siteTitle}>
       <Seo title="AP Studio | Home" />
