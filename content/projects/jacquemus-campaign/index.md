@@ -5,7 +5,7 @@ title: Jacquemus Campaign
 campaign_title: J﻿acquemus Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/b1e6b8d8-8b68-40ae-99d7-47bd7f074346/
+  video: https://ucarecdn.com/426b7e8d-dbb3-4e17-a774-e0205141b44f/
 carouselthumb:
   size: portrait
   image: https://ucarecdn.com/32230fba-e26a-409f-a29c-6ce0a627b43c/
