@@ -6,6 +6,6 @@ address: |-
   75002
 
   P﻿aris
-latitude: "48.8648276"
-longitude: "2.3458948"
+latitude: "-48.864910217837846"
+longitude: "2.345885931348377"
 ---
