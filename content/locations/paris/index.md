@@ -2,10 +2,10 @@
 title: Paris
 name: Paris
 address: |-
-  40 Rue du Louvre
-  75001 
+  62 Rue Tiquetonne\
+  75002
 
-  Paris
-latitude: "48.8626845"
-longitude: "2.3419169"
+  P﻿aris
+latitude: "48.8648276"
+longitude: "2.3458948"
 ---
