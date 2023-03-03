@@ -1,7 +1,7 @@
 ---
 draft: false
 id: e603d099-c48f-492b-b380-2d7dbe913980
-title: Lip Campaign
+title: Rhode, Lip Campaign
 campaign_title: L﻿ip Campaign
 thumb:
   size: portrait
