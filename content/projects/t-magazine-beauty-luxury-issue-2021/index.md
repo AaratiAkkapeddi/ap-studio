@@ -15,7 +15,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/d5120016-9792-419b-98bc-b65088baf144/
 clients:
-  - client: T Magazine
+  - client: 6cc1de1c-ffc9-4e22-8c1b-238f41a65d7b
 artists:
   - artist: Philip-Daniel Ducasse
   - artist: Carlos Nazario
