@@ -49,7 +49,7 @@ media:
   - media: https://ucarecdn.com/6bfde6ac-afbb-43fd-b787-51737da0a688/
     size: portrait
 clients:
-  - client: M Magazine
+  - client: e569a382-a71e-4213-95d4-09720d2eb352
 artists:
   - artist: David Sims
 locations:
