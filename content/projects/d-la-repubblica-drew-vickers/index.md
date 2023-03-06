@@ -1,7 +1,7 @@
 ---
 draft: true
 id: d0d2386f-13ba-4b8b-9545-9ac3ef680ac1
-title: d la Repubblica, Drew Vickers
+title: D la Repubblica, Drew Vickers
 campaign_title: The Fashion Issue Volume II, Rêverie
 thumb:
   size: portrait
