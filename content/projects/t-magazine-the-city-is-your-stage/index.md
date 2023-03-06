@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 9d07ce8c-1fbf-4499-9dab-e5b73559e4e9
 title: T Magazine, The City Is Your Stage
 campaign_title: The City Is Your Stage
