@@ -1,9 +1,9 @@
 ---
 draft: false
 id: 4ab8b9e6-3761-4d4b-8ce9-ada3f97301df
-title: The Face
+title: The Face, Dream Deferred
 description: The Face
-campaign_title: '"Dream Deferred"'
+campaign_title: Dream Deferred
 thumb:
   image: https://ucarecdn.com/62353e2a-5977-47d2-9df1-0563722e03eb/
   size: portrait
