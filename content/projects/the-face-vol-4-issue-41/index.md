@@ -3,7 +3,7 @@ draft: false
 id: 34c02532-d5e9-4e9e-ab96-eb94d86d0eb7
 title: "The Face, Vol 4, Issue 41 "
 description: "The Face, Vol 4, Issue 41 "
-campaign_title: The Face, Vol 4, Issue 41
+campaign_title: Vol 4, Issue 41
 thumb:
   image: https://ucarecdn.com/25d4945f-c492-4adc-8b51-40c5eca41c3d/
   size: portrait
