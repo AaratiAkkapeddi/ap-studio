@@ -5,6 +5,7 @@ featured_projects:
   - project: ad94f5bc-0cb0-45dc-bfdb-1f6ebd5d1592
   - project: db48bb3c-ce7c-46ea-9415-cca8111dce4a
   - project: a227b29f-c5e5-4860-b151-24d97d706e13
+  - project: 37f4d687-650d-49b7-a260-59c9c2c04b93
   - project: f703f1d5-7d05-4d88-aa47-10ba9d777120
   - project: e58d4502-aee8-44b7-a82c-1dd9c2d48611
   - project: 89539f25-6cd2-490e-920b-36bd5f6cfc8f
