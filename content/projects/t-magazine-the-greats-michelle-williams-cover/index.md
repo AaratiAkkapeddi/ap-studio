@@ -20,7 +20,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/20e0f622-b560-4786-8c66-ff888ad2eb07/
 clients:
-  - client: 703dac73-8090-4174-9b59-f8770a674a5d
+  - client: 6cc1de1c-ffc9-4e22-8c1b-238f41a65d7b
 artists:
   - artist: 205a9fdf-faf5-4c7a-a255-613dd6b207e4
   - artist: 5bbee4b4-5727-4648-b5ff-15d12816f1ef
