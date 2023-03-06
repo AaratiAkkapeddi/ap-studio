@@ -29,7 +29,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/b2e0f0cf-fd62-4898-b1f1-ee6907f44608/
 clients:
-  - client: T Magazine
+  - client: 6cc1de1c-ffc9-4e22-8c1b-238f41a65d7b
 artists:
   - artist: Matt Holmes
   - artist: fca81b1c-ec62-4b4c-9faa-3bfa9d4e459b
