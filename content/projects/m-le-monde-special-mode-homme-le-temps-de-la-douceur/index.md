@@ -34,7 +34,7 @@ media:
   - size: landscape
     media: https://ucarecdn.com/381d3cef-69e7-4777-878b-a5a3f5f24de5/
 clients:
-  - client: M Magazine
+  - client: e569a382-a71e-4213-95d4-09720d2eb352
 artists:
   - artist: Oliver Hadlee Pearch
   - artist: Carlos Nazario
