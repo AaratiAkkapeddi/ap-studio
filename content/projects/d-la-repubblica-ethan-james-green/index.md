@@ -5,7 +5,8 @@ title: D la Repubblica, Ethan James Green
 campaign_title: T﻿he Fashion Issue Volume II, Fine Line
 thumb:
   size: portrait
-  video: https://ucarecdn.com/87ff3ed2-89bf-4781-9455-0470819ea214/
+  video: ""
+  image: https://ucarecdn.com/85c3a7e2-beff-4cb2-8429-a15d35059d6e/
 release_date: 2023-03-06T20:15:27.963Z
 media:
   - size: portrait
