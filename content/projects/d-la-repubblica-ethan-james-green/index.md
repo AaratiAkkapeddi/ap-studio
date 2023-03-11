@@ -45,7 +45,7 @@ media:
 clients:
   - client: bfe43744-50d7-43b0-a077-0e5e201b12b2
 artists:
-  - artist: de9c0f9f-6f12-4e57-b4d2-270d4f12103c
+  - artist: 847c0ddb-95f9-4754-abed-e2382ca300c4
   - artist: 3fb57b7e-4cf9-470f-9dbd-119090233199
 date: 2023-03-06T20:15:27.969Z
 ---
