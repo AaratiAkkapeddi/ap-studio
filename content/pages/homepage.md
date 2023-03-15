@@ -54,12 +54,13 @@ clients:
   - client: Nike
   - client: Louis Vuitton
   - client: YSL Beauty
-  - client: Hood By Air
   - client: Off White ®
   - client: Vogue Italia
   - client: 96921bfd-9d5a-45a7-bc68-cccd724923ea
   - client: 814ad41a-c249-4fab-a97b-488a161db585
   - client: 8f62456c-0728-4c2a-a327-1b13ae740209
+  - client: 52214008-d81d-4de8-9707-6e2bae2cffe9
+  - client: 05b88e9e-1ad4-467f-90fa-5cd8d8af138e
 artists:
   - artist: Alastair McKimm
   - artist: American Vogue Editors
@@ -81,5 +82,6 @@ artists:
   - artist: Tyler Mitchell
   - artist: 847c0ddb-95f9-4754-abed-e2382ca300c4
   - artist: 1e0c92de-ee4f-459d-9a45-54100d42f862
+  - artist: be32a694-1cec-403c-9904-6427d4ad30ac
   - artist: be32a694-1cec-403c-9904-6427d4ad30ac
 ---
