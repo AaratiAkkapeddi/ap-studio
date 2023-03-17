@@ -4,8 +4,8 @@ id: ae5a6ab3-a660-4d0a-a82a-3a0e4ceef985
 title: Marc Jacobs SS23
 campaign_title: S﻿S23 Campaign
 thumb:
-  size: portrait
-  image: https://ucarecdn.com/1023b6a4-9dd6-4dc3-bf19-800b7cf88604/
+  size: landscape
+  image: https://ucarecdn.com/8f2aac1d-cb9a-4af9-a20f-a6af559bd831/
 carouselthumb:
   size: portrait
   image: https://ucarecdn.com/77308668-9725-4723-8d1f-1c980ab0b595/
