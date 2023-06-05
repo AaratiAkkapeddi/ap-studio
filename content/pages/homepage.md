@@ -7,8 +7,8 @@ projects:
   - project: 4cedf371-2de7-48ae-a336-1f74a06ca369
   - project: a227b29f-c5e5-4860-b151-24d97d706e13
   - project: bfd39077-0537-413f-8175-a9c2dc9fc421
-  - project: e603d099-c48f-492b-b380-2d7dbe913980
   - project: e74d111f-8e52-4840-916c-4417dcbbd91b
+  - project: e603d099-c48f-492b-b380-2d7dbe913980
   - project: a0474a07-3a0f-44ca-951c-42b22b430d86
   - project: ae5a6ab3-a660-4d0a-a82a-3a0e4ceef985
 featured_projects:
