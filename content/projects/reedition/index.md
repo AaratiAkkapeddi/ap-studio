@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: a659d528-052e-4cca-a109-7df68233fe96
 title: Reedition
 campaign_title: S﻿S23 Cover
