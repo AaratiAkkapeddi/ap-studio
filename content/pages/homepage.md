@@ -9,8 +9,8 @@ projects:
   - project: bfd39077-0537-413f-8175-a9c2dc9fc421
   - project: e74d111f-8e52-4840-916c-4417dcbbd91b
   - project: e603d099-c48f-492b-b380-2d7dbe913980
-  - project: a0474a07-3a0f-44ca-951c-42b22b430d86
   - project: ae5a6ab3-a660-4d0a-a82a-3a0e4ceef985
+  - project: a0474a07-3a0f-44ca-951c-42b22b430d86
 featured_projects:
   - project: e74d111f-8e52-4840-916c-4417dcbbd91b
   - project: ae5a6ab3-a660-4d0a-a82a-3a0e4ceef985
