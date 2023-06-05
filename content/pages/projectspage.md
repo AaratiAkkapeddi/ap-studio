@@ -1,5 +1,6 @@
 ---
 featured_projects:
+  - project: e74d111f-8e52-4840-916c-4417dcbbd91b
   - project: d0d2386f-13ba-4b8b-9545-9ac3ef680ac1
   - project: 9d07ce8c-1fbf-4499-9dab-e5b73559e4e9
   - project: ad94f5bc-0cb0-45dc-bfdb-1f6ebd5d1592
