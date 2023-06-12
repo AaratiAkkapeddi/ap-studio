@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 0b78ab47-8b2f-46b5-b808-670e160035f9
 title: ID Summer 2023
 campaign_title: S﻿ummer 2023 Cover
