@@ -13,10 +13,10 @@ release_date: 2023-08-21T17:37:34.605Z
 media:
   - size: square
     media: https://ucarecdn.com/bb73c032-ab9a-4ee4-89a4-5a2920fdc532/
-  - size: portrait
-    media: https://ucarecdn.com/12be3e86-47be-48b8-a1ff-85d8041e0fe8/
   - size: square
     media: https://ucarecdn.com/bbc474dd-9bcf-46d8-8b7a-446a236f8387/
+  - size: portrait
+    media: https://ucarecdn.com/12be3e86-47be-48b8-a1ff-85d8041e0fe8/
   - size: square
     media: https://ucarecdn.com/6687b01e-8ca1-409e-ab00-ff105d21d13f/
   - size: portrait
