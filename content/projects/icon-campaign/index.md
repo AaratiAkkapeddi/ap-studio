@@ -8,7 +8,7 @@ thumb:
   image: https://ucarecdn.com/a7fe3cfe-e613-43cb-b2f7-de566f1203a8/
 carouselthumb:
   size: landscape
-  image: https://ucarecdn.com/871fae03-6df6-4aee-8c2f-c9218246c191/
+  image: https://ucarecdn.com/95f590ff-cbcc-4077-8774-a6c012cb4c1d/
 release_date: 2023-08-21T17:37:34.605Z
 media:
   - size: square
