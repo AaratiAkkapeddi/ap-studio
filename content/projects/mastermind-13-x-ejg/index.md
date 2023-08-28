@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: bc2324f4-c247-498a-a751-b8af77b40ad2
 title: Mastermind 13 x EJG
 campaign_title: M﻿astermind 13
