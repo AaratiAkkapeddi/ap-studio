@@ -31,6 +31,10 @@ media:
     media: https://ucarecdn.com/0da4ffb7-ce02-46b2-9b95-f4250cc53a24/
   - size: portrait
     media: https://ucarecdn.com/a6155381-5aa8-4640-99dc-68c7239c9e9a/
-clients: []
+clients:
+  - client: cfd47eb0-3bef-4853-ad5d-f8b95f1c6751
+artists:
+  - artist: 309fee2f-1f63-440f-b435-63685c23c15e
+  - artist: 6d5697fc-d168-44d2-841e-b8f22804f845
 date: 2023-08-28T19:15:36.926Z
 ---
