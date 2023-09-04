@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 87a980d3-ae17-400d-8354-999ec8ece0d9
 title: Cero Magazine, New York Issue
 campaign_title: N﻿ew York Issue
