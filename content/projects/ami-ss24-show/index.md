@@ -12,12 +12,12 @@ media:
   - size: portrait
     media: https://ucarecdn.com/bcd39281-b4fa-407d-a2bb-fa8077aade7b/
   - size: portrait
-    mediaVideo: https://ucarecdn.com/de7c9b00-d7a9-4c89-862b-22f2f3495349/
+    mediaVideo: https://ucarecdn.com/3436ffdf-73b6-4a8d-b3ec-59b168b1b830/
   - size: portrait
     media: https://ucarecdn.com/9e7f064c-8781-4c1b-a67f-6342e6b2e338/
   - size: portrait
     media: https://ucarecdn.com/dd4432ee-ee51-467f-a498-d7c0d3cbd572/
-  - mediaVideo: https://ucarecdn.com/a9ce123e-78a0-4f3e-bc83-efb462fd5fa7/
+  - mediaVideo: https://ucarecdn.com/165bbbde-f3b0-475d-8d61-109d869bd8a4/
     size: portrait
   - size: portrait
     media: https://ucarecdn.com/d4d4667f-c79c-4b56-b86a-9e4b5e305377/
