@@ -33,5 +33,9 @@ media:
     mediaVideo: https://ucarecdn.com/9ce90c84-5e25-42c1-89ff-bf25e01a71f9/
 clients:
   - client: 8f62456c-0728-4c2a-a327-1b13ae740209
+artists:
+  - artist: 6d0e902d-d216-4ba2-ad94-bed8a79fa1fb
+  - artist: 43f07d8e-dd4a-4b3f-a925-25121cd367b4
+  - artist: 6ed2e003-24cb-4ab8-be0b-dc153c8a93e7
 date: 2023-09-04T15:05:41.235Z
 ---
