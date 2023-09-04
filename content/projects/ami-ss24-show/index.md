@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 3775d210-885c-446c-a316-b299f032e73f
 title: AMI, SS24 Show
 campaign_title: A﻿MI Paris, SS24 Show
