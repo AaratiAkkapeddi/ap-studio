@@ -6,6 +6,7 @@ campaign_title: A﻿MI Paris, SS24 Show
 thumb:
   image: https://ucarecdn.com/90a630a6-0634-4a31-ac9c-cd0d620acee3/
   size: portrait
+  video: https://ucarecdn.com/05784bab-da8d-4ffa-8674-32001c300332/
 release_date: 2023-09-04T15:05:41.230Z
 media:
   - size: portrait
