@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 679fe448-5762-4b95-87e6-a99e717f857a
 title: Theory, Summer on the Street
 campaign_title: S﻿ummer on the Street
