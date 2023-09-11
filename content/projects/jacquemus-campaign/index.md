@@ -1,7 +1,7 @@
 ---
 draft: false
 id: ad94f5bc-0cb0-45dc-bfdb-1f6ebd5d1592
-title: Jacquemus Campaign
+title: Jacquemus x Tekla Campaign
 campaign_title: Tekla Fabrics Campaign
 thumb:
   size: landscape
