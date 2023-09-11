@@ -28,6 +28,7 @@ media:
     media: https://ucarecdn.com/f8e1d3ec-815f-4367-839c-59075e332666/
 clients:
   - client: 9bf3b80c-b5e6-4d6d-8240-b8ae271dc278
+  - client: 764b705b-6aa5-4b25-9dd8-a490f95737ba
 artists:
   - artist: 6b46421c-b754-42e6-9e86-de8296bf9c11
 date: 2023-01-10T21:18:06.505Z
