@@ -8,7 +8,7 @@ thumb:
   video: https://ucarecdn.com/42bb4d05-a22b-4630-95e3-574b8370d676/
 release_date: 2023-09-11T22:47:23.920Z
 media:
-  - media: https://ucarecdn.com/22c55cbf-126a-47ae-a301-7850e25f76ec/
+  - media: https://ucarecdn.com/b8a5ca21-4c32-47b2-b244-17c147a2fc99/
     size: portrait
   - size: portrait
     mediaVideo: https://ucarecdn.com/dd25855b-f71e-44d0-99bd-b240a5cd4166/
