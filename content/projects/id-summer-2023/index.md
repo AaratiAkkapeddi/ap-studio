@@ -1,7 +1,7 @@
 ---
 draft: false
 id: 0b78ab47-8b2f-46b5-b808-670e160035f9
-title: i-D Summer 2023
+title: i-D Summer 2023, Anna Ewers
 campaign_title: S﻿ummer 2023 Cover, Anna Ewers
 thumb:
   size: portrait
