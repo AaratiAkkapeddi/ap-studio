@@ -2,7 +2,7 @@
 draft: false
 id: ad94f5bc-0cb0-45dc-bfdb-1f6ebd5d1592
 title: Jacquemus Campaign
-campaign_title: J﻿acquemus Campaign
+campaign_title: Tekla Fabrics Campaign
 thumb:
   size: landscape
   video: https://ucarecdn.com/426b7e8d-dbb3-4e17-a774-e0205141b44f/
