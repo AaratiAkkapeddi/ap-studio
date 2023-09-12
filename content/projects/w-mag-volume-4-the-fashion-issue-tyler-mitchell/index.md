@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 8e6ac15e-9896-4219-8319-eacf9253f1bc
 title: W Mag, Volume 4 The Fashion Issue - Tyler Mitchell
 campaign_title: The Fashion Issue, The Line of Beauty
