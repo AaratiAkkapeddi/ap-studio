@@ -5,7 +5,7 @@ title: Marc Jacobs Fall 2023 - Kim Kardashian
 campaign_title: FW23 Campaign
 thumb:
   size: portrait
-  image: https://ucarecdn.com/a131e0ee-88ce-47ee-a717-82701af39a24/
+  image: https://ucarecdn.com/255d468b-db31-4e2c-97a9-320f41d5c6af/
 release_date: 2023-09-12T15:29:41.391Z
 media:
   - size: portrait
