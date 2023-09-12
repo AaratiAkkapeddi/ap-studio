@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 6dc802fd-d52c-4cb1-ab58-ee5d10d406b6
 title: Louis Vuitton Men's New Formal
 campaign_title: Men's New Formal Campaign
