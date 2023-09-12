@@ -5,7 +5,7 @@ title: Louis Vuitton Men's New Formal
 campaign_title: Men's New Formal Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/6bc97e53-97bd-4eeb-8ebe-d65d63196a4d/
+  video: https://ucarecdn.com/d84f9766-aa09-4488-8ce5-e69f67d726cd/
 release_date: 2023-09-12T14:59:10.449Z
 media:
   - size: portrait
@@ -13,7 +13,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/bbdbf80a-9058-4888-ac96-c1f8fff7f591/
   - size: landscape
-    mediaVideo: https://ucarecdn.com/24bfdaf1-d788-4440-ab2a-55a90dc55e97/
+    mediaVideo: https://ucarecdn.com/e114c6d5-34d7-48ed-8364-a4895929fc53/
   - size: portrait
     media: https://ucarecdn.com/8af27c3e-1afc-488b-b12c-51d13bd85188/
   - size: portrait
