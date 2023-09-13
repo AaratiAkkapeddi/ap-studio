@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: acce10f9-0d25-4d6b-9e11-527065520f27
 title: Jacquemus Chouchou
 campaign_title: L﻿e Chouchou
