@@ -6,6 +6,8 @@ campaign_title: Men's New Formal Campaign
 thumb:
   size: landscape
   video: https://ucarecdn.com/c58d62a4-bf62-4430-9b5f-ff510c53cf82/
+carouselthumb:
+  image: https://ucarecdn.com/682be695-3fc9-4059-88b3-9a41137b5f06/
 release_date: 2023-09-12T14:59:10.449Z
 media:
   - size: portrait
