@@ -6,6 +6,9 @@ campaign_title: F﻿W23 Campaign
 thumb:
   size: portrait
   image: https://ucarecdn.com/63036a1a-cf91-487c-a781-272eeecc4e78/
+  video: https://ucarecdn.com/6c0ec76b-ae2a-4538-a932-642a0f09d84b/
+carouselthumb:
+  image: https://ucarecdn.com/a5832193-4873-4e79-bc50-85d68967fc77/
 release_date: 2023-09-12T18:20:11.645Z
 media:
   - size: portrait
