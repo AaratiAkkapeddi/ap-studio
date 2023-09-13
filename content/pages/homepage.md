@@ -21,14 +21,11 @@ featured_projects:
   - project: ae5a6ab3-a660-4d0a-a82a-3a0e4ceef985
   - project: e74d111f-8e52-4840-916c-4417dcbbd91b
   - project: 89539f25-6cd2-490e-920b-36bd5f6cfc8f
-  - project: a659d528-052e-4cca-a109-7df68233fe96
-  - project: 4cedf371-2de7-48ae-a336-1f74a06ca369
   - project: a227b29f-c5e5-4860-b151-24d97d706e13
-  - project: a694b86e-4427-4cc6-b25c-3a3955c80ab5
-  - project: c44fd00e-fe54-4381-bd64-6ebf9d9c3de2
+  - project: 4cedf371-2de7-48ae-a336-1f74a06ca369
+  - project: 8e6ac15e-9896-4219-8319-eacf9253f1bc
   - project: dd381fa3-7f44-4976-ab5d-b1799f96fff4
   - project: eac92f86-8dc3-4c0c-bd01-3184d939c129
-  - project: 8e6ac15e-9896-4219-8319-eacf9253f1bc
 mobile_featured_projects:
   - project: e74d111f-8e52-4840-916c-4417dcbbd91b
   - project: a694b86e-4427-4cc6-b25c-3a3955c80ab5
