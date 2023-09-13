@@ -5,7 +5,10 @@ title: Tiffany Lock Campaign
 campaign_title: L﻿ock Campaign
 thumb:
   size: landscape
-  video: https://ucarecdn.com/2781e466-0dfa-49c1-8ac9-8d3b86051830/
+  video: https://ucarecdn.com/6956e5d8-3af7-4805-8743-4954e99a8ab2/
+carouselthumb:
+  image: https://ucarecdn.com/de7e2a57-dfe0-423a-9de3-6d2502bfb4e1/
+  size: portrait
 release_date: 2023-09-11T22:47:23.920Z
 media:
   - media: https://ucarecdn.com/b8a5ca21-4c32-47b2-b244-17c147a2fc99/
