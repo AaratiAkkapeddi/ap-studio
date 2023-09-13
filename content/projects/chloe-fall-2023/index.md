@@ -5,7 +5,7 @@ title: Chloe Fall 2023
 campaign_title: F﻿W23 Campaign
 thumb:
   size: portrait
-  video: https://ucarecdn.com/dbd72603-9117-4d60-a772-aed1fb2d0b8b/
+  video: https://ucarecdn.com/71e6d692-579f-4658-a242-354d45da5901/
   image: https://ucarecdn.com/4a82f047-c8a1-436b-abb5-85b32b7a0773/
 carouselthumb:
   size: portrait
