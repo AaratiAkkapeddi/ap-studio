@@ -4,7 +4,7 @@ id: 4bc35314-6461-4791-99d1-c04bccc6fe2d
 title: i-D Summer 2023, Irina Shayk
 campaign_title: S﻿ummer 2023 Cover, Irina Shayk
 thumb:
-  size: portrait
+  size: landscape
   image: https://ucarecdn.com/f3bb654f-5af7-46ee-8b8a-4ebe288f8b04/
 release_date: 2023-09-11T20:30:23.709Z
 media:
