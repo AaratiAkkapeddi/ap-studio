@@ -5,10 +5,10 @@ title: ICON Campaign
 campaign_title: I﻿con Campaign
 thumb:
   size: square
-  image: https://ucarecdn.com/a7fe3cfe-e613-43cb-b2f7-de566f1203a8/
+  image: https://ucarecdn.com/d64e9553-16ef-4b2d-82e1-dd5ea07536ee/
 carouselthumb:
-  size: landscape
-  image: https://ucarecdn.com/95f590ff-cbcc-4077-8774-a6c012cb4c1d/
+  size: portrait
+  image: https://ucarecdn.com/28e3224e-beff-4906-9c70-8eb5354565b3/
 release_date: 2023-08-21T17:37:34.605Z
 media:
   - size: square
