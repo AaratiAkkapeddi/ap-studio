@@ -5,7 +5,7 @@ title: W Magazine, TV Portfolio 2023
 campaign_title: TV Portfolio 2023
 thumb:
   image: https://ucarecdn.com/a9df39cb-9131-44a8-b31b-3d23da671308/
-  size: portrait
+  size: landscape
 release_date: 2023-09-11T21:27:57.341Z
 media:
   - size: portrait
