@@ -23,19 +23,17 @@ featured_projects:
   - project: 8e6ac15e-9896-4219-8319-eacf9253f1bc
   - project: dd381fa3-7f44-4976-ab5d-b1799f96fff4
 mobile_featured_projects:
-  - project: e74d111f-8e52-4840-916c-4417dcbbd91b
-  - project: a694b86e-4427-4cc6-b25c-3a3955c80ab5
-  - project: 6c46e828-43bd-43b8-9a18-1e1b3bd5802f
-  - project: a13b9a3c-1241-47be-b9ab-a9fa9188df57
-  - project: a0474a07-3a0f-44ca-951c-42b22b430d86
-  - project: 34c6696d-e228-4e49-a3ea-cfaae6d28bb1
-  - project: 7b05a4fb-c0f7-46ca-8aeb-48ad74734c15
-  - project: 9816860c-8d56-4195-9409-4667a96b3323
-  - project: 12b58ec5-36e5-4b56-bd1d-b279f535a35b
-  - project: 50673f05-8fb6-4ced-b63d-a52b975d1b2a
-  - project: 41ec28c8-2b32-469e-9bd0-dd0aad6ca67d
-  - project: b874dadd-c4c9-4ee6-a75e-0fd8eede593e
-  - project: 23e6f7c4-4ff4-44dc-ae1b-7255d251c642
+  - project: 756d58f7-fa80-4f42-af0f-a9240e329a37
+  - project: dfbb83d0-488f-4f03-98cd-da269bdd690b
+  - project: 09302db6-ab91-4e35-8f77-1f6d53d0bccf
+  - project: 6dc802fd-d52c-4cb1-ab58-ee5d10d406b6
+  - project: 594e1abe-ce99-4f1e-88a3-3a4ff17d282c
+  - project: eac92f86-8dc3-4c0c-bd01-3184d939c129
+  - project: 4bc35314-6461-4791-99d1-c04bccc6fe2d
+  - project: 89539f25-6cd2-490e-920b-36bd5f6cfc8f
+  - project: acce10f9-0d25-4d6b-9e11-527065520f27
+  - project: 8e6ac15e-9896-4219-8319-eacf9253f1bc
+  - project: dd381fa3-7f44-4976-ab5d-b1799f96fff4
 clients:
   - client: American Vogue
   - client: Dior
