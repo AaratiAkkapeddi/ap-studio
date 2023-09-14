@@ -5,7 +5,7 @@ title: Jacquemus Chouchou
 campaign_title: L﻿e Chouchou
 thumb:
   image: ""
-  size: portrait
+  size: landscape
   video: https://ucarecdn.com/d26192d9-2673-4cef-94da-38ba9f208d68/
 carouselthumb:
   size: portrait
