@@ -78,6 +78,5 @@ artists:
   - artist: 847c0ddb-95f9-4754-abed-e2382ca300c4
   - artist: 1e0c92de-ee4f-459d-9a45-54100d42f862
   - artist: be32a694-1cec-403c-9904-6427d4ad30ac
-  - artist: be32a694-1cec-403c-9904-6427d4ad30ac
   - artist: 25247843-1b48-4dd2-9f4c-680d6a74018e
 ---
