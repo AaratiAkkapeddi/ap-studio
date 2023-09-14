@@ -6,7 +6,7 @@ campaign_title: L﻿e Chouchou
 thumb:
   image: ""
   size: portrait
-  video: https://ucarecdn.com/3082103d-22a4-46f2-850f-0541c9c8778b/
+  video: https://ucarecdn.com/f243484e-74b6-4243-8f0c-8243885bc5cd/
 carouselthumb:
   size: portrait
   image: ""
