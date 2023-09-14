@@ -4,8 +4,8 @@ id: dd381fa3-7f44-4976-ab5d-b1799f96fff4
 title: Off White Fall 2023
 campaign_title: F﻿W23 Campaign
 thumb:
-  size: portrait
-  image: https://ucarecdn.com/63036a1a-cf91-487c-a781-272eeecc4e78/
+  size: landscape
+  image: ""
   video: https://ucarecdn.com/4a9ad26e-70e1-48cd-af79-e8fec9a40657/
 carouselthumb:
   image: https://ucarecdn.com/4969aac1-e15b-42d7-b4e5-58ab3967831e/
