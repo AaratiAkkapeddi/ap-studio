@@ -48,7 +48,7 @@ media:
   - size: portrait
     media: https://ucarecdn.com/ff7f14ca-265d-420e-8c95-5222d80bb5c7/
   - size: square
-    media: https://ucarecdn.com/7e6db36c-2bbd-4ab2-8ccc-40ccdfa6144e/
+    media: https://ucarecdn.com/4837bf7b-3d48-409d-b4db-ebf95ff5b10d/
   - size: portrait
     media: https://ucarecdn.com/16a194e0-1b1a-44c3-a844-de1c5814a9f1/
   - size: portrait
