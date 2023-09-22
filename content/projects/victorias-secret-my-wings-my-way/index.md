@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 7438ea21-49fc-4d24-b1ff-e5fa5280d847
 title: Victoria's Secret, My Wings My Way
 campaign_title: M﻿y Wings, My Way
