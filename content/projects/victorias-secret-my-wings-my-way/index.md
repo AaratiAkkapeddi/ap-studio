@@ -11,6 +11,8 @@ carouselthumb:
   image: https://ucarecdn.com/b3ab9223-4bd4-4358-af69-8e0d216367c3/
 release_date: 2023-09-22T21:29:42.148Z
 media:
+  - size: landscape
+    mediaVideo: https://ucarecdn.com/4f890ee3-72fc-4de2-bf69-e642016e18de/
   - size: portrait
     media: https://ucarecdn.com/59f8d0ef-3273-455b-9e55-706675c30889/
   - size: portrait
