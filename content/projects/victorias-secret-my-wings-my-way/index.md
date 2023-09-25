@@ -4,8 +4,8 @@ id: 7438ea21-49fc-4d24-b1ff-e5fa5280d847
 title: Victoria's Secret, My Wings My Way
 campaign_title: M﻿y Wings, My Way
 thumb:
-  size: portrait
-  video: https://ucarecdn.com/6a90656e-9ccf-48ca-b9ee-cf1e362be5ba/
+  size: landscape
+  video: https://ucarecdn.com/7eae71c1-21e3-4edf-bb2e-70c11594e85e/
 carouselthumb:
   size: portrait
   image: https://ucarecdn.com/b3ab9223-4bd4-4358-af69-8e0d216367c3/
