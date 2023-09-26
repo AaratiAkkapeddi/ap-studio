@@ -14,8 +14,6 @@ media:
   - size: landscape
     mediaVideo: https://ucarecdn.com/26dcab53-b123-47c0-bb76-7cdd68c504ec/
     media_name: ""
-  - size: landscape
-    mediaVideo: https://ucarecdn.com/4f890ee3-72fc-4de2-bf69-e642016e18de/
   - size: portrait
     media: https://ucarecdn.com/59f8d0ef-3273-455b-9e55-706675c30889/
   - size: portrait
