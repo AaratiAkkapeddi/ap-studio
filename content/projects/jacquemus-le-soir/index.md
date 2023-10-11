@@ -5,10 +5,10 @@ title: Jacquemus, Le Soir
 campaign_title: L﻿e Soir
 thumb:
   size: landscape
-  image: https://ucarecdn.com/e12c6e68-b8e8-4457-b6ce-4229d7e8a035/
+  image: https://ucarecdn.com/c4b1a9f0-3f62-4d66-8d1d-21594b0e5405/
 carouselthumb:
   size: portrait
-  image: https://ucarecdn.com/a335c2ab-8212-4d49-bdda-43cb41f7e296/
+  image: https://ucarecdn.com/9a33f973-8cd9-4f96-a36d-92bdd4774895/
 release_date: 2023-10-11T20:03:19.579Z
 media:
   - size: portrait
