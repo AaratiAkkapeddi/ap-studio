@@ -9,11 +9,11 @@ thumb:
 release_date: 2023-10-20T19:34:13.077Z
 media:
   - size: landscape
-    mediaVideo: https://ucarecdn.com/bd388f3f-a529-480f-837d-3a3be392694d/
+    mediaVideo: https://ucarecdn.com/f4886d37-1751-4d19-aae4-253a16db5c6a/
   - size: landscape
-    mediaVideo: https://ucarecdn.com/db6fa4dc-663d-454e-9608-4b8a037e643b/
+    mediaVideo: https://ucarecdn.com/87956ebd-5637-4162-8107-3dde9b2bdbad/
   - size: landscape
-    mediaVideo: https://ucarecdn.com/42dd6c88-5c91-4d57-9323-623ff065b296/
+    mediaVideo: https://ucarecdn.com/98ff5898-3997-4854-9a19-3765b2f73856/
 clients:
   - client: 14c5d921-4bd2-4c75-adab-cbcdd14af01c
 artists:
