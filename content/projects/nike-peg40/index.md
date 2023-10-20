@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 5022f796-9eff-4360-a00b-2146cec70d7f
 title: Nike Peg40
 campaign_title: P﻿egasus 40
