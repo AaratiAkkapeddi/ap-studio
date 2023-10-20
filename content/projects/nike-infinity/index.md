@@ -11,8 +11,9 @@ media:
   - size: landscape
     mediaVideo: https://ucarecdn.com/d0049740-1d08-421d-981b-6333e84064e4/
   - size: landscape
+    mediaVideo: https://ucarecdn.com/cd08f9ad-4c91-490c-8547-fba534f184d4/
   - size: landscape
-    mediaVideo: https://ucarecdn.com/e5ac217d-d99e-420f-ab4c-d57fad65ff12/
+    mediaVideo: https://ucarecdn.com/be64c88c-e1ae-474e-9179-acbd9f178368/
 clients:
   - client: 14c5d921-4bd2-4c75-adab-cbcdd14af01c
 artists:
