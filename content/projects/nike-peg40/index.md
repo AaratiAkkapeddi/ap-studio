@@ -32,5 +32,8 @@ media:
     media: https://ucarecdn.com/c8068288-0ccc-4c64-8bc0-7587ce7ca194/
 clients:
   - client: 14c5d921-4bd2-4c75-adab-cbcdd14af01c
+artists:
+  - artist: e5ac6e91-2cae-45cc-a5a0-683c3b26a1d5
+  - artist: ba723fc4-9200-451f-bd2b-81143730a470
 date: 2023-10-20T20:43:50.958Z
 ---
