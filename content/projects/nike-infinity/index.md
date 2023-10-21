@@ -2,7 +2,7 @@
 draft: false
 id: 7fb82cbc-b730-4d8d-8320-ee4cc67eb054
 title: Nike Infinity
-campaign_title: I﻿nfinity RN4
+campaign_title: I﻿nfinityRN 4
 thumb:
   size: landscape
   video: https://ucarecdn.com/61b1d651-5a44-494e-bbbf-8a749215d613/
