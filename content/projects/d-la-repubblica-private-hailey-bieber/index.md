@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 641853fd-1036-485e-b40c-94459defb32e
 title: D la Repubblica, Private Hailey Bieber
 campaign_title: T﻿he Big d, Private
