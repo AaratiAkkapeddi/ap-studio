@@ -24,7 +24,6 @@ media:
 clients:
   - client: 52214008-d81d-4de8-9707-6e2bae2cffe9
 artists:
-  - artist: be32a694-1cec-403c-9904-6427d4ad30ac
   - artist: 6985039c-d7af-4557-b42d-9f0be44bc3f5
 date: 2023-09-12T15:29:41.401Z
 ---
