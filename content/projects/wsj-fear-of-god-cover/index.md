@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 76d3735d-a2ef-4e72-8ce4-f96f05c21027
 title: WSJ Fear of God Cover
 campaign_title: Innovators Issue, Fear of God
