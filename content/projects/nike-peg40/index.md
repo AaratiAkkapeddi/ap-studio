@@ -5,7 +5,7 @@ title: Nike Peg40
 campaign_title: P﻿egasus 40
 thumb:
   size: landscape
-  image: https://ucarecdn.com/8e3c2694-f4b5-485f-9b49-2bfdf315be89/
+  image: https://ucarecdn.com/8db7f38b-70f2-4b80-ac26-ba88a48f2f32/
 release_date: 2023-10-20T20:43:50.954Z
 media:
   - size: landscape
