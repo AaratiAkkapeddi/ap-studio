@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 93a02190-8f72-4c2d-b28a-321809a384a4
 title: AMI Paris, FW23 Campaign
 campaign_title: F﻿W23 Campaign
