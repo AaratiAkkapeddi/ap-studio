@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 2cafd3bc-626a-413f-9e0b-edc581568a4b
 title: i-D New Wave Cover - Tyler Mitchell
 campaign_title: N﻿ew Wave
