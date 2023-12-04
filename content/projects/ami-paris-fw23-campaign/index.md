@@ -34,13 +34,15 @@ media:
   - size: portrait
     media: https://ucarecdn.com/53f4678c-923c-4246-9076-994c468af41d/
   - size: portrait
-    mediaVideo: https://ucarecdn.com/cd41106f-6948-417b-b3d1-a89ac28d42dc/
+    mediaVideo: https://ucarecdn.com/36db6b8c-d597-4360-97f8-8c2ea904add6/
   - size: portrait
     media: https://ucarecdn.com/2517faea-673c-4c79-80f7-e5dd0a1e9884/
   - size: portrait
     media: https://ucarecdn.com/10240094-0c4a-4c1e-a24a-b5f01bc7c49a/
   - size: portrait
     media: https://ucarecdn.com/ec8f73cf-3759-4afa-84dc-6d3561467103/
+  - size: portrait
+    mediaVideo: https://ucarecdn.com/5779e2a9-2c7c-410b-a010-7256b5134ac9/
 clients:
   - client: 8f62456c-0728-4c2a-a327-1b13ae740209
 artists:
