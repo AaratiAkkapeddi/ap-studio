@@ -27,5 +27,9 @@ media:
     media: https://ucarecdn.com/acb8679c-7dd5-4314-b969-8e69939fc907/
   - size: portrait
     media: https://ucarecdn.com/f6281512-822e-45dd-8fc1-58709149106b/
+clients:
+  - client: 96921bfd-9d5a-45a7-bc68-cccd724923ea
+artists:
+  - artist: ddb3ba84-8b51-497e-b4ed-f5f874037f5d
 date: 2023-12-04T18:22:21.864Z
 ---
