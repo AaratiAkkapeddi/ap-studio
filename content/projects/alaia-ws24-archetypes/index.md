@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: eb592576-19bc-405d-b41d-97dc0ca1e2db
 title: Alaia WS24 Archetypes
 campaign_title: WS24 Archetypes
