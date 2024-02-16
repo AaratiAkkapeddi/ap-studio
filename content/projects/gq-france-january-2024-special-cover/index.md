@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 02bb3b4b-fec1-43b8-92bb-4358148e11c4
 title: GQ France, January 2024 Special Cover
 campaign_title: January 2024 Special Cover
