@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: d3505634-3910-4598-9e33-b9f51d98aa02
 title: M le Monde, Le Goût de M
 campaign_title: Le Goût de M
