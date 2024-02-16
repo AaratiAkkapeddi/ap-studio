@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 13c3c25b-e379-4a73-b23e-5184d5f9a239
 title: Free People Winter 2024
 campaign_title: W﻿inter 2024
