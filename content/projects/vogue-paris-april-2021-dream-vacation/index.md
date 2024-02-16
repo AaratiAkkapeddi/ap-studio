@@ -32,7 +32,6 @@ media:
   - size: portrait
     media: https://ucarecdn.com/3ecf5e4f-95bb-4725-85d3-5b9bf7d552fe/
 clients:
-  - client: Vogue Paris
   - client: b7cf8dcb-473b-406b-9b9f-630e63efe2d6
 artists:
   - artist: Oliver Hadlee Pearch
