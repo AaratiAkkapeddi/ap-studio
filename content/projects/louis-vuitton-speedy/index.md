@@ -24,7 +24,7 @@ media:
     mediaVideo: https://ucarecdn.com/cd0cdf7d-0d75-4bb1-8862-397dcd9dc69f/
   - size: landscape
     media: https://ucarecdn.com/fc9c70e3-cdc8-4d59-9319-1dc28fe06d39/
-  - size: portrait
+  - size: landscape
     media: https://ucarecdn.com/2234d8d8-8a17-4cee-8302-bf438f2354a1/
 clients:
   - client: 99baccf9-6a2a-4eb5-8cc9-aecbfddeaf76
