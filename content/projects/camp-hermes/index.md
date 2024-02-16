@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 8b9306e2-aca7-428c-9a10-af65832213f7
 title: Camp Hermes
 campaign_title: Men's Winter 2024
