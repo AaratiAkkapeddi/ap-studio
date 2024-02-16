@@ -34,6 +34,7 @@ media:
     media: https://ucarecdn.com/948f876c-096d-4c52-b289-4b3fb0e482a8/
 clients:
   - client: Vogue Paris
+  - client: b7cf8dcb-473b-406b-9b9f-630e63efe2d6
 artists:
   - artist: David Sims
   - artist: Emanuelle Alt
