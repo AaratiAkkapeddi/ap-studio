@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: 1fbe9e3b-f1b2-4121-9d4f-004faf661ccf
 title: Vogue Spain, February 2024 Cover
 campaign_title: F﻿ebruary 2024 Cover
