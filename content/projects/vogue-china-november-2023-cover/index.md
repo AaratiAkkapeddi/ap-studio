@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: ad3ada8b-5162-488f-85a4-32d62de01609
 title: Vogue China, November 2023 Cover
 campaign_title: November 2023 Cover
