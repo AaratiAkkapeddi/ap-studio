@@ -17,6 +17,8 @@ media:
     media: https://ucarecdn.com/92a19472-916f-4352-afee-a9314699d9f1/
   - size: portrait
     media: https://ucarecdn.com/a8810eec-a6e4-435d-beb3-ab1eaa65c629/
+  - size: portrait
+    media: https://ucarecdn.com/bb16b2f0-f566-4397-a011-0b193514275f/
   - size: landscape
     media: https://ucarecdn.com/0b29b962-d923-4849-b65b-b2058e420f02/
   - size: landscape
@@ -29,7 +31,7 @@ media:
     media: https://ucarecdn.com/07a547c0-3e07-4d8e-a10e-9bc071584df0/
   - size: landscape
     media: https://ucarecdn.com/0ae7883a-08bd-4aa5-bac0-2dad36576e19/
-  - size: portrait
+  - size: landscape
     media: https://ucarecdn.com/31b5b3b7-5c20-4405-8112-f629eaf4000c/
   - size: landscape
     media: https://ucarecdn.com/6bdc6a4a-568d-4320-b095-b3e64a69f361/
@@ -39,8 +41,6 @@ media:
     media: https://ucarecdn.com/fe708e1b-37b5-404a-9ab0-009a9993a079/
   - size: landscape
     media: https://ucarecdn.com/3101dc69-a8f3-4581-a841-f950fa297354/
-  - size: landscape
-    media: https://ucarecdn.com/bb16b2f0-f566-4397-a011-0b193514275f/
 clients:
   - client: b86dba25-c5a3-498c-a0d1-6b6f8c0905df
 artists:
