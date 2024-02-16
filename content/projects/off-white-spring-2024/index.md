@@ -30,9 +30,9 @@ media:
   - size: portrait
     media: https://ucarecdn.com/b4e9af9d-d04d-4901-9f73-369af290a347/
   - size: portrait
-    mediaVideo: https://ucarecdn.com/34ade3a1-5d88-426f-91cb-7c3d125f510f/
-  - size: portrait
     media: https://ucarecdn.com/f392ce94-34a2-4914-acbb-5c4f4b730c11/
+  - size: portrait
+    mediaVideo: https://ucarecdn.com/34ade3a1-5d88-426f-91cb-7c3d125f510f/
   - size: portrait
     media: https://ucarecdn.com/d248a21f-9be8-4105-9842-eaa6298861c5/
   - size: portrait
