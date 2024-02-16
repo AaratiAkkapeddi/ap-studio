@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: dbe939f7-d30c-485e-9a0e-33f5eb8e1d86
 title: Harper's Bazaar, February 2024 Cover
 campaign_title: February 2024 Cover
