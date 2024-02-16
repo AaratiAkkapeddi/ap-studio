@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: c38e6ecd-a267-4535-aaca-ffdc4734c572
 title: Vogue France, February 2024 Cover
 campaign_title: F﻿ebruary 2024 Cover
