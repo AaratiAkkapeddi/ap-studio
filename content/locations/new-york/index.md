@@ -2,13 +2,13 @@
 title: New York
 name: New York
 address: |-
-  265 Canal St. 
+  255 Centre Street
 
-  Suite 222 
+  6th Floor
 
   New York, NY 
 
   10013
-latitude: "40.719020"
-longitude: "-74.000990"
+latitude: "40.720925"
+longitude: "-73.997958"
 ---
